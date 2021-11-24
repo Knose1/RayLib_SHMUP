@@ -1,6 +1,6 @@
 #pragma once
 #include "raylib.h"
-#include "MyClasses/InstanceList.h"
+#include "Shmup/InstanceList.h"
 
 class GraphicObject : 
 	public InstanceList<GraphicObject>

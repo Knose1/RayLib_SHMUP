@@ -9,7 +9,7 @@ namespace Controller
 	/// </summary>
 	/// <param name="playerTurretPosition">The position of the player (to do calculation with the mouse)</param>
 	/// <returns>The direction</returns>
-	Vector2 GetTurretDirection(Vector2 playerTurretPosition);
+	Vector2 GetPlayerDirection(Vector2 playerTurretPosition);
 
 	/// <summary>
 	/// Return true of the player is shooting

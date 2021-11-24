@@ -85,18 +85,43 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Namespaces\Controller.cpp" />
+    <ClCompile Include="src\Namespaces\GameStatus.cpp" />
+    <ClCompile Include="src\Namespaces\Utils.cpp" />
+    <ClCompile Include="src\Shmup\Enemy.cpp" />
+    <ClCompile Include="src\Shmup\GameManager.cpp" />
+    <ClCompile Include="src\Shmup\Paterns\PaternLinear.cpp" />
+    <ClCompile Include="src\Shmup\Paterns\PaternVSpread.cpp" />
+    <ClCompile Include="src\Shmup\Player.cpp" />
+    <ClCompile Include="src\Shmup\Shoot.cpp" />
+    <ClCompile Include="src\Shmup\Visual.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Namespaces\Controller.h" />
+    <ClInclude Include="include\Namespaces\GameStatus.h" />
+    <ClInclude Include="include\Namespaces\Utils.h" />
     <ClInclude Include="include\raudio.h" />
     <ClInclude Include="include\raylib.h" />
     <ClInclude Include="include\raymath.h" />
     <ClInclude Include="include\rlgl.h" />
+    <ClInclude Include="include\Shmup\Enemy.h" />
+    <ClInclude Include="include\Shmup\GameManager.h" />
+    <ClInclude Include="include\Shmup\IMovable.h" />
+    <ClInclude Include="include\Shmup\InstanceList.h" />
+    <ClInclude Include="include\Shmup\InstanceList.hpp" />
+    <ClInclude Include="include\Shmup\Paterns\Patern.h" />
+    <ClInclude Include="include\Shmup\Paterns\PaternLinear.h" />
+    <ClInclude Include="include\Shmup\Paterns\PaternVSpread.h" />
+    <ClInclude Include="include\Shmup\Player.h" />
+    <ClInclude Include="include\Shmup\Shoot.h" />
+    <ClInclude Include="include\Shmup\Visual.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\raylib.lib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lib\raylib.pdb" />
+    <None Include="include\Namespaces\Files.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,8 +1,8 @@
 #pragma once
 #include <iostream>
 #include <sstream>
-#include "MyClasses/Visual.h"
-#include "MyClasses/IMovable.h"
+#include "Shmup/Visual.h"
+#include "Shmup/IMovable.h"
 
 class Enemy :
 	public GraphicObject,

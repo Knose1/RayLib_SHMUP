@@ -2,8 +2,8 @@
 #include <cassert>
 #include "raylib.h"
 #include "raymath.h"
-#include "MyClasses/Player.h"
-#include "MyClasses/Shoot.h"
+#include "Shmup/Player.h"
+#include "Shmup/Shoot.h"
 #include "Namespaces/Controller.h"
 #include "Namespaces/GameStatus.h"
 
@@ -48,7 +48,7 @@ void Player::Update()
 	Draw();
 
 	const Vector2 right = { 1, 0 };
-	Vector2 toMouse = Controller::GetTurretDirection(position); //Vector2Subtract(mousePos, playerTurret.position);
+	Vector2 toMouse = Controller::GetPlayerDirection(position); //Vector2Subtract(mousePos, playerTurret.position);
 	orientation = Vector2Angle(right, toMouse);
 
 	if (Controller::Shoot()) DoShoot(toMouse);

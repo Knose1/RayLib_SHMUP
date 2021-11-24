@@ -1,4 +1,4 @@
-#pragma once;
+#pragma once
 #include <iostream>
 #include "raylib.h"
 #include "raymath.h"
@@ -11,7 +11,7 @@
 const bool isRaffal=true;
 bool isGamePad=false;
 Vector2 oldDirection = {1.f, 0.f};
-Vector2 Controller::GetTurretDirection(Vector2 playerTurretPosition)
+Vector2 Controller::GetPlayerDirection(Vector2 playerTurretPosition)
 {
 	Vector2 toReturn;
 	switch (isGamePad)

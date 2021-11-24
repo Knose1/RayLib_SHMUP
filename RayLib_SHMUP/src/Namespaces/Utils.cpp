@@ -8,8 +8,8 @@ float Utils::randMToN(float M, float N)
 
 float Utils::randMToN(int M, int N)
 {
-	float Mf = M;
-	float Nf = N;
+	float Mf = (float)M;
+	float Nf = (float)N;
 	return Mf + (rand() / (RAND_MAX / (Nf - Mf)));
 }
 

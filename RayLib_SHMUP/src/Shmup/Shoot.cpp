@@ -1,7 +1,7 @@
 #include "raylib.h"
 #include "Namespaces/Controller.h"
 #include "Namespaces/GameStatus.h"
-#include "MyClasses/Shoot.h"
+#include "Shmup/Shoot.h"
 
 constexpr auto SHOT_TEXTURE = "./assets/textures/Shot.png";
 

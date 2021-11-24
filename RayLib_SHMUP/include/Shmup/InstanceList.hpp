@@ -1,5 +1,5 @@
 #pragma once
-#include "MyClasses/InstanceList.h"
+#include "Shmup/InstanceList.h"
 
 template<typename T>
 static inline void AddInstance(T* meToo)

@@ -2,8 +2,8 @@
 #include <vector>
 #include "raylib.h"
 #include "raymath.h"
-#include "MyClasses/Visual.h"
-#include "MyClasses/InstanceList.hpp"
+#include "Shmup/Visual.h"
+#include "Shmup/InstanceList.hpp"
 
 void GraphicObject::Draw() 
 {

@@ -1,7 +1,7 @@
-#include "raylib.h";
-#include "raymath.h";
-#include "MyClasses/Enemy.h"
-#include "MyClasses/InstanceList.hpp"
+#include "raylib.h"
+#include "raymath.h"
+#include "Shmup/Enemy.h"
+#include "Shmup/InstanceList.hpp"
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Utils.h"
 

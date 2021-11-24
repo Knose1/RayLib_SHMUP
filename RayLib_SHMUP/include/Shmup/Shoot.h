@@ -1,8 +1,8 @@
 #pragma once
 #include "raylib.h"
-#include "MyClasses/Visual.h"
-#include "MyClasses/IMovable.h"
-#include "MyClasses/Paterns/Patern.h"
+#include "Shmup/Visual.h"
+#include "Shmup/IMovable.h"
+#include "Shmup/Paterns/Patern.h"
 
 
 class Shoot :

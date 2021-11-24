@@ -20,18 +20,19 @@
 ********************************************************************************************/
 
 #include "raylib.h"
+#include "Namespaces/GameStatus.h"
+#include "Shmup/GameManager.h"
 
 int main(void)
 {
 	// Initialization
 	//--------------------------------------------------------------------------------------
-	const int screenWidth = 800;
-	const int screenHeight = 450;
-
-	InitWindow(screenWidth, screenHeight, "Shmup");
+	InitWindow(GameStatus::screenWidth, GameStatus::screenHeight, "Shmup");
 
 	SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
 	//--------------------------------------------------------------------------------------
+
+	GameManager::Init();
 
 	// Main game loop
 	while (!WindowShouldClose())    // Detect window close button or ESC key
@@ -44,8 +45,10 @@ int main(void)
 		// Draw
 		//----------------------------------------------------------------------------------
 		BeginDrawing();
-
+		
 		ClearBackground(RAYWHITE);
+		GameManager::Render();
+		GameManager::Update();
 
 		EndDrawing();
 		//----------------------------------------------------------------------------------

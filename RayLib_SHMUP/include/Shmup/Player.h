@@ -1,8 +1,8 @@
 #pragma once
-#include "MyClasses/Visual.h"
-#include "MyClasses/Shoot.h"
-#include "MyClasses/Paterns/PaternVSpread.h"
-#include "MyClasses/Paterns/PaternLinear.h"
+#include "Shmup/Visual.h"
+#include "Shmup/Shoot.h"
+#include "Shmup/Paterns/PaternVSpread.h"
+#include "Shmup/Paterns/PaternLinear.h"
 
 class Player :
     public GraphicObject

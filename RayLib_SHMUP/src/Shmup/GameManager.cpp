@@ -3,10 +3,10 @@
 #include "Namespaces/Utils.h"
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Controller.h"
-#include "MyClasses/GameManager.h"
-#include "MyClasses/Player.h"
-#include "MyClasses/Visual.h"
-#include "MyClasses/Enemy.h"
+#include "Shmup/GameManager.h"
+#include "Shmup/Player.h"
+#include "Shmup/Visual.h"
+#include "Shmup/Enemy.h"
 
 Player* player;
 void GameManager::Init()
@@ -24,7 +24,7 @@ void GameManager::Init()
 	player = new Player();
 }
 
-void GameManager::Render()
+const void GameManager::Render()
 {
 	ClearBackground(BLANK);
 
@@ -34,7 +34,7 @@ void GameManager::Render()
 		(*it)->Draw();
 }
 
-void GameManager::Update()
+const void GameManager::Update()
 {
 	Controller::DoSwitch();
 

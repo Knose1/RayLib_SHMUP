@@ -2,8 +2,8 @@
 #include "raymath.h"
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Utils.h"
-#include "MyClasses/Paterns/PaternVSpread.h"
-#include "MyClasses/Shoot.h"
+#include "Shmup/Paterns/PaternVSpread.h"
+#include "Shmup/Shoot.h"
 
 void PaternVSpread::DoPatern(Shoot* shoot, IPaternData* data)
 {
@@ -14,4 +14,8 @@ void PaternVSpread::DoPatern(Shoot* shoot, IPaternData* data)
 	}
 
 	shoot->position = Vector2Add(shoot->position, Vector2Scale(shoot->direction, shoot->speed));
+}
+
+void PaternVSpread::SetDefault(Shoot* shoot)
+{
 }
