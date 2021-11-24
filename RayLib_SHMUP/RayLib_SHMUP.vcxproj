@@ -122,6 +122,7 @@
   <ItemGroup>
     <None Include="lib\raylib.pdb" />
     <None Include="include\Namespaces\Files.h" />
+    <None Include="src\Namespaces\Files.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -113,5 +113,8 @@
     <None Include="include\Namespaces\Files.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </None>
+    <None Include="src\Namespaces\Files.cpp">
+      <Filter>Fichiers sources</Filter>
+    </None>
   </ItemGroup>
 </Project>

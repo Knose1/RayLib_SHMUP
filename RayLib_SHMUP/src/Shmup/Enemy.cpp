@@ -4,24 +4,25 @@
 #include "Shmup/InstanceList.hpp"
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Utils.h"
+#include "Files.cpp"
 
-constexpr auto ENEMY_TEXTURE = "./assets/textures/Enemy.png";
-constexpr auto ENEMY_COLOR_TEXTURE = "./assets/textures/Enemy_color.png";
+constexpr unsigned int SHIP_COLUMNS_COUNT = 4;
+constexpr unsigned int SHIP_TYPES_MAX_INDEX = SHIP_COLUMNS_COUNT*3-1; //4 columns, 3 lines, index starts at 0
 
-Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction, Color tint) : GraphicObject()
+Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction, Color tint, unsigned int type) : GraphicObject()
 {
+	if (type > SHIP_TYPES_MAX_INDEX) type = SHIP_TYPES_MAX_INDEX;
+
 	this->spawnIndex = spawnIndex;
 	this->position = position;
 	this->direction = direction;
 	this->tint = tint;
-	texture = LoadTexture(ENEMY_TEXTURE);
-	colorTexture = LoadTexture(ENEMY_COLOR_TEXTURE);
+	texture = LoadTexture(SHIP_TEXTURE);
 	center = { 0.5f,0.5f };
 	scale = { 1,1 };
-	orientation = 0;
-	source = { 0,0, (float)texture.width, (float)texture.height };
-	colorTexSource = { 0,0, (float)colorTexture.width, (float)colorTexture.height };
-
+	orientation = 180;
+	source = GetSourceRect(texture, SHIP_TEXTURE_SIZE, { (float)(type%SHIP_COLUMNS_COUNT), (float)(type/SHIP_COLUMNS_COUNT)+3});
+	
 	RandomChangeSettings();
 	AddInstance(this);
 }
@@ -77,28 +78,6 @@ void Enemy::Update()
 	}
 
 	direction = Vector2Normalize(direction);
-}
-
-void Enemy::Draw()
-{
-	DefaultDrawMethod(
-		texture,
-		position,
-		source,
-		center,
-		scale,
-		orientation,
-		WHITE
-	);
-	DefaultDrawMethod(
-		colorTexture,
-		position,
-		colorTexSource,
-		center,
-		scale,
-		orientation,
-		tint
-	);
 }
 
 void Enemy::RandomChangeSettings()

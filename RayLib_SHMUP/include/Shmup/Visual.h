@@ -39,5 +39,3 @@ class GraphicObject :
 			Color tint
 		);
 };
-
-std::vector<GraphicObject*> GraphicObject::instances;

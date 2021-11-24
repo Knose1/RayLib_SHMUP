@@ -11,11 +11,10 @@ class Enemy :
 {
 	public:
 		
-		Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction, Color tint);
+		Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction, Color tint, unsigned int type);
 		~Enemy();
 
 		virtual void Update() override;
-		virtual void Draw() override;
 	
 	protected:
 		void RandomChangeSettings();
@@ -25,8 +24,5 @@ class Enemy :
 		float rotationSpeedDefault;
 		float rotationSpeed;
 		float rotationAcceleration;
-		Texture2D colorTexture;
-		Rectangle colorTexSource;
-		Rectangle collisionBox;
 		bool isNegativeRotationSpeed;
 };

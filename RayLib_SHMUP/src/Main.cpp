@@ -46,7 +46,6 @@ int main(void)
 		//----------------------------------------------------------------------------------
 		BeginDrawing();
 		
-		ClearBackground(RAYWHITE);
 		GameManager::Render();
 		GameManager::Update();
 

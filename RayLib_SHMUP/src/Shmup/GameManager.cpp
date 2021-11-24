@@ -17,7 +17,8 @@ void GameManager::Init()
 			i,
 			{ Utils::randMToN(100.0f, GameStatus::screenWidth - 100.0f), Utils::randMToN(100.0f, GameStatus::screenHeight - 100.0f) }, //position;
 			{ Utils::rand01(), Utils::rand01() }, //direction;
-			ColorFromNormalized({ (float)GetRandomValue(0,255), (float)GetRandomValue(0,255), (float)GetRandomValue(0,255), 1 }) //tint;
+			ColorFromNormalized({ (float)GetRandomValue(0,255), (float)GetRandomValue(0,255), (float)GetRandomValue(0,255), 1 }), //tint;
+			{ (unsigned)GetRandomValue(0,11) }
 		);
 	}
 
@@ -26,7 +27,7 @@ void GameManager::Init()
 
 const void GameManager::Render()
 {
-	ClearBackground(BLANK);
+	ClearBackground(RAYWHITE);
 
 	std::vector<GraphicObject*> visuals = GraphicObject::instances;
 	
