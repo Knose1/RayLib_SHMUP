@@ -253,7 +253,9 @@ RMDEF float Vector2Distance(Vector2 v1, Vector2 v2)
 // Calculate angle from two vectors in X-axis
 RMDEF float Vector2Angle(Vector2 v1, Vector2 v2)
 {
-    float result = atan2f(v2.y - v1.y, v2.x - v1.x)*(180.0f/PI);
+    //float result = atan2f(v2.y - v1.y, v2.x - v1.x)*(180.0f/PI);
+    float result = atan2(v2.y, v2.x) - atan2(v1.y, v1.x);
+    result *= (180.0f / PI);
     if (result < 0) result += 360.0f;
     return result;
 }

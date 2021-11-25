@@ -5,7 +5,7 @@
 #include "Namespaces/Controller.h"
 #include "Shmup/GameManager.h"
 #include "Shmup/Player.h"
-#include "Shmup/Visual.h"
+#include "Shmup/AGraphicObject.h"
 #include "Shmup/Enemy.h"
 
 Player* player;
@@ -29,9 +29,9 @@ const void GameManager::Render()
 {
 	ClearBackground(RAYWHITE);
 
-	std::vector<GraphicObject*> visuals = GraphicObject::instances;
+	std::vector<AGraphicObject*> visuals = AGraphicObject::instances;
 	
-	for (std::vector<GraphicObject*>::iterator it = visuals.begin(); it != visuals.end(); ++it)
+	for (std::vector<AGraphicObject*>::iterator it = visuals.begin(); it != visuals.end(); ++it)
 		(*it)->Draw();
 }
 
@@ -40,8 +40,8 @@ const void GameManager::Update()
 	Controller::DoSwitch();
 
 	//Do update
-	std::vector<GraphicObject*> behaviours = GraphicObject::instances;
+	std::vector<AGraphicObject*> behaviours = AGraphicObject::instances;
 
-	for (std::vector<GraphicObject*>::iterator it = behaviours.begin(); it != behaviours.end(); ++it)
+	for (std::vector<AGraphicObject*>::iterator it = behaviours.begin(); it != behaviours.end(); ++it)
 		(*it)->Update();
 }

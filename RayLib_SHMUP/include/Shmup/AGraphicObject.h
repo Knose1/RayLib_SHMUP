@@ -2,8 +2,8 @@
 #include "raylib.h"
 #include "Shmup/InstanceList.h"
 
-class GraphicObject : 
-	public InstanceList<GraphicObject>
+class AGraphicObject : 
+	public InstanceList<AGraphicObject>
 {
 	public:
 		Vector2 position = {0,0}, scale = {0,0}, center = {0,0};
@@ -23,10 +23,10 @@ class GraphicObject :
 		/// <summary>
 		/// Called each frame to update the status of the object
 		/// </summary>
-		virtual void Update() = 0;
+		virtual void Update()=0;
 
-		explicit GraphicObject();
-		~GraphicObject();
+		explicit AGraphicObject();
+		~AGraphicObject();
 
 	protected:
 		static void DefaultDrawMethod(

@@ -1,13 +1,11 @@
 #pragma once
 #include <iostream>
 #include <sstream>
-#include "Shmup/Visual.h"
 #include "Shmup/IMovable.h"
 
 class Enemy :
-	public GraphicObject,
 	public InstanceList<Enemy>,
-	public IMovable
+	public AMovable
 {
 	public:
 		

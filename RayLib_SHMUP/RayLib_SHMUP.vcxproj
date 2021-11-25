@@ -21,13 +21,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -84,17 +84,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="include\Shmup\IMovable.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Namespaces\Controller.cpp" />
     <ClCompile Include="src\Namespaces\GameStatus.cpp" />
     <ClCompile Include="src\Namespaces\Utils.cpp" />
     <ClCompile Include="src\Shmup\Enemy.cpp" />
     <ClCompile Include="src\Shmup\GameManager.cpp" />
-    <ClCompile Include="src\Shmup\Paterns\PaternLinear.cpp" />
-    <ClCompile Include="src\Shmup\Paterns\PaternVSpread.cpp" />
+    <ClCompile Include="src\Shmup\Paterns\Shoot\PaternLinear.cpp" />
+    <ClCompile Include="src\Shmup\Paterns\Shoot\PaternVSpread.cpp" />
     <ClCompile Include="src\Shmup\Player.cpp" />
     <ClCompile Include="src\Shmup\Shoot.cpp" />
-    <ClCompile Include="src\Shmup\Visual.cpp" />
+    <ClCompile Include="src\Shmup\AGraphicObject.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Namespaces\Controller.h" />
@@ -110,11 +111,11 @@
     <ClInclude Include="include\Shmup\InstanceList.h" />
     <ClInclude Include="include\Shmup\InstanceList.hpp" />
     <ClInclude Include="include\Shmup\Paterns\Patern.h" />
-    <ClInclude Include="include\Shmup\Paterns\PaternLinear.h" />
-    <ClInclude Include="include\Shmup\Paterns\PaternVSpread.h" />
+    <ClInclude Include="include\Shmup\Paterns\Shoot\PaternLinear.h" />
+    <ClInclude Include="include\Shmup\Paterns\Shoot\PaternVSpread.h" />
     <ClInclude Include="include\Shmup\Player.h" />
     <ClInclude Include="include\Shmup\Shoot.h" />
-    <ClInclude Include="include\Shmup\Visual.h" />
+    <ClInclude Include="include\Shmup\AGraphicObject.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\raylib.lib" />
@@ -122,7 +123,7 @@
   <ItemGroup>
     <None Include="lib\raylib.pdb" />
     <None Include="include\Namespaces\Files.h" />
-    <None Include="src\Namespaces\Files.cpp" />
+    <ClCompile Include="src\Namespaces\Files.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

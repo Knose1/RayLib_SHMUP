@@ -6,7 +6,7 @@
 constexpr auto SHOT_TEXTURE = "./assets/textures/Shot.png";
 
 #pragma region Constructor / Destructor
-Shoot::Shoot(unsigned long long i, Patern* patern) : GraphicObject()
+Shoot::Shoot(unsigned long long i, Patern* patern) : AMovable()
 {
 	texture = LoadTexture(SHOT_TEXTURE);
 	source = { 0,0, (float)texture.width, (float)texture.height };
@@ -20,7 +20,7 @@ Shoot::Shoot(unsigned long long i, Patern* patern) : GraphicObject()
 
 Shoot::~Shoot()
 {
-	GraphicObject::~GraphicObject();
+	AGraphicObject::~AGraphicObject();
 }
 #pragma endregion
 

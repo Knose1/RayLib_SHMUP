@@ -1,18 +1,15 @@
 #pragma once
 #include "raylib.h"
-#include "Shmup/Visual.h"
 #include "Shmup/IMovable.h"
 #include "Shmup/Paterns/Patern.h"
 
 
 class Shoot :
-	public GraphicObject,
-	public IMovable
+	public AMovable
 {
 	private:
 		unsigned long long spawnIndex;
 		bool fired;
-		int _currentPatern = 0;
 		Patern* patern;
 
 	public:

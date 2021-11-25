@@ -6,21 +6,24 @@
 #include "Shmup/Shoot.h"
 #include "Namespaces/Controller.h"
 #include "Namespaces/GameStatus.h"
+#include "Namespaces/Files.h"
 
-constexpr auto PLAYER_TEXTURE = "./assets/textures/Player.png";
 Patern* Player::paterns[] = { new PaternLinear(), new PaternVSpread() };
 
 unsigned long long shootIndex = 0;
 
 #pragma region Constructor / Destructor
-Player::Player() : GraphicObject()
+Player::Player() : AMovable()
 {
-	texture = LoadTexture(PLAYER_TEXTURE);
-	source = { 0,0, (float)texture.width, (float)texture.height };
+	texture = LoadTexture(Files::SHIP_TEXTURE);
+	source = Files::GetSourceRect(texture, Files::SHIP_TEXTURE_SIZE, {0,0});
 	position = { GameStatus::screenWidth / 2, GameStatus::screenHeight / 2 };
-	scale = { 2.0f, 2.0f };
+	scale = { 3.0f, 3.0f };
+	center = { 0.5f, 0.5f };
 	orientation = 0;
 	tint = WHITE;
+	direction = { 0, -1};
+	position.y = GameStatus::screenHeight - source.height * scale.y;
 
 	//assert(Player::instance != nullptr);
 	//Player::instance = this;
@@ -34,7 +37,6 @@ Player::Player() : GraphicObject()
 Player::~Player()
 {
 	//Player::instance = nullptr;
-
 	for (std::vector<Shoot*>::iterator it = shoots.end(); it != shoots.begin(); --it)
 		delete *it;
 
@@ -45,13 +47,11 @@ Player::~Player()
 #pragma region Abstract implementation
 void Player::Update()
 {
-	Draw();
-
 	const Vector2 right = { 1, 0 };
 	Vector2 toMouse = Controller::GetPlayerDirection(position); //Vector2Subtract(mousePos, playerTurret.position);
-	orientation = Vector2Angle(right, toMouse);
-
-	if (Controller::Shoot()) DoShoot(toMouse);
+	orientation = Vector2Angle(right, Vector2Scale(direction, 1000));
+	
+	if (Controller::Shoot()) DoShoot(direction);
 
 	if (Controller::PreviousPatern()) 
 	{
@@ -61,24 +61,6 @@ void Player::Update()
 	{
 		SetPaternIndex(GetPaternIndex() + 1);
 	}
-}
-
-void Player::Draw()
-{
-	float width = (float)texture.width;
-	float height = (float)texture.height;
-	float scaledW = width * scale.x;
-	float scaledH = height * scale.y;
-	Vector2 offset = { height * scale.x / 2, height * scale.y / 2 };
-
-	DrawTexturePro(
-		texture,
-		source,
-		{ position.x, position.y, scaledW, scaledH },
-		offset,
-		orientation,
-		tint
-	);
 }
 #pragma endregion
 
@@ -102,17 +84,17 @@ void Player::SetPaternIndex(int currentPatern)
 }
 #pragma endregion
 
-void Player::DoShoot(Vector2 toMouse)
+void Player::DoShoot(Vector2 direction)
 {	
 	Shoot* shoot = FindShootOrCreate();
-	shoot->direction = Vector2Normalize(toMouse);
+	shoot->direction = Vector2Normalize(direction);
 
 	Vector2 dir = shoot->direction;
 	Vector2 normalDir = dir;
 	normalDir.y = normalDir.x;
 	normalDir.x = -shoot->direction.y;
 
-	shoot->position = Vector2Add(position, Vector2Scale(dir, texture.width * scale.x));
+	shoot->position = Vector2Add(position, Vector2Scale(dir, texture.width));
 	shoot->SetFired(true);
 }
 

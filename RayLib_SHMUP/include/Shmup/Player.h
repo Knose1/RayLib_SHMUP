@@ -1,11 +1,10 @@
 #pragma once
-#include "Shmup/Visual.h"
 #include "Shmup/Shoot.h"
-#include "Shmup/Paterns/PaternVSpread.h"
-#include "Shmup/Paterns/PaternLinear.h"
+#include "Shmup/Paterns/Shoot/PaternVSpread.h"
+#include "Shmup/Paterns/Shoot/PaternLinear.h"
 
 class Player :
-    public GraphicObject
+	public AMovable
 {
 	private: 
 		static Patern* paterns[];
@@ -20,14 +19,13 @@ class Player :
 		~Player();
 
 		virtual void Update() override;
-		virtual void Draw() override;
 
 	protected:
 		int GetPaternIndex();
 		void SetPaternIndex(int currentPatern);
 
 	private:
-		void DoShoot(Vector2 toMouse);
+		void DoShoot(Vector2 direction);
 		Shoot* CreateShoot();
         Shoot* FindShootOrCreate();
 };

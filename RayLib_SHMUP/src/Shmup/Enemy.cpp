@@ -4,24 +4,25 @@
 #include "Shmup/InstanceList.hpp"
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Utils.h"
-#include "Files.cpp"
+#include "Namespaces/Files.h"
 
+constexpr unsigned int SHIP_LINE_COUNT = 2;
 constexpr unsigned int SHIP_COLUMNS_COUNT = 4;
-constexpr unsigned int SHIP_TYPES_MAX_INDEX = SHIP_COLUMNS_COUNT*3-1; //4 columns, 3 lines, index starts at 0
+constexpr unsigned int SHIP_TYPES_MAX_INDEX = SHIP_COLUMNS_COUNT*SHIP_LINE_COUNT-1; //4 columns, 3 lines, index starts at 0
 
-Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction, Color tint, unsigned int type) : GraphicObject()
+Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction, Color tint, unsigned int type) : AMovable()
 {
 	if (type > SHIP_TYPES_MAX_INDEX) type = SHIP_TYPES_MAX_INDEX;
 
 	this->spawnIndex = spawnIndex;
 	this->position = position;
 	this->direction = direction;
-	this->tint = tint;
-	texture = LoadTexture(SHIP_TEXTURE);
+	this->tint = WHITE;
+	texture = LoadTexture(Files::SHIP_TEXTURE);
 	center = { 0.5f,0.5f };
-	scale = { 1,1 };
-	orientation = 180;
-	source = GetSourceRect(texture, SHIP_TEXTURE_SIZE, { (float)(type%SHIP_COLUMNS_COUNT), (float)(type/SHIP_COLUMNS_COUNT)+3});
+	scale = { 3,3 };
+	orientation = 0;
+	source = Files::GetSourceRect(texture, Files::SHIP_TEXTURE_SIZE, { (float)(type%SHIP_COLUMNS_COUNT), (float)(type/SHIP_COLUMNS_COUNT)+1});
 	
 	RandomChangeSettings();
 	AddInstance(this);
@@ -29,7 +30,7 @@ Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction,
 
 Enemy::~Enemy()
 {
-	GraphicObject::~GraphicObject();
+	AGraphicObject::~AGraphicObject();
 	RemoveInstance(this);
 }
 
@@ -55,7 +56,7 @@ void Enemy::Update()
 	position = Vector2Add(position, Vector2Scale(direction, speed));
 
 	Vector2 speedDirection = Vector2Scale(direction, 1000);
-	orientation = Vector2Angle({ 1,1 }, speedDirection) - 45;
+	orientation = Vector2Angle({ 1,0 }, speedDirection);
 #if DEBUG
 	DrawLineV(position, Vector2Add(position, speedDirection), WHITE);
 #endif

@@ -1,14 +1,13 @@
 #pragma once
 
-
-class Shoot;
+class AMovable;
 class Patern
 {
 
 	public:
 		struct IPaternData {};
 	
-	virtual void SetDefault(Shoot* shoot) = 0;
-	virtual void DoPatern(Shoot* shoot, IPaternData* data) = 0;
+	virtual void SetDefault(AMovable* shoot) = 0;
+	virtual void DoPatern(AMovable* shoot, IPaternData* data) = 0;
 };
 

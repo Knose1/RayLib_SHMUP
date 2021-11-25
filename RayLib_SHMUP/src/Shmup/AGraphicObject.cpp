@@ -2,10 +2,10 @@
 #include <vector>
 #include "raylib.h"
 #include "raymath.h"
-#include "Shmup/Visual.h"
+#include "Shmup/AGraphicObject.h"
 #include "Shmup/InstanceList.hpp"
 
-void GraphicObject::Draw() 
+void AGraphicObject::Draw() 
 {
 	DefaultDrawMethod(
 		texture,
@@ -17,7 +17,7 @@ void GraphicObject::Draw()
 		tint
 	);
 }
-void GraphicObject::DefaultDrawMethod(
+void AGraphicObject::DefaultDrawMethod(
 	Texture2D texture,
 	Vector2 position,
 	Rectangle source,
@@ -27,8 +27,8 @@ void GraphicObject::DefaultDrawMethod(
 	Color tint
 )
 {
-	float width = (float)texture.width;
-	float height = (float)texture.height;
+	float width = (float)source.width;
+	float height = (float)source.height;
 	float scaledW = width * scale.x;
 	float scaledH = height * scale.y;
 	Vector2 offset = Vector2Multiply(center, { scaledW, scaledH });
@@ -43,12 +43,12 @@ void GraphicObject::DefaultDrawMethod(
 	);
 }
 
-GraphicObject::GraphicObject()
+AGraphicObject::AGraphicObject()
 {
 	AddInstance(this);
 }
 
-GraphicObject::~GraphicObject()
+AGraphicObject::~AGraphicObject()
 {
 	RemoveInstance(this);
 }

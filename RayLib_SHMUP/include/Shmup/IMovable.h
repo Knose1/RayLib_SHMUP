@@ -1,7 +1,9 @@
 #pragma once
 #include "raylib.h"
+#include "AGraphicObject.h"
 
-class IMovable
+class AMovable :
+	public AGraphicObject
 {
 	public:
 		Vector2 direction;
