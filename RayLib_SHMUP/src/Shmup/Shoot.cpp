@@ -6,7 +6,7 @@
 constexpr auto SHOT_TEXTURE = "./assets/textures/Shot.png";
 
 #pragma region Constructor / Destructor
-Shoot::Shoot(unsigned long long i, Patern* patern) : AMovable()
+Shoot::Shoot(unsigned long long i, APatern* patern) : AMovable()
 {
 	texture = LoadTexture(SHOT_TEXTURE);
 	source = { 0,0, (float)texture.width, (float)texture.height };
@@ -36,13 +36,13 @@ void Shoot::SetFired(bool fired)
 	if (!fired) SetDefault(spawnIndex, patern);
 }
 
-void Shoot::SetPatern(Patern* patern)
+void Shoot::SetPatern(APatern* patern)
 {
 	this->patern = patern;
 }
 #pragma endregion
 
-void Shoot::SetDefault(unsigned long long i, Patern* patern)
+void Shoot::SetDefault(unsigned long long i, APatern* patern)
 {
 	spawnIndex = i;
 	this->patern = patern;

@@ -1,7 +1,7 @@
 #pragma once
 
 class AMovable;
-class Patern
+class APatern
 {
 
 	public:

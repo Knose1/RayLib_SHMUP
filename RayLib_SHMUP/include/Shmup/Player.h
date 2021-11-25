@@ -7,9 +7,9 @@ class Player :
 	public AMovable
 {
 	private: 
-		static Patern* paterns[];
+		static APatern* paterns[];
 		int _currentPatern = 0;
-		Patern* patern = paterns[_currentPatern];
+		APatern* patern = paterns[_currentPatern];
 
 	public:
 		//static Player* instance;

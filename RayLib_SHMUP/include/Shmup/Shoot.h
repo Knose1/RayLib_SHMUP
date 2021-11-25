@@ -10,19 +10,19 @@ class Shoot :
 	private:
 		unsigned long long spawnIndex;
 		bool fired;
-		Patern* patern;
+		APatern* patern;
 
 	public:
-		Shoot(unsigned long long i, Patern* patern);
+		Shoot(unsigned long long i, APatern* patern);
 		~Shoot();
 
 		unsigned long long GetSpawnIndex();
 		
-		void SetDefault(unsigned long long i, Patern* patern);
+		void SetDefault(unsigned long long i, APatern* patern);
 
 		bool GetFired();
 		void SetFired(bool fired);
-		void SetPatern(Patern* patern);
+		void SetPatern(APatern* patern);
 
 		// Hérité via GraphicObject
 		virtual void Update() override;

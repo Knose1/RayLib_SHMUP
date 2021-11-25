@@ -8,7 +8,7 @@
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Files.h"
 
-Patern* Player::paterns[] = { new PaternLinear(), new PaternVSpread() };
+APatern* Player::paterns[] = { new PaternLinear(), new PaternVSpread() };
 
 unsigned long long shootIndex = 0;
 

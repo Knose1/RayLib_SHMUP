@@ -85,6 +85,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="include\Shmup\IMovable.cpp" />
+    <ClCompile Include="src\Shmup\Paterns\AOffsetablePatern.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Namespaces\Controller.cpp" />
     <ClCompile Include="src\Namespaces\GameStatus.cpp" />
@@ -110,7 +111,8 @@
     <ClInclude Include="include\Shmup\IMovable.h" />
     <ClInclude Include="include\Shmup\InstanceList.h" />
     <ClInclude Include="include\Shmup\InstanceList.hpp" />
-    <ClInclude Include="include\Shmup\Paterns\Patern.h" />
+    <ClInclude Include="include\Shmup\Paterns\AOffsetablePatern.h" />
+    <ClInclude Include="include\Shmup\Paterns\APatern.h" />
     <ClInclude Include="include\Shmup\Paterns\Shoot\PaternLinear.h" />
     <ClInclude Include="include\Shmup\Paterns\Shoot\PaternVSpread.h" />
     <ClInclude Include="include\Shmup\Player.h" />

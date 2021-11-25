@@ -1,7 +1,7 @@
 #pragma once
-#include "../Patern.h"
+#include "../APatern.h"
 class PaternLinear :
-    public Patern
+    public APatern
 {
 	// Hérité via Patern
 	virtual void DoPatern(AMovable* shoot, IPaternData* data) override;
