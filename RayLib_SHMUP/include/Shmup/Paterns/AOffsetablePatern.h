@@ -17,6 +17,6 @@ class AOffsetablePatern :
 		};
 
 	protected:
-		void ComputerOffset(float& rotation, Vector2& localPosition, IOffserablePaternData data);
+		void ComputerOffset(float& rotation, Vector2& localPosition, IOffserablePaternData data, bool scaleRotation = false);
 };
 

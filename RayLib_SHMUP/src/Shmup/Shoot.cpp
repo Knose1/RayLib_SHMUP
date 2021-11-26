@@ -1,18 +1,18 @@
 #include "raylib.h"
 #include "Namespaces/Controller.h"
 #include "Namespaces/GameStatus.h"
+#include "Namespaces/Files.h"
 #include "Shmup/Shoot.h"
 
-constexpr auto SHOT_TEXTURE = "./assets/textures/Shot.png";
-
 #pragma region Constructor / Destructor
-Shoot::Shoot(unsigned long long i, APatern* patern) : AMovable()
+Shoot::Shoot(unsigned long long i, APatern* patern, unsigned int type) : AMovable()
 {
-	texture = LoadTexture(SHOT_TEXTURE);
-	source = { 0,0, (float)texture.width, (float)texture.height };
+	this->type = type;
+	texture = LoadTexture(Files::TILES_TEXTURE);
+	source = Files::GetSourceRect(texture, Files::TILES_TEXTURE_SIZE, {0, (float)type});
 	center = {0.5f, 0.5f};
 	scale = { 1, 1 };
-	orientation = 0;
+	orientation = 90;
 	tint = WHITE;
 
 	SetDefault(i, patern);

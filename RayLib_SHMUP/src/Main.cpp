@@ -34,6 +34,8 @@ int main(void)
 
 	GameManager::Init();
 
+	bool isDebugTesting = false;
+	float timeout = 10;
 	// Main game loop
 	while (!WindowShouldClose())    // Detect window close button or ESC key
 	{
@@ -45,6 +47,12 @@ int main(void)
 		// Draw
 		//----------------------------------------------------------------------------------
 		BeginDrawing();
+#if _DEBUG
+		if (IsKeyDown(KEY_COMMA)) 
+		{
+			isDebugTesting = !isDebugTesting;
+		}
+#endif
 		
 		GameManager::Render();
 		GameManager::Update();

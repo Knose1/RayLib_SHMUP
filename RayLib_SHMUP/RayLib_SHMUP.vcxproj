@@ -85,6 +85,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="include\Shmup\IMovable.cpp" />
+    <ClCompile Include="src\Namespaces\MathUtils.cpp" />
     <ClCompile Include="src\Shmup\Paterns\AOffsetablePatern.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Namespaces\Controller.cpp" />
@@ -101,6 +102,7 @@
   <ItemGroup>
     <ClInclude Include="include\Namespaces\Controller.h" />
     <ClInclude Include="include\Namespaces\GameStatus.h" />
+    <ClInclude Include="include\Namespaces\MathUtils.h" />
     <ClInclude Include="include\Namespaces\Utils.h" />
     <ClInclude Include="include\raudio.h" />
     <ClInclude Include="include\raylib.h" />

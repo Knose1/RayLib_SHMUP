@@ -1,19 +1,20 @@
 #pragma once
 #include "raylib.h"
 #include "Shmup/IMovable.h"
-#include "Shmup/Paterns/Patern.h"
+#include "Shmup/Paterns/APatern.h"
 
 
 class Shoot :
 	public AMovable
 {
 	private:
+		unsigned int type;
 		unsigned long long spawnIndex;
 		bool fired;
 		APatern* patern;
 
 	public:
-		Shoot(unsigned long long i, APatern* patern);
+		Shoot(unsigned long long i, APatern* patern, unsigned int type = 0);
 		~Shoot();
 
 		unsigned long long GetSpawnIndex();
