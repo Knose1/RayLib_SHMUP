@@ -84,7 +84,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="include\Shmup\IMovable.cpp" />
+    <ClCompile Include="src\Testing\MainTesting.cpp" />
     <ClCompile Include="src\Namespaces\MathUtils.cpp" />
     <ClCompile Include="src\Shmup\Paterns\AOffsetablePatern.cpp" />
     <ClCompile Include="src\Main.cpp" />
@@ -120,7 +120,12 @@
     <ClInclude Include="include\Shmup\Player.h" />
     <ClInclude Include="include\Shmup\Shoot.h" />
     <ClInclude Include="include\Shmup\AGraphicObject.h" />
-    <ClInclude Include="include\Testing\Testing.h" />
+    <ClInclude Include="include\Testing\MainTesting.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\Testing\Testing.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\raylib.lib" />

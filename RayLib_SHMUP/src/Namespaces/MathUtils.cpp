@@ -7,7 +7,8 @@ float MathUtils::signf(float f)
 
 float MathUtils::scalePolarVec2DNonOpti(float angle, Vector2 cartesianScale) 
 {
-	return atan2f(sinf(angle) * cartesianScale.y, cosf(angle) * cartesianScale.x);
+	angle *= DEG2RAD;
+	return atan2f(sinf(angle) * cartesianScale.y, cosf(angle) * cartesianScale.x) * RAD2DEG;
 }
 
 float MathUtils::scalePolarVec2D(float angle, Vector2 cartesianScale)
@@ -18,11 +19,11 @@ float MathUtils::scalePolarVec2D(float angle, Vector2 cartesianScale)
 	float modulo180 = fmodf(angle, 180.0f);
 	float modulo360 = fmodf(angle, 360.f);
 	angle = 2*modulo180-modulo360;
-
+	
 	angle = angle * DEG2RAD;
-	if		(angle > PI / 2) angle = atanf(tan(angle) * cartesianScale.y / cartesianScale.x)+PI;
-	else if (angle < PI / 2) angle = atanf(tan(angle) * cartesianScale.y / cartesianScale.x)-PI;
-	else					 angle = atanf(tan(angle) * cartesianScale.y / cartesianScale.x);
+	if		(angle >  PI / 2) angle = atanf(tan(angle) * cartesianScale.y / cartesianScale.x)+PI;
+	else if (angle < -PI / 2) angle = atanf(tan(angle) * cartesianScale.y / cartesianScale.x)-PI;
+	else					  angle = atanf(tan(angle) * cartesianScale.y / cartesianScale.x);	 
 
 	return angle * RAD2DEG;
 }

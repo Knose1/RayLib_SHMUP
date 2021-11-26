@@ -23,6 +23,10 @@
 #include "Namespaces/GameStatus.h"
 #include "Shmup/GameManager.h"
 
+#if _DEBUG
+#include "Testing/MainTesting.h"
+#endif
+
 int main(void)
 {
 	// Initialization
@@ -33,9 +37,11 @@ int main(void)
 	//--------------------------------------------------------------------------------------
 
 	GameManager::Init();
-
+#if _DEBUG
 	bool isDebugTesting = false;
-	float timeout = 10;
+	float timeout = GameStatus::testingHoldTime;
+#endif
+
 	// Main game loop
 	while (!WindowShouldClose())    // Detect window close button or ESC key
 	{
@@ -50,13 +56,33 @@ int main(void)
 #if _DEBUG
 		if (IsKeyDown(KEY_COMMA)) 
 		{
-			isDebugTesting = !isDebugTesting;
+			if (timeout > 0) {
+				timeout -= GetFrameTime();
+				if (timeout < 0) 
+					isDebugTesting = !isDebugTesting;
+			}
+		}
+		else
+		{
+			timeout = GameStatus::testingHoldTime;
+		}
+
+		if (!isDebugTesting)
+		{
+#endif
+			GameManager::Render();
+			GameManager::Update();
+#if _DEBUG
+		}
+		else
+		{
+			ClearBackground(WHITE);
+			// Testing
+			//-/--------------------------------------------------------------------------------
+			Testing::ExecuteTesting();
+			//-/--------------------------------------------------------------------------------
 		}
 #endif
-		
-		GameManager::Render();
-		GameManager::Update();
-
 		EndDrawing();
 		//----------------------------------------------------------------------------------
 	}
