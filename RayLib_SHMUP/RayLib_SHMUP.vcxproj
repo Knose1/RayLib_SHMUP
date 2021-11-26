@@ -120,6 +120,7 @@
     <ClInclude Include="include\Shmup\Player.h" />
     <ClInclude Include="include\Shmup\Shoot.h" />
     <ClInclude Include="include\Shmup\AGraphicObject.h" />
+    <ClInclude Include="include\Testing\Testing.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\raylib.lib" />

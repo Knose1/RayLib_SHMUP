@@ -14,8 +14,8 @@ class Shoot :
 		APatern* patern;
 
 	public:
-		Shoot(unsigned long long i, APatern* patern, unsigned int type = 0);
-		~Shoot();
+		Shoot(unsigned long long i, APatern* patern, unsigned int type = 3);
+		virtual ~Shoot() override;
 
 		unsigned long long GetSpawnIndex();
 		
@@ -27,5 +27,6 @@ class Shoot :
 
 		// Hérité via GraphicObject
 		virtual void Update() override;
+		virtual void Draw() override;
 
 };

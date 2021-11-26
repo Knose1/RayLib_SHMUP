@@ -10,7 +10,7 @@ class Enemy :
 	public:
 		
 		Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction, Color tint, unsigned int type);
-		~Enemy();
+		virtual ~Enemy() override;
 
 		virtual void Update() override;
 	

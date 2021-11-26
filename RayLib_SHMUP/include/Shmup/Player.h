@@ -16,7 +16,7 @@ class Player :
 		std::vector<Shoot*> shoots;
 		
 		Player();
-		~Player();
+		virtual ~Player() override;
 
 		virtual void Update() override;
 

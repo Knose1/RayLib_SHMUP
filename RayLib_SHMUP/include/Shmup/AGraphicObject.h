@@ -26,7 +26,7 @@ class AGraphicObject :
 		virtual void Update()=0;
 
 		explicit AGraphicObject();
-		~AGraphicObject();
+		virtual ~AGraphicObject();
 
 	protected:
 		static void DefaultDrawMethod(

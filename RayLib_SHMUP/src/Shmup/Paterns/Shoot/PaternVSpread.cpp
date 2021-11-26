@@ -1,5 +1,6 @@
 #include "raylib.h"
 #include "raymath.h"
+#include "Namespaces/MathUtils.h"
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Utils.h"
 #include "Shmup/Paterns/Shoot/PaternVSpread.h"
@@ -14,6 +15,7 @@ void PaternVSpread::DoPatern(AMovable* movable, IPaternData* data)
 		shoot->speed -= 0.1f;
 	}
 
+	shoot->orientation = MathUtils::cartesianToPolar(shoot->direction) * MathUtils::signf(shoot->speed);
 	shoot->position = Vector2Add(shoot->position, Vector2Scale(shoot->direction, shoot->speed));
 }
 

@@ -9,9 +9,10 @@ Shoot::Shoot(unsigned long long i, APatern* patern, unsigned int type) : AMovabl
 {
 	this->type = type;
 	texture = LoadTexture(Files::TILES_TEXTURE);
-	source = Files::GetSourceRect(texture, Files::TILES_TEXTURE_SIZE, {0, (float)type});
+	source = Files::GetSourceRect(texture, Files::TILES_TEXTURE_SIZE, {(float)type, 0});
 	center = {0.5f, 0.5f};
-	scale = { 1, 1 };
+	scale = { 2, 2 };
+	position = { -100, -100 };
 	orientation = 90;
 	tint = WHITE;
 
@@ -67,4 +68,9 @@ void Shoot::Update()
 	//Outside of the screen
 	if (position.x < -100 || position.y < -100 || position.x > GameStatus::screenWidth + 100 || position.y > GameStatus::screenHeight + 100)
 		SetFired(false);
+}
+
+void Shoot::Draw()
+{
+	if (fired) AGraphicObject::Draw();
 }
