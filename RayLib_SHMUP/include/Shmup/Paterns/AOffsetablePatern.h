@@ -9,10 +9,10 @@ class AOffsetablePatern :
 	public:
 		struct IOffserablePaternData : public IPaternData
 		{
-			Vector2 positionOffset;
-			Vector2 scaleCenter;
-			Vector2 scaleOffset;
-			Vector2 rotationCenter;
+			Vector2 positionOffset = {0,0};
+			Vector2 scaleCenter = {0, 0};
+			Vector2 scaleOffset = {0, 0};
+			Vector2 rotationCenter = {0, 0};
 			float rotationOffset;
 		};
 

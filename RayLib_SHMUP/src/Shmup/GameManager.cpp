@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "Namespaces/Utils.h"
+#include "Namespaces/Random.h"
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Controller.h"
 #include "Shmup/GameManager.h"
@@ -15,8 +15,8 @@ void GameManager::Init()
 	{
 		Enemy* enemy = new Enemy(
 			i,
-			{ Utils::randMToN(100.0f, GameStatus::screenWidth - 100.0f), Utils::randMToN(100.0f, GameStatus::screenHeight - 100.0f) }, //position;
-			{ Utils::rand01(), Utils::rand01() }, //direction;
+			{ Random::randMToN(100.0f, GameStatus::screenWidth - 100.0f), Random::randMToN(100.0f, GameStatus::screenHeight - 100.0f) }, //position;
+			{ Random::rand01(), Random::rand01() }, //direction;
 			ColorFromNormalized({ (float)GetRandomValue(0,255), (float)GetRandomValue(0,255), (float)GetRandomValue(0,255), 1 }), //tint;
 			{ (unsigned)GetRandomValue(0,11) }
 		);

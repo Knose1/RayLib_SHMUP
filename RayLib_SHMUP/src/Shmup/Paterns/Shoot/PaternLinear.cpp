@@ -10,6 +10,6 @@ void PaternLinear::DoPatern(AMovable* shoot, IPaternData* data)
 	shoot->position = Vector2Add(shoot->position, Vector2Scale(shoot->direction, shoot->speed));
 }
 
-void PaternLinear::SetDefault(AMovable* shoot)
+void PaternLinear::SetDefault(IPaternData* data)
 {
 }

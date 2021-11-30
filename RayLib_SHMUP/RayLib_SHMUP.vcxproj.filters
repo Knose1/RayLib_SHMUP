@@ -15,16 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Main.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="src\Namespaces\Controller.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="src\Namespaces\GameStatus.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\Namespaces\Utils.cpp">
+    <ClCompile Include="src\Namespaces\Random.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="src\Shmup\Paterns\Shoot\PaternLinear.cpp">
@@ -60,6 +57,27 @@
     <ClCompile Include="src\Testing\MainTesting.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="src\PaternEditorMain.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainRelease.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shmup\Paterns\Enemy\SequenceMovePatern.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PaternEditor\PaternComputer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Namespaces\Parser.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Namespaces\Utils.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Shmup\IMovable.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\raudio.h">
@@ -80,7 +98,7 @@
     <ClInclude Include="include\Namespaces\GameStatus.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="include\Namespaces\Utils.h">
+    <ClInclude Include="include\Namespaces\Random.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="include\Shmup\Paterns\APatern.h">
@@ -128,6 +146,18 @@
     <ClInclude Include="include\Testing\MainTesting.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="include\Shmup\Paterns\Enemy\SequenceMovePatern.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PaternEditor\PaternComputer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Namespaces\Parser.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Namespaces\Utils.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\raylib.lib" />
@@ -137,5 +167,7 @@
     <None Include="include\Namespaces\Files.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </None>
+    <None Include="assets\Shmup\paterns\simpleCurve.csv" />
+    <None Include="assets\Shmup\paterns\simpleLoop.csv" />
   </ItemGroup>
 </Project>

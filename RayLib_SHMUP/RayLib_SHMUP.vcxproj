@@ -5,6 +5,10 @@
       <Configuration>Debug</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="PaternEditor|x64">
+      <Configuration>PaternEditor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
     <ProjectConfiguration Include="Release|x64">
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
@@ -19,6 +23,12 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PaternEditor|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
@@ -39,11 +49,17 @@
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='PaternEditor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PaternEditor|x64'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -56,6 +72,24 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>raylib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PaternEditor|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_PATERN_ED;_CONSOLE</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <UndefineAllPreprocessorDefinitions>
+      </UndefineAllPreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>_DEBUG</UndefinePreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -84,13 +118,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Namespaces\Parser.cpp" />
+    <ClCompile Include="include\Shmup\IMovable.cpp" />
+    <ClCompile Include="src\Namespaces\Utils.cpp" />
+    <ClCompile Include="src\PaternEditor\PaternComputer.cpp" />
+    <ClCompile Include="src\MainRelease.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='PaternEditor|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\PaternEditorMain.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Shmup\Paterns\Enemy\SequenceMovePatern.cpp" />
     <ClCompile Include="src\Testing\MainTesting.cpp" />
     <ClCompile Include="src\Namespaces\MathUtils.cpp" />
     <ClCompile Include="src\Shmup\Paterns\AOffsetablePatern.cpp" />
-    <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Namespaces\Controller.cpp" />
     <ClCompile Include="src\Namespaces\GameStatus.cpp" />
-    <ClCompile Include="src\Namespaces\Utils.cpp" />
+    <ClCompile Include="src\Namespaces\Random.cpp" />
     <ClCompile Include="src\Shmup\Enemy.cpp" />
     <ClCompile Include="src\Shmup\GameManager.cpp" />
     <ClCompile Include="src\Shmup\Paterns\Shoot\PaternLinear.cpp" />
@@ -103,6 +148,8 @@
     <ClInclude Include="include\Namespaces\Controller.h" />
     <ClInclude Include="include\Namespaces\GameStatus.h" />
     <ClInclude Include="include\Namespaces\MathUtils.h" />
+    <ClInclude Include="include\Namespaces\Parser.h" />
+    <ClInclude Include="include\Namespaces\Random.h" />
     <ClInclude Include="include\Namespaces\Utils.h" />
     <ClInclude Include="include\raudio.h" />
     <ClInclude Include="include\raylib.h" />
@@ -115,6 +162,7 @@
     <ClInclude Include="include\Shmup\InstanceList.hpp" />
     <ClInclude Include="include\Shmup\Paterns\AOffsetablePatern.h" />
     <ClInclude Include="include\Shmup\Paterns\APatern.h" />
+    <ClInclude Include="include\Shmup\Paterns\Enemy\SequenceMovePatern.h" />
     <ClInclude Include="include\Shmup\Paterns\Shoot\PaternLinear.h" />
     <ClInclude Include="include\Shmup\Paterns\Shoot\PaternVSpread.h" />
     <ClInclude Include="include\Shmup\Player.h" />
@@ -126,11 +174,14 @@
     <ClInclude Include="include\Testing\Testing.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="include\PaternEditor\PaternComputer.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\raylib.lib" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="assets\Shmup\paterns\simpleCurve.csv" />
+    <None Include="assets\Shmup\paterns\simpleLoop.csv" />
     <None Include="lib\raylib.pdb" />
     <None Include="include\Namespaces\Files.h" />
     <ClCompile Include="src\Namespaces\Files.cpp" />

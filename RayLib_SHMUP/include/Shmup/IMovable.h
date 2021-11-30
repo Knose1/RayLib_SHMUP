@@ -6,6 +6,6 @@ class AMovable :
 	public AGraphicObject
 {
 	public:
-		Vector2 direction;
-		float speed;
+		Vector2 direction = {0,0};
+		float speed = 1;
 };

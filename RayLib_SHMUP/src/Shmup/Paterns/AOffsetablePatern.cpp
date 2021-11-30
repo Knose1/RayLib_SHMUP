@@ -6,8 +6,10 @@
 void AOffsetablePatern::ComputerOffset(float& rotation, Vector2& localPosition, IOffserablePaternData data, bool scaleRotation)
 {
 	rotation += data.rotationOffset;
+	localPosition = Vector2Add(Vector2Rotate(Vector2Subtract(localPosition, data.rotationCenter), data.rotationOffset), data.rotationCenter);
+	localPosition = Vector2Add(Vector2Multiply(Vector2Subtract(localPosition, data.scaleCenter), data.scaleOffset), data.scaleCenter);
 
-	//MathUtils::scalePolarVec2D();
+	MathUtils::scalePolarVec2D(rotation, data.scaleOffset);
 
 	//end
 	localPosition = Vector2Add(localPosition, data.positionOffset);

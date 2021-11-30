@@ -31,12 +31,12 @@ float MathUtils::scalePolarVec2D(float angle, Vector2 cartesianScale)
 float MathUtils::cartesianToPolar(Vector2 cartesian)
 {
 	float result = atan2(cartesian.y, cartesian.x);
-	result *= (180.0f / PI);
+	result *= RAD2DEG;
 	if (result < 0) result += 360.0f;
 	return result;
 }
 
 Vector2 MathUtils::polarToCartesian(float polar)
 {
-	return {cosf(polar), sinf(polar)};
+	return {cosf(polar*DEG2RAD), sinf(polar*DEG2RAD)};
 }

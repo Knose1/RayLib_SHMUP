@@ -3,7 +3,7 @@
 #include "Shmup/Enemy.h"
 #include "Shmup/InstanceList.hpp"
 #include "Namespaces/GameStatus.h"
-#include "Namespaces/Utils.h"
+#include "Namespaces/Random.h"
 #include "Namespaces/Files.h"
 
 constexpr unsigned int SHIP_LINE_COUNT = 2;
@@ -38,7 +38,7 @@ void Enemy::Update()
 {
 	if (position.x > 50 && position.y > 50 && position.x < GameStatus::screenWidth - 50 && position.y < GameStatus::screenHeight - 50)
 	{
-		direction = Vector2Rotate(direction, rotationSpeed + Utils::randMToN(-1, 1));
+		direction = Vector2Rotate(direction, rotationSpeed + Random::randMToN(-1, 1));
 		isNegativeRotationSpeed ?
 			rotationSpeed += rotationAcceleration :
 			rotationSpeed -= rotationAcceleration;
@@ -83,8 +83,8 @@ void Enemy::Update()
 
 void Enemy::RandomChangeSettings()
 {
-	rotationSpeedDefault = rotationSpeed = (spawnIndex % 2 == 1 ? Utils::randMToN(1, 2) : -Utils::randMToN(1, 2)) + Utils::randMToN(-0.5f, 0.5f);
-	rotationAcceleration = Utils::randMToN(0.003f, 0.02f);
+	rotationSpeedDefault = rotationSpeed = (spawnIndex % 2 == 1 ? Random::randMToN(1, 2) : -Random::randMToN(1, 2)) + Random::randMToN(-0.5f, 0.5f);
+	rotationAcceleration = Random::randMToN(0.003f, 0.02f);
 	isNegativeRotationSpeed = signbit(rotationSpeed);
-	speed = Utils::randMToN(3, 5);
+	speed = Random::randMToN(3, 5);
 }

@@ -1,19 +1,84 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
+#include <string>
+#include <regex>
 #include "Namespaces/Utils.h"
 
-float Utils::randMToN(float M, float N)
+
+/*char* Utils::s_replace(char* string, const char* toReplace, const char* replaced)
 {
-	return M + (rand() / (RAND_MAX / (N - M)));
+	if (&toReplace == '\0') return string;
+
+	std::vector<char*> replacePositions;
+	char* stringIterator = string;
+	const char* toReplaceIterator;
+
+	int stringSize = 0;
+	while (stringIterator != '\0')
+	{
+		++stringSize;
+		char* stringLastPointer = stringIterator;
+		toReplaceIterator = toReplace;
+
+		while (&toReplaceIterator == &stringIterator)
+		{
+			
+		}
+	}
+
+	char* toReturn = new char[stringSize+replacePositions.size()];
+
+	return toReturn;
+}*/
+
+std::string Utils::s_replace(std::string string, const char* toReplace, const char* replaced)
+{
+	return std::regex_replace(string, std::regex(toReplace), replaced);
 }
 
-float Utils::randMToN(int M, int N)
+std::vector<std::string> Utils::s_split(const char* string, char separator)
 {
-	float Mf = (float)M;
-	float Nf = (float)N;
-	return Mf + (rand() / (RAND_MAX / (Nf - Mf)));
+	std::string input = string;
+	size_t length = std::strlen(string);
+	std::vector<std::string> toReturn;
+
+	size_t lastI = 0;
+	for (size_t i = 0; i < length; i++)
+	{
+		char myChar = *(string++);
+		if (myChar == separator) 
+		{
+			const int copySize = i - lastI;
+			toReturn.push_back(input.substr(lastI, copySize));
+			lastI = i+1;
+		}
+	}
+
+	const int copySize = length-lastI;
+	toReturn.push_back(input.substr(lastI, copySize));
+	return toReturn;
 }
 
-float Utils::rand01()
+std::vector<std::string> Utils::s_split(std::string string, char separator)
 {
-	return rand() / (RAND_MAX + 1.);
+	std::string input = string;
+	size_t length = string.length();
+	std::vector<std::string> toReturn;
+
+	size_t lastI = 0;
+	for (size_t i = 0; i < length; i++)
+	{
+		char myChar = string[i];
+		if (myChar == separator) 
+		{
+			const int copySize = i - lastI;
+			toReturn.push_back(input.substr(lastI, copySize));
+			lastI = i+1;
+		}
+	}
+
+	const int copySize = length-lastI;
+	toReturn.push_back(input.substr(lastI, copySize));
+	return toReturn;
 }

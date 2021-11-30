@@ -21,6 +21,7 @@ namespace Testing
 		DrawCircle(GameStatus::screenWidth, center.y, thickness+5, color);
 		DrawCircle(center.x, top, thickness+5, color);
 	}
+
 	void DebugCurve(float (*function)(float), Vector2 minCoord, Vector2 maxCoord, int iterationCount, float thickness, Color color, bool yIsUp=true)
 	{
 		float bottom = yIsUp ? GameStatus::screenHeight : 0;

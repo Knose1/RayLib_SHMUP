@@ -7,7 +7,7 @@ class APatern
 	public:
 		struct IPaternData {};
 	
-	virtual void SetDefault(AMovable* shoot) = 0;
-	virtual void DoPatern(AMovable* shoot, IPaternData* data) = 0;
+	virtual void SetDefault(IPaternData* data) = 0;
+	virtual void DoPatern(AMovable* movable, IPaternData* data) = 0;
 };
 

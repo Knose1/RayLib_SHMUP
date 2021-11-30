@@ -1,26 +1,6 @@
-/*******************************************************************************************
-*
-*   raylib [core] example - Basic window
-*
-*   Welcome to raylib!
-*
-*   To test examples, just press F6 and execute raylib_compile_execute script
-*   Note that compiled executable is placed in the same folder as .c file
-*
-*   You can find all basic examples on C:\raylib\raylib\examples folder or
-*   raylib official webpage: www.raylib.com
-*
-*   Enjoy using raylib. :)
-*
-*   This example has been created using raylib 1.0 (www.raylib.com)
-*   raylib is licensed under an unmodified zlib/libpng license (View raylib.h for details)
-*
-*   Copyright (c) 2013-2016 Ramon Santamaria (@raysan5)
-*
-********************************************************************************************/
-
 #include "raylib.h"
 #include "Namespaces/GameStatus.h"
+
 #include "Shmup/GameManager.h"
 
 #if _DEBUG
@@ -31,9 +11,15 @@ int main(void)
 {
 	// Initialization
 	//--------------------------------------------------------------------------------------
-	InitWindow(GameStatus::screenWidth, GameStatus::screenHeight, "Shmup");
+	InitWindow(GameStatus::screenWidth, GameStatus::screenHeight,
+#if _DEBUG
+	"Shmup Debug"
+#else
+	"Shmup"
+#endif // _DEBUG
+	);
 
-	SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
+	SetTargetFPS(GameStatus::frameRate);               // Set our game to run at 60 frames-per-second
 	//--------------------------------------------------------------------------------------
 
 	GameManager::Init();
@@ -54,11 +40,11 @@ int main(void)
 		//----------------------------------------------------------------------------------
 		BeginDrawing();
 #if _DEBUG
-		if (IsKeyDown(KEY_COMMA)) 
+		if (IsKeyDown(KEY_COMMA))
 		{
 			if (timeout > 0) {
 				timeout -= GetFrameTime();
-				if (timeout < 0) 
+				if (timeout < 0)
 					isDebugTesting = !isDebugTesting;
 			}
 		}
@@ -69,7 +55,7 @@ int main(void)
 
 		if (!isDebugTesting)
 		{
-#endif
+#endif //_DEBUG
 			GameManager::Render();
 			GameManager::Update();
 #if _DEBUG
@@ -82,7 +68,7 @@ int main(void)
 			Testing::ExecuteTesting();
 			//-/--------------------------------------------------------------------------------
 		}
-#endif
+#endif //_DEBUG
 		EndDrawing();
 		//----------------------------------------------------------------------------------
 	}

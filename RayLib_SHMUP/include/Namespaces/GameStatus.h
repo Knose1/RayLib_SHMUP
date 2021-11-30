@@ -9,4 +9,7 @@ namespace GameStatus
 
 	const int screenWidth = 800;
 	const int screenHeight = 1000;
+
+	const int frameRate = 60;
+	const float constantFrameTime = 1.0f/frameRate;
 };
