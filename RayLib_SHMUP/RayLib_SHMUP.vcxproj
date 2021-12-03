@@ -119,7 +119,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\Namespaces\Parser.cpp" />
-    <ClCompile Include="include\Shmup\IMovable.cpp" />
     <ClCompile Include="src\Namespaces\Utils.cpp" />
     <ClCompile Include="src\PaternEditor\PaternComputer.cpp" />
     <ClCompile Include="src\MainRelease.cpp">

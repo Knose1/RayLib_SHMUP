@@ -15,7 +15,7 @@ namespace Controller
 	/// Return true of the player is shooting
 	/// </summary>
 	/// <returns></returns>
-	bool Shoot();
+	bool Shoot(float fireRate=0, float* countdown = nullptr);
 
 	/// <summary>
 	/// Function called each frame to know if

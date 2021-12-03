@@ -22,4 +22,35 @@ namespace MathUtils
 	/// Calculate the vector from degree
 	/// </summary>
 	Vector2 polarToCartesian(float polar);
+
+	/// <summary>
+	/// Interpolation using a geometric sequence that converge toward <see cref="target"/>.
+	/// </summary>
+	/// <param name="current">u(n)</param>
+	/// <param name="target">lim(u(n))</param>
+	/// <param name="strength">q</param>
+	/// <returns>
+	/// u(n+1) = u(n) + ( lim(u(n)) - u(n) ) * q
+	/// </returns>
+	static float geometricalInterpolation(float current, float target, float strength)
+	{
+		return current + (target - current) * strength;
+	}
+
+	/// <summary>
+	/// Interpolation using a geometric sequence that converge toward <see cref="target"/>.
+	/// </summary>
+	/// <param name="current">u(n)</param>
+	/// <param name="target">lim(u(n))</param>
+	/// <param name="strength">q</param>
+	/// <returns>
+	/// u(n+1) = u(n) + ( lim(u(n)) - u(n) ) * q
+	/// </returns>
+	static Vector2 geometricalInterpolation(Vector2 current, Vector2 target, float strength)
+	{
+		return {
+			geometricalInterpolation(current.x, target.x, strength),
+			geometricalInterpolation(current.y, target.y, strength)
+		};
+	}
 };

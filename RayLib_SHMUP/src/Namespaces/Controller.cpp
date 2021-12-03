@@ -3,6 +3,7 @@
 #include "raylib.h"
 #include "raymath.h"
 #include "Namespaces/Controller.h"
+#include "Namespaces/GameStatus.h"
 
 const bool isRaffal=true;
 bool isGamePad=false;
@@ -15,7 +16,7 @@ Vector2 Controller::GetPlayerDirection(Vector2 playerTurretPosition)
 	switch (isGamePad)
 	{
 		case true:
-			toReturn = Vector2Scale({ GetGamepadAxisMovement(0, 0), GetGamepadAxisMovement(0, 1) }, 10000);
+			toReturn = { GetGamepadAxisMovement(0, 0), GetGamepadAxisMovement(0, 1) };
 			break;
 		default:
 			toReturn = { 
@@ -24,22 +25,39 @@ Vector2 Controller::GetPlayerDirection(Vector2 playerTurretPosition)
 			};
 			break;
 	}
-		
+	
+//#define KEEP_OLD_DIRECTION=1;
+#ifdef KEEP_OLD_DIRECTION
 	if (toReturn.x == 0 && toReturn.y == 0)
 	{
 		return oldDirection;
 	}
 
 	oldDirection = toReturn;
-		
-	return toReturn;
+#endif
+	return Vector2Normalize( toReturn );
 }
-bool Controller::Shoot()
+
+bool Controller::Shoot(float fireRate, float* countdown)
 {
-	return isRaffal ? 
-		(isGamePad ? IsGamepadButtonDown(0, 7) : IsMouseButtonDown(0)) :
-		(isGamePad ? IsGamepadButtonPressed(0, 7) : IsMouseButtonPressed(0))
+	if (countdown != nullptr) 
+	{
+		//If countdown is not ended, return false
+		if ((*countdown -= GameStatus::constantFrameTime) > 0) 
+			return false;
+		else
+			*countdown = 0;
+	}
+	
+	bool toReturn = isRaffal ? 
+		(isGamePad ? IsGamepadButtonDown(0, 7) : IsKeyDown(KEY_SPACE)) :
+		(isGamePad ? IsGamepadButtonPressed(0, 7) : IsKeyPressed(KEY_SPACE))
 	;
+
+	if (countdown != nullptr && toReturn)
+		*countdown = fireRate;
+
+	return toReturn;
 }
 
 bool Controller::PreviousPatern() 
