@@ -6,5 +6,6 @@
 #include "Shmup/Paterns/Enemy/SequenceMovePatern.h"
 namespace Parser
 {
+	std::vector<std::string> ParseCSV(const char* string, int size);
 	std::vector<SequenceMovePatern::Sequence> GetSequencePatern(const char* string);
 }

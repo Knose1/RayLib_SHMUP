@@ -20,7 +20,7 @@ Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction,
 	this->tint = WHITE;
 	texture = LoadTexture(Files::SHIP_TEXTURE);
 	center = { 0.5f,0.5f };
-	scale = { 3,3 };
+	scale = { 2.5f,2.5f };
 	orientation = 0;
 	source = Files::GetSourceRect(texture, Files::SHIP_TEXTURE_SIZE, { (float)(type%SHIP_COLUMNS_COUNT), (float)(type/SHIP_COLUMNS_COUNT)+1});
 	
@@ -30,6 +30,7 @@ Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction,
 
 Enemy::~Enemy()
 {
+	delete patern;
 	AGraphicObject::~AGraphicObject();
 	RemoveInstance(this);
 }

@@ -12,10 +12,10 @@
 APatern* Player::paterns[] = { new PaternLinear(), new PaternVSpread() };
 
 constexpr Vector2 SCALE = { 2.5f, 2.5f };
-constexpr float CONTROLS_INTERPOLATE_THRESHOLD = 0.01f;
-Vector2 directionInput = { 0, -1};
+constexpr float CONTROLS_INTERPOLATE_THRESHOLD = 0.04f;
+Vector2 directionInput = { 0, -0.1};
 
-constexpr float DEFAULT_FIRE_RATE = 0.001f;
+constexpr float DEFAULT_FIRE_RATE = 0.1f;
 float countdown = DEFAULT_FIRE_RATE;
 float* countdownPtr = &countdown;
 
@@ -118,7 +118,7 @@ void Player::SetPaternIndex(int currentPatern)
 #pragma endregion
 
 void Player::DoShoot(Vector2 direction)
-{	
+{
 	Shoot* shoot = FindShootOrCreate();
 	shoot->direction = direction = Vector2Normalize(direction);
 	

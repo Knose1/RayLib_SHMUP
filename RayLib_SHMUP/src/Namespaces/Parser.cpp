@@ -6,21 +6,28 @@
 #include "Namespaces/Utils.h"
 #include "Namespaces/Parser.h"
 
-std::vector<SequenceMovePatern::Sequence> Parser::GetSequencePatern(const char* string)
+std::vector<std::string> Parser::ParseCSV(const char* string, int size) 
 {
-	//Remove the last comma and the return; Split string
 	std::string myString = Utils::s_replace(Utils::s_replace(Utils::s_replace(std::string(string), "(;\r\n)|(\r\n)|(;\n)|(\n)", ";"), ";$", ""), "(\s|;)+", ";");
 	std::vector<std::string> splited = Utils::s_split(myString, ';');
-	std::vector<SequenceMovePatern::Sequence> toReturn;
 
 	//Check if correct number of fields by sequence
-	if (splited.size() % SequenceMovePatern::SEQUENCE_FIELD_COUNT != 0)
+	if (splited.size() % size != 0)
 	{
 #if _DEBUG
 		throw std::length_error("Incorrect size");
 #endif // _DEBUG
 		std::cerr << "Sequence Incorrect size at " << __func__;
 	}
+
+	return splited;
+}
+
+std::vector<SequenceMovePatern::Sequence> Parser::GetSequencePatern(const char* string)
+{
+	//Remove the last comma and the return; Split string
+	std::vector<std::string> splited = ParseCSV(string, SequenceMovePatern::SEQUENCE_FIELD_COUNT);
+	std::vector<SequenceMovePatern::Sequence> toReturn;
 
 	//Init sequence list
 	const size_t length = splited.size() / SequenceMovePatern::SEQUENCE_FIELD_COUNT;

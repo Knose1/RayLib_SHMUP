@@ -128,6 +128,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="src\Shmup\LevelManager.cpp" />
     <ClCompile Include="src\Shmup\Paterns\Enemy\SequenceMovePatern.cpp" />
     <ClCompile Include="src\Testing\MainTesting.cpp" />
     <ClCompile Include="src\Namespaces\MathUtils.cpp" />
@@ -159,6 +160,7 @@
     <ClInclude Include="include\Shmup\IMovable.h" />
     <ClInclude Include="include\Shmup\InstanceList.h" />
     <ClInclude Include="include\Shmup\InstanceList.hpp" />
+    <ClInclude Include="include\Shmup\LevelManager.h" />
     <ClInclude Include="include\Shmup\Paterns\AOffsetablePatern.h" />
     <ClInclude Include="include\Shmup\Paterns\APatern.h" />
     <ClInclude Include="include\Shmup\Paterns\Enemy\SequenceMovePatern.h" />
