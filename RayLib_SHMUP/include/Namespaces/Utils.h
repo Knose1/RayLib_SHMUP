@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <functional>
 
 namespace Utils
 {
@@ -12,7 +13,7 @@ namespace Utils
 	std::vector<std::string> s_split(std::string string, char separator);
 	
 	template<typename in, typename out>
-	std::vector<out> vectorCast(out(*function)(in), std::vector<in> vector)
+	std::vector<out> vectorCast(std::function<out(in)> function, std::vector<in> vector) //out(*function)(in)
 	{
 		const size_t length = vector.size();
 		std::vector<out> toReturn(length);

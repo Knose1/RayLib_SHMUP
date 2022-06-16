@@ -53,4 +53,6 @@ namespace MathUtils
 			geometricalInterpolation(current.y, target.y, strength)
 		};
 	}
+
+	static Vector2 orthogonalVector2(Vector2 v) { return { -v.y, v.x }; }
 };

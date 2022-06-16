@@ -118,6 +118,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Shmup\Collider.cpp" />
+    <ClCompile Include="src\Shmup\Explosion.cpp" />
     <ClCompile Include="src\Namespaces\Parser.cpp" />
     <ClCompile Include="src\Namespaces\Utils.cpp" />
     <ClCompile Include="src\PaternEditor\PaternComputer.cpp" />
@@ -145,6 +147,8 @@
     <ClCompile Include="src\Shmup\AGraphicObject.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Shmup\Collider.h" />
+    <ClInclude Include="include\Shmup\Explosion.h" />
     <ClInclude Include="include\Namespaces\Controller.h" />
     <ClInclude Include="include\Namespaces\GameStatus.h" />
     <ClInclude Include="include\Namespaces\MathUtils.h" />
@@ -169,6 +173,7 @@
     <ClInclude Include="include\Shmup\Player.h" />
     <ClInclude Include="include\Shmup\Shoot.h" />
     <ClInclude Include="include\Shmup\AGraphicObject.h" />
+    <ClInclude Include="include\Shmup\Transform2D.h" />
     <ClInclude Include="include\Testing\MainTesting.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClInclude>

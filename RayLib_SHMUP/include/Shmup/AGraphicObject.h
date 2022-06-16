@@ -1,6 +1,7 @@
 #pragma once
 #include "raylib.h"
 #include "Shmup/InstanceList.h"
+#include "Shmup/Transform2D.h"
 
 class AGraphicObject : 
 	public InstanceList<AGraphicObject>
@@ -24,6 +25,15 @@ class AGraphicObject :
 		/// Called each frame to update the status of the object
 		/// </summary>
 		virtual void Update()=0;
+
+		Transform2D GetTransform() {
+			return 
+			{ 
+				position,
+				orientation,
+				scale
+			};
+		};
 
 		explicit AGraphicObject();
 		virtual ~AGraphicObject();
