@@ -26,15 +26,6 @@ Vector2 Controller::GetPlayerDirection(Vector2 playerTurretPosition)
 			break;
 	}
 	
-//#define KEEP_OLD_DIRECTION=1;
-#ifdef KEEP_OLD_DIRECTION
-	if (toReturn.x == 0 && toReturn.y == 0)
-	{
-		return oldDirection;
-	}
-
-	oldDirection = toReturn;
-#endif
 	return Vector2Normalize( toReturn );
 }
 
