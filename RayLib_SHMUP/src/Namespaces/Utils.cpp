@@ -43,19 +43,21 @@ std::vector<std::string> Utils::s_split(const char* string, char separator)
 	size_t length = std::strlen(string);
 	std::vector<std::string> toReturn;
 
+	int copySize;
+	char myChar;
 	size_t lastI = 0;
 	for (size_t i = 0; i < length; i++)
 	{
-		char myChar = *(string++);
+		myChar = *(string++);
 		if (myChar == separator) 
 		{
-			const int copySize = i - lastI;
+			copySize = i - lastI;
 			toReturn.push_back(input.substr(lastI, copySize));
 			lastI = i+1;
 		}
 	}
 
-	const int copySize = length-lastI;
+	copySize = length-lastI;
 	toReturn.push_back(input.substr(lastI, copySize));
 	return toReturn;
 }
@@ -66,19 +68,21 @@ std::vector<std::string> Utils::s_split(std::string string, char separator)
 	size_t length = string.length();
 	std::vector<std::string> toReturn;
 
+	int copySize;
+	char myChar;
 	size_t lastI = 0;
 	for (size_t i = 0; i < length; i++)
 	{
-		char myChar = string[i];
+		myChar = string[i];
 		if (myChar == separator) 
 		{
-			const int copySize = i - lastI;
+			copySize = i - lastI;
 			toReturn.push_back(input.substr(lastI, copySize));
 			lastI = i+1;
 		}
 	}
 
-	const int copySize = length-lastI;
+	copySize = length-lastI;
 	toReturn.push_back(input.substr(lastI, copySize));
 	return toReturn;
 }

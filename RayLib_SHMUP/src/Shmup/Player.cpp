@@ -19,6 +19,7 @@ constexpr float DEFAULT_FIRE_RATE = 0.1f;
 float countdown = DEFAULT_FIRE_RATE;
 float* countdownPtr = &countdown;
 
+float _sprite=0;
 
 unsigned long long shootIndex = 0;
 float maxRotateAngle;
@@ -27,7 +28,7 @@ float maxRotateAngle;
 Player::Player() : AMovable()
 {
 	texture = LoadTexture(Files::SHIP_TEXTURE);
-	source = Files::GetSourceRect(texture, Files::SHIP_TEXTURE_SIZE, {0,0});
+	source = Files::GetSourceRect(texture, Files::SHIP_TEXTURE_SIZE, {_sprite,0});
 	position = { GameStatus::screenWidth / 2, GameStatus::screenHeight / 2 };
 	scale = SCALE;
 	center = { 0.5f, 0.5f };
@@ -86,10 +87,12 @@ void Player::Update()
 	if (Controller::PreviousPatern()) 
 	{
 		SetPaternIndex(GetPaternIndex() - 1);
+		source = Files::GetSourceRect(texture, Files::SHIP_TEXTURE_SIZE, { ++_sprite,0 });
 	}
 	else if (Controller::NextPatern()) 
 	{
 		SetPaternIndex(GetPaternIndex() + 1);
+		source = Files::GetSourceRect(texture, Files::SHIP_TEXTURE_SIZE, { --_sprite,0 });
 	}
 
 	position.x = Clamp(position.x, 0, GameStatus::screenWidth);
@@ -139,12 +142,14 @@ Shoot* Player::CreateShoot()
 
 Shoot* Player::FindShootOrCreate() 
 {
+	Shoot* itshoot;
 	for (std::vector<Shoot*>::iterator it = shoots.begin(); it != shoots.end(); ++it)
 	{
-		if ((*it)->GetFired() == false)
+		itshoot = *it;
+		if (itshoot->GetFired() == false)
 		{
-			(*it)->SetDefault(shootIndex++, patern);
-			return (*it);
+			itshoot->SetDefault(shootIndex++, patern);
+			return itshoot;
 		}
 	}
 

@@ -30,10 +30,11 @@ std::vector<SequenceMovePatern::Sequence> Parser::GetSequencePatern(const char* 
 	std::vector<SequenceMovePatern::Sequence> toReturn;
 
 	//Init sequence list
+	SequenceMovePatern::Sequence sequence;
 	const size_t length = splited.size() / SequenceMovePatern::SEQUENCE_FIELD_COUNT;
 	for (size_t i = 0; i < length; i++)
 	{
-		SequenceMovePatern::Sequence sequence{SequenceMovePatern::Type::CONTINUS,1,2,3,4};
+		sequence = {SequenceMovePatern::Type::CONTINUS,1,2,3,4};
 		SequenceMovePatern::InitSequence(&sequence, splited, i* SequenceMovePatern::SEQUENCE_FIELD_COUNT);
 		
 		/*for (size_t j = 0; j < SequenceMovePatern::SEQUENCE_FIELD_COUNT; j++)
