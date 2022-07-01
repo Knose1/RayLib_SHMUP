@@ -12,7 +12,7 @@ namespace Controller
 	Vector2 GetPlayerDirection(Vector2 playerTurretPosition);
 
 	/// <summary>
-	/// Return true of the player is shooting
+	/// Return true if the player is shooting
 	/// </summary>
 	/// <returns></returns>
 	bool Shoot(float fireRate=0, float* countdown = nullptr);

@@ -10,14 +10,7 @@ void SequenceMovePatern::SetDefault(IPaternData* data)
 	// Cast Data
 	//--------------------------------------------------------//
 	SequenceMovePatern::SequencePatern* sequencePatern;
-	try
-	{
-		sequencePatern = (SequenceMovePatern::SequencePatern*)data;
-	}
-	catch (const std::exception& e)
-	{
-		throw e;
-	}
+	sequencePatern = (SequenceMovePatern::SequencePatern*)data;
 
 	size_t length = sequencePatern->paternSequence.size();
 	sequencePatern->sequenceDone.clear();
@@ -36,14 +29,8 @@ void SequenceMovePatern::DoPatern(AMovable* movable, IPaternData* data)
 
 	// Cast Data
 	//--------------------------------------------------------//
-	try
-	{
-		sequencePatern = (SequenceMovePatern::SequencePatern*)data;
-	}
-	catch (const std::exception& e)
-	{
-		throw e;
-	}
+	sequencePatern = (SequenceMovePatern::SequencePatern*)data;
+	
 
 	// Init instant array
 	//--------------------------------------------------------//

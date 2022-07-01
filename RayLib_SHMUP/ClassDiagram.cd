@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ACollider" Collapsed="true">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAEAAAAEAAAIAAAAAAAA=</HashCode>
+      <FileName>include\Shmup\Collider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircleCollider" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAgAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Shmup\Collider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RectCollider" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAQAQACAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Shmup\Collider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Explosion" Collapsed="true">
+    <Position X="11" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAhABAAAAAAAEAAAAAwAAAAAAAQAAAAA=</HashCode>
+      <FileName>include\Shmup\Explosion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="4.25" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="AMovable">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.482" Y="0.06" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgQAAiAAAAAAAABAAAAEAAgAAAAAEAAIAABAAAAAAAA=</HashCode>
+      <FileName>include\Shmup\Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABACAAAAAAA=</HashCode>
+      <FileName>include\Shmup\GameManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AMovable" Collapsed="true">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Shmup\IMovable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InstanceList&lt;T&gt;" Collapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Shmup\InstanceList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelManager" Collapsed="true">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAQAKAAAAAAA=</HashCode>
+      <FileName>include\Shmup\LevelManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AOffsetablePatern">
+    <Position X="13" Y="3.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="AOffsetablePatern::IOffserablePaternData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>include\Shmup\Paterns\AOffsetablePatern.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Shmup\Paterns\AOffsetablePatern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="APatern">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="APatern::IPaternData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>include\Shmup\Paterns\APatern.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Shmup\Paterns\APatern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SequenceMovePatern">
+    <Position X="13" Y="6.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SequenceMovePatern::Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>include\Shmup\Paterns\Enemy\SequenceMovePatern.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="SequenceMovePatern::Sequence" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>include\Shmup\Paterns\Enemy\SequenceMovePatern.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="SequenceMovePatern::SequencePatern">
+        <TypeIdentifier>
+          <NewMemberFileName>include\Shmup\Paterns\Enemy\SequenceMovePatern.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAgBAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>include\Shmup\Paterns\Enemy\SequenceMovePatern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PaternLinear">
+    <Position X="15.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Shmup\Paterns\Shoot\PaternLinear.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PaternVSpread">
+    <Position X="17.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Shmup\Paterns\Shoot\PaternVSpread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAAAEABBAAAAAAAAIAAAAAIAAACAAQAEABA=</HashCode>
+      <FileName>include\Shmup\Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shoot" Collapsed="true">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMQAAAAEAEAABgRAAAAEAAAAAEABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Shmup\Shoot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AGraphicObject" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgwRAAAAAAAAAgIAAABAIAACAAEAAgAAAAAAAAAACAA=</HashCode>
+      <FileName>include\Shmup\AGraphicObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PaternComputer" Collapsed="true">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAABBAAAAAAAAAAEAAAAABAAAQAAAAAAA=</HashCode>
+      <FileName>include\PaternEditor\PaternComputer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="EColliderType" Collapsed="true">
+    <Position X="23" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>include\Shmup\Collider.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

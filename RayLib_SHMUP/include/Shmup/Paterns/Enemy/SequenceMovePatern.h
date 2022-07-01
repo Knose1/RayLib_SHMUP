@@ -8,7 +8,7 @@ class SequenceMovePatern :
 {
 	public: 
 		static constexpr int SEQUENCE_FIELD_COUNT = 5;
-		enum Type
+		enum class Type
 		{
 			INSTANT = 0,
 			CONTINUS = 1,
@@ -25,7 +25,7 @@ class SequenceMovePatern :
 		
 		static void InitSequence(Sequence* sequence, std::vector<std::string> input, int startIndex)
 		{
-			sequence->type			= (SequenceMovePatern::Type)std::stod(input[startIndex    ]);
+			sequence->type			= (SequenceMovePatern::Type)std::stod(input[startIndex]);
 			sequence->startTime		= std::stod(input[startIndex + 1]);
 			sequence->endTime		= std::stod(input[startIndex + 2]);
 			sequence->rotationSpeed = std::stod(input[startIndex + 3]);
