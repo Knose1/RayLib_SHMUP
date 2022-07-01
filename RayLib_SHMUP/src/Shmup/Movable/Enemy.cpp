@@ -1,6 +1,6 @@
 #include "raylib.h"
 #include "raymath.h"
-#include "Shmup/Enemy.h"
+#include "Shmup/Movable/Enemy.h"
 #include "Shmup/InstanceList.hpp"
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Random.h"

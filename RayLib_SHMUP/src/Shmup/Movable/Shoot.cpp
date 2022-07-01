@@ -2,7 +2,7 @@
 #include "Namespaces/Controller.h"
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Files.h"
-#include "Shmup/Shoot.h"
+#include "Shmup/Movable/Shoot.h"
 
 #pragma region Constructor / Destructor
 Shoot::Shoot(unsigned long long i, APatern* patern, unsigned int type) : AMovable()

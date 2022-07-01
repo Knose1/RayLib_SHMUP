@@ -30,16 +30,16 @@
     <ClCompile Include="src\Shmup\Paterns\Shoot\PaternVSpread.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\Shmup\Enemy.cpp">
+    <ClCompile Include="src\Shmup\Movable\Enemy.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="src\Shmup\GameManager.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\Shmup\Player.cpp">
+    <ClCompile Include="src\Shmup\Movable\Player.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\Shmup\Shoot.cpp">
+    <ClCompile Include="src\Shmup\Movable\Shoot.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="src\Shmup\AGraphicObject.cpp">
@@ -116,7 +116,7 @@
     <ClInclude Include="include\Shmup\Paterns\Shoot\PaternVSpread.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="include\Shmup\Enemy.h">
+    <ClInclude Include="include\Shmup\Movable\Enemy.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="include\Shmup\GameManager.h">
@@ -131,10 +131,10 @@
     <ClInclude Include="include\Shmup\InstanceList.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="include\Shmup\Player.h">
+    <ClInclude Include="include\Shmup\Movable\Player.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="include\Shmup\Shoot.h">
+    <ClInclude Include="include\Shmup\Movable\Shoot.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="include\Shmup\AGraphicObject.h">

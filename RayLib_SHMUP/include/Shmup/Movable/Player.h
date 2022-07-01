@@ -1,5 +1,5 @@
 #pragma once
-#include "Shmup/Shoot.h"
+#include "Shmup/Movable/Shoot.h"
 #include "Shmup/Paterns/Shoot/PaternVSpread.h"
 #include "Shmup/Paterns/Shoot/PaternLinear.h"
 

@@ -2,8 +2,8 @@
 #include <cassert>
 #include "raylib.h"
 #include "raymath.h"
-#include "Shmup/Player.h"
-#include "Shmup/Shoot.h"
+#include "Shmup/Movable/Player.h"
+#include "Shmup/Movable/Shoot.h"
 #include "Namespaces/MathUtils.h"
 #include "Namespaces/Controller.h"
 #include "Namespaces/GameStatus.h"

@@ -138,12 +138,12 @@
     <ClCompile Include="src\Namespaces\Controller.cpp" />
     <ClCompile Include="src\Namespaces\GameStatus.cpp" />
     <ClCompile Include="src\Namespaces\Random.cpp" />
-    <ClCompile Include="src\Shmup\Enemy.cpp" />
+    <ClCompile Include="src\Shmup\Movable\Enemy.cpp" />
     <ClCompile Include="src\Shmup\GameManager.cpp" />
     <ClCompile Include="src\Shmup\Paterns\Shoot\PaternLinear.cpp" />
     <ClCompile Include="src\Shmup\Paterns\Shoot\PaternVSpread.cpp" />
-    <ClCompile Include="src\Shmup\Player.cpp" />
-    <ClCompile Include="src\Shmup\Shoot.cpp" />
+    <ClCompile Include="src\Shmup\Movable\Player.cpp" />
+    <ClCompile Include="src\Shmup\Movable\Shoot.cpp" />
     <ClCompile Include="src\Shmup\AGraphicObject.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -159,7 +159,7 @@
     <ClInclude Include="include\raylib.h" />
     <ClInclude Include="include\raymath.h" />
     <ClInclude Include="include\rlgl.h" />
-    <ClInclude Include="include\Shmup\Enemy.h" />
+    <ClInclude Include="include\Shmup\Movable\Enemy.h" />
     <ClInclude Include="include\Shmup\GameManager.h" />
     <ClInclude Include="include\Shmup\IMovable.h" />
     <ClInclude Include="include\Shmup\InstanceList.h" />
@@ -170,8 +170,8 @@
     <ClInclude Include="include\Shmup\Paterns\Enemy\SequenceMovePatern.h" />
     <ClInclude Include="include\Shmup\Paterns\Shoot\PaternLinear.h" />
     <ClInclude Include="include\Shmup\Paterns\Shoot\PaternVSpread.h" />
-    <ClInclude Include="include\Shmup\Player.h" />
-    <ClInclude Include="include\Shmup\Shoot.h" />
+    <ClInclude Include="include\Shmup\Movable\Player.h" />
+    <ClInclude Include="include\Shmup\Movable\Shoot.h" />
     <ClInclude Include="include\Shmup\AGraphicObject.h" />
     <ClInclude Include="include\Shmup\Transform2D.h" />
     <ClInclude Include="include\Testing\MainTesting.h">

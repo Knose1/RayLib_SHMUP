@@ -2,7 +2,7 @@
 #include "raymath.h"
 #include "Namespaces/MathUtils.h"
 #include "Shmup/Paterns/Shoot/PaternLinear.h"
-#include "Shmup/Shoot.h"
+#include "Shmup/Movable/Shoot.h"
 
 void PaternLinear::DoPatern(AMovable* shoot, IPaternData* data)
 {

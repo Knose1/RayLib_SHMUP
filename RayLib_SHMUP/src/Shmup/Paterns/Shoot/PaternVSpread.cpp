@@ -4,7 +4,7 @@
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Random.h"
 #include "Shmup/Paterns/Shoot/PaternVSpread.h"
-#include "Shmup/Shoot.h"
+#include "Shmup/Movable/Shoot.h"
 
 void PaternVSpread::DoPatern(AMovable* movable, IPaternData* data)
 {

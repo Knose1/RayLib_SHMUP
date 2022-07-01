@@ -4,9 +4,9 @@
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Controller.h"
 #include "Shmup/GameManager.h"
-#include "Shmup/Player.h"
+#include "Shmup/Movable/Player.h"
 #include "Shmup/AGraphicObject.h"
-#include "Shmup/Enemy.h"
+#include "Shmup/Movable/Enemy.h"
 
 Player* player;
 void GameManager::Init()
