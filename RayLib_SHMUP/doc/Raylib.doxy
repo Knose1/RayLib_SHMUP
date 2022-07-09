@@ -51,7 +51,7 @@ PROJECT_BRIEF          = "A curtain shooting game"
 # pixels and the maximum width should not exceed 200 pixels. Doxygen will copy
 # the logo to the output directory.
 
-PROJECT_LOGO           = RayLib_SHMUP/assets/assets/kenney_pixelshmup/Ships/ship_0000.png
+PROJECT_LOGO           = RayLib_SHMUP/assets/kenney_pixelshmup/Ships/ship_0000.png
 
 # The OUTPUT_DIRECTORY tag is used to specify the (relative or absolute) path
 # into which the generated documentation will be written. If a relative path is
