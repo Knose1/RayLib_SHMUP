@@ -3,7 +3,7 @@ name: Doc Deploy
 on:
   push:
     branches:
-      - documentation
+      - gh-page
   workflow_dispatch:
 
 jobs:
@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: mattnotmitt/doxygen-action@1.9.4
+      - uses: mattnotmitt/doxygenize@1.6.3
         with:
-          doxyfile-path: ./RayLib_SHMUP/doc/Raylib.doxy
-          working-directory: ./RayLib_SHMUP
-          enable-latex: false
+          doxygenconf: ./RayLib_SHMUP/doc/Raylib
+          htmloutput: ./html/
