@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: langroodi/doxygenize@v1.6.3
+      - uses: mattnotmitt/doxygen-action@1.9.4
         with:
-          doxygenconf: /RayLib_SHMUP/doc/Raylib.doxy
-          htmloutput: /RayLib_SHMUP/doc/html/
+          doxyfile-path: ./RayLib_SHMUP/doc/Raylib.doxy
+          working-directory: ./RayLib_SHMUP
+          enable-latex: false
