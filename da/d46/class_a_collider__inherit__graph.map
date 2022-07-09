@@ -1,0 +1,5 @@
+<map id="ACollider" name="ACollider">
+<area shape="rect" id="node1" title=" " alt="" coords="77,5,152,32"/>
+<area shape="rect" id="node2" href="$dc/da2/class_circle_collider.html" title=" " alt="" coords="5,80,104,107"/>
+<area shape="rect" id="node3" href="$d4/d3b/class_rect_collider.html" title=" " alt="" coords="129,80,221,107"/>
+</map>

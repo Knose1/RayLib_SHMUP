@@ -1,0 +1,10 @@
+<map id="AMovable" name="AMovable">
+<area shape="rect" id="node1" title=" " alt="" coords="165,247,245,273"/>
+<area shape="rect" id="node5" href="$dd/d7a/class_enemy.html" title="An enemy spaceship" alt="" coords="5,323,67,349"/>
+<area shape="rect" id="node6" href="$d8/d8c/class_patern_computer.html" title=" " alt="" coords="91,323,207,349"/>
+<area shape="rect" id="node7" href="$d8/d53/class_player.html" title="The player" alt="" coords="232,323,291,349"/>
+<area shape="rect" id="node8" href="$d0/d85/class_shoot.html" title="An shoot (player or enemy)" alt="" coords="315,323,371,349"/>
+<area shape="rect" id="node2" href="$d3/d92/class_a_graphic_object.html" title=" " alt="" coords="148,171,263,197"/>
+<area shape="rect" id="node3" href="$db/d70/class_instance_list.html" title=" " alt="" coords="101,95,309,121"/>
+<area shape="rect" id="node4" href="$db/d70/class_instance_list.html" title="Add a static list for the class T" alt="" coords="143,5,267,32"/>
+</map>

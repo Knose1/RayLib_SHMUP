@@ -1,0 +1,358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RayLib_SHMUP: SequenceMovePatern Class Reference</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="../../toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+</script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../ship_0000.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RayLib_SHMUP
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+   <div id="projectbrief">A curtain shooting game</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Search','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d1/d25/class_sequence_move_patern.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="../../d8/d35/class_sequence_move_patern-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">SequenceMovePatern Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="../../">SequenceMovePatern.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for SequenceMovePatern:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d7c/class_sequence_move_patern__inherit__graph.svg" width="162" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for SequenceMovePatern:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d12/class_sequence_move_patern__coll__graph.svg" width="331" height="203"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da8/struct_sequence_move_patern_1_1_sequence.html">Sequence</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d74/struct_sequence_move_patern_1_1_sequence_patern.html">SequencePatern</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:aa6fa24ecda8ba07e82e7f394dfc72955"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d25/class_sequence_move_patern.html#aa6fa24ecda8ba07e82e7f394dfc72955">Type</a> { <a class="el" href="../../d1/d25/class_sequence_move_patern.html#aa6fa24ecda8ba07e82e7f394dfc72955a0cb59bada85ae6029aac02b5c6dc7622">INSTANT</a> = 0
+, <a class="el" href="../../d1/d25/class_sequence_move_patern.html#aa6fa24ecda8ba07e82e7f394dfc72955addc3042f4114ade9a8ede8c5bf1ad850">CONTINUS</a> = 1
+, <a class="el" href="../../d1/d25/class_sequence_move_patern.html#aa6fa24ecda8ba07e82e7f394dfc72955a8c52684db8f49511e9b44471716bf164">SET</a> = 2
+ }</td></tr>
+<tr class="separator:aa6fa24ecda8ba07e82e7f394dfc72955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a893b91c78c1d373e7258558aa8eb9b0c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d25/class_sequence_move_patern.html#a893b91c78c1d373e7258558aa8eb9b0c">SetDefault</a> (<a class="el" href="../../da/dd8/struct_a_patern_1_1_i_patern_data.html">IPaternData</a> *data) override</td></tr>
+<tr class="separator:a893b91c78c1d373e7258558aa8eb9b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dcf57279ce4950fdb2e3cffe9e74173"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d25/class_sequence_move_patern.html#a8dcf57279ce4950fdb2e3cffe9e74173">DoPatern</a> (<a class="el" href="../../d5/d15/class_a_movable.html">AMovable</a> *movable, <a class="el" href="../../da/dd8/struct_a_patern_1_1_i_patern_data.html">IPaternData</a> *data) override</td></tr>
+<tr class="separator:a8dcf57279ce4950fdb2e3cffe9e74173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a0d694966bab28954188dd39c02fc5a52"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d25/class_sequence_move_patern.html#a0d694966bab28954188dd39c02fc5a52">InitSequence</a> (<a class="el" href="../../da/da8/struct_sequence_move_patern_1_1_sequence.html">Sequence</a> *sequence, std::vector&lt; std::string &gt; input, int startIndex)</td></tr>
+<tr class="separator:a0d694966bab28954188dd39c02fc5a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a117aaf027bd34e98f8a9bfeb62979854"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d25/class_sequence_move_patern.html#a117aaf027bd34e98f8a9bfeb62979854">SEQUENCE_FIELD_COUNT</a> = 5</td></tr>
+<tr class="separator:a117aaf027bd34e98f8a9bfeb62979854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_class_a_offsetable_patern"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_a_offsetable_patern')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d7/d67/class_a_offsetable_patern.html">AOffsetablePatern</a></td></tr>
+<tr class="memitem:a1d0381a19f11a56309aecb4dab4bf26c inherit pro_methods_class_a_offsetable_patern"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d67/class_a_offsetable_patern.html#a1d0381a19f11a56309aecb4dab4bf26c">ComputerOffset</a> (float &amp;rotation, Vector2 &amp;localPosition, <a class="el" href="../../d1/dfd/struct_a_offsetable_patern_1_1_i_offserable_patern_data.html">IOffserablePaternData</a> data, bool scaleRotation=false)</td></tr>
+<tr class="separator:a1d0381a19f11a56309aecb4dab4bf26c inherit pro_methods_class_a_offsetable_patern"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="aa6fa24ecda8ba07e82e7f394dfc72955" name="aa6fa24ecda8ba07e82e7f394dfc72955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6fa24ecda8ba07e82e7f394dfc72955">&#9670;&nbsp;</a></span>Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="../../d1/d25/class_sequence_move_patern.html#aa6fa24ecda8ba07e82e7f394dfc72955">SequenceMovePatern::Type</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa6fa24ecda8ba07e82e7f394dfc72955a0cb59bada85ae6029aac02b5c6dc7622" name="aa6fa24ecda8ba07e82e7f394dfc72955a0cb59bada85ae6029aac02b5c6dc7622"></a>INSTANT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6fa24ecda8ba07e82e7f394dfc72955addc3042f4114ade9a8ede8c5bf1ad850" name="aa6fa24ecda8ba07e82e7f394dfc72955addc3042f4114ade9a8ede8c5bf1ad850"></a>CONTINUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6fa24ecda8ba07e82e7f394dfc72955a8c52684db8f49511e9b44471716bf164" name="aa6fa24ecda8ba07e82e7f394dfc72955a8c52684db8f49511e9b44471716bf164"></a>SET&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8dcf57279ce4950fdb2e3cffe9e74173" name="a8dcf57279ce4950fdb2e3cffe9e74173"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dcf57279ce4950fdb2e3cffe9e74173">&#9670;&nbsp;</a></span>DoPatern()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SequenceMovePatern::DoPatern </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d15/class_a_movable.html">AMovable</a> *&#160;</td>
+          <td class="paramname"><em>movable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/dd8/struct_a_patern_1_1_i_patern_data.html">IPaternData</a> *&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="../../dd/d61/class_a_patern.html#a8bb3c1020085546cb460551a306c7348">APatern</a>.</p>
+
+</div>
+</div>
+<a id="a0d694966bab28954188dd39c02fc5a52" name="a0d694966bab28954188dd39c02fc5a52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d694966bab28954188dd39c02fc5a52">&#9670;&nbsp;</a></span>InitSequence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void SequenceMovePatern::InitSequence </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/da8/struct_sequence_move_patern_1_1_sequence.html">Sequence</a> *&#160;</td>
+          <td class="paramname"><em>sequence</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a893b91c78c1d373e7258558aa8eb9b0c" name="a893b91c78c1d373e7258558aa8eb9b0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a893b91c78c1d373e7258558aa8eb9b0c">&#9670;&nbsp;</a></span>SetDefault()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SequenceMovePatern::SetDefault </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/dd8/struct_a_patern_1_1_i_patern_data.html">IPaternData</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="../../dd/d61/class_a_patern.html#a4fad00d43244b2800e688b5fb03dfff2">APatern</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a117aaf027bd34e98f8a9bfeb62979854" name="a117aaf027bd34e98f8a9bfeb62979854"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a117aaf027bd34e98f8a9bfeb62979854">&#9670;&nbsp;</a></span>SEQUENCE_FIELD_COUNT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int SequenceMovePatern::SEQUENCE_FIELD_COUNT = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>RayLib_SHMUP/include/Shmup/Paterns/Enemy/<a class="el" href="../../">SequenceMovePatern.h</a></li>
+<li>RayLib_SHMUP/src/Shmup/Paterns/Enemy/<a class="el" href="../../">SequenceMovePatern.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d1/d25/class_sequence_move_patern.html">SequenceMovePatern</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
+</body>
+</html>
