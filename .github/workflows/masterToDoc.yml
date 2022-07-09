@@ -5,7 +5,7 @@ on:
     branches: [ "master" ]
 
 permissions:
-  contents: write|read
+  contents: read/write
   pull-requests: write
   
 
