@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: mattnotmitt/doxygenize@1.6.3
+      - uses: angroodi/doxygenize@v1.6.1
         with:
           doxygenconf: ./RayLib_SHMUP/doc/Raylib
           htmloutput: ./html/
