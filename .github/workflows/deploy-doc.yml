@@ -13,6 +13,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: langroodi/doxygenize@v1.6.3
         with:
-          doxygenconf: RayLib_SHMUP/doc/Raylib.doxy
-    			htmloutput: RayLib_SHMUP/doc/html/
+          doxygenconf: ./RayLib_SHMUP/doc/Raylib.doxy
+    			htmloutput: ./RayLib_SHMUP/doc/html/
     			ghpagesbranch: documentation
