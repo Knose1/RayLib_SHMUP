@@ -25,11 +25,16 @@ class SequenceMovePatern :
 		
 		static void InitSequence(Sequence* sequence, std::vector<std::string> input, int startIndex)
 		{
-			sequence->type			= (SequenceMovePatern::Type)std::stod(input[startIndex]);
-			sequence->startTime		= std::stod(input[startIndex + 1]);
-			sequence->endTime		= std::stod(input[startIndex + 2]);
-			sequence->rotationSpeed = std::stod(input[startIndex + 3]);
-			sequence->speed			= std::stod(input[startIndex + 4]);
+			int one   = startIndex + 1;
+			int two   = startIndex + 2;
+			int three = startIndex + 3;
+			int four  = startIndex + 4;
+
+			sequence->type			= (SequenceMovePatern::Type)std::stof(input[startIndex]);
+			sequence->startTime		= std::stof(input[one]);
+			sequence->endTime		= std::stof(input[two]);
+			sequence->rotationSpeed = std::stof(input[three]);
+			sequence->speed			= std::stof(input[four]);
 		};
 
 		struct SequencePatern : public AOffsetablePatern::IOffserablePaternData

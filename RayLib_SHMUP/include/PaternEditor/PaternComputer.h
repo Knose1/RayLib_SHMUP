@@ -12,7 +12,7 @@ class PaternComputer :
 	
 private:
 		SequenceMovePatern* patern = new SequenceMovePatern();
-		Vector2 oldPosition;
+		Vector2 oldPosition = {0,0};
 
 	public:
 		void SetPatern(std::vector<SequenceMovePatern::Sequence> patern);

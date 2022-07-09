@@ -38,7 +38,7 @@ class ACollider
 		Vector2 pivot;
 		CollisionLayer layer = CollisionLayer::Default;
 
-		explicit ACollider(Vector2 pivot) { this->pivot = pivot; }
+		explicit ACollider(Vector2 pivot, CollisionLayer layer = CollisionLayer::Default) { this->pivot = pivot; this->layer = layer; }
 
 		virtual EColliderType GetType() { return EColliderType::None; }
 
@@ -54,7 +54,7 @@ class CircleCollider :
 	public:
 		float radius;
 
-		explicit CircleCollider(Vector2 pivot, float radius) : ACollider(pivot)
+		explicit CircleCollider(Vector2 pivot, float radius, CollisionLayer layer = CollisionLayer::Default) : ACollider(pivot, layer)
 		{
 			this->radius = radius;
 		}
@@ -68,7 +68,7 @@ class RectCollider :
 	public:
 		float width, height;
 
-		explicit RectCollider(Vector2 pivot, float width, float height) : ACollider(pivot)
+		explicit RectCollider(Vector2 pivot, float width, float height, CollisionLayer layer = CollisionLayer::Default) : ACollider(pivot, layer)
 		{
 			this->width  = width;
 			this->height = height;

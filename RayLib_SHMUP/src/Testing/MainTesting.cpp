@@ -9,5 +9,5 @@ void Testing::ExecuteTesting()
 	Vector2 maxCoordinates = { 180 * 4, 180 * 4 };
 	DebugCurveAxes(minCoordinates, maxCoordinates, 2, GRAY);
 	DebugCurve([](float value)->float {return MathUtils::scalePolarVec2D(value, { 2,5 });        }, minCoordinates, maxCoordinates, 300, 5, RED);
-	DebugCurve([](float value)->float {return MathUtils::scalePolarVec2DNonOpti(value, { 2,5 }); }, minCoordinates, maxCoordinates, 300, 2, BLUE);
+	DebugCurve([](float value)->float {return MathUtils::scalePolarVec2DNoChecking(value, { 2,5 }); }, minCoordinates, maxCoordinates, 300, 2, BLUE);
 }

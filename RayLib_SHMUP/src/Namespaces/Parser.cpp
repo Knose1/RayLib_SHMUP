@@ -9,7 +9,7 @@
 std::vector<std::string> Parser::ParseCSV(const char* string, int size) 
 {
 	//Replace new line by
-	std::string myString = Utils::s_replace(Utils::s_replace(Utils::s_replace(std::string(string), "(;\r\n)|(\r\n)|(;\n)|(\n)", ";"), ";$", ""), "(\s|;)+", ";");
+	std::string myString = Utils::s_replace(Utils::s_replace(Utils::s_replace(std::string(string), "(;\r\n)|(\r\n)|(;\n)|(\n)", ";"), ";$", ""), "(\\s|;)+", ";");
 	std::vector<std::string> splited = Utils::s_split(myString, ';');
 
 	//Check if correct number of fields by sequence
@@ -60,7 +60,7 @@ std::vector<T> Parser::ParseCSV(const char* string, int size, void lineParser(T*
 	for (size_t i = 0; i < length; i++)
 	{
 		sequence = {};
-		lineParser(&sequence, splited, i * size);
+		lineParser(&sequence, splited, static_cast<int>(i) * size);
 
 		toReturn.push_back(sequence);
 	}

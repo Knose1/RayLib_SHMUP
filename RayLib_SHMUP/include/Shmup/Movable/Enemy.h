@@ -10,7 +10,6 @@
 /// An enemy spaceship
 /// </summary>
 class Enemy :
-	public InstanceList<Enemy>,
 	public AMovable,
 	public ACollidable
 {
@@ -20,7 +19,6 @@ class Enemy :
 		float rotationSpeed;
 		float rotationAcceleration;
 		bool isNegativeRotationSpeed;
-		RectCollider* collider;
 
 	public:
 		/// <summary>

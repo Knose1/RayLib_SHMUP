@@ -30,8 +30,6 @@ class Shoot :
 		/// </summary>
 		APatern* patern;
 
-		CircleCollider* collider;
-
 	public:
 		/// <summary>
 		/// Create a shoot

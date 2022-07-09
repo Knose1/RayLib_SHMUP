@@ -6,10 +6,10 @@ namespace MathUtils
 {
 	float signf(float f);
 
-	float scalePolarVec2DNonOpti(float angle, Vector2 cartesianScale);
+	float scalePolarVec2DNoChecking(float angle, Vector2 cartesianScale);
 	
 	/// <summary>
-	/// Given then angle of a polar vector and a cartesian scale, calculate the angle in degree
+	/// Given then angle of a polar vector and a cartesian scale, calculate the angle in degree.
 	/// </summary>
 	float scalePolarVec2D(float angle, Vector2 cartesianScale);
 	

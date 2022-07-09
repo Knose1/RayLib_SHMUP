@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+#include <set>
 #include "Namespaces/Random.h"
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Controller.h"
@@ -7,6 +7,7 @@
 #include "Shmup/Movable/Player.h"
 #include "Shmup/AGraphicObject.h"
 #include "Shmup/Movable/Enemy.h"
+#include "Shmup/InstanceList.hpp"
 
 Player* player;
 void GameManager::Init()
@@ -29,9 +30,9 @@ const void GameManager::Render()
 {
 	ClearBackground(RAYWHITE);
 
-	std::vector<AGraphicObject*> visuals = AGraphicObject::instances;
+	auto visuals = InstanceList<AGraphicObject>::GetInstances();
 	
-	for (std::vector<AGraphicObject*>::iterator it = visuals.begin(); it != visuals.end(); ++it)
+	for (auto it = visuals.begin(); it != visuals.end(); ++it)
 		(*it)->Draw();
 }
 
@@ -40,42 +41,43 @@ const void GameManager::Update()
 	Controller::DoSwitch();
 
 	//Do update
-	std::vector<AGraphicObject*> behaviours = AGraphicObject::instances;
+	auto behaviours = InstanceList<AGraphicObject>::GetInstances();
 
-	for (std::vector<AGraphicObject*>::iterator it = behaviours.begin(); it != behaviours.end(); ++it)
+	for (auto it = behaviours.begin(); it != behaviours.end(); ++it)
 		(*it)->Update();
 }
 
 const void GameManager::TestCollisions()
 {
-	std::vector<ACollidable*> colliders = ACollidable::instances;
+	auto collidable = InstanceList<ACollidable>::GetInstances();
 	ACollidable* collidableA;
 	ACollidable* collidableB;
 	ACollider* colliderA;
 	ACollider* colliderB;
 	bool isCollision;
 	int iplusone;
-	size_t sizeMinusOne = colliders.size() - 1;
 
-	for (int i = 0; i < sizeMinusOne; ++i)
+	for (auto a = collidable.begin(); a != collidable.end(); ++a)
 	{
-		int iplusone = i + 1;
-
-		collidableA = colliders[i];
-		collidableB = colliders[iplusone];
-
+		collidableA = *a;
 		colliderA = collidableA->GetCollider();
-		colliderB = collidableB->GetCollider();
-
-		if (!ColliderSettings::AreCollidableLayers(colliderA->layer, colliderB->layer)) 
-			continue;
-		
-		isCollision = colliderA->Calculation(collidableA->GetTransform(), collidableB->GetCollider(), collidableB->GetTransform());
-		if (isCollision) 
+		for (auto b = collidable.begin(); b != collidable.end(); ++b)
 		{
-			collidableA->OnCollision(collidableB);
-			collidableB->OnCollision(collidableA);
+			if (a == b) continue;
+
+			collidableB = *b;
+			colliderB = collidableB->GetCollider();
+
+			if (!ColliderSettings::AreCollidableLayers(colliderA->layer, colliderB->layer))
+				continue;
+
+			isCollision = colliderA->Calculation(collidableA->GetTransform(), collidableB->GetCollider(), collidableB->GetTransform());
+			if (isCollision)
+			{
+				collidableA->OnCollision(collidableB);
+				collidableB->OnCollision(collidableA);
+				break;
+			}
 		}
 	}
-
 }
