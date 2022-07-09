@@ -1,0 +1,18 @@
+name: Doc Deploy
+
+on:
+  push:
+    branches:
+      - documentation
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: langroodi/doxygenize@v1.6.3
+        with:
+          doxygenconf: RayLib_SHMUP/doc/Raylib.doxy
+    			htmloutput: RayLib_SHMUP/doc/html/
+    			ghpagesbranch: documentation
