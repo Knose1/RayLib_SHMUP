@@ -3,7 +3,8 @@ name: Doc Deploy
 on:
   push:
     branches:
-      - gh-page
+      - master
+      - documentation
   workflow_dispatch:
 
 jobs:
