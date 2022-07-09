@@ -1,0 +1,15 @@
+name: Push to documentation
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: bambamboole/gha-upmerge@v1.0.1
+        with:
+          from_branch: master
+          to_branch: documentation
