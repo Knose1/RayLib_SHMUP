@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: bambamboole/gha-upmerge@v1.0.1
+      - uses: exions/merge-upstream@v1
         with:
-          from_branch: master
-          to_branch: documentation
+          upstream-branch: master
+          branch: documentation
+          token: ${{ github.token }}
