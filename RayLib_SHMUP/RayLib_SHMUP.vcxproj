@@ -118,7 +118,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Shmup\Collider.cpp" />
+    <ClCompile Include="src\Shmup\Collision\Collider.cpp" />
+    <ClCompile Include="src\Shmup\Collision\ColliderSettings.cpp" />
     <ClCompile Include="src\Shmup\Explosion.cpp" />
     <ClCompile Include="src\Namespaces\Parser.cpp" />
     <ClCompile Include="src\Namespaces\Utils.cpp" />
@@ -147,7 +148,8 @@
     <ClCompile Include="src\Shmup\AGraphicObject.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Shmup\Collider.h" />
+    <ClInclude Include="include\Shmup\Collision\Collider.h" />
+    <ClInclude Include="include\Shmup\Collision\ColliderSettings.h" />
     <ClInclude Include="include\Shmup\Explosion.h" />
     <ClInclude Include="include\Namespaces\Controller.h" />
     <ClInclude Include="include\Namespaces\GameStatus.h" />
@@ -159,9 +161,10 @@
     <ClInclude Include="include\raylib.h" />
     <ClInclude Include="include\raymath.h" />
     <ClInclude Include="include\rlgl.h" />
+    <ClInclude Include="include\Shmup\Collision\ACollidable.h" />
     <ClInclude Include="include\Shmup\Movable\Enemy.h" />
     <ClInclude Include="include\Shmup\GameManager.h" />
-    <ClInclude Include="include\Shmup\IMovable.h" />
+    <ClInclude Include="include\Shmup\AMovable.h" />
     <ClInclude Include="include\Shmup\InstanceList.h" />
     <ClInclude Include="include\Shmup\InstanceList.hpp" />
     <ClInclude Include="include\Shmup\LevelManager.h" />

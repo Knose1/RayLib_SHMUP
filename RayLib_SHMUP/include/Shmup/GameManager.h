@@ -5,5 +5,6 @@ class GameManager
 		static void Init();
 		const static void Render();
 		const static void Update();
+		const static void TestCollisions();
 };
 

@@ -136,7 +136,7 @@ void Player::DoShoot(Vector2 direction)
 
 Shoot* Player::CreateShoot() 
 {
-	Shoot* shoot = new Shoot(shootIndex++, patern);
+	Shoot* shoot = new Shoot(shootIndex++, patern, CollisionLayer::Player);
 	return shoot;
 }
 

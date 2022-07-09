@@ -1221,7 +1221,7 @@ RLAPI void ImageToPOT(Image *image, Color fill);                                
 RLAPI void ImageCrop(Image *image, Rectangle crop);                                                      // Crop an image to a defined rectangle
 RLAPI void ImageAlphaCrop(Image *image, float threshold);                                                // Crop image depending on alpha value
 RLAPI void ImageAlphaClear(Image *image, Color color, float threshold);                                  // Clear alpha channel to desired color
-RLAPI void ImageAlphaMask(Image *image, Image alphaMask);                                                // Apply alpha mask to image
+RLAPI void ImageAlphaMask(Image *image, Image alphaMask);                                                // Apply alpha layer to image
 RLAPI void ImageAlphaPremultiply(Image *image);                                                          // Premultiply alpha channel
 RLAPI void ImageResize(Image *image, int newWidth, int newHeight);                                       // Resize image (Bicubic scaling algorithm)
 RLAPI void ImageResizeNN(Image *image, int newWidth,int newHeight);                                      // Resize image (Nearest-Neighbor scaling algorithm)

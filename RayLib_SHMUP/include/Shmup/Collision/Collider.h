@@ -2,6 +2,8 @@
 #include "raylib.h"
 #include "raymath.h"
 #include "Shmup/Transform2D.h"
+#include "Shmup/Collision/ColliderSettings.h"
+
 enum class EColliderType
 {
 	None,
@@ -15,31 +17,32 @@ class RectCollider;
 
 namespace ColliderCalculation {
 	//? vs ?
-	bool Calculation(ACollider* me, Transform2D* meT, ACollider* it, Transform2D* itT);
+	bool Calculation(ACollider* me, Transform2D meT, ACollider* it, Transform2D itT);
 
 	//Circle vs Rect
-	bool Calculation(CircleCollider* me, Transform2D* meT, RectCollider* it, Transform2D* itT);
+	bool Calculation(CircleCollider* me, Transform2D meT, RectCollider* it, Transform2D itT);
 
 	//Circle vs Circle
-	bool Calculation(CircleCollider* me, Transform2D* meT, CircleCollider* it, Transform2D* itT);
+	bool Calculation(CircleCollider* me, Transform2D meT, CircleCollider* it, Transform2D itT);
 
 	//Rect vs Circle (redirected to Circle Collider class)
-	bool Calculation(RectCollider* me, Transform2D* meT, CircleCollider* it, Transform2D* itT);
+	bool Calculation(RectCollider* me, Transform2D meT, CircleCollider* it, Transform2D itT);
 
 	//Rect vs Rect
-	bool Calculation(RectCollider* me, Transform2D* meT, RectCollider* it, Transform2D* itT);
+	bool Calculation(RectCollider* me, Transform2D meT, RectCollider* it, Transform2D itT);
 }
 
 class ACollider
 {
 	public:
 		Vector2 pivot;
+		CollisionLayer layer = CollisionLayer::Default;
 
-		ACollider(Vector2 pivot) { this->pivot = pivot; }
+		explicit ACollider(Vector2 pivot) { this->pivot = pivot; }
 
 		virtual EColliderType GetType() { return EColliderType::None; }
 
-		bool Calculation(Transform2D* meT, ACollider* it, Transform2D* itT) 
+		bool Calculation(Transform2D meT, ACollider* it, Transform2D itT) 
 		{
 			return ColliderCalculation::Calculation(this, meT, it, itT);
 		}
@@ -51,7 +54,7 @@ class CircleCollider :
 	public:
 		float radius;
 
-		CircleCollider(Vector2 pivot, float radius) : ACollider(pivot)
+		explicit CircleCollider(Vector2 pivot, float radius) : ACollider(pivot)
 		{
 			this->radius = radius;
 		}
@@ -65,7 +68,7 @@ class RectCollider :
 	public:
 		float width, height;
 
-		RectCollider(Vector2 pivot, float width, float height) : ACollider(pivot)
+		explicit RectCollider(Vector2 pivot, float width, float height) : ACollider(pivot)
 		{
 			this->width  = width;
 			this->height = height;

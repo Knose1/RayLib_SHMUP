@@ -45,3 +45,37 @@ const void GameManager::Update()
 	for (std::vector<AGraphicObject*>::iterator it = behaviours.begin(); it != behaviours.end(); ++it)
 		(*it)->Update();
 }
+
+const void GameManager::TestCollisions()
+{
+	std::vector<ACollidable*> colliders = ACollidable::instances;
+	ACollidable* collidableA;
+	ACollidable* collidableB;
+	ACollider* colliderA;
+	ACollider* colliderB;
+	bool isCollision;
+	int iplusone;
+	size_t sizeMinusOne = colliders.size() - 1;
+
+	for (int i = 0; i < sizeMinusOne; ++i)
+	{
+		int iplusone = i + 1;
+
+		collidableA = colliders[i];
+		collidableB = colliders[iplusone];
+
+		colliderA = collidableA->GetCollider();
+		colliderB = collidableB->GetCollider();
+
+		if (!ColliderSettings::AreCollidableLayers(colliderA->layer, colliderB->layer)) 
+			continue;
+		
+		isCollision = colliderA->Calculation(collidableA->GetTransform(), collidableB->GetCollider(), collidableB->GetTransform());
+		if (isCollision) 
+		{
+			collidableA->OnCollision(collidableB);
+			collidableB->OnCollision(collidableA);
+		}
+	}
+
+}

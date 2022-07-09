@@ -1,6 +1,7 @@
 #pragma once
 #include "Shmup/Paterns/Enemy/SequenceMovePatern.h"
-#include "Shmup/IMovable.h"
+#include "Shmup/AMovable.h"
+
 class PaternComputer :
     public AMovable
 {

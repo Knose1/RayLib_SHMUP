@@ -1,13 +1,16 @@
 #pragma once
 #include "raylib.h"
-#include "Shmup/IMovable.h"
+#include "Shmup/AMovable.h"
 #include "Shmup/Paterns/APatern.h"
+#include "Shmup/Collision/Collider.h"
+#include "Shmup/Collision/ACollidable.h"
 
 /// <summary>
 /// An shoot (player or enemy)
 /// </summary>
 class Shoot :
-	public AMovable
+	public AMovable,
+	public ACollidable
 {
 	private:
 		/// <summary>
@@ -27,14 +30,17 @@ class Shoot :
 		/// </summary>
 		APatern* patern;
 
+		CircleCollider* collider;
+
 	public:
 		/// <summary>
 		/// Create a shoot
 		/// </summary>
 		/// <param name="i">The index of the spawned shoot</param>
 		/// <param name="patern">The move patern of the shoot</param>
+		/// <param name="layer">The collision layer of the shoot</param>
 		/// <param name="type">The sprite of the shoot on the spritesheet</param>
-		Shoot(unsigned long long i, APatern* patern, unsigned int type = 3);
+		explicit Shoot(unsigned long long i, APatern* patern, CollisionLayer layer, unsigned int type = 3);
 		virtual ~Shoot() override;
 
 		/// <summary>
@@ -68,5 +74,9 @@ class Shoot :
 
 		virtual void Update() override;
 		virtual void Draw() override;
+
+		virtual void OnCollision(ACollidable* other) override;
+
+		virtual Transform2D GetTransform() override;
 
 };

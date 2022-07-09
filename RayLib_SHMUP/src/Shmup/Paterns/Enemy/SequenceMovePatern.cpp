@@ -2,7 +2,7 @@
 #include "raymath.h"
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/MathUtils.h"
-#include "Shmup/IMovable.h"
+#include "Shmup/AMovable.h"
 #include "Shmup/Paterns/Enemy/SequenceMovePatern.h"
 
 void SequenceMovePatern::SetDefault(IPaternData* data)

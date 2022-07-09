@@ -81,7 +81,10 @@
     <ClCompile Include="src\Shmup\Explosion.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\Shmup\Collider.cpp">
+    <ClCompile Include="src\Shmup\Collision\Collider.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shmup\Collision\ColliderSettings.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -122,7 +125,7 @@
     <ClInclude Include="include\Shmup\GameManager.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="include\Shmup\IMovable.h">
+    <ClInclude Include="include\Shmup\AMovable.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="include\Shmup\InstanceList.h">
@@ -170,10 +173,16 @@
     <ClInclude Include="include\Shmup\Explosion.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="include\Shmup\Collider.h">
+    <ClInclude Include="include\Shmup\Collision\Collider.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="include\Shmup\Transform2D.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shmup\Collision\ColliderSettings.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shmup\Collision\ACollidable.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

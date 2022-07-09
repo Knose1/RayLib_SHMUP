@@ -39,11 +39,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1a0927adb435ae700efdd7139999ad7117';
-        sec-mem-ref-line = '36';
-        sec-mem-ref-name = 'pivot';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -62,11 +57,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'dd/d3e/_collider_8cpp_1a3200e5a086ede5e4075c204b965f078e';
-        sec-mem-ref-line = '5';
-        sec-mem-ref-name = 'ColliderCalculation::Calculation';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -103,16 +93,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dd/d3e/_collider_8cpp_1a3200e5a086ede5e4075c204b965f078e';
-        sec-mem-ref-line = '5';
-        sec-mem-ref-name = 'ColliderCalculation::Calculation';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'dd/d3e/_collider_8cpp_1ae1f06d40d0158af830f00c98dcb9cee8';
-        sec-mem-ref-line = '55';
-        sec-mem-ref-name = 'ColliderCalculation::Calculation';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -134,16 +114,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1a307345bf0a43260e72c287243a860ef6';
-        sec-mem-ref-line = '38';
-        sec-mem-ref-name = 'ACollider';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1a45bf16d3ea1d2d187bc3075d5ce33273';
-        sec-mem-ref-line = '84';
-        sec-mem-ref-name = 'RectCollider::GetWorldPoints';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Collider.h';
@@ -250,51 +220,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a095079f817dad89ade82a93ad22ec7a2';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'center';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ac8fe7fb69a368288aabca4c4e1d05961';
-        sec-mem-ref-line = '20';
-        sec-mem-ref-name = 'DefaultDrawMethod';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8b5ef2c6552ecfa1759d7e06acd78149';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'orientation';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'position';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a5f5135db16732da4162375223789d92a';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'scale';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a1eae999cdb821fa34fbfb44cd25490cc';
-        sec-mem-ref-line = '15';
-        sec-mem-ref-name = 'source';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1aeadba385847bc3d60cc1acd8ae87ac3d';
-        sec-mem-ref-line = '14';
-        sec-mem-ref-name = 'texture';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8f0c6ea1757081a5ae40ade6b2712d82';
-        sec-mem-ref-line = '16';
-        sec-mem-ref-name = 'tint';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1aaeac1d780f1bc7d16c1f001d1b47cba5';
-        sec-mem-ref-line = '73';
-        sec-mem-ref-name = 'Shoot::Draw';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -333,21 +258,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8b5ef2c6552ecfa1759d7e06acd78149';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'orientation';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'position';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a5f5135db16732da4162375223789d92a';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'scale';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -384,16 +294,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1ae4d34ffaa238887a811cffb8fcc2cc99';
-        sec-mem-ref-line = '31';
-        sec-mem-ref-name = 'Enemy::~Enemy';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1a9493f1e618c06b53d09160939347fb4d';
-        sec-mem-ref-line = '22';
-        sec-mem-ref-name = 'Shoot::~Shoot';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -418,76 +318,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ac8fe7fb69a368288aabca4c4e1d05961';
-        sec-mem-ref-line = '20';
-        sec-mem-ref-name = 'DefaultDrawMethod';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a8dcf57279ce4950fdb2e3cffe9e74173';
-        sec-mem-ref-line = '21';
-        sec-mem-ref-name = 'SequenceMovePatern::DoPatern';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ad3a9ff248b9513af020c3418f3e35310';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Draw';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'Enemy::Enemy';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d01/_explosion_8cpp_1a146dcb6a01b9fe4e4512bf3870ecf994';
-        sec-mem-ref-line = '4';
-        sec-mem-ref-name = 'Explosion::Explosion';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a66fb1714a3685083e6bebd6f05182613';
-        sec-mem-ref-line = '29';
-        sec-mem-ref-name = 'GetTransform';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        sec-mem-ref-line = '28';
-        sec-mem-ref-name = 'Player::Player';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1abedc41c1f0527345f208c17289a03cb1';
-        sec-mem-ref-line = '46';
-        sec-mem-ref-name = 'Shoot::SetDefault';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a4cae5aa797e2f3b582b58282bcbc85f4';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'PaternComputer::SetPatern';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Shoot::Shoot';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a1a50109a8297e8599032574079dbb669';
-        sec-mem-ref-line = '23';
-        sec-mem-ref-name = 'PaternComputer::Update';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a614ad271f07ecf63cb3e665155b7e258';
-        sec-mem-ref-line = '38';
-        sec-mem-ref-name = 'Enemy::Update';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        sec-mem-ref-line = '61';
-        sec-mem-ref-name = 'Player::Update';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1a62b0cda1174ab196a752fda68fd82f64';
-        sec-mem-ref-line = '62';
-        sec-mem-ref-name = 'Shoot::Update';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -509,46 +339,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ac8fe7fb69a368288aabca4c4e1d05961';
-        sec-mem-ref-line = '20';
-        sec-mem-ref-name = 'DefaultDrawMethod';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ad3a9ff248b9513af020c3418f3e35310';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Draw';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'Enemy::Enemy';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d01/_explosion_8cpp_1a146dcb6a01b9fe4e4512bf3870ecf994';
-        sec-mem-ref-line = '4';
-        sec-mem-ref-name = 'Explosion::Explosion';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a66fb1714a3685083e6bebd6f05182613';
-        sec-mem-ref-line = '29';
-        sec-mem-ref-name = 'GetTransform';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        sec-mem-ref-line = '28';
-        sec-mem-ref-name = 'Player::Player';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Shoot::Shoot';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        sec-mem-ref-line = '61';
-        sec-mem-ref-name = 'Player::Update';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -570,36 +360,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ac8fe7fb69a368288aabca4c4e1d05961';
-        sec-mem-ref-line = '20';
-        sec-mem-ref-name = 'DefaultDrawMethod';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ad3a9ff248b9513af020c3418f3e35310';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Draw';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'Enemy::Enemy';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d01/_explosion_8cpp_1a146dcb6a01b9fe4e4512bf3870ecf994';
-        sec-mem-ref-line = '4';
-        sec-mem-ref-name = 'Explosion::Explosion';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        sec-mem-ref-line = '28';
-        sec-mem-ref-name = 'Player::Player';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Shoot::Shoot';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -621,61 +381,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ac8fe7fb69a368288aabca4c4e1d05961';
-        sec-mem-ref-line = '20';
-        sec-mem-ref-name = 'DefaultDrawMethod';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a8dcf57279ce4950fdb2e3cffe9e74173';
-        sec-mem-ref-line = '21';
-        sec-mem-ref-name = 'SequenceMovePatern::DoPatern';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ad3a9ff248b9513af020c3418f3e35310';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Draw';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'Enemy::Enemy';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d01/_explosion_8cpp_1a146dcb6a01b9fe4e4512bf3870ecf994';
-        sec-mem-ref-line = '4';
-        sec-mem-ref-name = 'Explosion::Explosion';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a66fb1714a3685083e6bebd6f05182613';
-        sec-mem-ref-line = '29';
-        sec-mem-ref-name = 'GetTransform';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        sec-mem-ref-line = '28';
-        sec-mem-ref-name = 'Player::Player';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a4cae5aa797e2f3b582b58282bcbc85f4';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'PaternComputer::SetPatern';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Shoot::Shoot';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a614ad271f07ecf63cb3e665155b7e258';
-        sec-mem-ref-line = '38';
-        sec-mem-ref-name = 'Enemy::Update';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        sec-mem-ref-line = '61';
-        sec-mem-ref-name = 'Player::Update';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -697,41 +402,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ac8fe7fb69a368288aabca4c4e1d05961';
-        sec-mem-ref-line = '20';
-        sec-mem-ref-name = 'DefaultDrawMethod';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ad3a9ff248b9513af020c3418f3e35310';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Draw';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'Enemy::Enemy';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        sec-mem-ref-line = '28';
-        sec-mem-ref-name = 'Player::Player';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Shoot::Shoot';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a614ad271f07ecf63cb3e665155b7e258';
-        sec-mem-ref-line = '38';
-        sec-mem-ref-name = 'Enemy::Update';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        sec-mem-ref-line = '61';
-        sec-mem-ref-name = 'Player::Update';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -750,41 +420,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ac8fe7fb69a368288aabca4c4e1d05961';
-        sec-mem-ref-line = '20';
-        sec-mem-ref-name = 'DefaultDrawMethod';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ad3a9ff248b9513af020c3418f3e35310';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Draw';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'Enemy::Enemy';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d01/_explosion_8cpp_1a146dcb6a01b9fe4e4512bf3870ecf994';
-        sec-mem-ref-line = '4';
-        sec-mem-ref-name = 'Explosion::Explosion';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        sec-mem-ref-line = '28';
-        sec-mem-ref-name = 'Player::Player';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Shoot::Shoot';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        sec-mem-ref-line = '61';
-        sec-mem-ref-name = 'Player::Update';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -806,31 +441,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ac8fe7fb69a368288aabca4c4e1d05961';
-        sec-mem-ref-line = '20';
-        sec-mem-ref-name = 'DefaultDrawMethod';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ad3a9ff248b9513af020c3418f3e35310';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Draw';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d01/_explosion_8cpp_1a146dcb6a01b9fe4e4512bf3870ecf994';
-        sec-mem-ref-line = '4';
-        sec-mem-ref-name = 'Explosion::Explosion';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        sec-mem-ref-line = '28';
-        sec-mem-ref-name = 'Player::Player';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Shoot::Shoot';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -894,46 +504,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a095079f817dad89ade82a93ad22ec7a2';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'center';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8b5ef2c6552ecfa1759d7e06acd78149';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'orientation';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'position';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a5f5135db16732da4162375223789d92a';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'scale';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a1eae999cdb821fa34fbfb44cd25490cc';
-        sec-mem-ref-line = '15';
-        sec-mem-ref-name = 'source';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1aeadba385847bc3d60cc1acd8ae87ac3d';
-        sec-mem-ref-line = '14';
-        sec-mem-ref-name = 'texture';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8f0c6ea1757081a5ae40ade6b2712d82';
-        sec-mem-ref-line = '16';
-        sec-mem-ref-name = 'tint';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ad3a9ff248b9513af020c3418f3e35310';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Draw';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/AGraphicObject.h';
@@ -1218,41 +788,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a8dcf57279ce4950fdb2e3cffe9e74173';
-        sec-mem-ref-line = '21';
-        sec-mem-ref-name = 'SequenceMovePatern::DoPatern';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'Enemy::Enemy';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        sec-mem-ref-line = '28';
-        sec-mem-ref-name = 'Player::Player';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1abedc41c1f0527345f208c17289a03cb1';
-        sec-mem-ref-line = '46';
-        sec-mem-ref-name = 'Shoot::SetDefault';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a4cae5aa797e2f3b582b58282bcbc85f4';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'PaternComputer::SetPatern';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a614ad271f07ecf63cb3e665155b7e258';
-        sec-mem-ref-line = '38';
-        sec-mem-ref-name = 'Enemy::Update';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        sec-mem-ref-line = '61';
-        sec-mem-ref-name = 'Player::Update';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -1274,41 +809,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a8dcf57279ce4950fdb2e3cffe9e74173';
-        sec-mem-ref-line = '21';
-        sec-mem-ref-name = 'SequenceMovePatern::DoPatern';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d58/_patern_editor_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'main';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        sec-mem-ref-line = '28';
-        sec-mem-ref-name = 'Player::Player';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a9a843cba28f45e337766c4c4a473c0e3';
-        sec-mem-ref-line = '85';
-        sec-mem-ref-name = 'Enemy::RandomChangeSettings';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1abedc41c1f0527345f208c17289a03cb1';
-        sec-mem-ref-line = '46';
-        sec-mem-ref-name = 'Shoot::SetDefault';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a614ad271f07ecf63cb3e665155b7e258';
-        sec-mem-ref-line = '38';
-        sec-mem-ref-name = 'Enemy::Update';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        sec-mem-ref-line = '61';
-        sec-mem-ref-name = 'Player::Update';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/IMovable.h';
@@ -1613,36 +1113,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/d8f/_a_offsetable_patern_8h_1a5b500f94ce6d6e23e05f561dab7b9061';
-        sec-mem-ref-line = '12';
-        sec-mem-ref-name = 'AOffsetablePatern::IOffserablePaternData::positionOffset';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/d8f/_a_offsetable_patern_8h_1a6742b13e7c8a954eb934663b635de140';
-        sec-mem-ref-line = '15';
-        sec-mem-ref-name = 'AOffsetablePatern::IOffserablePaternData::rotationCenter';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/d8f/_a_offsetable_patern_8h_1a0f83935e51b0c3ab1a9acd5fe1d560ae';
-        sec-mem-ref-line = '16';
-        sec-mem-ref-name = 'AOffsetablePatern::IOffserablePaternData::rotationOffset';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/d8f/_a_offsetable_patern_8h_1ae455cd2e3ab8abfc43ba95082f51251e';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'AOffsetablePatern::IOffserablePaternData::scaleCenter';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/d8f/_a_offsetable_patern_8h_1a560862c8bab9ca1c7aebe0a0ca194cb3';
-        sec-mem-ref-line = '14';
-        sec-mem-ref-name = 'AOffsetablePatern::IOffserablePaternData::scaleOffset';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd0/d44/_math_utils_8cpp_1a10dd47c1978ae435f095f0af354c3c72';
-        sec-mem-ref-line = '14';
-        sec-mem-ref-name = 'MathUtils::scalePolarVec2D';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Paterns/AOffsetablePatern.h';
@@ -1783,11 +1253,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1a62b0cda1174ab196a752fda68fd82f64';
-        sec-mem-ref-line = '62';
-        sec-mem-ref-name = 'Shoot::Update';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Paterns/APatern.h';
@@ -1893,11 +1358,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1a60da2a858fc57a2eb4c82745d012ca60';
-        sec-mem-ref-line = '52';
-        sec-mem-ref-name = 'radius';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -1937,16 +1397,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'dd/d3e/_collider_8cpp_1adb5054d2d0779395114425137fdcb0a8';
-        sec-mem-ref-line = '35';
-        sec-mem-ref-name = 'ColliderCalculation::Calculation';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1a1c986c0268e68f9174b7c177b65e64da';
-        sec-mem-ref-line = '54';
-        sec-mem-ref-name = 'CircleCollider';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Collider.h';
@@ -2078,79 +1528,20 @@ unsigned int
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'type';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Enemy.h';
-      sec-mem-desc-line = '14';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Enemy.h';
+      sec-mem-desc-line = '28';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Create a new enemy
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+<param name="spawnIndex">The index of the enemy</param>
+<param name="position">The start position</param>
+<param name="direction">The start direction of the enemy</param>
+<param name="tint">The tint of the sprite</param>
+<param name="type">The sprite to use</param> 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a095079f817dad89ade82a93ad22ec7a2';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::center';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dbd/_i_movable_8h_1a86b16ee42a5d3c73bb0b492d7c583965';
-        sec-mem-ref-line = '9';
-        sec-mem-ref-name = 'AMovable::direction';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd4/dce/_files_8cpp_1a1960f9938a6ad5513f5fc8b95e9e6254';
-        sec-mem-ref-line = '5';
-        sec-mem-ref-name = 'Files::GetSourceRect';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8b5ef2c6552ecfa1759d7e06acd78149';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'AGraphicObject::orientation';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::position';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a9a843cba28f45e337766c4c4a473c0e3';
-        sec-mem-ref-line = '85';
-        sec-mem-ref-name = 'RandomChangeSettings';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a5f5135db16732da4162375223789d92a';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::scale';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a425cc02d52663fc975d9a4099ca7eae6';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'SHIP_COLUMNS_COUNT';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/da7/_files_8h_1ac8b72484914a93619999f10d956369ce';
-        sec-mem-ref-line = '6';
-        sec-mem-ref-name = 'Files::SHIP_TEXTURE';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/da7/_files_8h_1a97511020c7e50b52d9fc532f6865fbde';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Files::SHIP_TEXTURE_SIZE';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a13c45bbcada4e3f3553fdb835626b96a';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'SHIP_TYPES_MAX_INDEX';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a1eae999cdb821fa34fbfb44cd25490cc';
-        sec-mem-ref-line = '15';
-        sec-mem-ref-name = 'AGraphicObject::source';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1aeadba385847bc3d60cc1acd8ae87ac3d';
-        sec-mem-ref-line = '14';
-        sec-mem-ref-name = 'AGraphicObject::texture';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -2161,24 +1552,14 @@ _EnD_oF_dEf_TeXt_;
 virtual
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = '~Enemy';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Enemy.h';
-      sec-mem-desc-line = '15';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Enemy.h';
+      sec-mem-desc-line = '29';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd4/d1e/_enemy_8h_1af7ca8884b660ac42e109e65f005ea212';
-        sec-mem-ref-line = '12';
-        sec-mem-ref-name = 'patern';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1aa8dacb77a8d4a9f65eadb3f29e38f929';
-        sec-mem-ref-line = '51';
-        sec-mem-ref-name = 'AGraphicObject::~AGraphicObject';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -2189,8 +1570,8 @@ _EnD_oF_dEf_TeXt_;
 virtual void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'Update';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Enemy.h';
-      sec-mem-desc-line = '17';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Enemy.h';
+      sec-mem-desc-line = '31';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 <summary>
 Called each frame to update the status of the object
@@ -2199,51 +1580,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dbd/_i_movable_8h_1a86b16ee42a5d3c73bb0b492d7c583965';
-        sec-mem-ref-line = '9';
-        sec-mem-ref-name = 'AMovable::direction';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8b5ef2c6552ecfa1759d7e06acd78149';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'AGraphicObject::orientation';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::position';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd9/d1e/_random_8cpp_1a3308b2b42b8f194d8eca256b13c64ad0';
-        sec-mem-ref-line = '4';
-        sec-mem-ref-name = 'Random::randMToN';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a9a843cba28f45e337766c4c4a473c0e3';
-        sec-mem-ref-line = '85';
-        sec-mem-ref-name = 'RandomChangeSettings';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1ab0b732a10aba81e6df12490708093228';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'GameStatus::screenHeight';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1a9d499354f3e203b6685c00de806752ff';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'GameStatus::screenWidth';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dbd/_i_movable_8h_1a3981c9729fd5050ff7e4380b4596a172';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AMovable::speed';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1aeadba385847bc3d60cc1acd8ae87ac3d';
-        sec-mem-ref-line = '14';
-        sec-mem-ref-name = 'AGraphicObject::texture';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -2260,19 +1596,16 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
 = new SequenceMovePatern()
 _EnD_oF_dEf_TeXt_;
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Enemy.h';
-      sec-mem-desc-line = '12';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Enemy.h';
+      sec-mem-desc-line = '18';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+The sequence patern of the enemy
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1ae4d34ffaa238887a811cffb8fcc2cc99';
-        sec-mem-ref-line = '31';
-        sec-mem-ref-name = '~Enemy';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -2286,34 +1619,16 @@ _EnD_oF_dEf_TeXt_;
 void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'RandomChangeSettings';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Enemy.h';
-      sec-mem-desc-line = '20';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Enemy.h';
+      sec-mem-desc-line = '37';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Randomely change the patern settings of the enemy
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd9/d1e/_random_8cpp_1a3308b2b42b8f194d8eca256b13c64ad0';
-        sec-mem-ref-line = '4';
-        sec-mem-ref-name = 'Random::randMToN';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dbd/_i_movable_8h_1a3981c9729fd5050ff7e4380b4596a172';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AMovable::speed';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'Enemy';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/d34/_enemy_8cpp_1a614ad271f07ecf63cb3e665155b7e258';
-        sec-mem-ref-line = '38';
-        sec-mem-ref-name = 'Update';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -2327,8 +1642,8 @@ _EnD_oF_dEf_TeXt_;
 unsigned long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'spawnIndex';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Enemy.h';
-      sec-mem-desc-line = '23';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Enemy.h';
+      sec-mem-desc-line = '40';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2345,8 +1660,8 @@ _EnD_oF_dEf_TeXt_;
 float
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'rotationSpeedDefault';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Enemy.h';
-      sec-mem-desc-line = '24';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Enemy.h';
+      sec-mem-desc-line = '41';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2363,8 +1678,8 @@ _EnD_oF_dEf_TeXt_;
 float
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'rotationSpeed';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Enemy.h';
-      sec-mem-desc-line = '25';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Enemy.h';
+      sec-mem-desc-line = '42';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2381,8 +1696,8 @@ _EnD_oF_dEf_TeXt_;
 float
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'rotationAcceleration';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Enemy.h';
-      sec-mem-desc-line = '26';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Enemy.h';
+      sec-mem-desc-line = '43';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2399,8 +1714,8 @@ _EnD_oF_dEf_TeXt_;
 bool
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'isNegativeRotationSpeed';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Enemy.h';
-      sec-mem-desc-line = '27';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Enemy.h';
+      sec-mem-desc-line = '44';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2409,10 +1724,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
-  cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Enemy.h';
-  cp-fileline  = '7';
+  cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Enemy.h';
+  cp-fileline  = '10';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-
+<summary>
+An enemy spaceship
+</summary>
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
 
@@ -2759,56 +2076,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a095079f817dad89ade82a93ad22ec7a2';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::center';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd9/dee/_explosion_8h_1a7a741af5accccda41febda3467603334';
-        sec-mem-ref-line = '16';
-        sec-mem-ref-name = 'frame';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd9/dee/_explosion_8h_1a0970e6fdd5ace8ceae923ee24dac7710';
-        sec-mem-ref-line = '9';
-        sec-mem-ref-name = 'FRAME_RATE';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd9/dee/_explosion_8h_1ac4ba2c2dbd41c29ab8909196f8ca91f3';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'FRAMES';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8b5ef2c6552ecfa1759d7e06acd78149';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'AGraphicObject::orientation';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::position';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a5f5135db16732da4162375223789d92a';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::scale';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a1eae999cdb821fa34fbfb44cd25490cc';
-        sec-mem-ref-line = '15';
-        sec-mem-ref-name = 'AGraphicObject::source';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd9/dee/_explosion_8h_1af26dd971919755befff2042c56d6aa41';
-        sec-mem-ref-line = '15';
-        sec-mem-ref-name = 'texture';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8f0c6ea1757081a5ae40ade6b2712d82';
-        sec-mem-ref-line = '16';
-        sec-mem-ref-name = 'AGraphicObject::tint';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -2833,11 +2100,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d01/_explosion_8cpp_1a146dcb6a01b9fe4e4512bf3870ecf994';
-        sec-mem-ref-line = '4';
-        sec-mem-ref-name = 'Explosion';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -2856,11 +2118,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d01/_explosion_8cpp_1a146dcb6a01b9fe4e4512bf3870ecf994';
-        sec-mem-ref-line = '4';
-        sec-mem-ref-name = 'Explosion';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -2882,11 +2139,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d01/_explosion_8cpp_1a146dcb6a01b9fe4e4512bf3870ecf994';
-        sec-mem-ref-line = '4';
-        sec-mem-ref-name = 'Explosion';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -2911,11 +2163,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d01/_explosion_8cpp_1a146dcb6a01b9fe4e4512bf3870ecf994';
-        sec-mem-ref-line = '4';
-        sec-mem-ref-name = 'Explosion';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -3223,41 +2470,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1a5ed5dc298ebfb69435df1f89995d69f0';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'GameStatus::enemyCountConst';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1a96781128d3743da3d17e0fdd91afba7b';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'player';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd9/d1e/_random_8cpp_1a3949276fed6bcee3419e00ed51162f46';
-        sec-mem-ref-line = '16';
-        sec-mem-ref-name = 'Random::rand01';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd9/d1e/_random_8cpp_1a3308b2b42b8f194d8eca256b13c64ad0';
-        sec-mem-ref-line = '4';
-        sec-mem-ref-name = 'Random::randMToN';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1ab0b732a10aba81e6df12490708093228';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'GameStatus::screenHeight';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1a9d499354f3e203b6685c00de806752ff';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'GameStatus::screenWidth';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'da/da3/_main_release_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'main';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -3276,16 +2488,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/d80/_instance_list_8h_1a034ab3b0d969667dff34eb8ea99dd4d2';
-        sec-mem-ref-line = '9';
-        sec-mem-ref-name = 'InstanceList< AGraphicObject >::instances';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'da/da3/_main_release_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'main';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -3304,21 +2506,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd3/dec/_controller_8cpp_1ab9ea67058d0c368551c44d9872bc624d';
-        sec-mem-ref-line = '63';
-        sec-mem-ref-name = 'Controller::DoSwitch';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/d80/_instance_list_8h_1a034ab3b0d969667dff34eb8ea99dd4d2';
-        sec-mem-ref-line = '9';
-        sec-mem-ref-name = 'InstanceList< AGraphicObject >::instances';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'da/da3/_main_release_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'main';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/GameManager.h';
@@ -3345,7 +2532,7 @@ static std::vector< T * >
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'instances';
       sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/InstanceList.h';
-      sec-mem-desc-line = '9';
+      sec-mem-desc-line = '13';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -3355,12 +2542,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/InstanceList.h';
-  cp-fileline  = '6';
+  cp-fileline  = '10';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Add a static list for the class <typeparamref name="T"/>
+</summary>
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
-
+<typeparam name="T">The type of the list. Please ensure that it's a child of InstanceList</typeparam> 
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
@@ -3540,11 +2729,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/da4/_a_offsetable_patern_8cpp_1a1d0381a19f11a56309aecb4dab4bf26c';
-        sec-mem-ref-line = '6';
-        sec-mem-ref-name = 'AOffsetablePatern::ComputerOffset';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -3566,11 +2750,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/da4/_a_offsetable_patern_8cpp_1a1d0381a19f11a56309aecb4dab4bf26c';
-        sec-mem-ref-line = '6';
-        sec-mem-ref-name = 'AOffsetablePatern::ComputerOffset';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -3592,11 +2771,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/da4/_a_offsetable_patern_8cpp_1a1d0381a19f11a56309aecb4dab4bf26c';
-        sec-mem-ref-line = '6';
-        sec-mem-ref-name = 'AOffsetablePatern::ComputerOffset';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -3618,11 +2792,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/da4/_a_offsetable_patern_8cpp_1a1d0381a19f11a56309aecb4dab4bf26c';
-        sec-mem-ref-line = '6';
-        sec-mem-ref-name = 'AOffsetablePatern::ComputerOffset';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -3641,11 +2810,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/da4/_a_offsetable_patern_8cpp_1a1d0381a19f11a56309aecb4dab4bf26c';
-        sec-mem-ref-line = '6';
-        sec-mem-ref-name = 'AOffsetablePatern::ComputerOffset';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Paterns/AOffsetablePatern.h';
@@ -4113,56 +3277,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd3/d22/_patern_computer_8h_1a1dfa458c3e9057c4fb2919eb022cdfca';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'data';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dbd/_i_movable_8h_1a86b16ee42a5d3c73bb0b492d7c583965';
-        sec-mem-ref-line = '9';
-        sec-mem-ref-name = 'AMovable::direction';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8b5ef2c6552ecfa1759d7e06acd78149';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'AGraphicObject::orientation';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1af82fe13234a9d63c9d5a405f5ede357a';
-        sec-mem-ref-line = '37';
-        sec-mem-ref-name = 'SequenceMovePatern::SequencePatern::paternSequence';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1ab98bbe093d86259e0648891911aa9654';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'pos';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::position';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd3/d22/_patern_computer_8h_1aa2e99d38424c339aa9f9eca106464b32';
-        sec-mem-ref-line = '9';
-        sec-mem-ref-name = 'startPositionX';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd3/d22/_patern_computer_8h_1a488e8b0e78253ed4b6fa073f88a1c8ed';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'startPositionY';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a5f5b3117fc5c678bbddf773d6d7dd98e';
-        sec-mem-ref-line = '39';
-        sec-mem-ref-name = 'SequenceMovePatern::SequencePatern::time';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d58/_patern_editor_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'main';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -4183,36 +3297,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd3/d22/_patern_computer_8h_1a1dfa458c3e9057c4fb2919eb022cdfca';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'data';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a8dcf57279ce4950fdb2e3cffe9e74173';
-        sec-mem-ref-line = '21';
-        sec-mem-ref-name = 'SequenceMovePatern::DoPatern';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a88f7a48b7ee4dcedeccb1e9d11873d05';
-        sec-mem-ref-line = '30';
-        sec-mem-ref-name = 'DrawDebug';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1ab98bbe093d86259e0648891911aa9654';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'pos';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::position';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d58/_patern_editor_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'main';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -4234,16 +3318,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a4cae5aa797e2f3b582b58282bcbc85f4';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'SetPatern';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a1a50109a8297e8599032574079dbb669';
-        sec-mem-ref-line = '23';
-        sec-mem-ref-name = 'Update';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -4265,16 +3339,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d58/_patern_editor_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'main';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a4cae5aa797e2f3b582b58282bcbc85f4';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'SetPatern';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -4296,16 +3360,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d58/_patern_editor_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        sec-mem-ref-line = '13';
-        sec-mem-ref-name = 'main';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a4cae5aa797e2f3b582b58282bcbc85f4';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'SetPatern';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -4913,104 +3967,16 @@ class = {
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'Player';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-      sec-mem-desc-line = '18';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+      sec-mem-desc-line = '35';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Construct a new player
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a7f5820c5365de4a4c575342b6ad56d55';
-        sec-mem-ref-line = '22';
-        sec-mem-ref-name = '_sprite';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a095079f817dad89ade82a93ad22ec7a2';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::center';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dbd/_i_movable_8h_1a86b16ee42a5d3c73bb0b492d7c583965';
-        sec-mem-ref-line = '9';
-        sec-mem-ref-name = 'AMovable::direction';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd4/dce/_files_8cpp_1a1960f9938a6ad5513f5fc8b95e9e6254';
-        sec-mem-ref-line = '5';
-        sec-mem-ref-name = 'Files::GetSourceRect';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1abeaf19f2db4567df136ceb5c0a10777c';
-        sec-mem-ref-line = '7';
-        sec-mem-ref-name = 'GameStatus::nbShots';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8b5ef2c6552ecfa1759d7e06acd78149';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'AGraphicObject::orientation';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::position';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a5f5135db16732da4162375223789d92a';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::scale';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a95c0c55419ff908bddcc2b7b5ac5757d';
-        sec-mem-ref-line = '14';
-        sec-mem-ref-name = 'SCALE';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1ab0b732a10aba81e6df12490708093228';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'GameStatus::screenHeight';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1a9d499354f3e203b6685c00de806752ff';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'GameStatus::screenWidth';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/da7/_files_8h_1ac8b72484914a93619999f10d956369ce';
-        sec-mem-ref-line = '6';
-        sec-mem-ref-name = 'Files::SHIP_TEXTURE';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/da7/_files_8h_1a97511020c7e50b52d9fc532f6865fbde';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Files::SHIP_TEXTURE_SIZE';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d39/_player_8h_1aeac6fd713ff060d5de30ce2b10523e25';
-        sec-mem-ref-line = '16';
-        sec-mem-ref-name = 'shoots';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a1eae999cdb821fa34fbfb44cd25490cc';
-        sec-mem-ref-line = '15';
-        sec-mem-ref-name = 'AGraphicObject::source';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dbd/_i_movable_8h_1a3981c9729fd5050ff7e4380b4596a172';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AMovable::speed';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1aeadba385847bc3d60cc1acd8ae87ac3d';
-        sec-mem-ref-line = '14';
-        sec-mem-ref-name = 'AGraphicObject::texture';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8f0c6ea1757081a5ae40ade6b2712d82';
-        sec-mem-ref-line = '16';
-        sec-mem-ref-name = 'AGraphicObject::tint';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -5021,19 +3987,16 @@ _EnD_oF_dEf_TeXt_;
 virtual
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = '~Player';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-      sec-mem-desc-line = '19';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+      sec-mem-desc-line = '39';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Construct the player
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d39/_player_8h_1aeac6fd713ff060d5de30ce2b10523e25';
-        sec-mem-ref-line = '16';
-        sec-mem-ref-name = 'shoots';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -5044,8 +4007,8 @@ _EnD_oF_dEf_TeXt_;
 virtual void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'Update';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-      sec-mem-desc-line = '21';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+      sec-mem-desc-line = '41';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 <summary>
 Called each frame to update the status of the object
@@ -5054,131 +4017,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a7f5820c5365de4a4c575342b6ad56d55';
-        sec-mem-ref-line = '22';
-        sec-mem-ref-name = '_sprite';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1a95c02a43bb929929351967dce1d0ab90';
-        sec-mem-ref-line = '14';
-        sec-mem-ref-name = 'GameStatus::constantFrameTime';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a20d8717a6a9bae52f1830ab14a1d0fb4';
-        sec-mem-ref-line = '15';
-        sec-mem-ref-name = 'CONTROLS_INTERPOLATE_THRESHOLD';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1ab3d9a382c9f0db92ea54212e54b4c8d1';
-        sec-mem-ref-line = '20';
-        sec-mem-ref-name = 'countdownPtr';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a291cc1bf2c3c14aa54cc3b99032437be';
-        sec-mem-ref-line = '18';
-        sec-mem-ref-name = 'DEFAULT_FIRE_RATE';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dbd/_i_movable_8h_1a86b16ee42a5d3c73bb0b492d7c583965';
-        sec-mem-ref-line = '9';
-        sec-mem-ref-name = 'AMovable::direction';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a9a88a4381f08f6fdc6fb65f5f21d7c1c';
-        sec-mem-ref-line = '16';
-        sec-mem-ref-name = 'directionInput';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a87e8ce6536ce9b902828cc464508e6e0';
-        sec-mem-ref-line = '104';
-        sec-mem-ref-name = 'GetPaternIndex';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd3/dec/_controller_8cpp_1ac59b0e73aa6833bc9f7b0ec4cb336c89';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'Controller::GetPlayerDirection';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd4/dce/_files_8cpp_1a1960f9938a6ad5513f5fc8b95e9e6254';
-        sec-mem-ref-line = '5';
-        sec-mem-ref-name = 'Files::GetSourceRect';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd3/dec/_controller_8cpp_1a4b53def0e49157bf5597b2f9d6d9cc76';
-        sec-mem-ref-line = '58';
-        sec-mem-ref-name = 'Controller::NextPatern';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8b5ef2c6552ecfa1759d7e06acd78149';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'AGraphicObject::orientation';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd0/d44/_math_utils_8cpp_1a3b18608538b0ea7e42626ce7ddde4973';
-        sec-mem-ref-line = '39';
-        sec-mem-ref-name = 'MathUtils::polarToCartesian';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::position';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd3/dec/_controller_8cpp_1a43f58c0cecdbd6c84d5775066d2f59bf';
-        sec-mem-ref-line = '54';
-        sec-mem-ref-name = 'Controller::PreviousPatern';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a5f5135db16732da4162375223789d92a';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::scale';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a95c0c55419ff908bddcc2b7b5ac5757d';
-        sec-mem-ref-line = '14';
-        sec-mem-ref-name = 'SCALE';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1ab0b732a10aba81e6df12490708093228';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'GameStatus::screenHeight';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1a9d499354f3e203b6685c00de806752ff';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'GameStatus::screenWidth';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a264e56273d920d1249d6bdb884a97ffb';
-        sec-mem-ref-line = '109';
-        sec-mem-ref-name = 'SetPaternIndex';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/da7/_files_8h_1a97511020c7e50b52d9fc532f6865fbde';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Files::SHIP_TEXTURE_SIZE';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd3/dec/_controller_8cpp_1aa13a1b4bb14d868f3ea393ef5a1ca359';
-        sec-mem-ref-line = '32';
-        sec-mem-ref-name = 'Controller::Shoot';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a1eae999cdb821fa34fbfb44cd25490cc';
-        sec-mem-ref-line = '15';
-        sec-mem-ref-name = 'AGraphicObject::source';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dbd/_i_movable_8h_1a3981c9729fd5050ff7e4380b4596a172';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AMovable::speed';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1aeadba385847bc3d60cc1acd8ae87ac3d';
-        sec-mem-ref-line = '14';
-        sec-mem-ref-name = 'AGraphicObject::texture';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -5192,24 +4030,16 @@ _EnD_oF_dEf_TeXt_;
 std::vector< Shoot * >
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'shoots';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-      sec-mem-desc-line = '16';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+      sec-mem-desc-line = '30';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Player shoots
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        sec-mem-ref-line = '28';
-        sec-mem-ref-name = 'Player';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a8ed544987af18de0e6b2932206bf1186';
-        sec-mem-ref-line = '50';
-        sec-mem-ref-name = '~Player';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -5223,19 +4053,16 @@ _EnD_oF_dEf_TeXt_;
 int
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'GetPaternIndex';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-      sec-mem-desc-line = '24';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+      sec-mem-desc-line = '47';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Get current patern
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        sec-mem-ref-line = '61';
-        sec-mem-ref-name = 'Update';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -5252,24 +4079,16 @@ int
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'currentPatern';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-      sec-mem-desc-line = '25';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+      sec-mem-desc-line = '51';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Set current patern
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1add80b336dd1f72b3380b405326eed64b';
-        sec-mem-ref-line = '24';
-        sec-mem-ref-name = 'shootIndex';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        sec-mem-ref-line = '61';
-        sec-mem-ref-name = 'Update';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -5289,10 +4108,12 @@ Vector2
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'direction';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-      sec-mem-desc-line = '28';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+      sec-mem-desc-line = '57';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Create a shoot in a direction
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
@@ -5307,8 +4128,8 @@ _EnD_oF_dEf_TeXt_;
 Shoot *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'CreateShoot';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-      sec-mem-desc-line = '29';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+      sec-mem-desc-line = '58';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -5325,8 +4146,8 @@ _EnD_oF_dEf_TeXt_;
 Shoot *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'FindShootOrCreate';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-      sec-mem-desc-line = '30';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+      sec-mem-desc-line = '59';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -5349,10 +4170,12 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
 = 0
 _EnD_oF_dEf_TeXt_;
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-      sec-mem-desc-line = '11';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+      sec-mem-desc-line = '20';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Current shoot patern index
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
@@ -5370,10 +4193,12 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
 = paterns[_currentPatern]
 _EnD_oF_dEf_TeXt_;
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-      sec-mem-desc-line = '12';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+      sec-mem-desc-line = '24';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Current shoot patern
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
@@ -5394,20 +4219,24 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
 = { new PaternLinear(), new PaternVSpread() }
 _EnD_oF_dEf_TeXt_;
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-      sec-mem-desc-line = '10';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+      sec-mem-desc-line = '16';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+The shoot paterns
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
-  cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-  cp-fileline  = '6';
+  cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+  cp-fileline  = '9';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-
+<summary>
+The player
+</summary>
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
 
@@ -5680,16 +4509,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1a8db8e1f26db08b20e1fedf7e866c1eaa';
-        sec-mem-ref-line = '66';
-        sec-mem-ref-name = 'height';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1a8dcfb49de2880a1d7281d4fe9ced6636';
-        sec-mem-ref-line = '66';
-        sec-mem-ref-name = 'width';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -5762,26 +4581,6 @@ _EnD_oF_dEf_TeXt_;
 <param name="c">Lower Right corner</param>
 <param name="d">Upper Right corner</param> 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1a8db8e1f26db08b20e1fedf7e866c1eaa';
-        sec-mem-ref-line = '66';
-        sec-mem-ref-name = 'height';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1a0927adb435ae700efdd7139999ad7117';
-        sec-mem-ref-line = '36';
-        sec-mem-ref-name = 'ACollider::pivot';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'da/d02/_transform2_d_8h_1a538205f416a3b800cae8268f6364b025';
-        sec-mem-ref-line = '7';
-        sec-mem-ref-name = 'Transform2D::rotation';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1a8dcfb49de2880a1d7281d4fe9ced6636';
-        sec-mem-ref-line = '66';
-        sec-mem-ref-name = 'width';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -5803,16 +4602,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1a45bf16d3ea1d2d187bc3075d5ce33273';
-        sec-mem-ref-line = '84';
-        sec-mem-ref-name = 'GetWorldPoints';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1af64eb1ca6bb824452f02a54f68339f9e';
-        sec-mem-ref-line = '68';
-        sec-mem-ref-name = 'RectCollider';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -5831,16 +4620,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1a45bf16d3ea1d2d187bc3075d5ce33273';
-        sec-mem-ref-line = '84';
-        sec-mem-ref-name = 'GetWorldPoints';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1af64eb1ca6bb824452f02a54f68339f9e';
-        sec-mem-ref-line = '68';
-        sec-mem-ref-name = 'RectCollider';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Collider.h';
@@ -5939,11 +4718,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a0d694966bab28954188dd39c02fc5a52';
-        sec-mem-ref-line = '26';
-        sec-mem-ref-name = 'SequenceMovePatern::InitSequence';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -5962,11 +4736,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a0d694966bab28954188dd39c02fc5a52';
-        sec-mem-ref-line = '26';
-        sec-mem-ref-name = 'SequenceMovePatern::InitSequence';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -5985,11 +4754,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a0d694966bab28954188dd39c02fc5a52';
-        sec-mem-ref-line = '26';
-        sec-mem-ref-name = 'SequenceMovePatern::InitSequence';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -6008,11 +4772,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a0d694966bab28954188dd39c02fc5a52';
-        sec-mem-ref-line = '26';
-        sec-mem-ref-name = 'SequenceMovePatern::InitSequence';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -6031,11 +4790,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a0d694966bab28954188dd39c02fc5a52';
-        sec-mem-ref-line = '26';
-        sec-mem-ref-name = 'SequenceMovePatern::InitSequence';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Paterns/Enemy/SequenceMovePatern.h';
@@ -6137,21 +4891,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1af82fe13234a9d63c9d5a405f5ede357a';
-        sec-mem-ref-line = '37';
-        sec-mem-ref-name = 'SequenceMovePatern::SequencePatern::paternSequence';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a986917d6cb0a1d50aae67b74a54df021';
-        sec-mem-ref-line = '38';
-        sec-mem-ref-name = 'SequenceMovePatern::SequencePatern::sequenceDone';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a5f5b3117fc5c678bbddf773d6d7dd98e';
-        sec-mem-ref-line = '39';
-        sec-mem-ref-name = 'SequenceMovePatern::SequencePatern::time';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -6182,56 +4921,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1a95c02a43bb929929351967dce1d0ab90';
-        sec-mem-ref-line = '14';
-        sec-mem-ref-name = 'GameStatus::constantFrameTime';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dbd/_i_movable_8h_1a86b16ee42a5d3c73bb0b492d7c583965';
-        sec-mem-ref-line = '9';
-        sec-mem-ref-name = 'AMovable::direction';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8b5ef2c6552ecfa1759d7e06acd78149';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'AGraphicObject::orientation';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1af82fe13234a9d63c9d5a405f5ede357a';
-        sec-mem-ref-line = '37';
-        sec-mem-ref-name = 'SequenceMovePatern::SequencePatern::paternSequence';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd0/d44/_math_utils_8cpp_1a3b18608538b0ea7e42626ce7ddde4973';
-        sec-mem-ref-line = '39';
-        sec-mem-ref-name = 'MathUtils::polarToCartesian';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::position';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a986917d6cb0a1d50aae67b74a54df021';
-        sec-mem-ref-line = '38';
-        sec-mem-ref-name = 'SequenceMovePatern::SequencePatern::sequenceDone';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dbd/_i_movable_8h_1a3981c9729fd5050ff7e4380b4596a172';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AMovable::speed';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a5f5b3117fc5c678bbddf773d6d7dd98e';
-        sec-mem-ref-line = '39';
-        sec-mem-ref-name = 'SequenceMovePatern::SequencePatern::time';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a1a50109a8297e8599032574079dbb669';
-        sec-mem-ref-line = '23';
-        sec-mem-ref-name = 'PaternComputer::Update';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -6271,36 +4960,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1aaafbaf530f375361f89fe92e4fff78d8';
-        sec-mem-ref-line = '21';
-        sec-mem-ref-name = 'SequenceMovePatern::Sequence::endTime';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a6e3cee27c2eeed375ce743de5b1cbabd';
-        sec-mem-ref-line = '22';
-        sec-mem-ref-name = 'SequenceMovePatern::Sequence::rotationSpeed';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1ac0c9b45cbed0f564b94d3dbee98980e9';
-        sec-mem-ref-line = '23';
-        sec-mem-ref-name = 'SequenceMovePatern::Sequence::speed';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a5b1f4c17589f631adb06aa0a260f58bd';
-        sec-mem-ref-line = '20';
-        sec-mem-ref-name = 'SequenceMovePatern::Sequence::startTime';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a4215b6ad1d84c87dadb0048ee7c77866';
-        sec-mem-ref-line = '19';
-        sec-mem-ref-name = 'SequenceMovePatern::Sequence::type';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/df6/_parser_8cpp_1a6b68c059584e19a98761e3d81df4dba7';
-        sec-mem-ref-line = '27';
-        sec-mem-ref-name = 'Parser::GetSequencePatern';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -6325,11 +4984,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'de/df6/_parser_8cpp_1a6b68c059584e19a98761e3d81df4dba7';
-        sec-mem-ref-line = '27';
-        sec-mem-ref-name = 'Parser::GetSequencePatern';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Paterns/Enemy/SequenceMovePatern.h';
@@ -6444,21 +5098,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a8dcf57279ce4950fdb2e3cffe9e74173';
-        sec-mem-ref-line = '21';
-        sec-mem-ref-name = 'SequenceMovePatern::DoPatern';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a893b91c78c1d373e7258558aa8eb9b0c';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'SequenceMovePatern::SetDefault';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a4cae5aa797e2f3b582b58282bcbc85f4';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'PaternComputer::SetPatern';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -6477,16 +5116,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a8dcf57279ce4950fdb2e3cffe9e74173';
-        sec-mem-ref-line = '21';
-        sec-mem-ref-name = 'SequenceMovePatern::DoPatern';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a893b91c78c1d373e7258558aa8eb9b0c';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'SequenceMovePatern::SetDefault';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -6505,21 +5134,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a8dcf57279ce4950fdb2e3cffe9e74173';
-        sec-mem-ref-line = '21';
-        sec-mem-ref-name = 'SequenceMovePatern::DoPatern';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a893b91c78c1d373e7258558aa8eb9b0c';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'SequenceMovePatern::SetDefault';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a4cae5aa797e2f3b582b58282bcbc85f4';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'PaternComputer::SetPatern';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Paterns/Enemy/SequenceMovePatern.h';
@@ -6690,69 +5304,18 @@ _EnD_oF_dEf_TeXt_;
 3
 _EnD_oF_dEf_TeXt_;
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-      sec-mem-desc-line = '17';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+      sec-mem-desc-line = '37';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Create a shoot
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+<param name="i">The index of the spawned shoot</param>
+<param name="patern">The move patern of the shoot</param>
+<param name="type">The sprite of the shoot on the spritesheet</param> 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a095079f817dad89ade82a93ad22ec7a2';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::center';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd4/dce/_files_8cpp_1a1960f9938a6ad5513f5fc8b95e9e6254';
-        sec-mem-ref-line = '5';
-        sec-mem-ref-name = 'Files::GetSourceRect';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8b5ef2c6552ecfa1759d7e06acd78149';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'AGraphicObject::orientation';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::position';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a5f5135db16732da4162375223789d92a';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::scale';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1abedc41c1f0527345f208c17289a03cb1';
-        sec-mem-ref-line = '46';
-        sec-mem-ref-name = 'SetDefault';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a1eae999cdb821fa34fbfb44cd25490cc';
-        sec-mem-ref-line = '15';
-        sec-mem-ref-name = 'AGraphicObject::source';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1aeadba385847bc3d60cc1acd8ae87ac3d';
-        sec-mem-ref-line = '14';
-        sec-mem-ref-name = 'AGraphicObject::texture';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/da7/_files_8h_1a854d2593f35c2d6f0b5bfe361f2035bc';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'Files::TILES_TEXTURE';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/da7/_files_8h_1a740c719f96c955b4409909f296e08470';
-        sec-mem-ref-line = '12';
-        sec-mem-ref-name = 'Files::TILES_TEXTURE_SIZE';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1a8f0c6ea1757081a5ae40ade6b2712d82';
-        sec-mem-ref-line = '16';
-        sec-mem-ref-name = 'AGraphicObject::tint';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -6763,19 +5326,14 @@ _EnD_oF_dEf_TeXt_;
 virtual
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = '~Shoot';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-      sec-mem-desc-line = '18';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+      sec-mem-desc-line = '38';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1aa8dacb77a8d4a9f65eadb3f29e38f929';
-        sec-mem-ref-line = '51';
-        sec-mem-ref-name = 'AGraphicObject::~AGraphicObject';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -6786,13 +5344,15 @@ _EnD_oF_dEf_TeXt_;
 unsigned long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'GetSpawnIndex';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-      sec-mem-desc-line = '20';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+      sec-mem-desc-line = '44';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+The index of the spawned shoot
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+<returns></returns> 
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
@@ -6816,39 +5376,17 @@ APatern *
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'patern';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-      sec-mem-desc-line = '22';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+      sec-mem-desc-line = '51';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Reset the shoot
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+<param name="i">The index of the spawned shoot</param>
+<param name="patern">The move patern of the shoot</param> 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dbd/_i_movable_8h_1a86b16ee42a5d3c73bb0b492d7c583965';
-        sec-mem-ref-line = '9';
-        sec-mem-ref-name = 'AMovable::direction';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::position';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dbd/_i_movable_8h_1a3981c9729fd5050ff7e4380b4596a172';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AMovable::speed';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1ac10562b99ebdf966e0fb52b8c89615e1';
-        sec-mem-ref-line = '34';
-        sec-mem-ref-name = 'SetFired';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'Shoot';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -6859,10 +5397,12 @@ _EnD_oF_dEf_TeXt_;
 bool
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'GetFired';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-      sec-mem-desc-line = '24';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+      sec-mem-desc-line = '56';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+True if fired
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
@@ -6883,24 +5423,16 @@ bool
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'fired';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-      sec-mem-desc-line = '25';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+      sec-mem-desc-line = '61';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Set if the shoot is fired or not
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+<param name="fired"></param> 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1abedc41c1f0527345f208c17289a03cb1';
-        sec-mem-ref-line = '46';
-        sec-mem-ref-name = 'SetDefault';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1a62b0cda1174ab196a752fda68fd82f64';
-        sec-mem-ref-line = '62';
-        sec-mem-ref-name = 'Update';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -6917,13 +5449,15 @@ APatern *
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'patern';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-      sec-mem-desc-line = '26';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+      sec-mem-desc-line = '66';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Set the patern of the shoot
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+<param name="patern"></param> 
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
@@ -6935,8 +5469,8 @@ _EnD_oF_dEf_TeXt_;
 virtual void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'Update';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-      sec-mem-desc-line = '29';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+      sec-mem-desc-line = '69';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 <summary>
 Called each frame to update the status of the object
@@ -6945,26 +5479,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd7/daf/_a_graphic_object_8h_1af6f8a5af7957af319eb2fe357494b923';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'AGraphicObject::position';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1ab0b732a10aba81e6df12490708093228';
-        sec-mem-ref-line = '11';
-        sec-mem-ref-name = 'GameStatus::screenHeight';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd5/daf/_game_status_8h_1a9d499354f3e203b6685c00de806752ff';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'GameStatus::screenWidth';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'd6/dae/_shoot_8cpp_1ac10562b99ebdf966e0fb52b8c89615e1';
-        sec-mem-ref-line = '34';
-        sec-mem-ref-name = 'SetFired';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -6975,8 +5489,8 @@ _EnD_oF_dEf_TeXt_;
 virtual void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'Draw';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-      sec-mem-desc-line = '30';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+      sec-mem-desc-line = '70';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 <summary>
 Called each frame to draw the object
@@ -6985,11 +5499,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1ad3a9ff248b9513af020c3418f3e35310';
-        sec-mem-ref-line = '8';
-        sec-mem-ref-name = 'AGraphicObject::Draw';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -7003,10 +5512,12 @@ _EnD_oF_dEf_TeXt_;
 unsigned int
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'type';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-      sec-mem-desc-line = '11';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+      sec-mem-desc-line = '16';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+The sprite to use
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
@@ -7021,10 +5532,12 @@ _EnD_oF_dEf_TeXt_;
 unsigned long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'spawnIndex';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-      sec-mem-desc-line = '12';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+      sec-mem-desc-line = '20';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+The index of the spawned shoot
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
@@ -7039,10 +5552,12 @@ _EnD_oF_dEf_TeXt_;
 bool
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'fired';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-      sec-mem-desc-line = '13';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+      sec-mem-desc-line = '24';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+True if fired
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
@@ -7057,20 +5572,24 @@ _EnD_oF_dEf_TeXt_;
 APatern *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'patern';
-      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-      sec-mem-desc-line = '14';
+      sec-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+      sec-mem-desc-line = '28';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+The move patern of the shoot
+</summary>
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
-  cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-  cp-fileline  = '7';
+  cp-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+  cp-fileline  = '9';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-
+<summary>
+An shoot (player or enemy)
+</summary>
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
 
@@ -7311,11 +5830,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'dd/d3e/_collider_8cpp_1adb5054d2d0779395114425137fdcb0a8';
-        sec-mem-ref-line = '35';
-        sec-mem-ref-name = 'ColliderCalculation::Calculation';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -7337,11 +5851,6 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = 'd5/d36/_collider_8h_1a45bf16d3ea1d2d187bc3075d5ce33273';
-        sec-mem-ref-line = '84';
-        sec-mem-ref-name = 'RectCollider::GetWorldPoints';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
@@ -7437,21 +5946,6 @@ _EnD_oF_dEf_TeXt_;
 <param name="playerTurretPosition">The position of the player (to do calculation with the mouse)</param>
 <returns>The direction</returns> 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a966a4e95158de24155d34010e3878636';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'isGamePad';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a35874275e7de9696df01f38d074d2212';
-        func-mem-ref-line = '75';
-        func-mem-ref-name = 'LGetDirection';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        func-mem-ref-line = '61';
-        func-mem-ref-name = 'Player::Update';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -7490,31 +5984,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 <returns></returns> 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1a95c02a43bb929929351967dce1d0ab90';
-        func-mem-ref-line = '14';
-        func-mem-ref-name = 'GameStatus::constantFrameTime';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1ae073e0abf6b56bee85b4f357e8abfabc';
-        func-mem-ref-line = '19';
-        func-mem-ref-name = 'countdown';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a966a4e95158de24155d34010e3878636';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'isGamePad';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a6f24cc27f52f646430436f82bbb01c26';
-        func-mem-ref-line = '8';
-        func-mem-ref-name = 'isRaffal';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        func-mem-ref-line = '61';
-        func-mem-ref-name = 'Player::Update';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -7535,16 +6004,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a966a4e95158de24155d34010e3878636';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'isGamePad';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1a7f10c3b4d95b85df56ad4c96385ca0df';
-        func-mem-ref-line = '38';
-        func-mem-ref-name = 'GameManager::Update';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -7563,16 +6022,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a966a4e95158de24155d34010e3878636';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'isGamePad';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        func-mem-ref-line = '61';
-        func-mem-ref-name = 'Player::Update';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -7591,16 +6040,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a966a4e95158de24155d34010e3878636';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'isGamePad';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        func-mem-ref-line = '61';
-        func-mem-ref-name = 'Player::Update';
-    };
     }; /* func-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Namespaces/Controller.h';
@@ -7651,31 +6090,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd4/dce/_files_8cpp_1adab19c1da821bb514057fc3e5aa45788';
-        func-mem-ref-line = '4';
-        func-mem-ref-name = 'PADDING';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        func-mem-ref-line = '13';
-        func-mem-ref-name = 'Enemy::Enemy';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        func-mem-ref-line = '28';
-        func-mem-ref-name = 'Player::Player';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        func-mem-ref-line = '8';
-        func-mem-ref-name = 'Shoot::Shoot';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        func-mem-ref-line = '61';
-        func-mem-ref-name = 'Player::Update';
-    };
     }; /* func-member */
     };
     var = {
@@ -7699,16 +6113,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        var-mem-ref-line = '13';
-        var-mem-ref-name = 'Enemy::Enemy';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        var-mem-ref-line = '28';
-        var-mem-ref-name = 'Player::Player';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -7751,21 +6155,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        var-mem-ref-line = '13';
-        var-mem-ref-name = 'Enemy::Enemy';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        var-mem-ref-line = '28';
-        var-mem-ref-name = 'Player::Player';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -7787,11 +6176,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        var-mem-ref-line = '8';
-        var-mem-ref-name = 'Shoot::Shoot';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -7834,11 +6218,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        var-mem-ref-line = '8';
-        var-mem-ref-name = 'Shoot::Shoot';
-    };
     }; /* var-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Namespaces/Files.h';
@@ -7874,11 +6253,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        var-mem-ref-line = '28';
-        var-mem-ref-name = 'Player::Player';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -7900,11 +6274,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1ad27dc1c25f99244acafa5832bc2424a4';
-        var-mem-ref-line = '12';
-        var-mem-ref-name = 'GameManager::Init';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -7926,46 +6295,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'db/d01/_testing_8h_1abf2bc558a4df9c924f989d50454c92ed';
-        var-mem-ref-line = '25';
-        var-mem-ref-name = 'Testing::DebugCurve';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'db/d01/_testing_8h_1ad11634cb1c1f08b553a04090f7d68a31';
-        var-mem-ref-line = '8';
-        var-mem-ref-name = 'Testing::DebugCurveAxes';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1ad27dc1c25f99244acafa5832bc2424a4';
-        var-mem-ref-line = '12';
-        var-mem-ref-name = 'GameManager::Init';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'da/da3/_main_release_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        var-mem-ref-line = '10';
-        var-mem-ref-name = 'main';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        var-mem-ref-line = '28';
-        var-mem-ref-name = 'Player::Player';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'de/d34/_enemy_8cpp_1a614ad271f07ecf63cb3e665155b7e258';
-        var-mem-ref-line = '38';
-        var-mem-ref-name = 'Enemy::Update';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd6/dae/_shoot_8cpp_1a62b0cda1174ab196a752fda68fd82f64';
-        var-mem-ref-line = '62';
-        var-mem-ref-name = 'Shoot::Update';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -7987,46 +6316,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'db/d01/_testing_8h_1abf2bc558a4df9c924f989d50454c92ed';
-        var-mem-ref-line = '25';
-        var-mem-ref-name = 'Testing::DebugCurve';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'db/d01/_testing_8h_1ad11634cb1c1f08b553a04090f7d68a31';
-        var-mem-ref-line = '8';
-        var-mem-ref-name = 'Testing::DebugCurveAxes';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1ad27dc1c25f99244acafa5832bc2424a4';
-        var-mem-ref-line = '12';
-        var-mem-ref-name = 'GameManager::Init';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'da/da3/_main_release_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        var-mem-ref-line = '10';
-        var-mem-ref-name = 'main';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        var-mem-ref-line = '28';
-        var-mem-ref-name = 'Player::Player';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'de/d34/_enemy_8cpp_1a614ad271f07ecf63cb3e665155b7e258';
-        var-mem-ref-line = '38';
-        var-mem-ref-name = 'Enemy::Update';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd6/dae/_shoot_8cpp_1a62b0cda1174ab196a752fda68fd82f64';
-        var-mem-ref-line = '62';
-        var-mem-ref-name = 'Shoot::Update';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -8048,11 +6337,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'da/da3/_main_release_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        var-mem-ref-line = '10';
-        var-mem-ref-name = 'main';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -8074,21 +6358,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a8dcf57279ce4950fdb2e3cffe9e74173';
-        var-mem-ref-line = '21';
-        var-mem-ref-name = 'SequenceMovePatern::DoPatern';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd3/dec/_controller_8cpp_1aa13a1b4bb14d868f3ea393ef5a1ca359';
-        var-mem-ref-line = '32';
-        var-mem-ref-name = 'Controller::Shoot';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
     }; /* var-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Namespaces/GameStatus.h';
@@ -8157,11 +6426,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'dc/d38/_main_testing_8cpp_1af5aadfa8649eb17079e6467fdcf4b0ce';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'Testing::ExecuteTesting';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -8194,16 +6458,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd6/da4/_a_offsetable_patern_8cpp_1a1d0381a19f11a56309aecb4dab4bf26c';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'AOffsetablePatern::ComputerOffset';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'dc/d38/_main_testing_8cpp_1af5aadfa8649eb17079e6467fdcf4b0ce';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'Testing::ExecuteTesting';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -8256,16 +6510,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a8dcf57279ce4950fdb2e3cffe9e74173';
-        func-mem-ref-line = '21';
-        func-mem-ref-name = 'SequenceMovePatern::DoPatern';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        func-mem-ref-line = '61';
-        func-mem-ref-name = 'Player::Update';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -8426,21 +6670,6 @@ _EnD_oF_dEf_TeXt_;
 <returns>Return an array with all the data.</returns>
 <exception>length_error</exception> 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd6/dad/_utils_8cpp_1afb617472447764370d232e7d5837b141';
-        func-mem-ref-line = '35';
-        func-mem-ref-name = 'Utils::s_replace';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd6/dad/_utils_8cpp_1a16e4db103d71e1bdf27c573111b34686';
-        func-mem-ref-line = '40';
-        func-mem-ref-name = 'Utils::s_split';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/df6/_parser_8cpp_1af6e87dcdca04e38cc2d92d2a8b1186f8';
-        func-mem-ref-line = '51';
-        func-mem-ref-name = 'Parser::ParseCSV';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -8486,11 +6715,6 @@ _EnD_oF_dEf_TeXt_;
 <returns>Return an array with all the data.</returns>
 <exception>length_error</exception> 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'de/df6/_parser_8cpp_1a2a274b7c0e7f12f4e13b423516478398';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'Parser::ParseCSV';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -8515,21 +6739,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a0d694966bab28954188dd39c02fc5a52';
-        func-mem-ref-line = '26';
-        func-mem-ref-name = 'SequenceMovePatern::InitSequence';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a117aaf027bd34e98f8a9bfeb62979854';
-        func-mem-ref-line = '10';
-        func-mem-ref-name = 'SequenceMovePatern::SEQUENCE_FIELD_COUNT';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd5/d58/_patern_editor_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        func-mem-ref-line = '13';
-        func-mem-ref-name = 'main';
-    };
     }; /* func-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Namespaces/Parser.h';
@@ -8574,21 +6783,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1ad27dc1c25f99244acafa5832bc2424a4';
-        func-mem-ref-line = '12';
-        func-mem-ref-name = 'GameManager::Init';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/d34/_enemy_8cpp_1a9a843cba28f45e337766c4c4a473c0e3';
-        func-mem-ref-line = '85';
-        func-mem-ref-name = 'Enemy::RandomChangeSettings';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/d34/_enemy_8cpp_1a614ad271f07ecf63cb3e665155b7e258';
-        func-mem-ref-line = '38';
-        func-mem-ref-name = 'Enemy::Update';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -8637,11 +6831,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1ad27dc1c25f99244acafa5832bc2424a4';
-        func-mem-ref-line = '12';
-        func-mem-ref-name = 'GameManager::Init';
-    };
     }; /* func-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Namespaces/Random.h';
@@ -8692,11 +6881,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/df6/_parser_8cpp_1a2a274b7c0e7f12f4e13b423516478398';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'Parser::ParseCSV';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -8727,11 +6911,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/df6/_parser_8cpp_1a2a274b7c0e7f12f4e13b423516478398';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'Parser::ParseCSV';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -8892,26 +7071,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'dd/d3e/_collider_8cpp_1a3200e5a086ede5e4075c204b965f078e';
-        func-mem-ref-line = '5';
-        func-mem-ref-name = 'ColliderCalculation::Calculation';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/d36/_collider_8h_1a195dd7a30ff97926411dfdfc22547de0';
-        func-mem-ref-line = '40';
-        func-mem-ref-name = 'ACollider::GetType';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'dd/d3e/_collider_8cpp_1a3200e5a086ede5e4075c204b965f078e';
-        func-mem-ref-line = '5';
-        func-mem-ref-name = 'ColliderCalculation::Calculation';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd5/d36/_collider_8h_1a6894c089d9a18c6297467b768355db7f';
-        func-mem-ref-line = '42';
-        func-mem-ref-name = 'ACollider::Calculation';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -8954,16 +7113,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'da/d02/_transform2_d_8h_1a92e94531fe8fc9e8f89efc1d4dd37c2b';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'Transform2D::position';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/d36/_collider_8h_1a60da2a858fc57a2eb4c82745d012ca60';
-        func-mem-ref-line = '52';
-        func-mem-ref-name = 'CircleCollider::radius';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -9006,16 +7155,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'da/d02/_transform2_d_8h_1a92e94531fe8fc9e8f89efc1d4dd37c2b';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'Transform2D::position';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/d36/_collider_8h_1a60da2a858fc57a2eb4c82745d012ca60';
-        func-mem-ref-line = '52';
-        func-mem-ref-name = 'CircleCollider::radius';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -9058,11 +7197,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/d36/_collider_8h_1a6894c089d9a18c6297467b768355db7f';
-        func-mem-ref-line = '42';
-        func-mem-ref-name = 'ACollider::Calculation';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -9108,18 +7242,6 @@ _EnD_oF_dEf_TeXt_;
     }; /* func-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Collider.h';
-  file-first-line = '1';
-  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-  file-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-}; /* file */
-file = {
-  file-id   = 'd4/d1e/_enemy_8h';
-  file-name = 'Enemy.h';
-  file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Enemy.h';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 
@@ -9184,23 +7306,16 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'meToo';
       }; /*        func-mem-param--param */
       func-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/InstanceList.h';
-      func-mem-desc-line = '14';
+      func-mem-desc-line = '23';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Add an instance of to the list
+</summary>
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+<typeparam name="T">The type of the list. Please ensure that it's a child of InstanceList</typeparam>
+<param name="meToo">The object to add</param> 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1a8cb19aa05d018e0d008c7f9f930a35c9';
-        func-mem-ref-line = '46';
-        func-mem-ref-name = 'AGraphicObject::AGraphicObject';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        func-mem-ref-line = '13';
-        func-mem-ref-name = 'Enemy::Enemy';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -9218,23 +7333,16 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'meToo';
       }; /*        func-mem-param--param */
       func-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/InstanceList.h';
-      func-mem-desc-line = '17';
+      func-mem-desc-line = '31';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+<summary>
+Remove an instance of to the list
+</summary>
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+<typeparam name="T">The type of the list. Please ensure that it's a child of InstanceList</typeparam>
+<param name="meToo">The object to remove</param> 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/d53/_a_graphic_object_8cpp_1aa8dacb77a8d4a9f65eadb3f29e38f929';
-        func-mem-ref-line = '51';
-        func-mem-ref-name = 'AGraphicObject::~AGraphicObject';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/d34/_enemy_8cpp_1ae4d34ffaa238887a811cffb8fcc2cc99';
-        func-mem-ref-line = '31';
-        func-mem-ref-name = 'Enemy::~Enemy';
-    };
     }; /* func-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/InstanceList.h';
@@ -9321,6 +7429,42 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
 }; /* file */
 file = {
+  file-id   = 'd4/d1e/_enemy_8h';
+  file-name = 'Enemy.h';
+  file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Enemy.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'd1/d39/_player_8h';
+  file-name = 'Player.h';
+  file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Player.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'de/d15/_shoot_8h';
+  file-name = 'Shoot.h';
+  file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Movable/Shoot.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
   file-id   = 'dc/d8f/_a_offsetable_patern_8h';
   file-name = 'AOffsetablePatern.h';
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Paterns/AOffsetablePatern.h';
@@ -9381,30 +7525,6 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
 }; /* file */
 file = {
-  file-id   = 'd1/d39/_player_8h';
-  file-name = 'Player.h';
-  file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Player.h';
-  file-first-line = '1';
-  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-  file-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-}; /* file */
-file = {
-  file-id   = 'de/d15/_shoot_8h';
-  file-name = 'Shoot.h';
-  file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Shoot.h';
-  file-first-line = '1';
-  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-  file-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-}; /* file */
-file = {
   file-id   = 'da/d02/_transform2_d_8h';
   file-name = 'Transform2D.h';
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Shmup/Transform2D.h';
@@ -9437,31 +7557,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'db/d01/_testing_8h_1abf2bc558a4df9c924f989d50454c92ed';
-        func-mem-ref-line = '25';
-        func-mem-ref-name = 'Testing::DebugCurve';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'db/d01/_testing_8h_1ad11634cb1c1f08b553a04090f7d68a31';
-        func-mem-ref-line = '8';
-        func-mem-ref-name = 'Testing::DebugCurveAxes';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd0/d44/_math_utils_8cpp_1a10dd47c1978ae435f095f0af354c3c72';
-        func-mem-ref-line = '14';
-        func-mem-ref-name = 'MathUtils::scalePolarVec2D';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd0/d44/_math_utils_8cpp_1a8d3d95c0de7c4c9e2533b64e7a9e444a';
-        func-mem-ref-line = '8';
-        func-mem-ref-name = 'MathUtils::scalePolarVec2DNonOpti';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'da/da3/_main_release_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        func-mem-ref-line = '10';
-        func-mem-ref-name = 'main';
-    };
     }; /* func-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Testing/MainTesting.h';
@@ -9527,21 +7622,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1ab0b732a10aba81e6df12490708093228';
-        func-mem-ref-line = '11';
-        func-mem-ref-name = 'GameStatus::screenHeight';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1a9d499354f3e203b6685c00de806752ff';
-        func-mem-ref-line = '10';
-        func-mem-ref-name = 'GameStatus::screenWidth';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'dc/d38/_main_testing_8cpp_1af5aadfa8649eb17079e6467fdcf4b0ce';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'Testing::ExecuteTesting';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -9605,26 +7685,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1ab98bbe093d86259e0648891911aa9654';
-        func-mem-ref-line = '8';
-        func-mem-ref-name = 'pos';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1ab0b732a10aba81e6df12490708093228';
-        func-mem-ref-line = '11';
-        func-mem-ref-name = 'GameStatus::screenHeight';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1a9d499354f3e203b6685c00de806752ff';
-        func-mem-ref-line = '10';
-        func-mem-ref-name = 'GameStatus::screenWidth';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'dc/d38/_main_testing_8cpp_1af5aadfa8649eb17079e6467fdcf4b0ce';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'Testing::ExecuteTesting';
-    };
     }; /* func-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Testing/Testing.h';
@@ -9662,41 +7722,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'dc/d38/_main_testing_8cpp_1af5aadfa8649eb17079e6467fdcf4b0ce';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'Testing::ExecuteTesting';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1a24a4c92707d64c27bea88cbe2decf100';
-        func-mem-ref-line = '13';
-        func-mem-ref-name = 'GameStatus::frameRate';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1ad27dc1c25f99244acafa5832bc2424a4';
-        func-mem-ref-line = '12';
-        func-mem-ref-name = 'GameManager::Init';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1adddc25cf2ca23218c59ff36d0ef27e1c';
-        func-mem-ref-line = '28';
-        func-mem-ref-name = 'GameManager::Render';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1ab0b732a10aba81e6df12490708093228';
-        func-mem-ref-line = '11';
-        func-mem-ref-name = 'GameStatus::screenHeight';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1a9d499354f3e203b6685c00de806752ff';
-        func-mem-ref-line = '10';
-        func-mem-ref-name = 'GameStatus::screenWidth';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1a7f10c3b4d95b85df56ad4c96385ca0df';
-        func-mem-ref-line = '38';
-        func-mem-ref-name = 'GameManager::Update';
-    };
     }; /* func-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/MainRelease.cpp';
@@ -9745,11 +7770,6 @@ _EnD_oF_dEf_TeXt_;
 <param name="positive"></param>
 <returns></returns> 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1ac59b0e73aa6833bc9f7b0ec4cb336c89';
-        func-mem-ref-line = '11';
-        func-mem-ref-name = 'Controller::GetPlayerDirection';
-    };
     }; /* func-member */
     };
     var = {
@@ -9773,11 +7793,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd3/dec/_controller_8cpp_1aa13a1b4bb14d868f3ea393ef5a1ca359';
-        var-mem-ref-line = '32';
-        var-mem-ref-name = 'Controller::Shoot';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -9799,31 +7814,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd3/dec/_controller_8cpp_1ab9ea67058d0c368551c44d9872bc624d';
-        var-mem-ref-line = '63';
-        var-mem-ref-name = 'Controller::DoSwitch';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd3/dec/_controller_8cpp_1ac59b0e73aa6833bc9f7b0ec4cb336c89';
-        var-mem-ref-line = '11';
-        var-mem-ref-name = 'Controller::GetPlayerDirection';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd3/dec/_controller_8cpp_1a4b53def0e49157bf5597b2f9d6d9cc76';
-        var-mem-ref-line = '58';
-        var-mem-ref-name = 'Controller::NextPatern';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd3/dec/_controller_8cpp_1a43f58c0cecdbd6c84d5775066d2f59bf';
-        var-mem-ref-line = '54';
-        var-mem-ref-name = 'Controller::PreviousPatern';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd3/dec/_controller_8cpp_1aa13a1b4bb14d868f3ea393ef5a1ca359';
-        var-mem-ref-line = '32';
-        var-mem-ref-name = 'Controller::Shoot';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -9880,11 +7870,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd4/dce/_files_8cpp_1a1960f9938a6ad5513f5fc8b95e9e6254';
-        var-mem-ref-line = '5';
-        var-mem-ref-name = 'Files::GetSourceRect';
-    };
     }; /* var-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Namespaces/Files.cpp';
@@ -9983,16 +7968,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1ab98bbe093d86259e0648891911aa9654';
-        func-mem-ref-line = '8';
-        func-mem-ref-name = 'pos';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a1a50109a8297e8599032574079dbb669';
-        func-mem-ref-line = '23';
-        func-mem-ref-name = 'PaternComputer::Update';
-    };
     }; /* func-member */
     };
     var = {
@@ -10013,31 +7988,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'db/d01/_testing_8h_1abf2bc558a4df9c924f989d50454c92ed';
-        var-mem-ref-line = '25';
-        var-mem-ref-name = 'Testing::DebugCurve';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a88f7a48b7ee4dcedeccb1e9d11873d05';
-        var-mem-ref-line = '30';
-        var-mem-ref-name = 'DrawDebug';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd5/d58/_patern_editor_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        var-mem-ref-line = '13';
-        var-mem-ref-name = 'main';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a4cae5aa797e2f3b582b58282bcbc85f4';
-        var-mem-ref-line = '10';
-        var-mem-ref-name = 'PaternComputer::SetPatern';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a1a50109a8297e8599032574079dbb669';
-        var-mem-ref-line = '23';
-        var-mem-ref-name = 'PaternComputer::Update';
-    };
     }; /* var-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/PaternEditor/PaternComputer.cpp';
@@ -10095,61 +8045,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1a24a4c92707d64c27bea88cbe2decf100';
-        func-mem-ref-line = '13';
-        func-mem-ref-name = 'GameStatus::frameRate';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'de/df6/_parser_8cpp_1a6b68c059584e19a98761e3d81df4dba7';
-        func-mem-ref-line = '27';
-        func-mem-ref-name = 'Parser::GetSequencePatern';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1ab98bbe093d86259e0648891911aa9654';
-        func-mem-ref-line = '8';
-        func-mem-ref-name = 'pos';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1ab0b732a10aba81e6df12490708093228';
-        func-mem-ref-line = '11';
-        func-mem-ref-name = 'GameStatus::screenHeight';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1a9d499354f3e203b6685c00de806752ff';
-        func-mem-ref-line = '10';
-        func-mem-ref-name = 'GameStatus::screenWidth';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a4cae5aa797e2f3b582b58282bcbc85f4';
-        func-mem-ref-line = '10';
-        func-mem-ref-name = 'PaternComputer::SetPatern';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd6/dbd/_i_movable_8h_1a3981c9729fd5050ff7e4380b4596a172';
-        func-mem-ref-line = '10';
-        func-mem-ref-name = 'AMovable::speed';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/d58/_patern_editor_main_8cpp_1a59aee860f15096fbdcb39629af561806';
-        func-mem-ref-line = '11';
-        func-mem-ref-name = 'START_CURVE';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/d22/_patern_computer_8h_1aa2e99d38424c339aa9f9eca106464b32';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'PaternComputer::startPositionX';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/d22/_patern_computer_8h_1a488e8b0e78253ed4b6fa073f88a1c8ed';
-        func-mem-ref-line = '10';
-        func-mem-ref-name = 'PaternComputer::startPositionY';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1a1a50109a8297e8599032574079dbb669';
-        func-mem-ref-line = '23';
-        func-mem-ref-name = 'PaternComputer::Update';
-    };
     }; /* func-member */
     };
     var = {
@@ -10173,11 +8068,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd5/d58/_patern_editor_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        var-mem-ref-line = '13';
-        var-mem-ref-name = 'main';
-    };
     }; /* var-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/PaternEditorMain.cpp';
@@ -10205,93 +8095,6 @@ file = {
   file-id   = 'dd/d3e/_collider_8cpp';
   file-name = 'Collider.cpp';
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Collider.cpp';
-  file-first-line = '1';
-  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-  file-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-}; /* file */
-file = {
-  file-id   = 'de/d34/_enemy_8cpp';
-  file-name = 'Enemy.cpp';
-    var = {
-    var-member = {
-      var-mem-kind = 'variable';
-      var-mem-id   = 'de/d34/_enemy_8cpp_1a999ec433a485a7a3ffbfbafdf39d12e2';
-      var-mem-virt = normal;
-      var-mem-prot = public;
-      var-mem-type = <<_EnD_oF_dEf_TeXt_
-constexpr unsigned int
-_EnD_oF_dEf_TeXt_;
-      var-mem-name = 'SHIP_LINE_COUNT';
-      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
-= 2
-_EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Enemy.cpp';
-      var-mem-desc-line = '9';
-      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* var-member */
-    var-member = {
-      var-mem-kind = 'variable';
-      var-mem-id   = 'de/d34/_enemy_8cpp_1a425cc02d52663fc975d9a4099ca7eae6';
-      var-mem-virt = normal;
-      var-mem-prot = public;
-      var-mem-type = <<_EnD_oF_dEf_TeXt_
-constexpr unsigned int
-_EnD_oF_dEf_TeXt_;
-      var-mem-name = 'SHIP_COLUMNS_COUNT';
-      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
-= 4
-_EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Enemy.cpp';
-      var-mem-desc-line = '10';
-      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        var-mem-ref-line = '13';
-        var-mem-ref-name = 'Enemy::Enemy';
-    };
-    }; /* var-member */
-    var-member = {
-      var-mem-kind = 'variable';
-      var-mem-id   = 'de/d34/_enemy_8cpp_1a13c45bbcada4e3f3553fdb835626b96a';
-      var-mem-virt = normal;
-      var-mem-prot = public;
-      var-mem-type = <<_EnD_oF_dEf_TeXt_
-constexpr unsigned int
-_EnD_oF_dEf_TeXt_;
-      var-mem-name = 'SHIP_TYPES_MAX_INDEX';
-      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
-= SHIP_COLUMNS_COUNT*SHIP_LINE_COUNT-1
-_EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Enemy.cpp';
-      var-mem-desc-line = '11';
-      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        var-mem-ref-line = '13';
-        var-mem-ref-name = 'Enemy::Enemy';
-    };
-    }; /* var-member */
-    };
-  file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Enemy.cpp';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 
@@ -10333,11 +8136,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1ad27dc1c25f99244acafa5832bc2424a4';
-        var-mem-ref-line = '12';
-        var-mem-ref-name = 'GameManager::Init';
-    };
     }; /* var-member */
     };
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/GameManager.cpp';
@@ -10353,6 +8151,295 @@ file = {
   file-id   = 'df/dd2/_level_manager_8cpp';
   file-name = 'LevelManager.cpp';
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/LevelManager.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'de/d34/_enemy_8cpp';
+  file-name = 'Enemy.cpp';
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'de/d34/_enemy_8cpp_1a999ec433a485a7a3ffbfbafdf39d12e2';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+constexpr unsigned int
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'SHIP_LINE_COUNT';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 2
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Enemy.cpp';
+      var-mem-desc-line = '9';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'de/d34/_enemy_8cpp_1a425cc02d52663fc975d9a4099ca7eae6';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+constexpr unsigned int
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'SHIP_COLUMNS_COUNT';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 4
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Enemy.cpp';
+      var-mem-desc-line = '10';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'de/d34/_enemy_8cpp_1a13c45bbcada4e3f3553fdb835626b96a';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+constexpr unsigned int
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'SHIP_TYPES_MAX_INDEX';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= SHIP_COLUMNS_COUNT*SHIP_LINE_COUNT-1
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Enemy.cpp';
+      var-mem-desc-line = '11';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    };
+  file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Enemy.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'd2/d82/_player_8cpp';
+  file-name = 'Player.cpp';
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'd2/d82/_player_8cpp_1a95c0c55419ff908bddcc2b7b5ac5757d';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+constexpr Vector2
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'SCALE';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= { 2.5f, 2.5f }
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Player.cpp';
+      var-mem-desc-line = '14';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'd2/d82/_player_8cpp_1a20d8717a6a9bae52f1830ab14a1d0fb4';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+constexpr float
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'CONTROLS_INTERPOLATE_THRESHOLD';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 0.04f
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Player.cpp';
+      var-mem-desc-line = '15';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'd2/d82/_player_8cpp_1a9a88a4381f08f6fdc6fb65f5f21d7c1c';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+Vector2
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'directionInput';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= { 0, -0.1}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Player.cpp';
+      var-mem-desc-line = '16';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'd2/d82/_player_8cpp_1a291cc1bf2c3c14aa54cc3b99032437be';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+constexpr float
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'DEFAULT_FIRE_RATE';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 0.1f
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Player.cpp';
+      var-mem-desc-line = '18';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'd2/d82/_player_8cpp_1ae073e0abf6b56bee85b4f357e8abfabc';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'countdown';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= DEFAULT_FIRE_RATE
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Player.cpp';
+      var-mem-desc-line = '19';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'd2/d82/_player_8cpp_1ab3d9a382c9f0db92ea54212e54b4c8d1';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+float *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'countdownPtr';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= &countdown
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Player.cpp';
+      var-mem-desc-line = '20';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'd2/d82/_player_8cpp_1a7f5820c5365de4a4c575342b6ad56d55';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = '_sprite';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+=0
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Player.cpp';
+      var-mem-desc-line = '22';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'd2/d82/_player_8cpp_1add80b336dd1f72b3380b405326eed64b';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+unsigned long long
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'shootIndex';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 0
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Player.cpp';
+      var-mem-desc-line = '24';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'd2/d82/_player_8cpp_1a5671e1e751e383ae9c1922ef57915718';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'maxRotateAngle';
+      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Player.cpp';
+      var-mem-desc-line = '25';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    };
+  file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Player.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'd6/dae/_shoot_8cpp';
+  file-name = 'Shoot.cpp';
+  file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Movable/Shoot.cpp';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 
@@ -10401,268 +8488,6 @@ file = {
   file-id   = 'db/db4/_patern_v_spread_8cpp';
   file-name = 'PaternVSpread.cpp';
   file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Paterns/Shoot/PaternVSpread.cpp';
-  file-first-line = '1';
-  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-  file-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-}; /* file */
-file = {
-  file-id   = 'd2/d82/_player_8cpp';
-  file-name = 'Player.cpp';
-    var = {
-    var-member = {
-      var-mem-kind = 'variable';
-      var-mem-id   = 'd2/d82/_player_8cpp_1a95c0c55419ff908bddcc2b7b5ac5757d';
-      var-mem-virt = normal;
-      var-mem-prot = public;
-      var-mem-type = <<_EnD_oF_dEf_TeXt_
-constexpr Vector2
-_EnD_oF_dEf_TeXt_;
-      var-mem-name = 'SCALE';
-      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
-= { 2.5f, 2.5f }
-_EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Player.cpp';
-      var-mem-desc-line = '14';
-      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        var-mem-ref-line = '28';
-        var-mem-ref-name = 'Player::Player';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
-    }; /* var-member */
-    var-member = {
-      var-mem-kind = 'variable';
-      var-mem-id   = 'd2/d82/_player_8cpp_1a20d8717a6a9bae52f1830ab14a1d0fb4';
-      var-mem-virt = normal;
-      var-mem-prot = public;
-      var-mem-type = <<_EnD_oF_dEf_TeXt_
-constexpr float
-_EnD_oF_dEf_TeXt_;
-      var-mem-name = 'CONTROLS_INTERPOLATE_THRESHOLD';
-      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
-= 0.04f
-_EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Player.cpp';
-      var-mem-desc-line = '15';
-      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
-    }; /* var-member */
-    var-member = {
-      var-mem-kind = 'variable';
-      var-mem-id   = 'd2/d82/_player_8cpp_1a9a88a4381f08f6fdc6fb65f5f21d7c1c';
-      var-mem-virt = normal;
-      var-mem-prot = public;
-      var-mem-type = <<_EnD_oF_dEf_TeXt_
-Vector2
-_EnD_oF_dEf_TeXt_;
-      var-mem-name = 'directionInput';
-      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
-= { 0, -0.1}
-_EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Player.cpp';
-      var-mem-desc-line = '16';
-      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
-    }; /* var-member */
-    var-member = {
-      var-mem-kind = 'variable';
-      var-mem-id   = 'd2/d82/_player_8cpp_1a291cc1bf2c3c14aa54cc3b99032437be';
-      var-mem-virt = normal;
-      var-mem-prot = public;
-      var-mem-type = <<_EnD_oF_dEf_TeXt_
-constexpr float
-_EnD_oF_dEf_TeXt_;
-      var-mem-name = 'DEFAULT_FIRE_RATE';
-      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
-= 0.1f
-_EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Player.cpp';
-      var-mem-desc-line = '18';
-      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
-    }; /* var-member */
-    var-member = {
-      var-mem-kind = 'variable';
-      var-mem-id   = 'd2/d82/_player_8cpp_1ae073e0abf6b56bee85b4f357e8abfabc';
-      var-mem-virt = normal;
-      var-mem-prot = public;
-      var-mem-type = <<_EnD_oF_dEf_TeXt_
-float
-_EnD_oF_dEf_TeXt_;
-      var-mem-name = 'countdown';
-      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
-= DEFAULT_FIRE_RATE
-_EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Player.cpp';
-      var-mem-desc-line = '19';
-      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd3/dec/_controller_8cpp_1aa13a1b4bb14d868f3ea393ef5a1ca359';
-        var-mem-ref-line = '32';
-        var-mem-ref-name = 'Controller::Shoot';
-    };
-    }; /* var-member */
-    var-member = {
-      var-mem-kind = 'variable';
-      var-mem-id   = 'd2/d82/_player_8cpp_1ab3d9a382c9f0db92ea54212e54b4c8d1';
-      var-mem-virt = normal;
-      var-mem-prot = public;
-      var-mem-type = <<_EnD_oF_dEf_TeXt_
-float *
-_EnD_oF_dEf_TeXt_;
-      var-mem-name = 'countdownPtr';
-      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
-= &countdown
-_EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Player.cpp';
-      var-mem-desc-line = '20';
-      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
-    }; /* var-member */
-    var-member = {
-      var-mem-kind = 'variable';
-      var-mem-id   = 'd2/d82/_player_8cpp_1a7f5820c5365de4a4c575342b6ad56d55';
-      var-mem-virt = normal;
-      var-mem-prot = public;
-      var-mem-type = <<_EnD_oF_dEf_TeXt_
-float
-_EnD_oF_dEf_TeXt_;
-      var-mem-name = '_sprite';
-      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
-=0
-_EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Player.cpp';
-      var-mem-desc-line = '22';
-      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        var-mem-ref-line = '28';
-        var-mem-ref-name = 'Player::Player';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
-    }; /* var-member */
-    var-member = {
-      var-mem-kind = 'variable';
-      var-mem-id   = 'd2/d82/_player_8cpp_1add80b336dd1f72b3380b405326eed64b';
-      var-mem-virt = normal;
-      var-mem-prot = public;
-      var-mem-type = <<_EnD_oF_dEf_TeXt_
-unsigned long long
-_EnD_oF_dEf_TeXt_;
-      var-mem-name = 'shootIndex';
-      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
-= 0
-_EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Player.cpp';
-      var-mem-desc-line = '24';
-      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a264e56273d920d1249d6bdb884a97ffb';
-        var-mem-ref-line = '109';
-        var-mem-ref-name = 'Player::SetPaternIndex';
-    };
-    }; /* var-member */
-    var-member = {
-      var-mem-kind = 'variable';
-      var-mem-id   = 'd2/d82/_player_8cpp_1a5671e1e751e383ae9c1922ef57915718';
-      var-mem-virt = normal;
-      var-mem-prot = public;
-      var-mem-type = <<_EnD_oF_dEf_TeXt_
-float
-_EnD_oF_dEf_TeXt_;
-      var-mem-name = 'maxRotateAngle';
-      var-mem-desc-file = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Player.cpp';
-      var-mem-desc-line = '25';
-      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* var-member */
-    };
-  file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Player.cpp';
-  file-first-line = '1';
-  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-  file-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-}; /* file */
-file = {
-  file-id   = 'd6/dae/_shoot_8cpp';
-  file-name = 'Shoot.cpp';
-  file-full-name  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/src/Shmup/Shoot.cpp';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 
@@ -10728,26 +8553,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'dd/d3e/_collider_8cpp_1a3200e5a086ede5e4075c204b965f078e';
-        func-mem-ref-line = '5';
-        func-mem-ref-name = 'Calculation';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/d36/_collider_8h_1a195dd7a30ff97926411dfdfc22547de0';
-        func-mem-ref-line = '40';
-        func-mem-ref-name = 'ACollider::GetType';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'dd/d3e/_collider_8cpp_1a3200e5a086ede5e4075c204b965f078e';
-        func-mem-ref-line = '5';
-        func-mem-ref-name = 'Calculation';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd5/d36/_collider_8h_1a6894c089d9a18c6297467b768355db7f';
-        func-mem-ref-line = '42';
-        func-mem-ref-name = 'ACollider::Calculation';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -10790,16 +8595,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'da/d02/_transform2_d_8h_1a92e94531fe8fc9e8f89efc1d4dd37c2b';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'Transform2D::position';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/d36/_collider_8h_1a60da2a858fc57a2eb4c82745d012ca60';
-        func-mem-ref-line = '52';
-        func-mem-ref-name = 'CircleCollider::radius';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -10842,16 +8637,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'da/d02/_transform2_d_8h_1a92e94531fe8fc9e8f89efc1d4dd37c2b';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'Transform2D::position';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/d36/_collider_8h_1a60da2a858fc57a2eb4c82745d012ca60';
-        func-mem-ref-line = '52';
-        func-mem-ref-name = 'CircleCollider::radius';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -10894,11 +8679,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/d36/_collider_8h_1a6894c089d9a18c6297467b768355db7f';
-        func-mem-ref-line = '42';
-        func-mem-ref-name = 'ACollider::Calculation';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -10982,21 +8762,6 @@ _EnD_oF_dEf_TeXt_;
 <param name="playerTurretPosition">The position of the player (to do calculation with the mouse)</param>
 <returns>The direction</returns> 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a966a4e95158de24155d34010e3878636';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'isGamePad';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a35874275e7de9696df01f38d074d2212';
-        func-mem-ref-line = '75';
-        func-mem-ref-name = 'LGetDirection';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        func-mem-ref-line = '61';
-        func-mem-ref-name = 'Player::Update';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -11035,31 +8800,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 <returns></returns> 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1a95c02a43bb929929351967dce1d0ab90';
-        func-mem-ref-line = '14';
-        func-mem-ref-name = 'GameStatus::constantFrameTime';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1ae073e0abf6b56bee85b4f357e8abfabc';
-        func-mem-ref-line = '19';
-        func-mem-ref-name = 'countdown';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a966a4e95158de24155d34010e3878636';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'isGamePad';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a6f24cc27f52f646430436f82bbb01c26';
-        func-mem-ref-line = '8';
-        func-mem-ref-name = 'isRaffal';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        func-mem-ref-line = '61';
-        func-mem-ref-name = 'Player::Update';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -11080,16 +8820,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a966a4e95158de24155d34010e3878636';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'isGamePad';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1a7f10c3b4d95b85df56ad4c96385ca0df';
-        func-mem-ref-line = '38';
-        func-mem-ref-name = 'GameManager::Update';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -11108,16 +8838,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a966a4e95158de24155d34010e3878636';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'isGamePad';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        func-mem-ref-line = '61';
-        func-mem-ref-name = 'Player::Update';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -11136,16 +8856,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/dec/_controller_8cpp_1a966a4e95158de24155d34010e3878636';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'isGamePad';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        func-mem-ref-line = '61';
-        func-mem-ref-name = 'Player::Update';
-    };
     }; /* func-member */
     };
   ns-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Namespaces/Controller.h';
@@ -11196,31 +8906,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd4/dce/_files_8cpp_1adab19c1da821bb514057fc3e5aa45788';
-        func-mem-ref-line = '4';
-        func-mem-ref-name = 'PADDING';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        func-mem-ref-line = '13';
-        func-mem-ref-name = 'Enemy::Enemy';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        func-mem-ref-line = '28';
-        func-mem-ref-name = 'Player::Player';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        func-mem-ref-line = '8';
-        func-mem-ref-name = 'Shoot::Shoot';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        func-mem-ref-line = '61';
-        func-mem-ref-name = 'Player::Update';
-    };
     }; /* func-member */
     };
     var = {
@@ -11244,16 +8929,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        var-mem-ref-line = '13';
-        var-mem-ref-name = 'Enemy::Enemy';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        var-mem-ref-line = '28';
-        var-mem-ref-name = 'Player::Player';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -11296,21 +8971,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'de/d34/_enemy_8cpp_1a40a54884c5fa4ad5776b24bd5b8b05d4';
-        var-mem-ref-line = '13';
-        var-mem-ref-name = 'Enemy::Enemy';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        var-mem-ref-line = '28';
-        var-mem-ref-name = 'Player::Player';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -11332,11 +8992,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        var-mem-ref-line = '8';
-        var-mem-ref-name = 'Shoot::Shoot';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -11379,11 +9034,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd6/dae/_shoot_8cpp_1a00a097ac8cb4f62422d97ddfd33b0a45';
-        var-mem-ref-line = '8';
-        var-mem-ref-name = 'Shoot::Shoot';
-    };
     }; /* var-member */
     };
   ns-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Namespaces/Files.h';
@@ -11419,11 +9069,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        var-mem-ref-line = '28';
-        var-mem-ref-name = 'Player::Player';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -11445,11 +9090,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1ad27dc1c25f99244acafa5832bc2424a4';
-        var-mem-ref-line = '12';
-        var-mem-ref-name = 'GameManager::Init';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -11471,46 +9111,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'db/d01/_testing_8h_1abf2bc558a4df9c924f989d50454c92ed';
-        var-mem-ref-line = '25';
-        var-mem-ref-name = 'Testing::DebugCurve';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'db/d01/_testing_8h_1ad11634cb1c1f08b553a04090f7d68a31';
-        var-mem-ref-line = '8';
-        var-mem-ref-name = 'Testing::DebugCurveAxes';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1ad27dc1c25f99244acafa5832bc2424a4';
-        var-mem-ref-line = '12';
-        var-mem-ref-name = 'GameManager::Init';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'da/da3/_main_release_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        var-mem-ref-line = '10';
-        var-mem-ref-name = 'main';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        var-mem-ref-line = '28';
-        var-mem-ref-name = 'Player::Player';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'de/d34/_enemy_8cpp_1a614ad271f07ecf63cb3e665155b7e258';
-        var-mem-ref-line = '38';
-        var-mem-ref-name = 'Enemy::Update';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd6/dae/_shoot_8cpp_1a62b0cda1174ab196a752fda68fd82f64';
-        var-mem-ref-line = '62';
-        var-mem-ref-name = 'Shoot::Update';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -11532,46 +9132,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'db/d01/_testing_8h_1abf2bc558a4df9c924f989d50454c92ed';
-        var-mem-ref-line = '25';
-        var-mem-ref-name = 'Testing::DebugCurve';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'db/d01/_testing_8h_1ad11634cb1c1f08b553a04090f7d68a31';
-        var-mem-ref-line = '8';
-        var-mem-ref-name = 'Testing::DebugCurveAxes';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1ad27dc1c25f99244acafa5832bc2424a4';
-        var-mem-ref-line = '12';
-        var-mem-ref-name = 'GameManager::Init';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'da/da3/_main_release_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        var-mem-ref-line = '10';
-        var-mem-ref-name = 'main';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1affe0cc3cb714f6deb4e62f0c0d3f1fd8';
-        var-mem-ref-line = '28';
-        var-mem-ref-name = 'Player::Player';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'de/d34/_enemy_8cpp_1a614ad271f07ecf63cb3e665155b7e258';
-        var-mem-ref-line = '38';
-        var-mem-ref-name = 'Enemy::Update';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd6/dae/_shoot_8cpp_1a62b0cda1174ab196a752fda68fd82f64';
-        var-mem-ref-line = '62';
-        var-mem-ref-name = 'Shoot::Update';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -11593,11 +9153,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'da/da3/_main_release_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        var-mem-ref-line = '10';
-        var-mem-ref-name = 'main';
-    };
     }; /* var-member */
     var-member = {
       var-mem-kind = 'variable';
@@ -11619,21 +9174,6 @@ _EnD_oF_dEf_TeXt_;
       var-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      var-mem-referencedby = {
-        var-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a8dcf57279ce4950fdb2e3cffe9e74173';
-        var-mem-ref-line = '21';
-        var-mem-ref-name = 'SequenceMovePatern::DoPatern';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd3/dec/_controller_8cpp_1aa13a1b4bb14d868f3ea393ef5a1ca359';
-        var-mem-ref-line = '32';
-        var-mem-ref-name = 'Controller::Shoot';
-    };
-      var-mem-referencedby = {
-        var-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        var-mem-ref-line = '61';
-        var-mem-ref-name = 'Player::Update';
-    };
     }; /* var-member */
     };
   ns-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Namespaces/GameStatus.h';
@@ -11702,11 +9242,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'dc/d38/_main_testing_8cpp_1af5aadfa8649eb17079e6467fdcf4b0ce';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'Testing::ExecuteTesting';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -11739,16 +9274,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd6/da4/_a_offsetable_patern_8cpp_1a1d0381a19f11a56309aecb4dab4bf26c';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'AOffsetablePatern::ComputerOffset';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'dc/d38/_main_testing_8cpp_1af5aadfa8649eb17079e6467fdcf4b0ce';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'Testing::ExecuteTesting';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -11801,16 +9326,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'df/d32/_sequence_move_patern_8cpp_1a8dcf57279ce4950fdb2e3cffe9e74173';
-        func-mem-ref-line = '21';
-        func-mem-ref-name = 'SequenceMovePatern::DoPatern';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d82/_player_8cpp_1a5e17be3418fa0ac0192c05efaf3dc8bd';
-        func-mem-ref-line = '61';
-        func-mem-ref-name = 'Player::Update';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -11971,21 +9486,6 @@ _EnD_oF_dEf_TeXt_;
 <returns>Return an array with all the data.</returns>
 <exception>length_error</exception> 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd6/dad/_utils_8cpp_1afb617472447764370d232e7d5837b141';
-        func-mem-ref-line = '35';
-        func-mem-ref-name = 'Utils::s_replace';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd6/dad/_utils_8cpp_1a16e4db103d71e1bdf27c573111b34686';
-        func-mem-ref-line = '40';
-        func-mem-ref-name = 'Utils::s_split';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/df6/_parser_8cpp_1af6e87dcdca04e38cc2d92d2a8b1186f8';
-        func-mem-ref-line = '51';
-        func-mem-ref-name = 'ParseCSV';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -12031,11 +9531,6 @@ _EnD_oF_dEf_TeXt_;
 <returns>Return an array with all the data.</returns>
 <exception>length_error</exception> 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'de/df6/_parser_8cpp_1a2a274b7c0e7f12f4e13b423516478398';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'ParseCSV';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -12060,21 +9555,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a0d694966bab28954188dd39c02fc5a52';
-        func-mem-ref-line = '26';
-        func-mem-ref-name = 'SequenceMovePatern::InitSequence';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd1/d98/_sequence_move_patern_8h_1a117aaf027bd34e98f8a9bfeb62979854';
-        func-mem-ref-line = '10';
-        func-mem-ref-name = 'SequenceMovePatern::SEQUENCE_FIELD_COUNT';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd5/d58/_patern_editor_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        func-mem-ref-line = '13';
-        func-mem-ref-name = 'main';
-    };
     }; /* func-member */
     };
   ns-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Namespaces/Parser.h';
@@ -12119,21 +9599,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1ad27dc1c25f99244acafa5832bc2424a4';
-        func-mem-ref-line = '12';
-        func-mem-ref-name = 'GameManager::Init';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/d34/_enemy_8cpp_1a9a843cba28f45e337766c4c4a473c0e3';
-        func-mem-ref-line = '85';
-        func-mem-ref-name = 'Enemy::RandomChangeSettings';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/d34/_enemy_8cpp_1a614ad271f07ecf63cb3e665155b7e258';
-        func-mem-ref-line = '38';
-        func-mem-ref-name = 'Enemy::Update';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -12182,11 +9647,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'd2/d2e/_game_manager_8cpp_1ad27dc1c25f99244acafa5832bc2424a4';
-        func-mem-ref-line = '12';
-        func-mem-ref-name = 'GameManager::Init';
-    };
     }; /* func-member */
     };
   ns-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Namespaces/Random.h';
@@ -12219,31 +9679,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'db/d01/_testing_8h_1abf2bc558a4df9c924f989d50454c92ed';
-        func-mem-ref-line = '25';
-        func-mem-ref-name = 'DebugCurve';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'db/d01/_testing_8h_1ad11634cb1c1f08b553a04090f7d68a31';
-        func-mem-ref-line = '8';
-        func-mem-ref-name = 'DebugCurveAxes';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd0/d44/_math_utils_8cpp_1a10dd47c1978ae435f095f0af354c3c72';
-        func-mem-ref-line = '14';
-        func-mem-ref-name = 'MathUtils::scalePolarVec2D';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd0/d44/_math_utils_8cpp_1a8d3d95c0de7c4c9e2533b64e7a9e444a';
-        func-mem-ref-line = '8';
-        func-mem-ref-name = 'MathUtils::scalePolarVec2DNonOpti';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'da/da3/_main_release_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
-        func-mem-ref-line = '10';
-        func-mem-ref-name = 'main';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -12295,21 +9730,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1ab0b732a10aba81e6df12490708093228';
-        func-mem-ref-line = '11';
-        func-mem-ref-name = 'GameStatus::screenHeight';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1a9d499354f3e203b6685c00de806752ff';
-        func-mem-ref-line = '10';
-        func-mem-ref-name = 'GameStatus::screenWidth';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'dc/d38/_main_testing_8cpp_1af5aadfa8649eb17079e6467fdcf4b0ce';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'ExecuteTesting';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -12373,26 +9793,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd3/d32/_patern_computer_8cpp_1ab98bbe093d86259e0648891911aa9654';
-        func-mem-ref-line = '8';
-        func-mem-ref-name = 'pos';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1ab0b732a10aba81e6df12490708093228';
-        func-mem-ref-line = '11';
-        func-mem-ref-name = 'GameStatus::screenHeight';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'd5/daf/_game_status_8h_1a9d499354f3e203b6685c00de806752ff';
-        func-mem-ref-line = '10';
-        func-mem-ref-name = 'GameStatus::screenWidth';
-    };
-      func-mem-referencedby = {
-        func-mem-ref-id = 'dc/d38/_main_testing_8cpp_1af5aadfa8649eb17079e6467fdcf4b0ce';
-        func-mem-ref-line = '6';
-        func-mem-ref-name = 'ExecuteTesting';
-    };
     }; /* func-member */
     };
   ns-filename  = 'D:/Mes documents/Projects/C++ bureau/RayLib_SHMUP/RayLib_SHMUP/include/Testing/MainTesting.h';
@@ -12443,11 +9843,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/df6/_parser_8cpp_1a2a274b7c0e7f12f4e13b423516478398';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'Parser::ParseCSV';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -12478,11 +9873,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      func-mem-referencedby = {
-        func-mem-ref-id = 'de/df6/_parser_8cpp_1a2a274b7c0e7f12f4e13b423516478398';
-        func-mem-ref-line = '9';
-        func-mem-ref-name = 'Parser::ParseCSV';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';

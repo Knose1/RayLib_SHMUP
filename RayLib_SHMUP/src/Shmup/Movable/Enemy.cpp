@@ -24,14 +24,19 @@ Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction,
 	orientation = 0;
 	source = Files::GetSourceRect(texture, Files::SHIP_TEXTURE_SIZE, { (float)(type%SHIP_COLUMNS_COUNT), (float)(type/SHIP_COLUMNS_COUNT)+1});
 	
+	collider = new RectCollider(center, source.width, source.height);
+	collider->layer = CollisionLayer::Ennemy;
+
 	RandomChangeSettings();
 	AddInstance(this);
 }
 
 Enemy::~Enemy()
 {
+	delete collider;
 	delete patern;
 	AGraphicObject::~AGraphicObject();
+	ACollidable::~ACollidable();
 	RemoveInstance(this);
 }
 
@@ -88,4 +93,14 @@ void Enemy::RandomChangeSettings()
 	rotationAcceleration = Random::randMToN(0.003f, 0.02f);
 	isNegativeRotationSpeed = signbit(rotationSpeed);
 	speed = Random::randMToN(3, 5);
+}
+
+Transform2D Enemy::GetTransform()
+{
+	return {position, orientation, scale};
+}
+
+void Enemy::OnCollision(ACollidable * other)
+{
+	delete this;
 }
