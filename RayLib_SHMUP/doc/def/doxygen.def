@@ -7031,13 +7031,13 @@ _EnD_oF_dEf_TeXt_;
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'df/dde/namespace_math_utils_1ad9e341db6e8148519b01b091b5b949f3';
+      func-mem-id   = 'df/dde/namespace_math_utils_1a8d3d95c0de7c4c9e2533b64e7a9e444a';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
 float
 _EnD_oF_dEf_TeXt_;
-      func-mem-name = 'scalePolarVec2DNoChecking';
+      func-mem-name = 'scalePolarVec2DNonOpti';
       func-mem-param = {
         func-mem-param-type = <<_EnD_oF_dEf_TeXt_
 float
@@ -7084,7 +7084,7 @@ _EnD_oF_dEf_TeXt_;
       func-mem-desc-line = '14';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 <summary>
-Given then angle of a polar vector and a cartesian scale, calculate the angle in degree.
+Given then angle of a polar vector and a cartesian scale, calculate the angle in degree
 </summary>
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
@@ -9797,13 +9797,13 @@ _EnD_oF_dEf_TeXt_;
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'df/dde/namespace_math_utils_1ad9e341db6e8148519b01b091b5b949f3';
+      func-mem-id   = 'df/dde/namespace_math_utils_1a8d3d95c0de7c4c9e2533b64e7a9e444a';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
 float
 _EnD_oF_dEf_TeXt_;
-      func-mem-name = 'scalePolarVec2DNoChecking';
+      func-mem-name = 'scalePolarVec2DNonOpti';
       func-mem-param = {
         func-mem-param-type = <<_EnD_oF_dEf_TeXt_
 float
@@ -9850,7 +9850,7 @@ _EnD_oF_dEf_TeXt_;
       func-mem-desc-line = '14';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 <summary>
-Given then angle of a polar vector and a cartesian scale, calculate the angle in degree.
+Given then angle of a polar vector and a cartesian scale, calculate the angle in degree
 </summary>
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
