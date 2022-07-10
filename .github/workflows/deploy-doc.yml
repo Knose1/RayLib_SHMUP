@@ -17,6 +17,9 @@ jobs:
       - uses: JesseTG/rm@v1.0.0
         with:
           path: "def/doxygen.def"
+      - uses: actions/checkout@v2
+        with:
+          ref: documentation
       - uses: langroodi/doxygenize@v1.6.3
         with:
           doxygenconf: ./RayLib_SHMUP/doc/Raylib.doxy
