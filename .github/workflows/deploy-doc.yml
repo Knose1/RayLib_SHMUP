@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  documentation:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,6 +17,9 @@ jobs:
       - uses: JesseTG/rm@v1.0.0
         with:
           path: "def/doxygen.def"
+      - uses: GuillaumeFalourd/git-commit-push@v1.3
+        with:
+          commit_message: "Removed def"
       - uses: actions/checkout@v2
         with:
           ref: documentation
