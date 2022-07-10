@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  documentation:
+  remove-def:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -21,9 +21,10 @@ jobs:
         with:
           commit_message: "Removed def"
           target_branch: gh-pages
+  documentation:
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v2
-        with:
-          ref: documentation
       - uses: langroodi/doxygenize@v1.6.3
         with:
           doxygenconf: ./RayLib_SHMUP/doc/Raylib.doxy
