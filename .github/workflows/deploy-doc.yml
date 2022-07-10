@@ -20,6 +20,7 @@ jobs:
       - uses: GuillaumeFalourd/git-commit-push@v1.3
         with:
           commit_message: "Removed def"
+          target_branch: gh-pages
       - uses: actions/checkout@v2
         with:
           ref: documentation
