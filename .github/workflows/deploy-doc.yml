@@ -23,6 +23,7 @@ jobs:
           target_branch: gh-pages
   documentation:
     runs-on: ubuntu-latest
+    needs: remove-def
     steps:
       - uses: actions/checkout@v2
       - uses: langroodi/doxygenize@v1.6.3
