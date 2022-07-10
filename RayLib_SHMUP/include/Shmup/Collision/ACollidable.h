@@ -6,22 +6,17 @@ class ACollidable :
 	public InstanceList<ACollidable>
 {
 	protected:
-		ACollider* collider;
+		ACollider* collider = nullptr;
 	
 	public:
-		ACollider* GetCollider() { return this->collider; };
+		ACollider* GetCollider();
 		virtual void OnCollision(ACollidable * other) = 0;
 		virtual Transform2D GetTransform() = 0;
 
-		explicit ACollidable(ACollider* collider)
-		{
-			this->collider = collider;
-			AddInstance(this);
-		}
+		explicit ACollidable();
 
-		virtual ~ACollidable()
-		{
-			delete collider;
-			RemoveInstance(this);
-		}
+		virtual ~ACollidable();
+
+	protected:
+		void Init();
 };

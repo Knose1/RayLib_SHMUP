@@ -3,9 +3,10 @@
 
 enum class CollisionLayer : int
 {
-	Default = 0,
-	Ennemy  = 1,
-	Player  = 2
+	Default,
+	Ennemy,
+	Player,
+	COUNT
 };
 
 static class ColliderSettings

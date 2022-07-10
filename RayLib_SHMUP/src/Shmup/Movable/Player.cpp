@@ -111,7 +111,7 @@ void Player::SetPaternIndex(int currentPatern)
 	size_t size = std::size(paterns);
 	if (currentPatern < 0)
 	{
-		currentPatern = size + (currentPatern % size);
+		currentPatern = size + (currentPatern % static_cast<int>(size));
 	}
 
 	_currentPatern = currentPatern % size;

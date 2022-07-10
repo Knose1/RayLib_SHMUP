@@ -5,7 +5,7 @@
 #include "Shmup/Movable/Shoot.h"
 
 #pragma region Constructor / Destructor
-Shoot::Shoot(unsigned long long i, APatern* patern, CollisionLayer layer, unsigned int type) : AMovable(), ACollidable(collider)
+Shoot::Shoot(unsigned long long i, APatern* patern, CollisionLayer layer, unsigned int type) : AMovable(), ACollidable()
 {
 	this->type = type;
 	texture = LoadTexture(Files::TILES_TEXTURE);
@@ -17,6 +17,7 @@ Shoot::Shoot(unsigned long long i, APatern* patern, CollisionLayer layer, unsign
 	tint = WHITE;
 
 	collider = new CircleCollider(center, scale.x, layer);
+	ACollidable::Init();
 
 	SetDefault(i, patern);
 }
