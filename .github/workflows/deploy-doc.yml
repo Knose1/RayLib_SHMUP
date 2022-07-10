@@ -3,6 +3,7 @@ name: Doc Deploy
 on:
   push:
     branches:
+      - master
       - documentation
   workflow_dispatch:
 
