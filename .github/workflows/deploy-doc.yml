@@ -12,7 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: "git rm def/doxygen.def"
+        with:
+          ref: gh-pages
+      - uses: JesseTG/rm@v1.0.0
+        with:
+          path: "def/doxygen.def"
       - uses: langroodi/doxygenize@v1.6.3
         with:
           doxygenconf: ./RayLib_SHMUP/doc/Raylib.doxy
