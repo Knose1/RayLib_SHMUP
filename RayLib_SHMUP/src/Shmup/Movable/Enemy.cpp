@@ -2,6 +2,7 @@
 #include "raymath.h"
 #include "Shmup/Movable/Enemy.h"
 #include "Shmup/InstanceList.hpp"
+#include "Shmup/Explosion.h"
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Random.h"
 #include "Namespaces/Files.h"
@@ -106,5 +107,6 @@ Transform2D Enemy::GetTransform()
 
 void Enemy::OnCollision(ACollidable * other)
 {
+	new Explosion(position);
 	delete this;
 }
