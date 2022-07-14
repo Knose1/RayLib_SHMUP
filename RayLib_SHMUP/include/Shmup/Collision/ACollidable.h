@@ -10,7 +10,7 @@ class ACollidable :
 	
 	public:
 		ACollider* GetCollider();
-		virtual void OnCollision(ACollidable * other) = 0;
+		virtual void OnCollision(ACollidable* other) = 0;
 		virtual Transform2D GetTransform() = 0;
 
 		explicit ACollidable();

@@ -15,7 +15,7 @@ void GameManager::Init()
 {
 	for (size_t i = 0; i < GameStatus::enemyCountConst; i++)
 	{
-		Enemy* enemy = new Enemy(
+		new Enemy(
 			i,
 			{ Random::randMToN(100.0f, GameStatus::screenWidth - 100.0f), Random::randMToN(100.0f, GameStatus::screenHeight - 100.0f) }, //position;
 			{ Random::rand01(), Random::rand01() }, //direction;

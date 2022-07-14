@@ -24,8 +24,6 @@ Shoot::Shoot(unsigned long long i, APatern* patern, CollisionLayer layer, unsign
 Shoot::~Shoot()
 {
 	delete collider;
-	AGraphicObject::~AGraphicObject();
-	ACollidable::~ACollidable();
 }
 #pragma endregion
 

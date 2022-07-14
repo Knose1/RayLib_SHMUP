@@ -34,10 +34,7 @@ Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction,
 
 Enemy::~Enemy()
 {
-	AGraphicObject::~AGraphicObject();
-	ACollidable::~ACollidable();
-
-	patern = nullptr;
+	delete patern;
 }
 
 void Enemy::Update()

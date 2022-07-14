@@ -11,6 +11,8 @@ ACollidable::~ACollidable()
 {
 	InstanceList<ACollidable>::RemoveInstance(this);
 	Disable();
+
+	delete collider;
 };
 
 void ACollidable::Enable()

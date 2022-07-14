@@ -45,6 +45,8 @@ void AGraphicObject::DefaultDrawMethod(
 
 AGraphicObject::AGraphicObject()
 {
+	source = {};
+	texture = {};
 	AddInstance(this);
 }
 
