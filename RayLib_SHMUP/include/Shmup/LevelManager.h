@@ -2,6 +2,10 @@
 #include <iostream>
 #include <string>
 #include <vector>
+
+/// <summary>
+/// Create the level by spawning the enemies. Work in progess...
+/// </summary>
 static class LevelManager
 {
 	public:

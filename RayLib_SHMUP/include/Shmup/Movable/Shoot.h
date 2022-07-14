@@ -14,7 +14,7 @@ class Shoot :
 {
 	private:
 		/// <summary>
-		/// The sprite to use
+		/// The sprite to use. Is an index on the spritesheet.
 		/// </summary>
 		unsigned int type;
 		/// <summary>

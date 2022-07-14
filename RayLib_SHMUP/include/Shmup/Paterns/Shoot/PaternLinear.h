@@ -1,12 +1,12 @@
 #pragma once
 #include "../APatern.h"
+/// <summary>
+/// A patern that goes in a straight line
+/// </summary>
 class PaternLinear :
     public APatern
 {
-	// Hérité via Patern
 	virtual void DoPatern(AMovable* shoot, IPaternData* data) override;
-
-	// Inherited via Patern
 	virtual void SetDefault(IPaternData* data) override;
 };
 

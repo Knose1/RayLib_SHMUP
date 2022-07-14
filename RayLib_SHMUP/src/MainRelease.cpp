@@ -56,9 +56,9 @@ int main(void)
 		if (!isDebugTesting)
 		{
 #endif //_DEBUG
-			GameManager::Render();
 			GameManager::Update();
 			GameManager::TestCollisions();
+			GameManager::Render();
 #if _DEBUG
 		}
 		else
