@@ -27,6 +27,10 @@ class InstanceList
 		static void RemoveInstance(T* meToo);
 };
 
+/// <summary>
+/// Internal class that holds the instance of a type
+/// </summary>
+/// <typeparam name="T"></typeparam>
 template <class T>
 class InstanceManager
 {

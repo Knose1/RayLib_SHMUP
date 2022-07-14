@@ -2,6 +2,7 @@
 #include "raymath.h"
 #include "Shmup/Movable/Enemy.h"
 #include "Shmup/InstanceList.hpp"
+#include "Shmup/Explosion.h"
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Random.h"
 #include "Namespaces/Files.h"
@@ -10,7 +11,9 @@ constexpr unsigned int SHIP_LINE_COUNT = 2;
 constexpr unsigned int SHIP_COLUMNS_COUNT = 4;
 constexpr unsigned int SHIP_TYPES_MAX_INDEX = SHIP_COLUMNS_COUNT*SHIP_LINE_COUNT-1; //4 columns, 3 lines, index starts at 0
 
-Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction, Color tint, unsigned int type) : AMovable(), ACollidable(collider)
+//WARNING: The width and height of the enemy are inverted
+
+Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction, Color tint, unsigned int type) : AMovable(), ACollidable()
 {
 	if (type > SHIP_TYPES_MAX_INDEX) type = SHIP_TYPES_MAX_INDEX;
 
@@ -24,7 +27,8 @@ Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction,
 	orientation = 0;
 	source = Files::GetSourceRect(texture, Files::SHIP_TEXTURE_SIZE, { (float)(type%SHIP_COLUMNS_COUNT), (float)(type/SHIP_COLUMNS_COUNT)+1});
 	
-	collider = new RectCollider(center, source.width, source.height, CollisionLayer::Ennemy);
+	collider = new RectCollider(center, source.height * scale.x * 0.4, source.width * scale.y * 0.9, CollisionLayer::Ennemy);
+	ACollidable::Enable();
 
 	RandomChangeSettings();
 }
@@ -32,8 +36,13 @@ Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction,
 Enemy::~Enemy()
 {
 	delete patern;
-	AGraphicObject::~AGraphicObject();
-	ACollidable::~ACollidable();
+	new Enemy(
+		spawnIndex,
+		{ Random::randMToN(100.0f, GameStatus::screenWidth - 100.0f), Random::randMToN(100.0f, GameStatus::screenHeight - 100.0f) }, //position;
+		{ Random::rand01(), Random::rand01() }, //direction;
+		ColorFromNormalized({ (float)GetRandomValue(0,255), (float)GetRandomValue(0,255), (float)GetRandomValue(0,255), 1 }), //tint;
+		{ (unsigned)GetRandomValue(0,11) }
+	);
 }
 
 void Enemy::Update()
@@ -98,5 +107,6 @@ Transform2D Enemy::GetTransform()
 
 void Enemy::OnCollision(ACollidable * other)
 {
+	new Explosion(position);
 	delete this;
 }

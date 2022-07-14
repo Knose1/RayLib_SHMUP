@@ -2,26 +2,43 @@
 #include "Shmup/Collision/Collider.h"
 #include "Shmup/InstanceList.h"
 
+/// <summary>
+/// An object that posses a collider
+/// </summary>
 class ACollidable : 
 	public InstanceList<ACollidable>
 {
 	protected:
-		ACollider* collider;
+		/// <summary>
+		/// The collider
+		/// </summary>
+		ACollider* collider = nullptr;
 	
 	public:
-		ACollider* GetCollider() { return this->collider; };
-		virtual void OnCollision(ACollidable * other) = 0;
+		/// <summary>
+		/// A getter for the collider
+		/// </summary>
+		ACollider* GetCollider();
+		/// <summary>
+		/// Called when colliding with another object
+		/// </summary>
+		/// <param name="other">The object that collided</param>
+		virtual void OnCollision(ACollidable* other) = 0;
+		/// <summary>
+		/// Retrieve the transform for collider calculation
+		/// </summary>
 		virtual Transform2D GetTransform() = 0;
 
-		explicit ACollidable(ACollider* collider)
-		{
-			this->collider = collider;
-			AddInstance(this);
-		}
+		explicit ACollidable();
+		virtual ~ACollidable();
 
-		virtual ~ACollidable()
-		{
-			delete collider;
-			RemoveInstance(this);
-		}
+	protected:
+		/// <summary>
+		/// Add the collider to calculations
+		/// </summary>
+		void Enable();
+		/// <summary>
+		/// Remove the collider from calculations
+		/// </summary>
+		void Disable();
 };

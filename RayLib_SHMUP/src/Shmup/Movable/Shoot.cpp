@@ -5,7 +5,7 @@
 #include "Shmup/Movable/Shoot.h"
 
 #pragma region Constructor / Destructor
-Shoot::Shoot(unsigned long long i, APatern* patern, CollisionLayer layer, unsigned int type) : AMovable(), ACollidable(collider)
+Shoot::Shoot(unsigned long long i, APatern* patern, CollisionLayer layer, unsigned int type) : AMovable(), ACollidable()
 {
 	this->type = type;
 	texture = LoadTexture(Files::TILES_TEXTURE);
@@ -16,16 +16,14 @@ Shoot::Shoot(unsigned long long i, APatern* patern, CollisionLayer layer, unsign
 	orientation = 90;
 	tint = WHITE;
 
-	collider = new CircleCollider(center, scale.x, layer);
-
+	collider = new CircleCollider(center, scale.x * source.width / 2 * 0.9, layer);
+	
 	SetDefault(i, patern);
 }
 
 Shoot::~Shoot()
 {
 	delete collider;
-	AGraphicObject::~AGraphicObject();
-	ACollidable::~ACollidable();
 }
 #pragma endregion
 
@@ -39,6 +37,9 @@ void Shoot::SetFired(bool fired)
 {
 	this->fired = fired;
 	if (!fired) SetDefault(spawnIndex, patern);
+
+	if (fired) Enable();
+	else Disable();
 }
 
 void Shoot::SetPatern(APatern* patern)
@@ -81,7 +82,7 @@ void Shoot::Draw()
 
 void Shoot::OnCollision(ACollidable * other)
 {
-	delete this;
+	SetFired(false);
 }
 
 Transform2D Shoot::GetTransform()

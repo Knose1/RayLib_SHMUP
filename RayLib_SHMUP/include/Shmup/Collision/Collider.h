@@ -1,9 +1,11 @@
 #pragma once
 #include "raylib.h"
-#include "raymath.h"
 #include "Shmup/Transform2D.h"
 #include "Shmup/Collision/ColliderSettings.h"
 
+/// <summary>
+/// The type of collider (used for calculation's switch)
+/// </summary>
 enum class EColliderType
 {
 	None,
@@ -11,43 +13,55 @@ enum class EColliderType
 	Rect
 };
 
-class ACollider;
-class CircleCollider;
-class RectCollider;
-
-namespace ColliderCalculation {
-	//? vs ?
-	bool Calculation(ACollider* me, Transform2D meT, ACollider* it, Transform2D itT);
-
-	//Circle vs Rect
-	bool Calculation(CircleCollider* me, Transform2D meT, RectCollider* it, Transform2D itT);
-
-	//Circle vs Circle
-	bool Calculation(CircleCollider* me, Transform2D meT, CircleCollider* it, Transform2D itT);
-
-	//Rect vs Circle (redirected to Circle Collider class)
-	bool Calculation(RectCollider* me, Transform2D meT, CircleCollider* it, Transform2D itT);
-
-	//Rect vs Rect
-	bool Calculation(RectCollider* me, Transform2D meT, RectCollider* it, Transform2D itT);
-}
-
+/// <summary>
+/// Contains collider's data the without the transform
+/// </summary>
 class ACollider
 {
 	public:
+		/// <summary>
+		/// The pivot for transformations
+		/// </summary>
 		Vector2 pivot;
+		/// <summary>
+		/// The layer of the collision.<br/>
+		/// If want to modify the layer in runtime, don't forget to unregister your collidable before modifying the layer.
+		/// </summary>
 		CollisionLayer layer = CollisionLayer::Default;
+		
+		/// <param name="pivot">The pivot for transformations</param>
+		/// <param name="layer"> The layer of the collision. </param>
+		explicit ACollider(Vector2 pivot, CollisionLayer layer = CollisionLayer::Default) 
+		{ 
+			this->pivot = pivot; 
+			this->layer = layer;
+		}
 
-		explicit ACollider(Vector2 pivot, CollisionLayer layer = CollisionLayer::Default) { this->pivot = pivot; this->layer = layer; }
-
+		/// <summary>
+		/// Get the type of collider
+		/// </summary>
 		virtual EColliderType GetType() { return EColliderType::None; }
 
-		bool Calculation(Transform2D meT, ACollider* it, Transform2D itT) 
-		{
-			return ColliderCalculation::Calculation(this, meT, it, itT);
-		}
+		/// <summary>
+		/// Test if 2 colliders are colliding
+		/// </summary>
+		/// <param name="meT">My transform</param>
+		/// <param name="it">The other collider</param>
+		/// <param name="itT">The other transform</param>
+		/// <returns>True if the colliders are colliding</returns>
+		bool Calculation(Transform2D meT, ACollider* it, Transform2D itT);
+		/// <summary>
+		/// Test if a point is in the collider
+		/// </summary>
+		/// <param name="tr">The transform of the collider</param>
+		/// <param name="point">The point to test</param>
+		/// <returns>True if the point is in the collider</returns>
+		virtual bool IsPointInCollider(Transform2D tr, Vector2 point) = 0;
 };
 
+/// <summary>
+/// A round collider
+/// </summary>
 class CircleCollider : 
 	public ACollider
 {
@@ -60,8 +74,12 @@ class CircleCollider :
 		}
 
 		virtual EColliderType GetType() override { return EColliderType::Circle; }
+		virtual bool IsPointInCollider(Transform2D meT, Vector2 point) override;
 };
 
+/// <summary>
+/// A rectangular collider
+/// </summary>
 class RectCollider : 
 	public ACollider
 {
@@ -75,6 +93,7 @@ class RectCollider :
 		}
 
 		virtual EColliderType GetType() override { return EColliderType::Rect; }
+		virtual bool IsPointInCollider(Transform2D meT, Vector2 point) override;
 		
 		/// <summary>
 		/// Get the points that compose the rectangle
@@ -84,37 +103,5 @@ class RectCollider :
 		/// <param name="b">Upper Left corner</param>
 		/// <param name="c">Lower Right corner</param>
 		/// <param name="d">Upper Right corner</param>
-		void GetWorldPoints(Transform2D* transform, Vector2& a, Vector2& b, Vector2& c, Vector2& d)
-		{
-			//Local Rectangle
-			// B - - - - D
-			// |    P    |
-			// A - - - - C
-
-			a = { 0, 0 };
-			b = { 0, 1 };
-			c = { 1, 0 };
-			d = { 1, 1 };
-
-			a = Vector2Subtract(a, pivot);
-			b = Vector2Subtract(b, pivot);
-			c = Vector2Subtract(c, pivot);
-			d = Vector2Subtract(d, pivot);
-
-			a = Vector2Rotate(a, transform->rotation);
-			b = Vector2Rotate(b, transform->rotation);
-			c = Vector2Rotate(c, transform->rotation);
-			d = Vector2Rotate(d, transform->rotation);
-
-			Vector2 ab = Vector2Scale(Vector2Subtract(b, a), height);
-			Vector2 ac = Vector2Scale(Vector2Subtract(c, a), width);
-			
-			//ac * pivot.x + ab * pivot.y
-			Vector2 p = Vector2Add( Vector2Scale(ac, pivot.x), Vector2Scale(ab, pivot.y));
-
-			a = Vector2Negate(p);                  //-p
-			b = Vector2Add(ab, a);                 //ab + a
-			c = Vector2Add(ac, a);                 //ac + a
-			d = Vector2Add(Vector2Add(ab, ac), a); //ab + ac + a
-		}
+		inline void GetWorldPoints(Transform2D transform, Vector2& a, Vector2& b, Vector2& c, Vector2& d);
 };

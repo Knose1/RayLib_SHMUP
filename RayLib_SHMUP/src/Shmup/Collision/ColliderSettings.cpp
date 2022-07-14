@@ -4,7 +4,7 @@ const std::vector<std::vector<bool>> ColliderSettings::CollisionTable = {
 	/*         *//* Default, Ennemy, Player */
 	/* Default */ { false                   },
 	/* Ennemy  */ { false  , false          },
-	/* Player  */ { true   , false , false  }
+	/* Player  */ { false  , true  , false  }
 };
 
 bool ColliderSettings::AreCollidableLayers(CollisionLayer a, CollisionLayer b)

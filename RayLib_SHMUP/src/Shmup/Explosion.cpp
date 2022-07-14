@@ -1,5 +1,6 @@
 #include "Namespaces/Files.h"
 #include "Shmup/Explosion.h"
+#include "Namespaces/GameStatus.h"
 
 Explosion::Explosion(Vector2 position) : AGraphicObject()
 {
@@ -12,16 +13,24 @@ Explosion::Explosion(Vector2 position) : AGraphicObject()
 	tint = WHITE;
 	
 	frame = 0;
-	countdown = FRAMES * FRAME_RATE;
+	countdown = START_COUNTDOWN;
 }
 
 void Explosion::Update()
 {
-	if (countdown <= 0) delete this;
+	countdown -= GameStatus::constantFrameTime;
+	frame = (START_COUNTDOWN - countdown) / (FRAME_RATE * GameStatus::constantFrameTime);
+	if (countdown <= 0)
+	{
+		if (deleted) delete this;
+		deleted = true;
+	}
 }
 
 void Explosion::Draw()
-{	
+{
+	if (deleted) return;
+
 	source = Files::GetSourceRect(this->texture, Files::TILES_TEXTURE_SIZE, { (float)frame + 4, 0 });
 	DefaultDrawMethod(texture, position, source, center, scale, orientation, tint);
 }

@@ -45,10 +45,13 @@ void AGraphicObject::DefaultDrawMethod(
 
 AGraphicObject::AGraphicObject()
 {
+	source = {};
+	texture = {};
 	AddInstance(this);
 }
 
 AGraphicObject::~AGraphicObject()
 {
 	RemoveInstance(this);
+	UnloadTexture(texture);
 }

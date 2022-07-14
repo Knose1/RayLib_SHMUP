@@ -1,13 +1,13 @@
 #pragma once
 #include "../APatern.h"
 
+/// <summary>
+/// A bullet patern that spreads in a V shape
+/// </summary>
 class PaternVSpread :
     public APatern
 {
-	// Hérité via Patern
 	virtual void DoPatern(AMovable* shoot, IPaternData* data) override;
-
-	// Inherited via Patern
 	virtual void SetDefault(IPaternData* data) override;
 };
 
