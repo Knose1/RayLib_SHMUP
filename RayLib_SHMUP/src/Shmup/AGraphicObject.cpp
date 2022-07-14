@@ -53,4 +53,5 @@ AGraphicObject::AGraphicObject()
 AGraphicObject::~AGraphicObject()
 {
 	RemoveInstance(this);
+	UnloadTexture(texture);
 }
