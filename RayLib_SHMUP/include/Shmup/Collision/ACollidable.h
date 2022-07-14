@@ -18,5 +18,6 @@ class ACollidable :
 		virtual ~ACollidable();
 
 	protected:
-		void Init();
+		void Disable();
+		void Enable();
 };

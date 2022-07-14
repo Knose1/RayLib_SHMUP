@@ -1775,27 +1775,27 @@ void rlSetBlendFactors(int glSrcFactor, int glDstFactor, int glEquation)
 void rlglInit(int width, int height)
 {
 #if defined(GRAPHICS_API_OPENGL_33) || defined(GRAPHICS_API_OPENGL_ES2)
-    // Init default white texture
+    // Enable default white texture
     unsigned char pixels[4] = { 255, 255, 255, 255 };   // 1 pixel RGBA (4 bytes)
     RLGL.State.defaultTextureId = rlLoadTexture(pixels, 1, 1, RL_PIXELFORMAT_UNCOMPRESSED_R8G8B8A8, 1);
 
     if (RLGL.State.defaultTextureId != 0) TRACELOG(RL_LOG_INFO, "TEXTURE: [ID %i] Default texture loaded successfully", RLGL.State.defaultTextureId);
     else TRACELOG(RL_LOG_WARNING, "TEXTURE: Failed to load default texture");
 
-    // Init default Shader (customized for GL 3.3 and ES2)
+    // Enable default Shader (customized for GL 3.3 and ES2)
     // Loaded: RLGL.State.defaultShaderId + RLGL.State.defaultShaderLocs
     rlLoadShaderDefault();
     RLGL.State.currentShaderId = RLGL.State.defaultShaderId;
     RLGL.State.currentShaderLocs = RLGL.State.defaultShaderLocs;
 
-    // Init default vertex arrays buffers
+    // Enable default vertex arrays buffers
     RLGL.defaultBatch = rlLoadRenderBatch(RL_DEFAULT_BATCH_BUFFERS, RL_DEFAULT_BATCH_BUFFER_ELEMENTS);
     RLGL.currentBatch = &RLGL.defaultBatch;
 
-    // Init stack matrices (emulating OpenGL 1.1)
+    // Enable stack matrices (emulating OpenGL 1.1)
     for (int i = 0; i < RL_MAX_MATRIX_STACK_SIZE; i++) RLGL.State.stack[i] = rlMatrixIdentity();
 
-    // Init internal matrices
+    // Enable internal matrices
     RLGL.State.transform = rlMatrixIdentity();
     RLGL.State.projection = rlMatrixIdentity();
     RLGL.State.modelview = rlMatrixIdentity();
@@ -1804,27 +1804,27 @@ void rlglInit(int width, int height)
 
     // Initialize OpenGL default states
     //----------------------------------------------------------
-    // Init state: Depth test
+    // Enable state: Depth test
     glDepthFunc(GL_LEQUAL);                                 // Type of depth testing to apply
     glDisable(GL_DEPTH_TEST);                               // Disable depth testing for 2D (only used for 3D)
 
-    // Init state: Blending mode
+    // Enable state: Blending mode
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);      // Color blending function (how colors are mixed)
     glEnable(GL_BLEND);                                     // Enable color blending (required to work with transparencies)
 
-    // Init state: Culling
+    // Enable state: Culling
     // NOTE: All shapes/models triangles are drawn CCW
     glCullFace(GL_BACK);                                    // Cull the back face (default)
     glFrontFace(GL_CCW);                                    // Front face are defined counter clockwise (default)
     glEnable(GL_CULL_FACE);                                 // Enable backface culling
 
-    // Init state: Cubemap seamless
+    // Enable state: Cubemap seamless
 #if defined(GRAPHICS_API_OPENGL_33)
     glEnable(GL_TEXTURE_CUBE_MAP_SEAMLESS);                 // Seamless cubemaps (not supported on OpenGL ES 2.0)
 #endif
 
 #if defined(GRAPHICS_API_OPENGL_11)
-    // Init state: Color hints (deprecated in OpenGL 3.0+)
+    // Enable state: Color hints (deprecated in OpenGL 3.0+)
     glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);      // Improve quality of color and texture coordinate interpolation
     glShadeModel(GL_SMOOTH);                                // Smooth shading between vertex (vertex colors interpolation)
 #endif
@@ -1838,7 +1838,7 @@ void rlglInit(int width, int height)
     //----------------------------------------------------------
 #endif
 
-    // Init state: Color/Depth buffers clear
+    // Enable state: Color/Depth buffers clear
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);                   // Set clear color (black)
     glClearDepth(1.0f);                                     // Set clear depth value (default)
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);     // Clear color and depth buffers (depth buffer required for 3D)
@@ -2258,7 +2258,7 @@ rlRenderBatch rlLoadRenderBatch(int numBuffers, int bufferElements)
     if (RLGL.ExtSupported.vao) glBindVertexArray(0);
     //--------------------------------------------------------------------------------------------
 
-    // Init draw calls tracking system
+    // Enable draw calls tracking system
     //--------------------------------------------------------------------------------------------
     batch.draws = (rlDrawCall *)RL_MALLOC(RL_DEFAULT_BATCH_DRAWCALLS*sizeof(rlDrawCall));
 

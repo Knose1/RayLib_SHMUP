@@ -122,6 +122,11 @@ void Player::SetPaternIndex(int currentPatern)
 
 void Player::DoShoot(Vector2 direction)
 {
+	if (std::fabsf(direction.x) < 0.1 && std::fabsf(direction.y) < 0.1)
+	{
+		direction = MathUtils::polarToCartesian(orientation);
+	}
+
 	Shoot* shoot = FindShootOrCreate();
 	shoot->direction = direction = Vector2Normalize(direction);
 	

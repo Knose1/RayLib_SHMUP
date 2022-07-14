@@ -16,9 +16,8 @@ Shoot::Shoot(unsigned long long i, APatern* patern, CollisionLayer layer, unsign
 	orientation = 90;
 	tint = WHITE;
 
-	collider = new CircleCollider(center, scale.x, layer);
-	ACollidable::Init();
-
+	collider = new CircleCollider(center, scale.x * source.width / 2 * 0.9, layer);
+	
 	SetDefault(i, patern);
 }
 
@@ -40,6 +39,9 @@ void Shoot::SetFired(bool fired)
 {
 	this->fired = fired;
 	if (!fired) SetDefault(spawnIndex, patern);
+
+	if (fired) Enable();
+	else Disable();
 }
 
 void Shoot::SetPatern(APatern* patern)
@@ -82,7 +84,7 @@ void Shoot::Draw()
 
 void Shoot::OnCollision(ACollidable * other)
 {
-	delete this;
+	SetFired(false);
 }
 
 Transform2D Shoot::GetTransform()

@@ -9,14 +9,18 @@ ACollidable::ACollidable()
 
 ACollidable::~ACollidable()
 {
-	delete collider;
 	InstanceList<ACollidable>::RemoveInstance(this);
-	CollisionManager::Unregister(this);
+	Disable();
 };
 
-void ACollidable::Init()
+void ACollidable::Enable()
 {
 	CollisionManager::Register(this);
 };
 
-ACollider* ACollidable::GetCollider() { return this->collider; };
+void ACollidable::Disable() 
+{
+	CollisionManager::Unregister(this);
+}
+
+ACollider* ACollidable::GetCollider() { return this->collider; }

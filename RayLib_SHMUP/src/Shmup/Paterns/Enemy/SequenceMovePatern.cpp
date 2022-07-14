@@ -32,7 +32,7 @@ void SequenceMovePatern::DoPatern(AMovable* movable, IPaternData* data)
 	sequencePatern = (SequenceMovePatern::SequencePatern*)data;
 	
 
-	// Init instant array
+	// Enable instant array
 	//--------------------------------------------------------//
 	size_t length = sequencePatern->paternSequence.size();
 	if (sequencePatern->sequenceDone.size() != length)

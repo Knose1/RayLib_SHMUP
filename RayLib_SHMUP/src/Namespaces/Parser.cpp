@@ -30,7 +30,7 @@ std::vector<SequenceMovePatern::Sequence> Parser::GetSequencePatern(const char* 
 	std::vector<std::string> splited = ParseCSV(string, SequenceMovePatern::SEQUENCE_FIELD_COUNT);
 	std::vector<SequenceMovePatern::Sequence> toReturn;
 
-	//Init sequence list
+	//Enable sequence list
 	SequenceMovePatern::Sequence sequence;
 	const size_t length = splited.size() / SequenceMovePatern::SEQUENCE_FIELD_COUNT;
 	for (size_t i = 0; i < length; i++)
@@ -54,7 +54,7 @@ std::vector<T> Parser::ParseCSV(const char* string, int size, void lineParser(T*
 	std::vector<std::string> splited = ParseCSV(string, size);
 	std::vector<T> toReturn;
 
-	//Init list item
+	//Enable list item
 	T sequence;
 	const size_t length = splited.size() / size;
 	for (size_t i = 0; i < length; i++)

@@ -10,6 +10,8 @@ constexpr unsigned int SHIP_LINE_COUNT = 2;
 constexpr unsigned int SHIP_COLUMNS_COUNT = 4;
 constexpr unsigned int SHIP_TYPES_MAX_INDEX = SHIP_COLUMNS_COUNT*SHIP_LINE_COUNT-1; //4 columns, 3 lines, index starts at 0
 
+//WARNING: The width and height of the enemy are inverted
+
 Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction, Color tint, unsigned int type) : AMovable(), ACollidable()
 {
 	if (type > SHIP_TYPES_MAX_INDEX) type = SHIP_TYPES_MAX_INDEX;
@@ -24,17 +26,18 @@ Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction,
 	orientation = 0;
 	source = Files::GetSourceRect(texture, Files::SHIP_TEXTURE_SIZE, { (float)(type%SHIP_COLUMNS_COUNT), (float)(type/SHIP_COLUMNS_COUNT)+1});
 	
-	collider = new RectCollider(center, source.width, source.height, CollisionLayer::Ennemy);
-	ACollidable::Init();
+	collider = new RectCollider(center, source.height * scale.x * 0.4, source.width * scale.y * 0.9, CollisionLayer::Ennemy);
+	ACollidable::Enable();
 
 	RandomChangeSettings();
 }
 
 Enemy::~Enemy()
 {
-	delete patern;
 	AGraphicObject::~AGraphicObject();
 	ACollidable::~ACollidable();
+
+	patern = nullptr;
 }
 
 void Enemy::Update()

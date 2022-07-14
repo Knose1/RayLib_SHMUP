@@ -1,6 +1,7 @@
 #include "Shmup/Collision/CollisionManager.h"
 #include "Shmup/Collision/ACollidable.h"
 #include "Shmup/InstanceList.hpp"
+#include <algorithm>
 
 std::map<CollisionLayer, std::vector<ACollidable*>> CollisionManager::layeredCollisions =
 {
@@ -11,13 +12,26 @@ std::map<CollisionLayer, std::vector<ACollidable*>> CollisionManager::layeredCol
 
 void CollisionManager::Register(ACollidable* collidable)
 {
-	layeredCollisions[collidable->GetCollider()->layer].push_back(collidable);
+	auto layer = collidable->GetCollider()->layer;
+	auto& list = layeredCollisions[layer];
+	if (std::find(list.begin(), list.end(), collidable) == list.end()) 
+	{
+		list.push_back(collidable);
+		//layeredCollisions[layer] = list;
+	}
 };
 
 void CollisionManager::Unregister(ACollidable* collidable)
 {
-	auto list = layeredCollisions[collidable->GetCollider()->layer];
-	std::remove(list.begin(), list.end(), collidable);
+	auto layer = collidable->GetCollider()->layer;
+	auto& list = layeredCollisions[layer];
+
+	if (std::find(list.begin(), list.end(), collidable) != list.end()) 
+	{
+		std::remove(list.begin(), list.end(), collidable);
+		list.resize(list.size() - 1);
+		//layeredCollisions[layer] = list;
+	}
 };
 
 void CollisionManager::Update()
@@ -25,7 +39,7 @@ void CollisionManager::Update()
 	auto collidable = InstanceList<ACollidable>::GetInstances();
 
 	CollisionLayer minLayer = CollisionLayer::Default;
-	CollisionLayer maxLayer = CollisionLayer(static_cast<int>(CollisionLayer::COUNT) - 1);
+	CollisionLayer maxLayer = CollisionLayer::COUNT;
 
 	std::vector<ACollidable*> collidersA;
 	std::vector<ACollidable*> collidersB;
@@ -36,7 +50,7 @@ void CollisionManager::Update()
 	ACollider* colliderA;
 	ACollider* colliderB;
 
-	bool isCollision;
+	bool isCollision = false;
 
 	for (CollisionLayer layerA = minLayer; layerA < maxLayer; layerA = CollisionLayer(static_cast<int>(layerA) + 1))
 	{
@@ -47,26 +61,33 @@ void CollisionManager::Update()
 			collidersA = CollisionManager::layeredCollisions[layerA];
 			collidersB = CollisionManager::layeredCollisions[layerB];
 
-			for (auto& i = --collidersA.end(); true; i--)
+			for (int i = collidersA.size() - 1; i >= 0; i--)
 			{
-				collidableA = *i;
+				collidableA = collidersA[i];
 				colliderA = collidableA->GetCollider();
-				for (auto& j = --collidersB.end(); true; j--)
+				for (int j = collidersB.size() - 1; j >= 0; j--) 
 				{
-					collidableB = *j;
+					collidableB = collidersB[j];
+					if (collidableB == nullptr || collidableA == nullptr) continue;
 					if (collidableB == collidableA) continue;
 					colliderB = collidableB->GetCollider();
 
-					isCollision = colliderA->Calculation(collidableA->GetTransform(), collidableB->GetCollider(), collidableB->GetTransform());
+					isCollision = colliderA->Calculation(collidableA->GetTransform(), colliderB, collidableB->GetTransform());
 					if (isCollision)
 					{
 						collidableA->OnCollision(collidableB);
 						collidableB->OnCollision(collidableA);
+
+						break;
 					}
 
-					if (i == collidersB.begin()) break;
 				}
-				if (i == collidersA.begin()) break;
+
+				if (isCollision) 
+				{
+					isCollision = true;
+					break;
+				}
 			}
 
 

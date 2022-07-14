@@ -120,6 +120,7 @@
   <ItemGroup>
     <ClCompile Include="src\Shmup\Collision\ACollidable.cpp" />
     <ClCompile Include="src\Shmup\Collision\Collider.cpp" />
+    <ClCompile Include="src\Shmup\Collision\ColliderCalculation.cpp" />
     <ClCompile Include="src\Shmup\Collision\ColliderSettings.cpp" />
     <ClCompile Include="src\Shmup\Collision\CollisionManager.cpp" />
     <ClCompile Include="src\Shmup\Explosion.cpp" />
@@ -151,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Shmup\Collision\Collider.h" />
+    <ClInclude Include="include\Shmup\Collision\ColliderCalculation.h" />
     <ClInclude Include="include\Shmup\Collision\ColliderSettings.h" />
     <ClInclude Include="include\Shmup\Collision\CollisionManager.h" />
     <ClInclude Include="include\Shmup\Explosion.h" />
