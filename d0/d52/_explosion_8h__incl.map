@@ -1,9 +1,10 @@
 <map id="RayLib_SHMUP/include/Shmup/Explosion.h" name="RayLib_SHMUP/include/Shmup/Explosion.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,168,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="45,244,107,271"/>
-<area shape="rect" id="node3" href="$d7/daf/_a_graphic_object_8h.html" title=" " alt="" coords="83,95,253,121"/>
-<area shape="rect" id="node4" href="$dc/d80/_instance_list_8h.html" title=" " alt="" coords="289,169,439,196"/>
-<area shape="rect" id="node7" href="$da/d02/_transform2_d_8h.html" title=" " alt="" coords="113,169,265,196"/>
-<area shape="rect" id="node5" title=" " alt="" coords="283,244,355,271"/>
-<area shape="rect" id="node6" title=" " alt="" coords="379,244,437,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="47,5,210,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,244,68,271"/>
+<area shape="rect" id="node3" href="$d7/daf/_a_graphic_object_8h.html" title=" " alt="" coords="44,95,213,121"/>
+<area shape="rect" id="node8" href="$d5/daf/_game_status_8h.html" title=" " alt="" coords="238,95,425,121"/>
+<area shape="rect" id="node4" href="$dc/d80/_instance_list_8h.html" title=" " alt="" coords="250,169,399,196"/>
+<area shape="rect" id="node7" href="$da/d02/_transform2_d_8h.html" title=" " alt="" coords="74,169,226,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="243,244,315,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="339,244,398,271"/>
 </map>

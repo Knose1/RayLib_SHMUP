@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d3/d92/class_a_graphic_object.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d3/d92/class_a_graphic_object.html" target="_top" xlink:title="An object that can be drawn and updated">
 <polygon fill="white" stroke="black" points="545,-203.59 545,-222.59 631,-222.59 631,-203.59 545,-203.59"/>
 <text text-anchor="middle" x="588" y="-210.59" font-family="Helvetica,sans-Serif" font-size="10.00">AGraphicObject</text>
 </a>
@@ -123,7 +123,7 @@
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="../../dc/d1d/class_a_collider.html" target="_top" xlink:title=" ">
+<g id="a_node13"><a xlink:href="../../dc/d1d/class_a_collider.html" target="_top" xlink:title="Contains collider&#39;s data the without the transform">
 <polygon fill="white" stroke="black" points="560,-43.59 560,-62.59 616,-62.59 616,-43.59 560,-43.59"/>
 <text text-anchor="middle" x="588" y="-50.59" font-family="Helvetica,sans-Serif" font-size="10.00">ACollider</text>
 </a>
@@ -210,7 +210,7 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d0/d76/class_a_collidable.html" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="../../d0/d76/class_a_collidable.html" target="_top" xlink:title="An object that posses a collider">
 <polygon fill="white" stroke="black" points="701,-43.59 701,-62.59 766,-62.59 766,-43.59 701,-43.59"/>
 <text text-anchor="middle" x="733.5" y="-50.59" font-family="Helvetica,sans-Serif" font-size="10.00">ACollidable</text>
 </a>

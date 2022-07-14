@@ -122,6 +122,9 @@ $(document).ready(function(){initNavTree('d1/da8/class_explosion.html','../../')
 </div><!--header-->
 <div class="contents">
 
+<p>An explosion animation. It automatiquely delete itself at the end  
+ <a href="../../d1/da8/class_explosion.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../">Explosion.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for Explosion:</div>
@@ -146,6 +149,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a146dcb6a01b9fe4e4512bf3870ecf994"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_a_graphic_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_a_graphic_object')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d3/d92/class_a_graphic_object.html">AGraphicObject</a></td></tr>
 <tr class="memitem:a66fb1714a3685083e6bebd6f05182613 inherit pub_methods_class_a_graphic_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a66fb1714a3685083e6bebd6f05182613">GetTransform</a> ()</td></tr>
+<tr class="memdesc:a66fb1714a3685083e6bebd6f05182613 inherit pub_methods_class_a_graphic_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a transform2D object from the object  <a href="../../d3/d92/class_a_graphic_object.html#a66fb1714a3685083e6bebd6f05182613">More...</a><br /></td></tr>
 <tr class="separator:a66fb1714a3685083e6bebd6f05182613 inherit pub_methods_class_a_graphic_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cb19aa05d018e0d008c7f9f930a35c9 inherit pub_methods_class_a_graphic_object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a8cb19aa05d018e0d008c7f9f930a35c9">AGraphicObject</a> ()</td></tr>
 <tr class="separator:a8cb19aa05d018e0d008c7f9f930a35c9 inherit pub_methods_class_a_graphic_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,25 +158,27 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0970e6fdd5ace8ceae923ee24dac7710"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da8/class_explosion.html#a0970e6fdd5ace8ceae923ee24dac7710">FRAME_RATE</a> = 30.0f</td></tr>
+<tr class="memitem:a0970e6fdd5ace8ceae923ee24dac7710"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da8/class_explosion.html#a0970e6fdd5ace8ceae923ee24dac7710">FRAME_RATE</a> = 2.0f</td></tr>
+<tr class="memdesc:a0970e6fdd5ace8ceae923ee24dac7710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of frames before showing next frame  <a href="../../d1/da8/class_explosion.html#a0970e6fdd5ace8ceae923ee24dac7710">More...</a><br /></td></tr>
 <tr class="separator:a0970e6fdd5ace8ceae923ee24dac7710"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af26dd971919755befff2042c56d6aa41"><td class="memItemLeft" align="right" valign="top">Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da8/class_explosion.html#af26dd971919755befff2042c56d6aa41">texture</a></td></tr>
-<tr class="separator:af26dd971919755befff2042c56d6aa41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a741af5accccda41febda3467603334"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da8/class_explosion.html#a7a741af5accccda41febda3467603334">frame</a> = 0u</td></tr>
-<tr class="separator:a7a741af5accccda41febda3467603334"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_a_graphic_object"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_a_graphic_object')"><img src="../../closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="../../d3/d92/class_a_graphic_object.html">AGraphicObject</a></td></tr>
 <tr class="memitem:af6f8a5af7957af319eb2fe357494b923 inherit pub_attribs_class_a_graphic_object"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#af6f8a5af7957af319eb2fe357494b923">position</a> = {0,0}</td></tr>
+<tr class="memdesc:af6f8a5af7957af319eb2fe357494b923 inherit pub_attribs_class_a_graphic_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of the object  <a href="../../d3/d92/class_a_graphic_object.html#af6f8a5af7957af319eb2fe357494b923">More...</a><br /></td></tr>
 <tr class="separator:af6f8a5af7957af319eb2fe357494b923 inherit pub_attribs_class_a_graphic_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f5135db16732da4162375223789d92a inherit pub_attribs_class_a_graphic_object"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a5f5135db16732da4162375223789d92a">scale</a> = {0,0}</td></tr>
+<tr class="memdesc:a5f5135db16732da4162375223789d92a inherit pub_attribs_class_a_graphic_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scale of the visual  <a href="../../d3/d92/class_a_graphic_object.html#a5f5135db16732da4162375223789d92a">More...</a><br /></td></tr>
 <tr class="separator:a5f5135db16732da4162375223789d92a inherit pub_attribs_class_a_graphic_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a095079f817dad89ade82a93ad22ec7a2 inherit pub_attribs_class_a_graphic_object"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a095079f817dad89ade82a93ad22ec7a2">center</a> = {0,0}</td></tr>
+<tr class="memdesc:a095079f817dad89ade82a93ad22ec7a2 inherit pub_attribs_class_a_graphic_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">The pivot for the rotation  <a href="../../d3/d92/class_a_graphic_object.html#a095079f817dad89ade82a93ad22ec7a2">More...</a><br /></td></tr>
 <tr class="separator:a095079f817dad89ade82a93ad22ec7a2 inherit pub_attribs_class_a_graphic_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b5ef2c6552ecfa1759d7e06acd78149 inherit pub_attribs_class_a_graphic_object"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a8b5ef2c6552ecfa1759d7e06acd78149">orientation</a> = 0</td></tr>
+<tr class="memdesc:a8b5ef2c6552ecfa1759d7e06acd78149 inherit pub_attribs_class_a_graphic_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">The rotation of the visual  <a href="../../d3/d92/class_a_graphic_object.html#a8b5ef2c6552ecfa1759d7e06acd78149">More...</a><br /></td></tr>
 <tr class="separator:a8b5ef2c6552ecfa1759d7e06acd78149 inherit pub_attribs_class_a_graphic_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:ac4ba2c2dbd41c29ab8909196f8ca91f3"><td class="memItemLeft" align="right" valign="top">static constexpr unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da8/class_explosion.html#ac4ba2c2dbd41c29ab8909196f8ca91f3">FRAMES</a> = 5u</td></tr>
+<tr class="memdesc:ac4ba2c2dbd41c29ab8909196f8ca91f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of frames in the animation  <a href="../../d1/da8/class_explosion.html#ac4ba2c2dbd41c29ab8909196f8ca91f3">More...</a><br /></td></tr>
 <tr class="separator:ac4ba2c2dbd41c29ab8909196f8ca91f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
@@ -188,17 +194,22 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a5460281efdca6c2a75e740e42f354735 inherit pub_static_methods_class_instance_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_class_a_graphic_object"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_class_a_graphic_object')"><img src="../../closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="../../d3/d92/class_a_graphic_object.html">AGraphicObject</a></td></tr>
 <tr class="memitem:ac8fe7fb69a368288aabca4c4e1d05961 inherit pro_static_methods_class_a_graphic_object"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#ac8fe7fb69a368288aabca4c4e1d05961">DefaultDrawMethod</a> (Texture2D <a class="el" href="../../d3/d92/class_a_graphic_object.html#aeadba385847bc3d60cc1acd8ae87ac3d">texture</a>, Vector2 <a class="el" href="../../d3/d92/class_a_graphic_object.html#af6f8a5af7957af319eb2fe357494b923">position</a>, Rectangle <a class="el" href="../../d3/d92/class_a_graphic_object.html#a1eae999cdb821fa34fbfb44cd25490cc">source</a>, Vector2 <a class="el" href="../../d3/d92/class_a_graphic_object.html#a095079f817dad89ade82a93ad22ec7a2">center</a>, Vector2 <a class="el" href="../../d3/d92/class_a_graphic_object.html#a5f5135db16732da4162375223789d92a">scale</a>, float <a class="el" href="../../d3/d92/class_a_graphic_object.html#a8b5ef2c6552ecfa1759d7e06acd78149">orientation</a>, Color <a class="el" href="../../d3/d92/class_a_graphic_object.html#a8f0c6ea1757081a5ae40ade6b2712d82">tint</a>)</td></tr>
+<tr class="memdesc:ac8fe7fb69a368288aabca4c4e1d05961 inherit pro_static_methods_class_a_graphic_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default way of drawing an object  <a href="../../d3/d92/class_a_graphic_object.html#ac8fe7fb69a368288aabca4c4e1d05961">More...</a><br /></td></tr>
 <tr class="separator:ac8fe7fb69a368288aabca4c4e1d05961 inherit pro_static_methods_class_a_graphic_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_a_graphic_object"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_a_graphic_object')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d3/d92/class_a_graphic_object.html">AGraphicObject</a></td></tr>
 <tr class="memitem:aeadba385847bc3d60cc1acd8ae87ac3d inherit pro_attribs_class_a_graphic_object"><td class="memItemLeft" align="right" valign="top">Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#aeadba385847bc3d60cc1acd8ae87ac3d">texture</a></td></tr>
+<tr class="memdesc:aeadba385847bc3d60cc1acd8ae87ac3d inherit pro_attribs_class_a_graphic_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">The texture for the rendering  <a href="../../d3/d92/class_a_graphic_object.html#aeadba385847bc3d60cc1acd8ae87ac3d">More...</a><br /></td></tr>
 <tr class="separator:aeadba385847bc3d60cc1acd8ae87ac3d inherit pro_attribs_class_a_graphic_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eae999cdb821fa34fbfb44cd25490cc inherit pro_attribs_class_a_graphic_object"><td class="memItemLeft" align="right" valign="top">Rectangle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a1eae999cdb821fa34fbfb44cd25490cc">source</a></td></tr>
+<tr class="memdesc:a1eae999cdb821fa34fbfb44cd25490cc inherit pro_attribs_class_a_graphic_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source rectangle on the texture  <a href="../../d3/d92/class_a_graphic_object.html#a1eae999cdb821fa34fbfb44cd25490cc">More...</a><br /></td></tr>
 <tr class="separator:a1eae999cdb821fa34fbfb44cd25490cc inherit pro_attribs_class_a_graphic_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f0c6ea1757081a5ae40ade6b2712d82 inherit pro_attribs_class_a_graphic_object"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a8f0c6ea1757081a5ae40ade6b2712d82">tint</a> = WHITE</td></tr>
+<tr class="memdesc:a8f0c6ea1757081a5ae40ade6b2712d82 inherit pro_attribs_class_a_graphic_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">The tint of the texture  <a href="../../d3/d92/class_a_graphic_object.html#a8f0c6ea1757081a5ae40ade6b2712d82">More...</a><br /></td></tr>
 <tr class="separator:a8f0c6ea1757081a5ae40ade6b2712d82 inherit pro_attribs_class_a_graphic_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<div class="textblock"><p >An explosion animation. It automatiquely delete itself at the end </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a146dcb6a01b9fe4e4512bf3870ecf994" name="a146dcb6a01b9fe4e4512bf3870ecf994"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a146dcb6a01b9fe4e4512bf3870ecf994">&#9670;&nbsp;</a></span>Explosion()</h2>
 
@@ -218,20 +229,6 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7a741af5accccda41febda3467603334" name="a7a741af5accccda41febda3467603334"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a741af5accccda41febda3467603334">&#9670;&nbsp;</a></span>frame</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int Explosion::frame = 0u</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a0970e6fdd5ace8ceae923ee24dac7710" name="a0970e6fdd5ace8ceae923ee24dac7710"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0970e6fdd5ace8ceae923ee24dac7710">&#9670;&nbsp;</a></span>FRAME_RATE</h2>
 
@@ -239,10 +236,12 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const float Explosion::FRAME_RATE = 30.0f</td>
+          <td class="memname">const float Explosion::FRAME_RATE = 2.0f</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Number of frames before showing next frame </p>
 
 </div>
 </div>
@@ -266,19 +265,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="af26dd971919755befff2042c56d6aa41" name="af26dd971919755befff2042c56d6aa41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af26dd971919755befff2042c56d6aa41">&#9670;&nbsp;</a></span>texture</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Texture2D Explosion::texture</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Number of frames in the animation </p>
 
 </div>
 </div>

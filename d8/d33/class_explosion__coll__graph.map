@@ -1,13 +1,12 @@
 <map id="Explosion" name="Explosion">
-<area shape="rect" id="node1" title=" " alt="" coords="273,303,350,329"/>
-<area shape="rect" id="node2" href="$d3/d92/class_a_graphic_object.html" title=" " alt="" coords="254,213,369,240"/>
-<area shape="rect" id="node3" href="$db/d70/class_instance_list.html" title=" " alt="" coords="369,95,577,121"/>
-<area shape="rect" id="node4" href="$db/d70/class_instance_list.html" title="Add a static list for the class T" alt="" coords="411,5,535,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="278,95,345,121"/>
+<area shape="rect" id="node1" title="An explosion animation. It automatiquely delete itself at the end" alt="" coords="187,303,265,329"/>
+<area shape="rect" id="node2" href="$d3/d92/class_a_graphic_object.html" title="An object that can be drawn and updated" alt="" coords="169,213,283,240"/>
+<area shape="rect" id="node3" href="$db/d70/class_instance_list.html" title=" " alt="" coords="473,95,681,121"/>
+<area shape="rect" id="node4" href="$db/d70/class_instance_list.html" title="Add a static list for the class T" alt="" coords="515,5,639,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="94,95,161,121"/>
 <area shape="rect" id="node6" title=" " alt="" coords="5,95,52,121"/>
-<area shape="rect" id="node7" title=" " alt="" coords="172,95,253,121"/>
-<area shape="rect" id="node8" title=" " alt="" coords="601,95,681,121"/>
-<area shape="rect" id="node9" title=" " alt="" coords="96,95,148,121"/>
-<area shape="rect" id="node10" title=" " alt="" coords="393,213,579,240"/>
-<area shape="rect" id="node11" title=" " alt="" coords="603,213,694,240"/>
+<area shape="rect" id="node7" title=" " alt="" coords="185,95,267,121"/>
+<area shape="rect" id="node8" title=" " alt="" coords="291,95,371,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="396,95,448,121"/>
+<area shape="rect" id="node10" title=" " alt="" coords="308,213,493,240"/>
 </map>

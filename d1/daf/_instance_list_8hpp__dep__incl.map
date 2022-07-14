@@ -1,6 +1,8 @@
 <map id="RayLib_SHMUP/include/Shmup/InstanceList.hpp" name="RayLib_SHMUP/include/Shmup/InstanceList.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="224,5,391,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="443,5,609,47"/>
 <area shape="rect" id="node2" href="$de/d53/_a_graphic_object_8cpp.html" title=" " alt="" coords="5,95,191,136"/>
-<area shape="rect" id="node3" href="$d2/d2e/_game_manager_8cpp.html" title=" " alt="" coords="215,95,400,136"/>
-<area shape="rect" id="node4" href="$de/d34/_enemy_8cpp.html" title=" " alt="" coords="424,95,609,136"/>
+<area shape="rect" id="node3" href="$d9/d84/_a_collidable_8cpp.html" title=" " alt="" coords="215,95,400,136"/>
+<area shape="rect" id="node4" href="$df/db7/_collision_manager_8cpp.html" title=" " alt="" coords="425,95,627,136"/>
+<area shape="rect" id="node5" href="$d2/d2e/_game_manager_8cpp.html" title=" " alt="" coords="652,95,837,136"/>
+<area shape="rect" id="node6" href="$de/d34/_enemy_8cpp.html" title=" " alt="" coords="861,95,1047,136"/>
 </map>

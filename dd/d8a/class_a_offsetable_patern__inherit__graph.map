@@ -1,5 +1,5 @@
 <map id="AOffsetablePatern" name="AOffsetablePatern">
-<area shape="rect" id="node1" title=" " alt="" coords="17,80,145,107"/>
-<area shape="rect" id="node3" href="$d1/d25/class_sequence_move_patern.html" title=" " alt="" coords="5,155,156,181"/>
-<area shape="rect" id="node2" href="$dd/d61/class_a_patern.html" title=" " alt="" coords="46,5,115,32"/>
+<area shape="rect" id="node1" title="A patern that can have an offset (rotation, position, rotation)" alt="" coords="17,80,145,107"/>
+<area shape="rect" id="node3" href="$d1/d25/class_sequence_move_patern.html" title="A patern computed by a sequence of rotation and velocity. &#160;This patern can be loaded from a file cont..." alt="" coords="5,155,156,181"/>
+<area shape="rect" id="node2" href="$dd/d61/class_a_patern.html" title="An util class that contains methods to move a movable." alt="" coords="46,5,115,32"/>
 </map>

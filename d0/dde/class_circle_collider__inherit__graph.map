@@ -1,4 +1,4 @@
 <map id="CircleCollider" name="CircleCollider">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,104,107"/>
-<area shape="rect" id="node2" href="$dc/d1d/class_a_collider.html" title=" " alt="" coords="17,5,92,32"/>
+<area shape="rect" id="node1" title="A round collider" alt="" coords="5,80,104,107"/>
+<area shape="rect" id="node2" href="$dc/d1d/class_a_collider.html" title="Contains collider&#39;s data the without the transform" alt="" coords="17,5,92,32"/>
 </map>

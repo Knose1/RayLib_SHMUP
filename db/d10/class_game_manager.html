@@ -120,21 +120,59 @@ $(document).ready(function(){initNavTree('db/d10/class_game_manager.html','../..
 </div><!--header-->
 <div class="contents">
 
+<p>Expose game related methods to be called by the main class  
+ <a href="../../db/d10/class_game_manager.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../">GameManager.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad27dc1c25f99244acafa5832bc2424a4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d10/class_game_manager.html#ad27dc1c25f99244acafa5832bc2424a4">Init</a> ()</td></tr>
+<tr class="memdesc:ad27dc1c25f99244acafa5832bc2424a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called before after the creation of the window  <a href="../../db/d10/class_game_manager.html#ad27dc1c25f99244acafa5832bc2424a4">More...</a><br /></td></tr>
 <tr class="separator:ad27dc1c25f99244acafa5832bc2424a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca8671e9bde5cefe026e1eb9f57b1bfc"><td class="memItemLeft" align="right" valign="top">static const void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d10/class_game_manager.html#aca8671e9bde5cefe026e1eb9f57b1bfc">DeleteLoop</a> ()</td></tr>
+<tr class="memdesc:aca8671e9bde5cefe026e1eb9f57b1bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called at start of the frame loop to destroy the objects marked for delete  <a href="../../db/d10/class_game_manager.html#aca8671e9bde5cefe026e1eb9f57b1bfc">More...</a><br /></td></tr>
+<tr class="separator:aca8671e9bde5cefe026e1eb9f57b1bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adddc25cf2ca23218c59ff36d0ef27e1c"><td class="memItemLeft" align="right" valign="top">static const void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d10/class_game_manager.html#adddc25cf2ca23218c59ff36d0ef27e1c">Render</a> ()</td></tr>
+<tr class="memdesc:adddc25cf2ca23218c59ff36d0ef27e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after DeleteLoop. Show the visual of the objects  <a href="../../db/d10/class_game_manager.html#adddc25cf2ca23218c59ff36d0ef27e1c">More...</a><br /></td></tr>
 <tr class="separator:adddc25cf2ca23218c59ff36d0ef27e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f10c3b4d95b85df56ad4c96385ca0df"><td class="memItemLeft" align="right" valign="top">static const void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d10/class_game_manager.html#a7f10c3b4d95b85df56ad4c96385ca0df">Update</a> ()</td></tr>
+<tr class="memdesc:a7f10c3b4d95b85df56ad4c96385ca0df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after render. Update the status of the objects  <a href="../../db/d10/class_game_manager.html#a7f10c3b4d95b85df56ad4c96385ca0df">More...</a><br /></td></tr>
 <tr class="separator:a7f10c3b4d95b85df56ad4c96385ca0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9c325e2d7f794ad0e4f9c32edf2364d"><td class="memItemLeft" align="right" valign="top">static const void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d10/class_game_manager.html#ac9c325e2d7f794ad0e4f9c32edf2364d">TestCollisions</a> ()</td></tr>
+<tr class="memdesc:ac9c325e2d7f794ad0e4f9c32edf2364d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called at the end to test the collision between objects  <a href="../../db/d10/class_game_manager.html#ac9c325e2d7f794ad0e4f9c32edf2364d">More...</a><br /></td></tr>
 <tr class="separator:ac9c325e2d7f794ad0e4f9c32edf2364d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p >Expose game related methods to be called by the main class </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aca8671e9bde5cefe026e1eb9f57b1bfc" name="aca8671e9bde5cefe026e1eb9f57b1bfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca8671e9bde5cefe026e1eb9f57b1bfc">&#9670;&nbsp;</a></span>DeleteLoop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const void GameManager::DeleteLoop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called at start of the frame loop to destroy the objects marked for delete </p>
+
+</div>
+</div>
 <a id="ad27dc1c25f99244acafa5832bc2424a4" name="ad27dc1c25f99244acafa5832bc2424a4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad27dc1c25f99244acafa5832bc2424a4">&#9670;&nbsp;</a></span>Init()</h2>
 
@@ -157,6 +195,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Called before after the creation of the window </p>
 
 </div>
 </div>
@@ -183,6 +223,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Called after DeleteLoop. Show the visual of the objects </p>
+
 </div>
 </div>
 <a id="ac9c325e2d7f794ad0e4f9c32edf2364d" name="ac9c325e2d7f794ad0e4f9c32edf2364d"></a>
@@ -208,6 +250,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Called at the end to test the collision between objects </p>
+
 </div>
 </div>
 <a id="a7f10c3b4d95b85df56ad4c96385ca0df" name="a7f10c3b4d95b85df56ad4c96385ca0df"></a>
@@ -232,6 +276,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Called after render. Update the status of the objects </p>
 
 </div>
 </div>

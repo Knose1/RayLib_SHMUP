@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Datas for AOffsetablePatern.">
 <polygon fill="#bfbfbf" stroke="black" points="94.5,-0.5 94.5,-30.5 207.5,-30.5 207.5,-0.5 94.5,-0.5"/>
 <text text-anchor="start" x="102.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AOffsetablePatern::</text>
 <text text-anchor="middle" x="151" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">IOffserablePaternData</text>
@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../da/dd8/struct_a_patern_1_1_i_patern_data.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../da/dd8/struct_a_patern_1_1_i_patern_data.html" target="_top" xlink:title="Datas to pass to the patern. &#160;Overriden by the child classes.">
 <polygon fill="white" stroke="black" points="0,-111.5 0,-130.5 108,-130.5 108,-111.5 0,-111.5"/>
 <text text-anchor="middle" x="54" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">APatern::IPaternData</text>
 </a>

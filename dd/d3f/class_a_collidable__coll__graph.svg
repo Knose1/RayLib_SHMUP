@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="An object that posses a collider">
 <polygon fill="#bfbfbf" stroke="black" points="91.5,-0.5 91.5,-19.5 156.5,-19.5 156.5,-0.5 91.5,-0.5"/>
 <text text-anchor="middle" x="124" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ACollidable</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../dc/d1d/class_a_collider.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../dc/d1d/class_a_collider.html" target="_top" xlink:title="Contains collider&#39;s data the without the transform">
 <polygon fill="white" stroke="black" points="154,-67.5 154,-86.5 210,-86.5 210,-67.5 154,-67.5"/>
 <text text-anchor="middle" x="182" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">ACollider</text>
 </a>

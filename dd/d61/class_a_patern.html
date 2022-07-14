@@ -121,6 +121,9 @@ $(document).ready(function(){initNavTree('dd/d61/class_a_patern.html','../../');
 </div><!--header-->
 <div class="contents">
 
+<p>An util class that contains methods to move a movable.  
+ <a href="../../dd/d61/class_a_patern.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../">APatern.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for APatern:</div>
@@ -134,17 +137,22 @@ $(document).ready(function(){initNavTree('dd/d61/class_a_patern.html','../../');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd8/struct_a_patern_1_1_i_patern_data.html">IPaternData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Datas to pass to the patern.<br  />
+ Overriden by the child classes.  <a href="../../da/dd8/struct_a_patern_1_1_i_patern_data.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4fad00d43244b2800e688b5fb03dfff2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/class_a_patern.html#a4fad00d43244b2800e688b5fb03dfff2">SetDefault</a> (<a class="el" href="../../da/dd8/struct_a_patern_1_1_i_patern_data.html">IPaternData</a> *data)=0</td></tr>
+<tr class="memdesc:a4fad00d43244b2800e688b5fb03dfff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init the patern.  <a href="../../dd/d61/class_a_patern.html#a4fad00d43244b2800e688b5fb03dfff2">More...</a><br /></td></tr>
 <tr class="separator:a4fad00d43244b2800e688b5fb03dfff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bb3c1020085546cb460551a306c7348"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/class_a_patern.html#a8bb3c1020085546cb460551a306c7348">DoPatern</a> (<a class="el" href="../../d5/d15/class_a_movable.html">AMovable</a> *movable, <a class="el" href="../../da/dd8/struct_a_patern_1_1_i_patern_data.html">IPaternData</a> *data)=0</td></tr>
+<tr class="memdesc:a8bb3c1020085546cb460551a306c7348"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute the patern.  <a href="../../dd/d61/class_a_patern.html#a8bb3c1020085546cb460551a306c7348">More...</a><br /></td></tr>
 <tr class="separator:a8bb3c1020085546cb460551a306c7348"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p >An util class that contains methods to move a movable. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8bb3c1020085546cb460551a306c7348" name="a8bb3c1020085546cb460551a306c7348"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8bb3c1020085546cb460551a306c7348">&#9670;&nbsp;</a></span>DoPatern()</h2>
 
@@ -179,6 +187,15 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Execute the patern. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">movable</td><td>An object to move</td></tr>
+    <tr><td class="paramname">data</td><td>The datas of the patern</td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implemented in <a class="el" href="../../d1/d25/class_sequence_move_patern.html#a8dcf57279ce4950fdb2e3cffe9e74173">SequenceMovePatern</a>.</p>
 
 </div>
@@ -206,6 +223,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Init the patern. </p>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_sequence_move_patern.html#a893b91c78c1d373e7258558aa8eb9b0c">SequenceMovePatern</a>.</p>
 

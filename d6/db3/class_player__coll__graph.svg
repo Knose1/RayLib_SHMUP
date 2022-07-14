@@ -82,7 +82,7 @@ var sectionId = 'dynsection-1';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d3/d92/class_a_graphic_object.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d3/d92/class_a_graphic_object.html" target="_top" xlink:title="An object that can be drawn and updated">
 <polygon fill="white" stroke="black" points="201.5,-124.5 201.5,-143.5 287.5,-143.5 287.5,-124.5 201.5,-124.5"/>
 <text text-anchor="middle" x="244.5" y="-131.5" font-family="Helvetica,sans-Serif" font-size="10.00">AGraphicObject</text>
 </a>

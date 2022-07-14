@@ -1,5 +1,5 @@
 <map id="ACollidable" name="ACollidable">
-<area shape="rect" id="node1" title=" " alt="" coords="53,171,139,197"/>
+<area shape="rect" id="node1" title="An object that posses a collider" alt="" coords="53,171,139,197"/>
 <area shape="rect" id="node4" href="$dd/d7a/class_enemy.html" title="An enemy spaceship" alt="" coords="24,247,85,273"/>
 <area shape="rect" id="node5" href="$d0/d85/class_shoot.html" title="An shoot (player or enemy)" alt="" coords="109,247,165,273"/>
 <area shape="rect" id="node2" href="$db/d70/class_instance_list.html" title=" " alt="" coords="5,95,187,121"/>

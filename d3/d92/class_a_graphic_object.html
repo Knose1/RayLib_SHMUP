@@ -123,6 +123,9 @@ $(document).ready(function(){initNavTree('d3/d92/class_a_graphic_object.html','.
 </div><!--header-->
 <div class="contents">
 
+<p>An object that can be drawn and updated  
+ <a href="../../d3/d92/class_a_graphic_object.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../">AGraphicObject.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for AGraphicObject:</div>
@@ -144,12 +147,13 @@ $(document).ready(function(){initNavTree('d3/d92/class_a_graphic_object.html','.
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad3a9ff248b9513af020c3418f3e35310"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#ad3a9ff248b9513af020c3418f3e35310">Draw</a> ()</td></tr>
-<tr class="memdesc:ad3a9ff248b9513af020c3418f3e35310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called each frame to draw the object  <a href="../../d3/d92/class_a_graphic_object.html#ad3a9ff248b9513af020c3418f3e35310">More...</a><br /></td></tr>
+<tr class="memdesc:ad3a9ff248b9513af020c3418f3e35310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every frame to draw the object  <a href="../../d3/d92/class_a_graphic_object.html#ad3a9ff248b9513af020c3418f3e35310">More...</a><br /></td></tr>
 <tr class="separator:ad3a9ff248b9513af020c3418f3e35310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add2879e543326710fbf59f87999bc87c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#add2879e543326710fbf59f87999bc87c">Update</a> ()=0</td></tr>
-<tr class="memdesc:add2879e543326710fbf59f87999bc87c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called each frame to update the status of the object  <a href="../../d3/d92/class_a_graphic_object.html#add2879e543326710fbf59f87999bc87c">More...</a><br /></td></tr>
+<tr class="memdesc:add2879e543326710fbf59f87999bc87c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every frame to update the status of the object  <a href="../../d3/d92/class_a_graphic_object.html#add2879e543326710fbf59f87999bc87c">More...</a><br /></td></tr>
 <tr class="separator:add2879e543326710fbf59f87999bc87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66fb1714a3685083e6bebd6f05182613"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a66fb1714a3685083e6bebd6f05182613">GetTransform</a> ()</td></tr>
+<tr class="memdesc:a66fb1714a3685083e6bebd6f05182613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a transform2D object from the object  <a href="../../d3/d92/class_a_graphic_object.html#a66fb1714a3685083e6bebd6f05182613">More...</a><br /></td></tr>
 <tr class="separator:a66fb1714a3685083e6bebd6f05182613"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cb19aa05d018e0d008c7f9f930a35c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a8cb19aa05d018e0d008c7f9f930a35c9">AGraphicObject</a> ()</td></tr>
 <tr class="separator:a8cb19aa05d018e0d008c7f9f930a35c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,26 +163,34 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:af6f8a5af7957af319eb2fe357494b923"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#af6f8a5af7957af319eb2fe357494b923">position</a> = {0,0}</td></tr>
+<tr class="memdesc:af6f8a5af7957af319eb2fe357494b923"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of the object  <a href="../../d3/d92/class_a_graphic_object.html#af6f8a5af7957af319eb2fe357494b923">More...</a><br /></td></tr>
 <tr class="separator:af6f8a5af7957af319eb2fe357494b923"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f5135db16732da4162375223789d92a"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a5f5135db16732da4162375223789d92a">scale</a> = {0,0}</td></tr>
+<tr class="memdesc:a5f5135db16732da4162375223789d92a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scale of the visual  <a href="../../d3/d92/class_a_graphic_object.html#a5f5135db16732da4162375223789d92a">More...</a><br /></td></tr>
 <tr class="separator:a5f5135db16732da4162375223789d92a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a095079f817dad89ade82a93ad22ec7a2"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a095079f817dad89ade82a93ad22ec7a2">center</a> = {0,0}</td></tr>
+<tr class="memdesc:a095079f817dad89ade82a93ad22ec7a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The pivot for the rotation  <a href="../../d3/d92/class_a_graphic_object.html#a095079f817dad89ade82a93ad22ec7a2">More...</a><br /></td></tr>
 <tr class="separator:a095079f817dad89ade82a93ad22ec7a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b5ef2c6552ecfa1759d7e06acd78149"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a8b5ef2c6552ecfa1759d7e06acd78149">orientation</a> = 0</td></tr>
+<tr class="memdesc:a8b5ef2c6552ecfa1759d7e06acd78149"><td class="mdescLeft">&#160;</td><td class="mdescRight">The rotation of the visual  <a href="../../d3/d92/class_a_graphic_object.html#a8b5ef2c6552ecfa1759d7e06acd78149">More...</a><br /></td></tr>
 <tr class="separator:a8b5ef2c6552ecfa1759d7e06acd78149"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:ac8fe7fb69a368288aabca4c4e1d05961"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#ac8fe7fb69a368288aabca4c4e1d05961">DefaultDrawMethod</a> (Texture2D <a class="el" href="../../d3/d92/class_a_graphic_object.html#aeadba385847bc3d60cc1acd8ae87ac3d">texture</a>, Vector2 <a class="el" href="../../d3/d92/class_a_graphic_object.html#af6f8a5af7957af319eb2fe357494b923">position</a>, Rectangle <a class="el" href="../../d3/d92/class_a_graphic_object.html#a1eae999cdb821fa34fbfb44cd25490cc">source</a>, Vector2 <a class="el" href="../../d3/d92/class_a_graphic_object.html#a095079f817dad89ade82a93ad22ec7a2">center</a>, Vector2 <a class="el" href="../../d3/d92/class_a_graphic_object.html#a5f5135db16732da4162375223789d92a">scale</a>, float <a class="el" href="../../d3/d92/class_a_graphic_object.html#a8b5ef2c6552ecfa1759d7e06acd78149">orientation</a>, Color <a class="el" href="../../d3/d92/class_a_graphic_object.html#a8f0c6ea1757081a5ae40ade6b2712d82">tint</a>)</td></tr>
+<tr class="memdesc:ac8fe7fb69a368288aabca4c4e1d05961"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default way of drawing an object  <a href="../../d3/d92/class_a_graphic_object.html#ac8fe7fb69a368288aabca4c4e1d05961">More...</a><br /></td></tr>
 <tr class="separator:ac8fe7fb69a368288aabca4c4e1d05961"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:aeadba385847bc3d60cc1acd8ae87ac3d"><td class="memItemLeft" align="right" valign="top">Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#aeadba385847bc3d60cc1acd8ae87ac3d">texture</a></td></tr>
+<tr class="memdesc:aeadba385847bc3d60cc1acd8ae87ac3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The texture for the rendering  <a href="../../d3/d92/class_a_graphic_object.html#aeadba385847bc3d60cc1acd8ae87ac3d">More...</a><br /></td></tr>
 <tr class="separator:aeadba385847bc3d60cc1acd8ae87ac3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eae999cdb821fa34fbfb44cd25490cc"><td class="memItemLeft" align="right" valign="top">Rectangle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a1eae999cdb821fa34fbfb44cd25490cc">source</a></td></tr>
+<tr class="memdesc:a1eae999cdb821fa34fbfb44cd25490cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source rectangle on the texture  <a href="../../d3/d92/class_a_graphic_object.html#a1eae999cdb821fa34fbfb44cd25490cc">More...</a><br /></td></tr>
 <tr class="separator:a1eae999cdb821fa34fbfb44cd25490cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f0c6ea1757081a5ae40ade6b2712d82"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/class_a_graphic_object.html#a8f0c6ea1757081a5ae40ade6b2712d82">tint</a> = WHITE</td></tr>
+<tr class="memdesc:a8f0c6ea1757081a5ae40ade6b2712d82"><td class="mdescLeft">&#160;</td><td class="mdescRight">The tint of the texture  <a href="../../d3/d92/class_a_graphic_object.html#a8f0c6ea1757081a5ae40ade6b2712d82">More...</a><br /></td></tr>
 <tr class="separator:a8f0c6ea1757081a5ae40ade6b2712d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
@@ -194,7 +206,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a5460281efdca6c2a75e740e42f354735 inherit pub_static_methods_class_instance_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<div class="textblock"><p >An object that can be drawn and updated </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8cb19aa05d018e0d008c7f9f930a35c9" name="a8cb19aa05d018e0d008c7f9f930a35c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8cb19aa05d018e0d008c7f9f930a35c9">&#9670;&nbsp;</a></span>AGraphicObject()</h2>
 
@@ -310,6 +323,20 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The default way of drawing an object </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">texture</td><td>The texture to draw</td></tr>
+    <tr><td class="paramname">position</td><td>The position of the object</td></tr>
+    <tr><td class="paramname">source</td><td>The source rectangle on the texture</td></tr>
+    <tr><td class="paramname">center</td><td>The pivot for the rotation</td></tr>
+    <tr><td class="paramname">scale</td><td>The scale of the texture</td></tr>
+    <tr><td class="paramname">orientation</td><td>The orientation of the texture</td></tr>
+    <tr><td class="paramname">tint</td><td>The tint of the texture</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ad3a9ff248b9513af020c3418f3e35310" name="ad3a9ff248b9513af020c3418f3e35310"></a>
@@ -335,7 +362,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called each frame to draw the object </p>
+<p>Called every frame to draw the object </p>
 
 <p>Reimplemented in <a class="el" href="../../d0/d85/class_shoot.html#aaeac1d780f1bc7d16c1f001d1b47cba5">Shoot</a>.</p>
 
@@ -364,6 +391,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Get a transform2D object from the object </p>
+
 </div>
 </div>
 <a id="add2879e543326710fbf59f87999bc87c" name="add2879e543326710fbf59f87999bc87c"></a>
@@ -389,7 +418,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called each frame to update the status of the object </p>
+<p>Called every frame to update the status of the object </p>
 
 <p>Implemented in <a class="el" href="../../d8/d8c/class_patern_computer.html#a1a50109a8297e8599032574079dbb669">PaternComputer</a>, <a class="el" href="../../dd/d7a/class_enemy.html#a614ad271f07ecf63cb3e665155b7e258">Enemy</a>, <a class="el" href="../../d8/d53/class_player.html#a5e17be3418fa0ac0192c05efaf3dc8bd">Player</a>, and <a class="el" href="../../d0/d85/class_shoot.html#a62b0cda1174ab196a752fda68fd82f64">Shoot</a>.</p>
 
@@ -408,6 +437,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The pivot for the rotation </p>
+
 </div>
 </div>
 <a id="a8b5ef2c6552ecfa1759d7e06acd78149" name="a8b5ef2c6552ecfa1759d7e06acd78149"></a>
@@ -421,6 +452,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The rotation of the visual </p>
 
 </div>
 </div>
@@ -436,6 +469,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The position of the object </p>
+
 </div>
 </div>
 <a id="a5f5135db16732da4162375223789d92a" name="a5f5135db16732da4162375223789d92a"></a>
@@ -449,6 +484,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The scale of the visual </p>
 
 </div>
 </div>
@@ -472,6 +509,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The source rectangle on the texture </p>
+
 </div>
 </div>
 <a id="aeadba385847bc3d60cc1acd8ae87ac3d" name="aeadba385847bc3d60cc1acd8ae87ac3d"></a>
@@ -494,6 +533,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The texture for the rendering </p>
+
 </div>
 </div>
 <a id="a8f0c6ea1757081a5ae40ade6b2712d82" name="a8f0c6ea1757081a5ae40ade6b2712d82"></a>
@@ -515,6 +556,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The tint of the texture </p>
 
 </div>
 </div>

@@ -115,14 +115,11 @@ $(document).ready(function(){initNavTree('d5/d36/_collider_8h.html','../../'); i
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">Collider.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;raylib.h&quot;</code><br />
-<code>#include &quot;raymath.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Shmup/Transform2D.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Shmup/Collision/ColliderSettings.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -130,7 +127,7 @@ $(document).ready(function(){initNavTree('d5/d36/_collider_8h.html','../../'); i
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d43/_collider_8h__incl.svg" width="472" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d43/_collider_8h__incl.svg" width="367" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -147,15 +144,13 @@ $(document).ready(function(){initNavTree('d5/d36/_collider_8h.html','../../'); i
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/class_a_collider.html">ACollider</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains collider's data the without the transform  <a href="../../dc/d1d/class_a_collider.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da2/class_circle_collider.html">CircleCollider</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A round collider  <a href="../../dc/da2/class_circle_collider.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3b/class_rect_collider.html">RectCollider</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d6/de5/namespace_collider_calculation"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de5/namespace_collider_calculation.html">ColliderCalculation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A rectangular collider  <a href="../../d4/d3b/class_rect_collider.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -164,20 +159,8 @@ Enumerations</h2></td></tr>
 , <a class="el" href="../../d5/d36/_collider_8h.html#aff649b0919b6e3df718c7fa0cc31a429a30954d90085f6eaaf5817917fc5fecb3">Circle</a>
 , <a class="el" href="../../d5/d36/_collider_8h.html#aff649b0919b6e3df718c7fa0cc31a429a69ad58d91eec91b5c152d21ca117dc81">Rect</a>
  }</td></tr>
+<tr class="memdesc:aff649b0919b6e3df718c7fa0cc31a429"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of collider (used for calculation's switch)  <a href="../../d5/d36/_collider_8h.html#aff649b0919b6e3df718c7fa0cc31a429">More...</a><br /></td></tr>
 <tr class="separator:aff649b0919b6e3df718c7fa0cc31a429"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a15acbba175f889902d7c4dc4b2900f08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de5/namespace_collider_calculation.html#a15acbba175f889902d7c4dc4b2900f08">ColliderCalculation::Calculation</a> (<a class="el" href="../../dc/d1d/class_a_collider.html">ACollider</a> *me, <a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> meT, <a class="el" href="../../dc/d1d/class_a_collider.html">ACollider</a> *it, <a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> itT)</td></tr>
-<tr class="separator:a15acbba175f889902d7c4dc4b2900f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8cef3b26c633db77a26cf3b77b31984"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de5/namespace_collider_calculation.html#ad8cef3b26c633db77a26cf3b77b31984">ColliderCalculation::Calculation</a> (<a class="el" href="../../dc/da2/class_circle_collider.html">CircleCollider</a> *me, <a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> meT, <a class="el" href="../../d4/d3b/class_rect_collider.html">RectCollider</a> *it, <a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> itT)</td></tr>
-<tr class="separator:ad8cef3b26c633db77a26cf3b77b31984"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5cbaba637643448b66a7fa851342ab3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de5/namespace_collider_calculation.html#ad5cbaba637643448b66a7fa851342ab3">ColliderCalculation::Calculation</a> (<a class="el" href="../../dc/da2/class_circle_collider.html">CircleCollider</a> *me, <a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> meT, <a class="el" href="../../dc/da2/class_circle_collider.html">CircleCollider</a> *it, <a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> itT)</td></tr>
-<tr class="separator:ad5cbaba637643448b66a7fa851342ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4014cdbc3d3b7a9ae9a9e986d64f36e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de5/namespace_collider_calculation.html#ad4014cdbc3d3b7a9ae9a9e986d64f36e">ColliderCalculation::Calculation</a> (<a class="el" href="../../d4/d3b/class_rect_collider.html">RectCollider</a> *me, <a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> meT, <a class="el" href="../../dc/da2/class_circle_collider.html">CircleCollider</a> *it, <a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> itT)</td></tr>
-<tr class="separator:ad4014cdbc3d3b7a9ae9a9e986d64f36e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2233c55d03f5537e222ec0fe1b5e031d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de5/namespace_collider_calculation.html#a2233c55d03f5537e222ec0fe1b5e031d">ColliderCalculation::Calculation</a> (<a class="el" href="../../d4/d3b/class_rect_collider.html">RectCollider</a> *me, <a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> meT, <a class="el" href="../../d4/d3b/class_rect_collider.html">RectCollider</a> *it, <a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> itT)</td></tr>
-<tr class="separator:a2233c55d03f5537e222ec0fe1b5e031d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="aff649b0919b6e3df718c7fa0cc31a429" name="aff649b0919b6e3df718c7fa0cc31a429"></a>
@@ -199,6 +182,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The type of collider (used for calculation's switch) </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aff649b0919b6e3df718c7fa0cc31a429a6adf97f83acf6453d4a6a4b1070f3754" name="aff649b0919b6e3df718c7fa0cc31a429a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aff649b0919b6e3df718c7fa0cc31a429a30954d90085f6eaaf5817917fc5fecb3" name="aff649b0919b6e3df718c7fa0cc31a429a30954d90085f6eaaf5817917fc5fecb3"></a>Circle&#160;</td><td class="fielddoc"></td></tr>

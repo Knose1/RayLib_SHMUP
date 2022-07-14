@@ -2,12 +2,12 @@
 <area shape="rect" id="node1" title="Add a static list for the class T" alt="" coords="94,5,218,32"/>
 <area shape="rect" id="node2" href="$db/d70/class_instance_list.html" title=" " alt="" coords="5,145,187,172"/>
 <area shape="rect" id="node6" href="$db/d70/class_instance_list.html" title=" " alt="" coords="133,95,341,121"/>
-<area shape="rect" id="node3" href="$d0/d76/class_a_collidable.html" title=" " alt="" coords="53,272,139,299"/>
+<area shape="rect" id="node3" href="$d0/d76/class_a_collidable.html" title="An object that posses a collider" alt="" coords="53,272,139,299"/>
 <area shape="rect" id="node4" href="$dd/d7a/class_enemy.html" title="An enemy spaceship" alt="" coords="77,348,139,375"/>
 <area shape="rect" id="node5" href="$d0/d85/class_shoot.html" title="An shoot (player or enemy)" alt="" coords="164,348,220,375"/>
-<area shape="rect" id="node7" href="$d3/d92/class_a_graphic_object.html" title=" " alt="" coords="180,196,295,223"/>
+<area shape="rect" id="node7" href="$d3/d92/class_a_graphic_object.html" title="An object that can be drawn and updated" alt="" coords="180,196,295,223"/>
 <area shape="rect" id="node8" href="$d5/d15/class_a_movable.html" title=" " alt="" coords="265,272,345,299"/>
-<area shape="rect" id="node11" href="$d1/da8/class_explosion.html" title=" " alt="" coords="164,272,241,299"/>
+<area shape="rect" id="node11" href="$d1/da8/class_explosion.html" title="An explosion animation. It automatiquely delete itself at the end" alt="" coords="164,272,241,299"/>
 <area shape="rect" id="node9" href="$d8/d8c/class_patern_computer.html" title=" " alt="" coords="246,348,362,375"/>
 <area shape="rect" id="node10" href="$d8/d53/class_player.html" title="The player" alt="" coords="387,348,445,375"/>
 </map>

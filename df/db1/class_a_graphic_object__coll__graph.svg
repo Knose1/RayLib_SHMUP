@@ -58,7 +58,7 @@ var sectionId = 'dynsection-1';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="An object that can be drawn and updated">
 <polygon fill="#bfbfbf" stroke="black" points="250,-0.5 250,-19.5 336,-19.5 336,-0.5 250,-0.5"/>
 <text text-anchor="middle" x="293" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AGraphicObject</text>
 </a>

@@ -13,5 +13,6 @@ var searchData=
   ['ioffserablepaterndata_10',['IOffserablePaternData',['../d1/dfd/struct_a_offsetable_patern_1_1_i_offserable_patern_data.html',1,'AOffsetablePatern']]],
   ['ipaterndata_11',['IPaternData',['../da/dd8/struct_a_patern_1_1_i_patern_data.html',1,'APatern']]],
   ['isgamepad_12',['isGamePad',['../d3/dec/_controller_8cpp.html#a966a4e95158de24155d34010e3878636',1,'Controller.cpp']]],
-  ['israffal_13',['isRaffal',['../d3/dec/_controller_8cpp.html#a6f24cc27f52f646430436f82bbb01c26',1,'Controller.cpp']]]
+  ['ispointincollider_13',['IsPointInCollider',['../dc/d1d/class_a_collider.html#af962fb1d83c8bb574d7fbc6141a9eb7a',1,'ACollider::IsPointInCollider()'],['../dc/da2/class_circle_collider.html#ae624a0807a0d7ad2c871bbf83af76387',1,'CircleCollider::IsPointInCollider()'],['../d4/d3b/class_rect_collider.html#ac92b1c9bc9f45a652f89fe7652d1df3e',1,'RectCollider::IsPointInCollider()']]],
+  ['israffal_14',['isRaffal',['../d3/dec/_controller_8cpp.html#a6f24cc27f52f646430436f82bbb01c26',1,'Controller.cpp']]]
 ];

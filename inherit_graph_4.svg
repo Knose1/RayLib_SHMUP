@@ -21,7 +21,7 @@
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="d0/d76/class_a_collidable.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="d0/d76/class_a_collidable.html" target="_top" xlink:title="An object that posses a collider">
 <polygon fill="white" stroke="black" points="364,-114.5 364,-133.5 429,-133.5 429,-114.5 364,-114.5"/>
 <text text-anchor="middle" x="396.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">ACollidable</text>
 </a>
@@ -75,7 +75,7 @@
 <!-- Node16 -->
 <g id="node6" class="node">
 <title>Node16</title>
-<g id="a_node6"><a xlink:href="d3/d92/class_a_graphic_object.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="d3/d92/class_a_graphic_object.html" target="_top" xlink:title="An object that can be drawn and updated">
 <polygon fill="white" stroke="black" points="217,-57.5 217,-76.5 303,-76.5 303,-57.5 217,-57.5"/>
 <text text-anchor="middle" x="260" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">AGraphicObject</text>
 </a>
@@ -105,7 +105,7 @@
 <!-- Node20 -->
 <g id="node10" class="node">
 <title>Node20</title>
-<g id="a_node10"><a xlink:href="d1/da8/class_explosion.html" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="d1/da8/class_explosion.html" target="_top" xlink:title="An explosion animation. It automatiquely delete itself at the end">
 <polygon fill="white" stroke="black" points="367.5,-76.5 367.5,-95.5 425.5,-95.5 425.5,-76.5 367.5,-76.5"/>
 <text text-anchor="middle" x="396.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Explosion</text>
 </a>

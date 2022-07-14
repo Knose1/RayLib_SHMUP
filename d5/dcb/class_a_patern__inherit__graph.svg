@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="An util class that contains methods to move a movable.">
 <polygon fill="#bfbfbf" stroke="black" points="132.5,-112.5 132.5,-131.5 184.5,-131.5 184.5,-112.5 132.5,-112.5"/>
 <text text-anchor="middle" x="158.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">APatern</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d7/d67/class_a_offsetable_patern.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d7/d67/class_a_offsetable_patern.html" target="_top" xlink:title="A patern that can have an offset (rotation, position, rotation)">
 <polygon fill="white" stroke="black" points="8.5,-56.5 8.5,-75.5 104.5,-75.5 104.5,-56.5 8.5,-56.5"/>
 <text text-anchor="middle" x="56.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">AOffsetablePatern</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../dc/dc7/class_patern_linear.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../dc/dc7/class_patern_linear.html" target="_top" xlink:title="A patern that goes in a straight line">
 <polygon fill="white" stroke="black" points="122.5,-56.5 122.5,-75.5 194.5,-75.5 194.5,-56.5 122.5,-56.5"/>
 <text text-anchor="middle" x="158.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">PaternLinear</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../dd/d2d/class_patern_v_spread.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../dd/d2d/class_patern_v_spread.html" target="_top" xlink:title="A bullet patern that spreads in a V shape">
 <polygon fill="white" stroke="black" points="213,-56.5 213,-75.5 296,-75.5 296,-56.5 213,-56.5"/>
 <text text-anchor="middle" x="254.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">PaternVSpread</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d1/d25/class_sequence_move_patern.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d1/d25/class_sequence_move_patern.html" target="_top" xlink:title="A patern computed by a sequence of rotation and velocity. &#160;This patern can be loaded from a file cont...">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 113,-19.5 113,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="56.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SequenceMovePatern</text>
 </a>

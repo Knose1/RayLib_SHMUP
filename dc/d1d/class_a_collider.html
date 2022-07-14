@@ -117,9 +117,12 @@ $(document).ready(function(){initNavTree('dc/d1d/class_a_collider.html','../../'
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d0/d17/class_a_collider-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">ACollider Class Reference</div></div>
+  <div class="headertitle"><div class="title">ACollider Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Contains collider's data the without the transform  
+ <a href="../../dc/d1d/class_a_collider.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../">Collider.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -144,19 +147,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa562d3efd4c057e445b1bad88b0d11c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/class_a_collider.html#aa562d3efd4c057e445b1bad88b0d11c2">ACollider</a> (Vector2 <a class="el" href="../../dc/d1d/class_a_collider.html#a0927adb435ae700efdd7139999ad7117">pivot</a>, <a class="el" href="../../de/d60/_collider_settings_8h.html#a17378b06c00212ef6814a5d4285934f3">CollisionLayer</a> <a class="el" href="../../dc/d1d/class_a_collider.html#a81062faefb260ec545de12fd5343bad4">layer</a>=<a class="el" href="../../de/d60/_collider_settings_8h.html#a17378b06c00212ef6814a5d4285934f3a7a1920d61156abc05a60135aefe8bc67">CollisionLayer::Default</a>)</td></tr>
 <tr class="separator:aa562d3efd4c057e445b1bad88b0d11c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a195dd7a30ff97926411dfdfc22547de0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/d36/_collider_8h.html#aff649b0919b6e3df718c7fa0cc31a429">EColliderType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/class_a_collider.html#a195dd7a30ff97926411dfdfc22547de0">GetType</a> ()</td></tr>
+<tr class="memdesc:a195dd7a30ff97926411dfdfc22547de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of collider  <a href="../../dc/d1d/class_a_collider.html#a195dd7a30ff97926411dfdfc22547de0">More...</a><br /></td></tr>
 <tr class="separator:a195dd7a30ff97926411dfdfc22547de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb2d8206087ddc9bde472a3b733b0397"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/class_a_collider.html#abb2d8206087ddc9bde472a3b733b0397">Calculation</a> (<a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> meT, <a class="el" href="../../dc/d1d/class_a_collider.html">ACollider</a> *it, <a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> itT)</td></tr>
+<tr class="memdesc:abb2d8206087ddc9bde472a3b733b0397"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test if 2 colliders are colliding  <a href="../../dc/d1d/class_a_collider.html#abb2d8206087ddc9bde472a3b733b0397">More...</a><br /></td></tr>
 <tr class="separator:abb2d8206087ddc9bde472a3b733b0397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af962fb1d83c8bb574d7fbc6141a9eb7a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/class_a_collider.html#af962fb1d83c8bb574d7fbc6141a9eb7a">IsPointInCollider</a> (<a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> tr, Vector2 point)=0</td></tr>
+<tr class="memdesc:af962fb1d83c8bb574d7fbc6141a9eb7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test if a point is in the collider  <a href="../../dc/d1d/class_a_collider.html#af962fb1d83c8bb574d7fbc6141a9eb7a">More...</a><br /></td></tr>
+<tr class="separator:af962fb1d83c8bb574d7fbc6141a9eb7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a0927adb435ae700efdd7139999ad7117"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/class_a_collider.html#a0927adb435ae700efdd7139999ad7117">pivot</a></td></tr>
+<tr class="memdesc:a0927adb435ae700efdd7139999ad7117"><td class="mdescLeft">&#160;</td><td class="mdescRight">The pivot for transformations  <a href="../../dc/d1d/class_a_collider.html#a0927adb435ae700efdd7139999ad7117">More...</a><br /></td></tr>
 <tr class="separator:a0927adb435ae700efdd7139999ad7117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81062faefb260ec545de12fd5343bad4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d60/_collider_settings_8h.html#a17378b06c00212ef6814a5d4285934f3">CollisionLayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/class_a_collider.html#a81062faefb260ec545de12fd5343bad4">layer</a> = <a class="el" href="../../de/d60/_collider_settings_8h.html#a17378b06c00212ef6814a5d4285934f3a7a1920d61156abc05a60135aefe8bc67">CollisionLayer::Default</a></td></tr>
+<tr class="memdesc:a81062faefb260ec545de12fd5343bad4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The layer of the collision.<br  />
+ If want to modify the layer in runtime, don't forget to unregister your collidable before modifying the layer.  <a href="../../dc/d1d/class_a_collider.html#a81062faefb260ec545de12fd5343bad4">More...</a><br /></td></tr>
 <tr class="separator:a81062faefb260ec545de12fd5343bad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<div class="textblock"><p >Contains collider's data the without the transform </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa562d3efd4c057e445b1bad88b0d11c2" name="aa562d3efd4c057e445b1bad88b0d11c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa562d3efd4c057e445b1bad88b0d11c2">&#9670;&nbsp;</a></span>ACollider()</h2>
 
@@ -190,6 +202,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pivot</td><td>The pivot for transformations</td></tr>
+    <tr><td class="paramname">layer</td><td>The layer of the collision. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -199,9 +218,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool ACollider::Calculation </td>
@@ -227,12 +243,18 @@ Public Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Test if 2 colliders are colliding </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">meT</td><td>My transform</td></tr>
+    <tr><td class="paramname">it</td><td>The other collider</td></tr>
+    <tr><td class="paramname">itT</td><td>The other transform</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the colliders are colliding</dd></dl>
 
 </div>
 </div>
@@ -259,7 +281,57 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Get the type of collider </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/da2/class_circle_collider.html#ac175a65d9b63addb821e04910e6fe8e1">CircleCollider</a>, and <a class="el" href="../../d4/d3b/class_rect_collider.html#a28a048165d5d50a4b3f1f3921fa679f1">RectCollider</a>.</p>
+
+</div>
+</div>
+<a id="af962fb1d83c8bb574d7fbc6141a9eb7a" name="af962fb1d83c8bb574d7fbc6141a9eb7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af962fb1d83c8bb574d7fbc6141a9eb7a">&#9670;&nbsp;</a></span>IsPointInCollider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ACollider::IsPointInCollider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a>&#160;</td>
+          <td class="paramname"><em>tr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>point</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Test if a point is in the collider </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tr</td><td>The transform of the collider</td></tr>
+    <tr><td class="paramname">point</td><td>The point to test</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the point is in the collider</dd></dl>
+
+<p>Implemented in <a class="el" href="../../dc/da2/class_circle_collider.html#ae624a0807a0d7ad2c871bbf83af76387">CircleCollider</a>, and <a class="el" href="../../d4/d3b/class_rect_collider.html#ac92b1c9bc9f45a652f89fe7652d1df3e">RectCollider</a>.</p>
 
 </div>
 </div>
@@ -276,6 +348,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The layer of the collision.<br  />
+ If want to modify the layer in runtime, don't forget to unregister your collidable before modifying the layer. </p>
+
 </div>
 </div>
 <a id="a0927adb435ae700efdd7139999ad7117" name="a0927adb435ae700efdd7139999ad7117"></a>
@@ -290,10 +365,13 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The pivot for transformations </p>
+
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>RayLib_SHMUP/include/Shmup/Collision/<a class="el" href="../../">Collider.h</a></li>
+<li>RayLib_SHMUP/src/Shmup/Collision/<a class="el" href="../../">Collider.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

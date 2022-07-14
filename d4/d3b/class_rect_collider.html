@@ -121,6 +121,9 @@ $(document).ready(function(){initNavTree('d4/d3b/class_rect_collider.html','../.
 </div><!--header-->
 <div class="contents">
 
+<p>A rectangular collider  
+ <a href="../../d4/d3b/class_rect_collider.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../">Collider.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for RectCollider:</div>
@@ -144,14 +147,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5bea96b7d6958f43949dfa47194ba2c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3b/class_rect_collider.html#a5bea96b7d6958f43949dfa47194ba2c3">RectCollider</a> (Vector2 <a class="el" href="../../dc/d1d/class_a_collider.html#a0927adb435ae700efdd7139999ad7117">pivot</a>, float <a class="el" href="../../d4/d3b/class_rect_collider.html#a8dcfb49de2880a1d7281d4fe9ced6636">width</a>, float <a class="el" href="../../d4/d3b/class_rect_collider.html#a8db8e1f26db08b20e1fedf7e866c1eaa">height</a>, <a class="el" href="../../de/d60/_collider_settings_8h.html#a17378b06c00212ef6814a5d4285934f3">CollisionLayer</a> <a class="el" href="../../dc/d1d/class_a_collider.html#a81062faefb260ec545de12fd5343bad4">layer</a>=<a class="el" href="../../de/d60/_collider_settings_8h.html#a17378b06c00212ef6814a5d4285934f3a7a1920d61156abc05a60135aefe8bc67">CollisionLayer::Default</a>)</td></tr>
 <tr class="separator:a5bea96b7d6958f43949dfa47194ba2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28a048165d5d50a4b3f1f3921fa679f1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/d36/_collider_8h.html#aff649b0919b6e3df718c7fa0cc31a429">EColliderType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3b/class_rect_collider.html#a28a048165d5d50a4b3f1f3921fa679f1">GetType</a> () override</td></tr>
+<tr class="memdesc:a28a048165d5d50a4b3f1f3921fa679f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of collider  <a href="../../d4/d3b/class_rect_collider.html#a28a048165d5d50a4b3f1f3921fa679f1">More...</a><br /></td></tr>
 <tr class="separator:a28a048165d5d50a4b3f1f3921fa679f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45bf16d3ea1d2d187bc3075d5ce33273"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3b/class_rect_collider.html#a45bf16d3ea1d2d187bc3075d5ce33273">GetWorldPoints</a> (<a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> *transform, Vector2 &amp;a, Vector2 &amp;b, Vector2 &amp;c, Vector2 &amp;d)</td></tr>
-<tr class="memdesc:a45bf16d3ea1d2d187bc3075d5ce33273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the points that compose the rectangle  <a href="../../d4/d3b/class_rect_collider.html#a45bf16d3ea1d2d187bc3075d5ce33273">More...</a><br /></td></tr>
-<tr class="separator:a45bf16d3ea1d2d187bc3075d5ce33273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac92b1c9bc9f45a652f89fe7652d1df3e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3b/class_rect_collider.html#ac92b1c9bc9f45a652f89fe7652d1df3e">IsPointInCollider</a> (<a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> meT, Vector2 point) override</td></tr>
+<tr class="memdesc:ac92b1c9bc9f45a652f89fe7652d1df3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test if a point is in the collider  <a href="../../d4/d3b/class_rect_collider.html#ac92b1c9bc9f45a652f89fe7652d1df3e">More...</a><br /></td></tr>
+<tr class="separator:ac92b1c9bc9f45a652f89fe7652d1df3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a688b7dbcb282ac11e0cd2d014c148f58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3b/class_rect_collider.html#a688b7dbcb282ac11e0cd2d014c148f58">GetWorldPoints</a> (<a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> transform, Vector2 &amp;a, Vector2 &amp;b, Vector2 &amp;c, Vector2 &amp;d)</td></tr>
+<tr class="memdesc:a688b7dbcb282ac11e0cd2d014c148f58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the points that compose the rectangle  <a href="../../d4/d3b/class_rect_collider.html#a688b7dbcb282ac11e0cd2d014c148f58">More...</a><br /></td></tr>
+<tr class="separator:a688b7dbcb282ac11e0cd2d014c148f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_a_collider"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_a_collider')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dc/d1d/class_a_collider.html">ACollider</a></td></tr>
 <tr class="memitem:aa562d3efd4c057e445b1bad88b0d11c2 inherit pub_methods_class_a_collider"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/class_a_collider.html#aa562d3efd4c057e445b1bad88b0d11c2">ACollider</a> (Vector2 <a class="el" href="../../dc/d1d/class_a_collider.html#a0927adb435ae700efdd7139999ad7117">pivot</a>, <a class="el" href="../../de/d60/_collider_settings_8h.html#a17378b06c00212ef6814a5d4285934f3">CollisionLayer</a> <a class="el" href="../../dc/d1d/class_a_collider.html#a81062faefb260ec545de12fd5343bad4">layer</a>=<a class="el" href="../../de/d60/_collider_settings_8h.html#a17378b06c00212ef6814a5d4285934f3a7a1920d61156abc05a60135aefe8bc67">CollisionLayer::Default</a>)</td></tr>
 <tr class="separator:aa562d3efd4c057e445b1bad88b0d11c2 inherit pub_methods_class_a_collider"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb2d8206087ddc9bde472a3b733b0397 inherit pub_methods_class_a_collider"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/class_a_collider.html#abb2d8206087ddc9bde472a3b733b0397">Calculation</a> (<a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> meT, <a class="el" href="../../dc/d1d/class_a_collider.html">ACollider</a> *it, <a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> itT)</td></tr>
+<tr class="memdesc:abb2d8206087ddc9bde472a3b733b0397 inherit pub_methods_class_a_collider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test if 2 colliders are colliding  <a href="../../dc/d1d/class_a_collider.html#abb2d8206087ddc9bde472a3b733b0397">More...</a><br /></td></tr>
 <tr class="separator:abb2d8206087ddc9bde472a3b733b0397 inherit pub_methods_class_a_collider"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -162,12 +170,16 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a8db8e1f26db08b20e1fedf7e866c1eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_a_collider"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_a_collider')"><img src="../../closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="../../dc/d1d/class_a_collider.html">ACollider</a></td></tr>
 <tr class="memitem:a0927adb435ae700efdd7139999ad7117 inherit pub_attribs_class_a_collider"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/class_a_collider.html#a0927adb435ae700efdd7139999ad7117">pivot</a></td></tr>
+<tr class="memdesc:a0927adb435ae700efdd7139999ad7117 inherit pub_attribs_class_a_collider"><td class="mdescLeft">&#160;</td><td class="mdescRight">The pivot for transformations  <a href="../../dc/d1d/class_a_collider.html#a0927adb435ae700efdd7139999ad7117">More...</a><br /></td></tr>
 <tr class="separator:a0927adb435ae700efdd7139999ad7117 inherit pub_attribs_class_a_collider"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81062faefb260ec545de12fd5343bad4 inherit pub_attribs_class_a_collider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d60/_collider_settings_8h.html#a17378b06c00212ef6814a5d4285934f3">CollisionLayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/class_a_collider.html#a81062faefb260ec545de12fd5343bad4">layer</a> = <a class="el" href="../../de/d60/_collider_settings_8h.html#a17378b06c00212ef6814a5d4285934f3a7a1920d61156abc05a60135aefe8bc67">CollisionLayer::Default</a></td></tr>
+<tr class="memdesc:a81062faefb260ec545de12fd5343bad4 inherit pub_attribs_class_a_collider"><td class="mdescLeft">&#160;</td><td class="mdescRight">The layer of the collision.<br  />
+ If want to modify the layer in runtime, don't forget to unregister your collidable before modifying the layer.  <a href="../../dc/d1d/class_a_collider.html#a81062faefb260ec545de12fd5343bad4">More...</a><br /></td></tr>
 <tr class="separator:a81062faefb260ec545de12fd5343bad4 inherit pub_attribs_class_a_collider"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<div class="textblock"><p >A rectangular collider </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5bea96b7d6958f43949dfa47194ba2c3" name="a5bea96b7d6958f43949dfa47194ba2c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5bea96b7d6958f43949dfa47194ba2c3">&#9670;&nbsp;</a></span>RectCollider()</h2>
 
@@ -240,12 +252,14 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Get the type of collider </p>
+
 <p>Reimplemented from <a class="el" href="../../dc/d1d/class_a_collider.html#a195dd7a30ff97926411dfdfc22547de0">ACollider</a>.</p>
 
 </div>
 </div>
-<a id="a45bf16d3ea1d2d187bc3075d5ce33273" name="a45bf16d3ea1d2d187bc3075d5ce33273"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45bf16d3ea1d2d187bc3075d5ce33273">&#9670;&nbsp;</a></span>GetWorldPoints()</h2>
+<a id="a688b7dbcb282ac11e0cd2d014c148f58" name="a688b7dbcb282ac11e0cd2d014c148f58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a688b7dbcb282ac11e0cd2d014c148f58">&#9670;&nbsp;</a></span>GetWorldPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,7 +270,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void RectCollider::GetWorldPoints </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a>&#160;</td>
           <td class="paramname"><em>transform</em>, </td>
         </tr>
         <tr>
@@ -310,6 +324,54 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac92b1c9bc9f45a652f89fe7652d1df3e" name="ac92b1c9bc9f45a652f89fe7652d1df3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac92b1c9bc9f45a652f89fe7652d1df3e">&#9670;&nbsp;</a></span>IsPointInCollider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RectCollider::IsPointInCollider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/dde/struct_transform2_d.html">Transform2D</a>&#160;</td>
+          <td class="paramname"><em>tr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>point</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Test if a point is in the collider </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tr</td><td>The transform of the collider</td></tr>
+    <tr><td class="paramname">point</td><td>The point to test</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the point is in the collider</dd></dl>
+
+<p>Implements <a class="el" href="../../dc/d1d/class_a_collider.html#af962fb1d83c8bb574d7fbc6141a9eb7a">ACollider</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a8db8e1f26db08b20e1fedf7e866c1eaa" name="a8db8e1f26db08b20e1fedf7e866c1eaa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8db8e1f26db08b20e1fedf7e866c1eaa">&#9670;&nbsp;</a></span>height</h2>
@@ -339,8 +401,9 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>RayLib_SHMUP/include/Shmup/Collision/<a class="el" href="../../">Collider.h</a></li>
+<li>RayLib_SHMUP/src/Shmup/Collision/<a class="el" href="../../">Collider.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

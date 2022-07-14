@@ -1,9 +1,9 @@
 <map id="Shoot" name="Shoot">
 <area shape="rect" id="node1" title="An shoot (player or enemy)" alt="" coords="229,348,285,375"/>
 <area shape="rect" id="node2" href="$d5/d15/class_a_movable.html" title=" " alt="" coords="173,272,253,299"/>
-<area shape="rect" id="node3" href="$d3/d92/class_a_graphic_object.html" title=" " alt="" coords="144,171,259,197"/>
+<area shape="rect" id="node3" href="$d3/d92/class_a_graphic_object.html" title="An object that can be drawn and updated" alt="" coords="144,171,259,197"/>
 <area shape="rect" id="node4" href="$db/d70/class_instance_list.html" title=" " alt="" coords="5,95,213,121"/>
 <area shape="rect" id="node5" href="$db/d70/class_instance_list.html" title="Add a static list for the class T" alt="" coords="155,5,279,32"/>
 <area shape="rect" id="node7" href="$db/d70/class_instance_list.html" title=" " alt="" coords="237,95,419,121"/>
-<area shape="rect" id="node6" href="$d0/d76/class_a_collidable.html" title=" " alt="" coords="263,221,350,248"/>
+<area shape="rect" id="node6" href="$d0/d76/class_a_collidable.html" title="An object that posses a collider" alt="" coords="263,221,350,248"/>
 </map>

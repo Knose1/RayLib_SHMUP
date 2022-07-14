@@ -1,6 +1,6 @@
 <map id="Explosion" name="Explosion">
-<area shape="rect" id="node1" title=" " alt="" coords="71,247,148,273"/>
-<area shape="rect" id="node2" href="$d3/d92/class_a_graphic_object.html" title=" " alt="" coords="52,171,167,197"/>
+<area shape="rect" id="node1" title="An explosion animation. It automatiquely delete itself at the end" alt="" coords="71,247,148,273"/>
+<area shape="rect" id="node2" href="$d3/d92/class_a_graphic_object.html" title="An object that can be drawn and updated" alt="" coords="52,171,167,197"/>
 <area shape="rect" id="node3" href="$db/d70/class_instance_list.html" title=" " alt="" coords="5,95,213,121"/>
 <area shape="rect" id="node4" href="$db/d70/class_instance_list.html" title="Add a static list for the class T" alt="" coords="47,5,171,32"/>
 </map>

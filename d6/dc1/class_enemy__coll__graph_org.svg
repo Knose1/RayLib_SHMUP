@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d3/d92/class_a_graphic_object.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d3/d92/class_a_graphic_object.html" target="_top" xlink:title="An object that can be drawn and updated">
 <polygon fill="white" stroke="black" points="550,-198.5 550,-217.5 636,-217.5 636,-198.5 550,-198.5"/>
 <text text-anchor="middle" x="593" y="-205.5" font-family="Helvetica,sans-Serif" font-size="10.00">AGraphicObject</text>
 </a>
@@ -123,7 +123,7 @@
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="../../dc/d1d/class_a_collider.html" target="_top" xlink:title=" ">
+<g id="a_node13"><a xlink:href="../../dc/d1d/class_a_collider.html" target="_top" xlink:title="Contains collider&#39;s data the without the transform">
 <polygon fill="white" stroke="black" points="565,-365.5 565,-384.5 621,-384.5 621,-365.5 565,-365.5"/>
 <text text-anchor="middle" x="593" y="-372.5" font-family="Helvetica,sans-Serif" font-size="10.00">ACollider</text>
 </a>
@@ -210,7 +210,7 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d0/d76/class_a_collidable.html" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="../../d0/d76/class_a_collidable.html" target="_top" xlink:title="An object that posses a collider">
 <polygon fill="white" stroke="black" points="831,-365.5 831,-384.5 896,-384.5 896,-365.5 831,-365.5"/>
 <text text-anchor="middle" x="863.5" y="-372.5" font-family="Helvetica,sans-Serif" font-size="10.00">ACollidable</text>
 </a>
@@ -254,7 +254,7 @@
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="../../d1/d25/class_sequence_move_patern.html" target="_top" xlink:title=" ">
+<g id="a_node15"><a xlink:href="../../d1/d25/class_sequence_move_patern.html" target="_top" xlink:title="A patern computed by a sequence of rotation and velocity. &#160;This patern can be loaded from a file cont...">
 <polygon fill="white" stroke="black" points="807,-38.5 807,-57.5 920,-57.5 920,-38.5 807,-38.5"/>
 <text text-anchor="middle" x="863.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SequenceMovePatern</text>
 </a>
@@ -270,7 +270,7 @@
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="../../d7/d67/class_a_offsetable_patern.html" target="_top" xlink:title=" ">
+<g id="a_node16"><a xlink:href="../../d7/d67/class_a_offsetable_patern.html" target="_top" xlink:title="A patern that can have an offset (rotation, position, rotation)">
 <polygon fill="white" stroke="black" points="545,-0.5 545,-19.5 641,-19.5 641,-0.5 545,-0.5"/>
 <text text-anchor="middle" x="593" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AOffsetablePatern</text>
 </a>
@@ -285,7 +285,7 @@
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="../../dd/d61/class_a_patern.html" target="_top" xlink:title=" ">
+<g id="a_node17"><a xlink:href="../../dd/d61/class_a_patern.html" target="_top" xlink:title="An util class that contains methods to move a movable.">
 <polygon fill="white" stroke="black" points="269,-0.5 269,-19.5 321,-19.5 321,-0.5 269,-0.5"/>
 <text text-anchor="middle" x="295" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">APatern</text>
 </a>

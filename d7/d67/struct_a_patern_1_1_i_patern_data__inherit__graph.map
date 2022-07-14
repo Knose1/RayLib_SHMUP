@@ -1,5 +1,5 @@
 <map id="APatern::IPaternData" name="APatern::IPaternData">
-<area shape="rect" id="node1" title=" " alt="" coords="9,5,153,32"/>
-<area shape="rect" id="node2" href="$d1/dfd/struct_a_offsetable_patern_1_1_i_offserable_patern_data.html" title=" " alt="" coords="5,80,156,121"/>
-<area shape="rect" id="node3" href="$d7/d74/struct_sequence_move_patern_1_1_sequence_patern.html" title=" " alt="" coords="5,169,156,211"/>
+<area shape="rect" id="node1" title="Datas to pass to the patern. &#160;Overriden by the child classes." alt="" coords="9,5,153,32"/>
+<area shape="rect" id="node2" href="$d1/dfd/struct_a_offsetable_patern_1_1_i_offserable_patern_data.html" title="Datas for AOffsetablePatern." alt="" coords="5,80,156,121"/>
+<area shape="rect" id="node3" href="$d7/d74/struct_sequence_move_patern_1_1_sequence_patern.html" title="The datas of SequenceMovePatern." alt="" coords="5,169,156,211"/>
 </map>

@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="An object that can be drawn and updated">
 <polygon fill="#bfbfbf" stroke="black" points="145,-114.5 145,-133.5 231,-133.5 231,-114.5 145,-114.5"/>
 <text text-anchor="middle" x="188" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">AGraphicObject</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d1/da8/class_explosion.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="../../d1/da8/class_explosion.html" target="_top" xlink:title="An explosion animation. It automatiquely delete itself at the end">
 <polygon fill="white" stroke="black" points="198,-57.5 198,-76.5 256,-76.5 256,-57.5 198,-57.5"/>
 <text text-anchor="middle" x="227" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">Explosion</text>
 </a>

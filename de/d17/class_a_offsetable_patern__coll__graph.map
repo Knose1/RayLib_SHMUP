@@ -1,4 +1,4 @@
 <map id="AOffsetablePatern" name="AOffsetablePatern">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,133,107"/>
-<area shape="rect" id="node2" href="$dd/d61/class_a_patern.html" title=" " alt="" coords="35,5,104,32"/>
+<area shape="rect" id="node1" title="A patern that can have an offset (rotation, position, rotation)" alt="" coords="5,80,133,107"/>
+<area shape="rect" id="node2" href="$dd/d61/class_a_patern.html" title="An util class that contains methods to move a movable." alt="" coords="35,5,104,32"/>
 </map>

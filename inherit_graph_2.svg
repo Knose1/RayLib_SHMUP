@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="da/dd8/struct_a_patern_1_1_i_patern_data.html" target="_top" xlink:title=" ">
+<g id="a_node1"><a xlink:href="da/dd8/struct_a_patern_1_1_i_patern_data.html" target="_top" xlink:title="Datas to pass to the patern. &#160;Overriden by the child classes.">
 <polygon fill="white" stroke="black" points="0,-6 0,-25 108,-25 108,-6 0,-6"/>
 <text text-anchor="middle" x="54" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">APatern::IPaternData</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="d1/dfd/struct_a_offsetable_patern_1_1_i_offserable_patern_data.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="d1/dfd/struct_a_offsetable_patern_1_1_i_offserable_patern_data.html" target="_top" xlink:title="Datas for AOffsetablePatern.">
 <polygon fill="white" stroke="black" points="144,-0.5 144,-30.5 257,-30.5 257,-0.5 144,-0.5"/>
 <text text-anchor="start" x="152" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AOffsetablePatern::</text>
 <text text-anchor="middle" x="200.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">IOffserablePaternData</text>
@@ -37,7 +37,7 @@
 <!-- Node2 -->
 <g id="node3" class="node">
 <title>Node2</title>
-<g id="a_node3"><a xlink:href="d7/d74/struct_sequence_move_patern_1_1_sequence_patern.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="d7/d74/struct_sequence_move_patern_1_1_sequence_patern.html" target="_top" xlink:title="The datas of SequenceMovePatern.">
 <polygon fill="white" stroke="black" points="293,-0.5 293,-30.5 406,-30.5 406,-0.5 293,-0.5"/>
 <text text-anchor="start" x="301" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">SequenceMovePatern</text>
 <text text-anchor="middle" x="349.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SequencePatern</text>

@@ -1,5 +1,5 @@
 <map id="AGraphicObject" name="AGraphicObject">
-<area shape="rect" id="node1" title=" " alt="" coords="339,213,453,240"/>
+<area shape="rect" id="node1" title="An object that can be drawn and updated" alt="" coords="339,213,453,240"/>
 <area shape="rect" id="node2" href="$db/d70/class_instance_list.html" title=" " alt="" coords="5,95,213,121"/>
 <area shape="rect" id="node3" href="$db/d70/class_instance_list.html" title="Add a static list for the class T" alt="" coords="47,5,171,32"/>
 <area shape="rect" id="node4" title=" " alt="" coords="237,95,304,121"/>

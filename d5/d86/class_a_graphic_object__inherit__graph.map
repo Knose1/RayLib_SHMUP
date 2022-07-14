@@ -1,7 +1,7 @@
 <map id="AGraphicObject" name="AGraphicObject">
-<area shape="rect" id="node1" title=" " alt="" coords="199,171,313,197"/>
+<area shape="rect" id="node1" title="An object that can be drawn and updated" alt="" coords="199,171,313,197"/>
 <area shape="rect" id="node4" href="$d5/d15/class_a_movable.html" title=" " alt="" coords="165,247,245,273"/>
-<area shape="rect" id="node9" href="$d1/da8/class_explosion.html" title=" " alt="" coords="269,247,347,273"/>
+<area shape="rect" id="node9" href="$d1/da8/class_explosion.html" title="An explosion animation. It automatiquely delete itself at the end" alt="" coords="269,247,347,273"/>
 <area shape="rect" id="node2" href="$db/d70/class_instance_list.html" title=" " alt="" coords="152,95,360,121"/>
 <area shape="rect" id="node3" href="$db/d70/class_instance_list.html" title="Add a static list for the class T" alt="" coords="194,5,318,32"/>
 <area shape="rect" id="node5" href="$dd/d7a/class_enemy.html" title="An enemy spaceship" alt="" coords="5,323,67,349"/>
