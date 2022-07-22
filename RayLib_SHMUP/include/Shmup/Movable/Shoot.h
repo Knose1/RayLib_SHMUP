@@ -52,7 +52,7 @@ class Shoot :
 		/// </summary>
 		/// <param name="i">The index of the spawned shoot</param>
 		/// <param name="patern">The move patern of the shoot</param>
-		void SetDefault(unsigned long long i, APatern* patern);
+		void SetDefault(unsigned long long i, APatern* patern, float speed=10);
 
 		/// <summary>
 		/// True if fired

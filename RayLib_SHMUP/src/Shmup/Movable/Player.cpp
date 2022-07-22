@@ -9,7 +9,11 @@
 #include "Namespaces/GameStatus.h"
 #include "Namespaces/Files.h"
 
-APatern* Player::paterns[] = { new PaternLinear(), new PaternVSpread() };
+APatern* Player::paterns[]                = { new PaternLinear(), new PaternVSpread(), new PaternRotate()};
+float    Player::paternSpeed[]            = { 10 ,  10,   5};
+int      Player::paternNumShoot[]         = {   2,   1,  10};
+float    Player::paternSpawnAngleOffset[] = { -18,   0,   0};
+float    Player::paternSpawnSpread[]      = {  72,   0, 360};
 
 constexpr Vector2 SCALE = { 2.5f, 2.5f };
 constexpr float CONTROLS_INTERPOLATE_THRESHOLD = 0.04f;
@@ -127,6 +131,7 @@ void Player::DoShoot(Vector2 direction)
 		direction = MathUtils::polarToCartesian(orientation);
 	}
 
+	/*
 	Shoot* shoot = FindShootOrCreate();
 	shoot->direction = direction = Vector2Normalize(direction);
 	
@@ -137,6 +142,25 @@ void Player::DoShoot(Vector2 direction)
 
 	shoot->position = position;
 	shoot->SetFired(true);
+	*/
+
+	int numShoot           = paternNumShoot[_currentPatern];
+	float spawnAngleOffset = paternSpawnAngleOffset[_currentPatern];
+	float spawnSpread      = paternSpawnSpread[_currentPatern];
+
+	for (int i = numShoot - 1; i >= 0; i--)
+	{
+		Shoot* shoot = FindShootOrCreate();
+		shoot->direction = direction = MathUtils::polarToCartesian(orientation + spawnSpread/numShoot*i + spawnAngleOffset);
+	
+		Vector2 dir = direction;
+		Vector2 normalDir = dir;
+		normalDir.y = normalDir.x;
+		normalDir.x = -direction.y;
+
+		shoot->position = position;
+		shoot->SetFired(true);
+	}
 }
 
 Shoot* Player::CreateShoot() 
@@ -153,10 +177,12 @@ Shoot* Player::FindShootOrCreate()
 		itshoot = *it;
 		if (itshoot->GetFired() == false)
 		{
-			itshoot->SetDefault(shootIndex++, patern);
+			itshoot->SetDefault(shootIndex++, patern, paternSpeed[_currentPatern]);
 			return itshoot;
 		}
 	}
 
-	return CreateShoot();
+	itshoot = CreateShoot();
+	shoots.push_back(itshoot);
+	return itshoot;
 }

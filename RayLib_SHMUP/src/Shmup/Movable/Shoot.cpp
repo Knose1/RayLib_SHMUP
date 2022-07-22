@@ -48,14 +48,14 @@ void Shoot::SetPatern(APatern* patern)
 }
 #pragma endregion
 
-void Shoot::SetDefault(unsigned long long i, APatern* patern)
+void Shoot::SetDefault(unsigned long long i, APatern* patern, float speed)
 {
 	spawnIndex = i;
 	this->patern = patern;
+	this->speed = speed;
 
 	position = {0,0};
 	direction = {0,0};
-	speed = 10;
 	fired = false;
 }
 

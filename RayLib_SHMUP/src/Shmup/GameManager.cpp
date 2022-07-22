@@ -33,7 +33,7 @@ const void GameManager::Render()
 
 	auto visuals = InstanceList<AGraphicObject>::GetInstances();
 	
-	for (auto it = visuals.begin(); it != visuals.end(); ++it)
+	for (auto it = visuals.rbegin(); it != visuals.rend(); ++it)
 		(*it)->Draw();
 }
 

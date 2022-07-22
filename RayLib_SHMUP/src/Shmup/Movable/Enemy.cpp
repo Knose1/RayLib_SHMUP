@@ -36,13 +36,13 @@ Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction,
 Enemy::~Enemy()
 {
 	delete patern;
-	new Enemy(
+	/*new Enemy(
 		spawnIndex,
 		{ Random::randMToN(100.0f, GameStatus::screenWidth - 100.0f), Random::randMToN(100.0f, GameStatus::screenHeight - 100.0f) }, //position;
 		{ Random::rand01(), Random::rand01() }, //direction;
 		ColorFromNormalized({ (float)GetRandomValue(0,255), (float)GetRandomValue(0,255), (float)GetRandomValue(0,255), 1 }), //tint;
 		{ (unsigned)GetRandomValue(0,11) }
-	);
+	);*/
 }
 
 void Enemy::Update()

@@ -48,6 +48,7 @@ bool ColliderCalculation::Calculation(CircleCollider* me, Transform2D meT, RectC
 	Vector2 a, b, c, d;
 	it->GetWorldPoints(itT, a, b, c, d);
 
+	/*
 #if _DEBUG
 	DrawCircleLines(meT.position.x, meT.position.y, me->radius, GREEN);
 	DrawLine(a.x, a.y, b.x, b.y, GREEN);
@@ -55,6 +56,7 @@ bool ColliderCalculation::Calculation(CircleCollider* me, Transform2D meT, RectC
 	DrawLine(c.x, c.y, d.x, d.y, GREEN);
 	DrawLine(a.x, a.y, c.x, c.y, GREEN);
 #endif // _DEBUG
+	*/
 
 	//Get rect's axis on the circle
 	Vector2 ab = Vector2Subtract(b, a);

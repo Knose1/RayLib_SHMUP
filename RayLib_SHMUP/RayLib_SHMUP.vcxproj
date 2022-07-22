@@ -136,6 +136,7 @@
     </ClCompile>
     <ClCompile Include="src\Shmup\LevelManager.cpp" />
     <ClCompile Include="src\Shmup\Paterns\Enemy\SequenceMovePatern.cpp" />
+    <ClCompile Include="src\Shmup\Paterns\Shoot\PaternRotate.cpp" />
     <ClCompile Include="src\Testing\MainTesting.cpp" />
     <ClCompile Include="src\Namespaces\MathUtils.cpp" />
     <ClCompile Include="src\Shmup\Paterns\AOffsetablePatern.cpp" />
@@ -177,6 +178,7 @@
     <ClInclude Include="include\Shmup\Paterns\APatern.h" />
     <ClInclude Include="include\Shmup\Paterns\Enemy\SequenceMovePatern.h" />
     <ClInclude Include="include\Shmup\Paterns\Shoot\PaternLinear.h" />
+    <ClInclude Include="include\Shmup\Paterns\Shoot\PaternRotate.h" />
     <ClInclude Include="include\Shmup\Paterns\Shoot\PaternVSpread.h" />
     <ClInclude Include="include\Shmup\Movable\Player.h" />
     <ClInclude Include="include\Shmup\Movable\Shoot.h" />

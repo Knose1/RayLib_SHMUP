@@ -2,6 +2,7 @@
 #include "Shmup/Movable/Shoot.h"
 #include "Shmup/Paterns/Shoot/PaternVSpread.h"
 #include "Shmup/Paterns/Shoot/PaternLinear.h"
+#include "Shmup/Paterns/Shoot/PaternRotate.h"
 
 /// <summary>
 /// The player
@@ -14,6 +15,10 @@ class Player :
 		/// The shoot paterns
 		/// </summary>
 		static APatern* paterns[];
+		static float paternSpeed[];
+		static int paternNumShoot[];
+		static float paternSpawnAngleOffset[];
+		static float paternSpawnSpread[];
 		/// <summary>
 		/// Current shoot patern index
 		/// </summary>
