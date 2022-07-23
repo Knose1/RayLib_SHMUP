@@ -21,7 +21,7 @@ Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction,
 	this->position = position;
 	this->direction = direction;
 	this->tint = WHITE;
-	texture = LoadTexture(Files::SHIP_TEXTURE);
+	texture = Files::GetShipTexture();
 	center = { 0.5f,0.5f };
 	scale = { 2.5f,2.5f };
 	orientation = 0;

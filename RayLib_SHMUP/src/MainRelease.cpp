@@ -1,6 +1,7 @@
 #include "raylib.h"
 #include "Namespaces/GameStatus.h"
 
+#include "Namespaces/Files.h"
 #include "Shmup/GameManager.h"
 
 #if _DEBUG
@@ -9,6 +10,8 @@
 
 int main(void)
 {
+	Files::Init();
+
 	// Initialization
 	//--------------------------------------------------------------------------------------
 	InitWindow(GameStatus::screenWidth, GameStatus::screenHeight,

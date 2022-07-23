@@ -31,7 +31,7 @@ float maxRotateAngle;
 #pragma region Constructor / Destructor
 Player::Player() : AMovable()
 {
-	texture = LoadTexture(Files::SHIP_TEXTURE);
+	texture = Files::GetShipTexture();
 	source = Files::GetSourceRect(texture, Files::SHIP_TEXTURE_SIZE, {_sprite,0});
 	position = { GameStatus::screenWidth / 2, GameStatus::screenHeight / 2 };
 	scale = SCALE;

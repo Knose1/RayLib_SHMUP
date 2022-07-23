@@ -8,7 +8,7 @@
 Shoot::Shoot(unsigned long long i, APatern* patern, CollisionLayer layer, unsigned int type) : AMovable(), ACollidable()
 {
 	this->type = type;
-	texture = LoadTexture(Files::TILES_TEXTURE);
+	texture = Files::GetTilesTexture();
 	source = Files::GetSourceRect(texture, Files::TILES_TEXTURE_SIZE, {(float)type, 0});
 	center = {0.5f, 0.5f};
 	scale = { 2, 2 };
