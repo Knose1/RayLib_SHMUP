@@ -16,21 +16,25 @@ void SequenceMovePatern::SetDefault(IPaternData* data)
 	sequencePatern->sequenceDone.clear();
 	sequencePatern->sequenceDone.resize(length);
 	sequencePatern->time = 0;
+
+	sequencePatern->orientation = 0;
+	sequencePatern->position = {0,0};
+	sequencePatern->direction = {0,1};
 }
 
 void SequenceMovePatern::DoPatern(AMovable* movable, IPaternData* data)
 {
 	SequenceMovePatern::SequencePatern* sequencePatern;
 	
-	float rotation = movable->orientation;
-	Vector2 position = movable->position;
-	Vector2 direction = movable->direction;
 	float timeScaled = GameStatus::constantFrameTime * movable->speed;
 
 	// Cast Data
 	//--------------------------------------------------------//
 	sequencePatern = (SequenceMovePatern::SequencePatern*)data;
-	
+
+	float rotation = sequencePatern->orientation;
+	Vector2 position = sequencePatern->position;
+	Vector2 direction = sequencePatern->direction;
 
 	// Enable instant array
 	//--------------------------------------------------------//
@@ -82,7 +86,12 @@ void SequenceMovePatern::DoPatern(AMovable* movable, IPaternData* data)
 	}
 
 	position = Vector2Add(position, Vector2Scale(direction, timeScaled));
-	//ComputerOffset(rotation, position, *sequencePatern);
+
+	sequencePatern->orientation = rotation;
+	sequencePatern->position = position;
+	sequencePatern->direction = direction;
+
+	ComputerOffset(rotation, position, *sequencePatern, true);
 	movable->position = position;
 	movable->orientation = rotation;
 	movable->direction = direction;

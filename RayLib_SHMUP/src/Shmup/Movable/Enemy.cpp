@@ -13,24 +13,27 @@ constexpr unsigned int SHIP_TYPES_MAX_INDEX = SHIP_COLUMNS_COUNT*SHIP_LINE_COUNT
 
 //WARNING: The width and height of the enemy are inverted
 
-Enemy::Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction, Color tint, unsigned int type) : AMovable(), ACollidable()
+Enemy::Enemy(unsigned long long spawnIndex, SequenceMovePatern::SequencePatern sequence, unsigned int type) : AMovable(), ACollidable()
 {
 	if (type > SHIP_TYPES_MAX_INDEX) type = SHIP_TYPES_MAX_INDEX;
 
 	this->spawnIndex = spawnIndex;
-	this->position = position;
-	this->direction = direction;
+	this->position = { 0, 0};
+	this->direction = { 0, 1};
 	this->tint = WHITE;
 	texture = Files::GetShipTexture();
 	center = { 0.5f,0.5f };
 	scale = { 2.5f,2.5f };
 	orientation = 0;
 	source = Files::GetSourceRect(texture, Files::SHIP_TEXTURE_SIZE, { (float)(type%SHIP_COLUMNS_COUNT), (float)(type/SHIP_COLUMNS_COUNT)+1});
-	
+	paternSequence = sequence;
+
 	collider = new RectCollider(center, source.height * scale.x * 0.4, source.width * scale.y * 0.9, CollisionLayer::Ennemy);
+
+	patern->SetDefault(&paternSequence);
+
 	ACollidable::Enable();
 
-	RandomChangeSettings();
 }
 
 Enemy::~Enemy()
@@ -47,7 +50,8 @@ Enemy::~Enemy()
 
 void Enemy::Update()
 {
-	if (position.x > 50 && position.y > 50 && position.x < GameStatus::screenWidth - 50 && position.y < GameStatus::screenHeight - 50)
+	patern->DoPatern(this, &paternSequence);
+	/*if (position.x > 50 && position.y > 50 && position.x < GameStatus::screenWidth - 50 && position.y < GameStatus::screenHeight - 50)
 	{
 		direction = Vector2Rotate(direction, rotationSpeed + Random::randMToN(-1, 1));
 		isNegativeRotationSpeed ?
@@ -89,15 +93,15 @@ void Enemy::Update()
 		RandomChangeSettings();
 	}
 
-	direction = Vector2Normalize(direction);
+	direction = Vector2Normalize(direction);*/
 }
 
 void Enemy::RandomChangeSettings()
 {
-	rotationSpeedDefault = rotationSpeed = (spawnIndex % 2 == 1 ? Random::randMToN(1, 2) : -Random::randMToN(1, 2)) + Random::randMToN(-0.5f, 0.5f);
+	/*rotationSpeedDefault = rotationSpeed = (spawnIndex % 2 == 1 ? Random::randMToN(1, 2) : -Random::randMToN(1, 2)) + Random::randMToN(-0.5f, 0.5f);
 	rotationAcceleration = Random::randMToN(0.003f, 0.02f);
 	isNegativeRotationSpeed = signbit(rotationSpeed);
-	speed = Random::randMToN(3, 5);
+	speed = Random::randMToN(3, 5);*/
 }
 
 Transform2D Enemy::GetTransform()

@@ -196,6 +196,7 @@
     <Library Include="lib\raylib.lib" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="assets\Shmup\Levels\Level1.csv" />
     <None Include="assets\Shmup\paterns\simpleCurve.csv" />
     <None Include="assets\Shmup\paterns\simpleLoop.csv" />
     <None Include="lib\raylib.pdb" />
