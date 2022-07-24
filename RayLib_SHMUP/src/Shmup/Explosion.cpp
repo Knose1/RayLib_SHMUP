@@ -5,7 +5,7 @@
 Explosion::Explosion(Vector2 position) : AGraphicObject()
 {
 	this->position = position;
-	texture = LoadTextureFromImage(Files::TILES_IMAGE);
+	texture = Files::GetTilesTexture();
 	source = {};
 	center = { 0.5f, 0.5f };
 	scale = { 2.5f, 2.5f };

@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "Paterns/Enemy/SequenceMovePatern.h"
 
 /// <summary>
 /// Create the level by spawning the enemies. Work in progess...
@@ -11,30 +12,24 @@ static class LevelManager
 	public:
 		struct LevelSequence
 		{
-			float time;
-			int spawnCount;
-			float spawnInterval;
-			int enemyColor;
-			int enemyPatern;
-			int enemyBulletPatern;
+			public:
+				float time;
+				int spawnCount;
+				float spawnInterval;
+				int enemyColor;
+				SequenceMovePatern::SequencePatern enemyPatern;
+				int enemyBulletPatern;
 		};
 
 	private:
-		static constexpr int SEQUENCE_FIELD_COUNT = 6;
+		static constexpr int SEQUENCE_FIELD_COUNT = 11;
 		static std::vector<LevelManager::LevelSequence> sequence;
-
+		static std::vector<int> spawned;
+		static float time;
+		
 	public: 
-		static void Init(char* levelFile);
+		static void Init(const char* levelFile);
 		static void Update();
 
-		static void InitSequence(LevelSequence* sequence, std::vector<std::string> input, int startIndex)
-		{
-			sequence->time				= std::stof(input[startIndex]);
-			sequence->spawnCount		= std::stoi(input[startIndex + 1]);
-			sequence->spawnInterval		= std::stof(input[startIndex + 2]);
-			sequence->enemyColor		= std::stoi(input[startIndex + 3]);
-			sequence->enemyPatern		= std::stoi(input[startIndex + 4]);
-			sequence->enemyBulletPatern = std::stoi(input[startIndex + 5]);
-		};
+		inline static void InitSequence(LevelSequence* sequence, std::vector<std::string> input, int startIndex);
 };
-std::vector<LevelManager::LevelSequence> LevelManager::sequence;

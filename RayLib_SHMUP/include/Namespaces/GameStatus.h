@@ -4,7 +4,7 @@ namespace GameStatus
 #if _DEBUG
 	const float testingHoldTime = 2;
 #endif
-	const int nbShots = 600;
+	const int nbShots = 1000;
 	const int enemyCountConst = 30;
 
 	const int screenWidth = 800;

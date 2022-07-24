@@ -15,16 +15,13 @@ class Enemy :
 {
 	private:
 		unsigned long long spawnIndex;
-		float rotationSpeedDefault;
-		float rotationSpeed;
-		float rotationAcceleration;
-		bool isNegativeRotationSpeed;
 
 	public:
 		/// <summary>
 		/// The sequence patern of the enemy
 		/// </summary>
 		SequenceMovePatern* patern = new SequenceMovePatern();
+		SequenceMovePatern::SequencePatern paternSequence;
 		
 		/// <summary>
 		/// Create a new enemy
@@ -34,7 +31,7 @@ class Enemy :
 		/// <param name="direction">The start direction of the enemy</param>
 		/// <param name="tint">The tint of the sprite</param>
 		/// <param name="type">The sprite to use</param>
-		explicit Enemy(unsigned long long spawnIndex, Vector2 position, Vector2 direction, Color tint, unsigned int type);
+		explicit Enemy(unsigned long long spawnIndex, SequenceMovePatern::SequencePatern sequence, unsigned int type);
 		virtual ~Enemy() override;
 
 		virtual void Update() override;

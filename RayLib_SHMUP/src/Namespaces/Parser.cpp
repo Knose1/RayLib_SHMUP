@@ -1,6 +1,7 @@
 #include "raylib.h"
 #include <iostream>
 #include <string>
+#include <algorithm>
 #include <stdexcept>
 #include <typeinfo>
 #include "Namespaces/Utils.h"
@@ -9,8 +10,10 @@
 std::vector<std::string> Parser::ParseCSV(const char* string, int size) 
 {
 	//Replace new line by
-	std::string myString = Utils::s_replace(Utils::s_replace(Utils::s_replace(std::string(string), "(;\r\n)|(\r\n)|(;\n)|(\n)", ";"), ";$", ""), "(\\s|;)+", ";");
+	std::string myString = Utils::s_replace(Utils::s_replace(Utils::s_replace(std::string(string), "(;\r\n)|(\r\n)|(;\n)|(\n)", ";"), ";$", ""), "(\\s)+", "");
 	std::vector<std::string> splited = Utils::s_split(myString, ';');
+
+	splited.erase(std::remove_if(std::begin(splited), std::end(splited), [](std::string& v) { return (v.length() == 0); }), std::end(splited));
 
 	//Check if correct number of fields by sequence
 	if (splited.size() % size != 0)

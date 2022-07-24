@@ -58,6 +58,9 @@ class SequenceMovePatern :
 		/// </summary>
 		struct SequencePatern : public AOffsetablePatern::IOffserablePaternData
 		{
+			float orientation;
+			Vector2 position;
+			Vector2 direction;
 			std::vector<Sequence> paternSequence;
 			std::vector<bool> sequenceDone;
 			float time;
