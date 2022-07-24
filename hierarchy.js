@@ -9,6 +9,7 @@ var hierarchy =
         [ "SequenceMovePatern", "d1/d25/class_sequence_move_patern.html", null ]
       ] ],
       [ "PaternLinear", "dc/dc7/class_patern_linear.html", null ],
+      [ "PaternRotate", "db/dea/class_patern_rotate.html", null ],
       [ "PaternVSpread", "dd/d2d/class_patern_v_spread.html", null ]
     ] ],
     [ "GameManager", "db/d10/class_game_manager.html", null ],

@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1246;
+var viewWidth = 1425;
 var viewHeight = 106;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,14 +54,14 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>RayLib_SHMUP/include/Namespaces/MathUtils.h</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-102 1242,-102 1242,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-102 1421,-102 1421,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="551,-67.5 551,-97.5 681,-97.5 681,-67.5 551,-67.5"/>
-<text text-anchor="start" x="559" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
-<text text-anchor="middle" x="616" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Namespaces/MathUtils.h</text>
+<polygon fill="#bfbfbf" stroke="black" points="650,-67.5 650,-97.5 780,-97.5 780,-67.5 650,-67.5"/>
+<text text-anchor="start" x="658" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
+<text text-anchor="middle" x="715" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Namespaces/MathUtils.h</text>
 </a>
 </g>
 </g>
@@ -78,8 +78,8 @@ var sectionId = 'dynsection-1';
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M540.74,-73.86C452.86,-64.71 303.17,-48.43 175,-31 172.12,-30.61 169.18,-30.2 166.22,-29.78"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="540.58,-77.36 550.88,-74.91 541.3,-70.4 540.58,-77.36"/>
+<path fill="none" stroke="midnightblue" d="M639.46,-75.95C534.9,-67.92 340.24,-51.73 175,-31 172.11,-30.64 169.18,-30.25 166.21,-29.86"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="639.37,-79.45 649.6,-76.72 639.9,-72.47 639.37,-79.45"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -94,8 +94,8 @@ var sectionId = 'dynsection-1';
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M540.78,-68.18C483.74,-58.06 403.42,-43.75 333,-31 329.98,-30.45 326.9,-29.89 323.78,-29.33"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="540.33,-71.66 550.79,-69.96 541.56,-64.76 540.33,-71.66"/>
+<path fill="none" stroke="midnightblue" d="M639.86,-72.69C562.71,-63.39 439.24,-47.76 333,-31 329.97,-30.52 326.88,-30.02 323.75,-29.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="639.62,-76.19 649.97,-73.91 640.46,-69.24 639.62,-76.19"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -110,8 +110,8 @@ var sectionId = 'dynsection-1';
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M563.65,-64.23C531.78,-53.71 491.59,-40.45 461.66,-30.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="562.66,-67.59 573.25,-67.4 564.85,-60.94 562.66,-67.59"/>
+<path fill="none" stroke="midnightblue" d="M641.3,-65.32C592.65,-54.63 529.54,-40.77 483,-30.55"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="640.62,-68.75 651.14,-67.48 642.12,-61.91 640.62,-68.75"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -126,8 +126,8 @@ var sectionId = 'dynsection-1';
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M616,-57.11C616,-48.15 616,-38.32 616,-30.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="612.5,-57.4 616,-67.4 619.5,-57.4 612.5,-57.4"/>
+<path fill="none" stroke="midnightblue" d="M684.89,-61.73C669.58,-51.68 651.31,-39.68 637.44,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="683.24,-64.83 693.52,-67.4 687.08,-58.98 683.24,-64.83"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -142,40 +142,56 @@ var sectionId = 'dynsection-1';
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M668.61,-64.23C700.64,-53.71 741.04,-40.45 771.12,-30.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="667.37,-60.95 658.96,-67.4 669.56,-67.6 667.37,-60.95"/>
+<path fill="none" stroke="midnightblue" d="M745.11,-61.73C760.42,-51.68 778.69,-39.68 792.56,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="742.92,-58.98 736.48,-67.4 746.76,-64.83 742.92,-58.98"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../db/db4/_patern_v_spread_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="910.5,-0.5 910.5,-30.5 1079.5,-30.5 1079.5,-0.5 910.5,-0.5"/>
-<text text-anchor="start" x="918.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
-<text text-anchor="middle" x="995" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Paterns/Shoot/PaternVSpread.cpp</text>
+<g id="a_node7"><a xlink:href="../../d8/d91/_patern_rotate_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="911,-0.5 911,-30.5 1071,-30.5 1071,-0.5 911,-0.5"/>
+<text text-anchor="start" x="919" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
+<text text-anchor="middle" x="991" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Paterns/Shoot/PaternRotate.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M691.19,-68.6C755.3,-57.61 847.28,-41.84 913.21,-30.53"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="690.42,-65.19 681.15,-70.33 691.6,-72.09 690.42,-65.19"/>
+<path fill="none" stroke="midnightblue" d="M784.56,-65.12C829.72,-54.48 887.98,-40.76 931.08,-30.61"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="783.48,-61.78 774.55,-67.48 785.08,-68.59 783.48,-61.78"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../dc/d38/_main_testing_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1098,-0.5 1098,-30.5 1238,-30.5 1238,-0.5 1098,-0.5"/>
-<text text-anchor="start" x="1106" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Testing</text>
-<text text-anchor="middle" x="1168" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/MainTesting.cpp</text>
+<g id="a_node8"><a xlink:href="../../db/db4/_patern_v_spread_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1089.5,-0.5 1089.5,-30.5 1258.5,-30.5 1258.5,-0.5 1089.5,-0.5"/>
+<text text-anchor="start" x="1097.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
+<text text-anchor="middle" x="1174" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Paterns/Shoot/PaternVSpread.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M691.44,-75.21C784.98,-67 949.17,-51.27 1089,-31 1091.9,-30.58 1094.85,-30.13 1097.83,-29.66"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="690.89,-71.74 681.23,-76.1 691.49,-78.72 690.89,-71.74"/>
+<path fill="none" stroke="midnightblue" d="M790.45,-71.41C864.3,-61.45 979.95,-45.64 1080,-31 1083.1,-30.55 1086.27,-30.08 1089.46,-29.6"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="789.76,-67.97 780.32,-72.77 790.7,-74.91 789.76,-67.97"/>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node">
+<title>Node9</title>
+<g id="a_node9"><a xlink:href="../../dc/d38/_main_testing_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1277,-0.5 1277,-30.5 1417,-30.5 1417,-0.5 1277,-0.5"/>
+<text text-anchor="start" x="1285" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Testing</text>
+<text text-anchor="middle" x="1347" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/MainTesting.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge8" class="edge">
+<title>Node1&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M790.37,-76.79C897.03,-69.62 1097.98,-54.32 1268,-31 1270.9,-30.6 1273.86,-30.17 1276.84,-29.72"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="790.09,-73.3 780.34,-77.45 790.55,-80.28 790.09,-73.3"/>
 </g>
 </g>
 </svg>

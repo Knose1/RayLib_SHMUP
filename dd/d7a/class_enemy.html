@@ -141,9 +141,9 @@ $(document).ready(function(){initNavTree('dd/d7a/class_enemy.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a40a54884c5fa4ad5776b24bd5b8b05d4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/class_enemy.html#a40a54884c5fa4ad5776b24bd5b8b05d4">Enemy</a> (unsigned long long spawnIndex, Vector2 <a class="el" href="../../d3/d92/class_a_graphic_object.html#af6f8a5af7957af319eb2fe357494b923">position</a>, Vector2 <a class="el" href="../../d5/d15/class_a_movable.html#a86b16ee42a5d3c73bb0b492d7c583965">direction</a>, Color <a class="el" href="../../d3/d92/class_a_graphic_object.html#a8f0c6ea1757081a5ae40ade6b2712d82">tint</a>, unsigned int type)</td></tr>
-<tr class="memdesc:a40a54884c5fa4ad5776b24bd5b8b05d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new enemy  <a href="../../dd/d7a/class_enemy.html#a40a54884c5fa4ad5776b24bd5b8b05d4">More...</a><br /></td></tr>
-<tr class="separator:a40a54884c5fa4ad5776b24bd5b8b05d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45095660622c79e522d55625ce6a89a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/class_enemy.html#a45095660622c79e522d55625ce6a89a1">Enemy</a> (unsigned long long spawnIndex, <a class="el" href="../../d7/d74/struct_sequence_move_patern_1_1_sequence_patern.html">SequenceMovePatern::SequencePatern</a> sequence, unsigned int type)</td></tr>
+<tr class="memdesc:a45095660622c79e522d55625ce6a89a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new enemy  <a href="../../dd/d7a/class_enemy.html#a45095660622c79e522d55625ce6a89a1">More...</a><br /></td></tr>
+<tr class="separator:a45095660622c79e522d55625ce6a89a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4d34ffaa238887a811cffb8fcc2cc99"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/class_enemy.html#ae4d34ffaa238887a811cffb8fcc2cc99">~Enemy</a> () override</td></tr>
 <tr class="separator:ae4d34ffaa238887a811cffb8fcc2cc99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a614ad271f07ecf63cb3e665155b7e258"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/class_enemy.html#a614ad271f07ecf63cb3e665155b7e258">Update</a> () override</td></tr>
@@ -180,6 +180,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af7ca8884b660ac42e109e65f005ea212"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d25/class_sequence_move_patern.html">SequenceMovePatern</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/class_enemy.html#af7ca8884b660ac42e109e65f005ea212">patern</a> = new <a class="el" href="../../d1/d25/class_sequence_move_patern.html">SequenceMovePatern</a>()</td></tr>
 <tr class="memdesc:af7ca8884b660ac42e109e65f005ea212"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sequence patern of the enemy  <a href="../../dd/d7a/class_enemy.html#af7ca8884b660ac42e109e65f005ea212">More...</a><br /></td></tr>
 <tr class="separator:af7ca8884b660ac42e109e65f005ea212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8baec1e1acf372659383e65440abd7b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d74/struct_sequence_move_patern_1_1_sequence_patern.html">SequenceMovePatern::SequencePatern</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/class_enemy.html#a8baec1e1acf372659383e65440abd7b5">paternSequence</a></td></tr>
+<tr class="separator:a8baec1e1acf372659383e65440abd7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_a_movable"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_a_movable')"><img src="../../closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="../../d5/d15/class_a_movable.html">AMovable</a></td></tr>
 <tr class="memitem:a86b16ee42a5d3c73bb0b492d7c583965 inherit pub_attribs_class_a_movable"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d15/class_a_movable.html#a86b16ee42a5d3c73bb0b492d7c583965">direction</a> = {0,0}</td></tr>
 <tr class="separator:a86b16ee42a5d3c73bb0b492d7c583965 inherit pub_attribs_class_a_movable"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -254,8 +256,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >An enemy spaceship </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a40a54884c5fa4ad5776b24bd5b8b05d4" name="a40a54884c5fa4ad5776b24bd5b8b05d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40a54884c5fa4ad5776b24bd5b8b05d4">&#9670;&nbsp;</a></span>Enemy()</h2>
+<a id="a45095660622c79e522d55625ce6a89a1" name="a45095660622c79e522d55625ce6a89a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45095660622c79e522d55625ce6a89a1">&#9670;&nbsp;</a></span>Enemy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,20 +274,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Vector2&#160;</td>
-          <td class="paramname"><em>position</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Vector2&#160;</td>
-          <td class="paramname"><em>direction</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Color&#160;</td>
-          <td class="paramname"><em>tint</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d7/d74/struct_sequence_move_patern_1_1_sequence_patern.html">SequenceMovePatern::SequencePatern</a>&#160;</td>
+          <td class="paramname"><em>sequence</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -481,6 +471,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The sequence patern of the enemy </p>
+
+</div>
+</div>
+<a id="a8baec1e1acf372659383e65440abd7b5" name="a8baec1e1acf372659383e65440abd7b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8baec1e1acf372659383e65440abd7b5">&#9670;&nbsp;</a></span>paternSequence</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d74/struct_sequence_move_patern_1_1_sequence_patern.html">SequenceMovePatern::SequencePatern</a> Enemy::paternSequence</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

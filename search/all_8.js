@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['init_0',['Init',['../db/d10/class_game_manager.html#ad27dc1c25f99244acafa5832bc2424a4',1,'GameManager']]],
+  ['init_0',['Init',['../db/dba/namespace_files.html#a2613bdd52850072185edeedb8838e543',1,'Files::Init()'],['../db/d10/class_game_manager.html#ad27dc1c25f99244acafa5832bc2424a4',1,'GameManager::Init()']]],
   ['initsequence_1',['InitSequence',['../d1/d25/class_sequence_move_patern.html#a0d694966bab28954188dd39c02fc5a52',1,'SequenceMovePatern']]],
   ['instancelist_2',['InstanceList',['../db/d70/class_instance_list.html',1,'']]],
   ['instancelist_2eh_3',['InstanceList.h',['../dc/d80/_instance_list_8h.html',1,'']]],

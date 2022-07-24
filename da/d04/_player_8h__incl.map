@@ -1,13 +1,14 @@
 <map id="RayLib_SHMUP/include/Shmup/Movable/Player.h" name="RayLib_SHMUP/include/Shmup/Movable/Player.h">
-<area shape="rect" id="node1" title=" " alt="" coords="697,5,868,47"/>
-<area shape="rect" id="node2" href="$de/d15/_shoot_8h.html" title=" " alt="" coords="519,102,683,129"/>
-<area shape="rect" id="node14" href="$df/db3/_patern_v_spread_8h.html" title=" " alt="" coords="707,95,858,136"/>
-<area shape="rect" id="node15" href="$d3/dff/_patern_linear_8h.html" title=" " alt="" coords="882,95,1033,136"/>
+<area shape="rect" id="node1" title=" " alt="" coords="728,5,899,47"/>
+<area shape="rect" id="node2" href="$de/d15/_shoot_8h.html" title=" " alt="" coords="463,102,627,129"/>
+<area shape="rect" id="node14" href="$df/db3/_patern_v_spread_8h.html" title=" " alt="" coords="826,95,977,136"/>
+<area shape="rect" id="node15" href="$d3/dff/_patern_linear_8h.html" title=" " alt="" coords="1001,95,1151,136"/>
+<area shape="rect" id="node16" href="$d2/dff/_patern_rotate_8h.html" title=" " alt="" coords="651,95,802,136"/>
 <area shape="rect" id="node3" title=" " alt="" coords="574,423,637,449"/>
-<area shape="rect" id="node4" href="$db/d1b/_a_movable_8h.html" title=" " alt="" coords="534,184,669,211"/>
-<area shape="rect" id="node10" href="$df/d50/_a_patern_8h.html" title=" " alt="" coords="744,184,917,211"/>
+<area shape="rect" id="node4" href="$db/d1b/_a_movable_8h.html" title=" " alt="" coords="510,184,645,211"/>
+<area shape="rect" id="node10" href="$df/d50/_a_patern_8h.html" title=" " alt="" coords="784,184,957,211"/>
 <area shape="rect" id="node11" href="$d5/d36/_collider_8h.html" title=" " alt="" coords="292,259,465,285"/>
-<area shape="rect" id="node13" href="$d3/d72/_a_collidable_8h.html" title=" " alt="" coords="264,184,459,211"/>
+<area shape="rect" id="node13" href="$d3/d72/_a_collidable_8h.html" title=" " alt="" coords="240,184,435,211"/>
 <area shape="rect" id="node5" href="$d7/daf/_a_graphic_object_8h.html" title=" " alt="" coords="493,259,617,285"/>
 <area shape="rect" id="node6" href="$dc/d80/_instance_list_8h.html" title=" " alt="" coords="5,341,155,367"/>
 <area shape="rect" id="node9" href="$da/d02/_transform2_d_8h.html" title=" " alt="" coords="416,341,568,367"/>

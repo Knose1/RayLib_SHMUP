@@ -7,7 +7,7 @@ var searchData=
   ['default_5ffire_5frate_4',['DEFAULT_FIRE_RATE',['../d2/d82/_player_8cpp.html#a291cc1bf2c3c14aa54cc3b99032437be',1,'Player.cpp']]],
   ['defaultdrawmethod_5',['DefaultDrawMethod',['../d3/d92/class_a_graphic_object.html#ac8fe7fb69a368288aabca4c4e1d05961',1,'AGraphicObject']]],
   ['deleteloop_6',['DeleteLoop',['../db/d10/class_game_manager.html#aca8671e9bde5cefe026e1eb9f57b1bfc',1,'GameManager']]],
-  ['direction_7',['direction',['../d5/d15/class_a_movable.html#a86b16ee42a5d3c73bb0b492d7c583965',1,'AMovable']]],
+  ['direction_7',['direction',['../d5/d15/class_a_movable.html#a86b16ee42a5d3c73bb0b492d7c583965',1,'AMovable::direction()'],['../d7/d74/struct_sequence_move_patern_1_1_sequence_patern.html#aee675c1249ca6f22ca438af2f491a4b4',1,'SequenceMovePatern::SequencePatern::direction()']]],
   ['directioninput_8',['directionInput',['../d2/d82/_player_8cpp.html#a9a88a4381f08f6fdc6fb65f5f21d7c1c',1,'Player.cpp']]],
   ['disable_9',['Disable',['../d0/d76/class_a_collidable.html#a0e797b88760a94645b520b88e7feb373',1,'ACollidable']]],
   ['dopatern_10',['DoPatern',['../dd/d61/class_a_patern.html#a8bb3c1020085546cb460551a306c7348',1,'APatern::DoPatern()'],['../d1/d25/class_sequence_move_patern.html#a8dcf57279ce4950fdb2e3cffe9e74173',1,'SequenceMovePatern::DoPatern()']]],

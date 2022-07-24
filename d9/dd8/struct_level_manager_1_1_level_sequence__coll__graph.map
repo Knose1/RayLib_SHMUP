@@ -1,5 +1,10 @@
 <map id="LevelManager::LevelSequence" name="LevelManager::LevelSequence">
-<area shape="rect" id="node1" title=" " alt="" coords="5,139,205,165"/>
-<area shape="rect" id="node2" title=" " alt="" coords="25,5,71,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="145,5,183,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="139,391,339,417"/>
+<area shape="rect" id="node2" title=" " alt="" coords="52,5,98,32"/>
+<area shape="rect" id="node4" href="$d7/d74/struct_sequence_move_patern_1_1_sequence_patern.html" title="The datas of SequenceMovePatern." alt="" coords="164,257,314,299"/>
+<area shape="rect" id="node5" href="$d1/dfd/struct_a_offsetable_patern_1_1_i_offserable_patern_data.html" title="Datas for AOffsetablePatern." alt="" coords="164,139,314,180"/>
+<area shape="rect" id="node3" title=" " alt="" coords="338,265,377,291"/>
+<area shape="rect" id="node6" href="$da/dd8/struct_a_patern_1_1_i_patern_data.html" title="Datas to pass to the patern. &#160;Overriden by the child classes." alt="" coords="148,5,292,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="326,5,392,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="446,146,512,173"/>
 </map>

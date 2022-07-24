@@ -15,10 +15,13 @@ var namespaces_dup =
       [ "Shoot", "d7/db4/namespace_controller.html#aa13a1b4bb14d868f3ea393ef5a1ca359", null ]
     ] ],
     [ "Files", "db/dba/namespace_files.html", [
+      [ "GetShipTexture", "db/dba/namespace_files.html#aa535781e90dc30246ebc089486a3e072", null ],
       [ "GetSourceRect", "db/dba/namespace_files.html#a1960f9938a6ad5513f5fc8b95e9e6254", null ],
-      [ "SHIP_TEXTURE", "db/dba/namespace_files.html#ac8b72484914a93619999f10d956369ce", null ],
+      [ "GetTilesTexture", "db/dba/namespace_files.html#add79f5e7e7afef15f945a1267a322282", null ],
+      [ "Init", "db/dba/namespace_files.html#a2613bdd52850072185edeedb8838e543", null ],
+      [ "SHIP_PATH", "db/dba/namespace_files.html#ae58e1f4186604f5483ecb38b83b5fdfd", null ],
       [ "SHIP_TEXTURE_SIZE", "db/dba/namespace_files.html#a97511020c7e50b52d9fc532f6865fbde", null ],
-      [ "TILES_TEXTURE", "db/dba/namespace_files.html#a854d2593f35c2d6f0b5bfe361f2035bc", null ],
+      [ "TILES_PATH", "db/dba/namespace_files.html#a1b9fdd660c6e6e2733f1b5fc8c7e6ebb", null ],
       [ "TILES_TEXTURE_SIZE", "db/dba/namespace_files.html#a740c719f96c955b4409909f296e08470", null ]
     ] ],
     [ "GameStatus", "db/db3/namespace_game_status.html", [

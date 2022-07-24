@@ -14,6 +14,7 @@ var annotated_dup =
     [ "InstanceManager", "d0/ded/class_instance_manager.html", null ],
     [ "PaternComputer", "d8/d8c/class_patern_computer.html", "d8/d8c/class_patern_computer" ],
     [ "PaternLinear", "dc/dc7/class_patern_linear.html", null ],
+    [ "PaternRotate", "db/dea/class_patern_rotate.html", null ],
     [ "PaternVSpread", "dd/d2d/class_patern_v_spread.html", null ],
     [ "Player", "d8/d53/class_player.html", "d8/d53/class_player" ],
     [ "RectCollider", "d4/d3b/class_rect_collider.html", "d4/d3b/class_rect_collider" ],

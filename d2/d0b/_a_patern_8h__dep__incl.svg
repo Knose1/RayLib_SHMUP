@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1556;
+var viewWidth = 1582;
 var viewHeight = 329;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,14 +54,14 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>RayLib_SHMUP/include/Shmup/Paterns/APatern.h</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-325 1552,-325 1552,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-325 1577.6,-325 1577.6,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="464,-290.5 464,-320.5 597,-320.5 597,-290.5 464,-290.5"/>
-<text text-anchor="start" x="472" y="-308.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
-<text text-anchor="middle" x="530.5" y="-297.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Paterns/APatern.h</text>
+<polygon fill="#bfbfbf" stroke="black" points="575.6,-290.5 575.6,-320.5 708.6,-320.5 708.6,-290.5 575.6,-290.5"/>
+<text text-anchor="start" x="583.6" y="-308.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
+<text text-anchor="middle" x="642.1" y="-297.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Paterns/APatern.h</text>
 </a>
 </g>
 </g>
@@ -69,382 +69,461 @@ var sectionId = 'dynsection-0';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="../../de/d15/_shoot_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="226.5,-218 226.5,-248 352.5,-248 352.5,-218 226.5,-218"/>
-<text text-anchor="start" x="234.5" y="-236" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
-<text text-anchor="middle" x="289.5" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Movable/Shoot.h</text>
+<polygon fill="white" stroke="black" points="297.1,-218 297.1,-248 423.1,-248 423.1,-218 297.1,-218"/>
+<text text-anchor="start" x="305.1" y="-236" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
+<text text-anchor="middle" x="360.1" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Movable/Shoot.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M472.95,-287.66C431.68,-275.59 376.7,-259.51 337.72,-248.11"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="472.02,-291.04 482.6,-290.49 473.98,-284.32 472.02,-291.04"/>
+<path fill="none" stroke="midnightblue" d="M571.46,-288.16C530.65,-278.56 478.38,-265.99 432.1,-254 424.94,-252.15 417.4,-250.13 410.01,-248.11"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="570.78,-291.6 581.31,-290.47 572.38,-284.78 570.78,-291.6"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node">
-<title>Node9</title>
-<g id="a_node9"><a xlink:href="../../dc/d8f/_a_offsetable_patern_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="694,-218 694,-248 871,-248 871,-218 694,-218"/>
-<text text-anchor="start" x="702" y="-236" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
-<text text-anchor="middle" x="782.5" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Paterns/AOffsetablePatern.h</text>
+<!-- Node10 -->
+<g id="node10" class="node">
+<title>Node10</title>
+<g id="a_node10"><a xlink:href="../../dc/d8f/_a_offsetable_patern_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="965.6,-218 965.6,-248 1142.6,-248 1142.6,-218 965.6,-218"/>
+<text text-anchor="start" x="973.6" y="-236" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
+<text text-anchor="middle" x="1054.1" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Paterns/AOffsetablePatern.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node9 -->
-<g id="edge9" class="edge">
-<title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M590.4,-287.74C633.59,-275.66 691.23,-259.53 732.08,-248.11"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="589.28,-284.42 580.59,-290.49 591.16,-291.16 589.28,-284.42"/>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge10" class="edge">
+<title>Node1&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M718.67,-291.4C790.68,-279.08 898.15,-260.69 971.93,-248.06"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="718.02,-287.96 708.76,-293.09 719.2,-294.86 718.02,-287.96"/>
 </g>
-<!-- Node21 -->
-<g id="node21" class="node">
-<title>Node21</title>
-<g id="a_node21"><a xlink:href="../../d3/dff/_patern_linear_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="399.5,-212.5 399.5,-253.5 521.5,-253.5 521.5,-212.5 399.5,-212.5"/>
-<text text-anchor="start" x="407.5" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
-<text text-anchor="start" x="407.5" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Paterns/Shoot</text>
-<text text-anchor="middle" x="460.5" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PaternLinear.h</text>
+<!-- Node23 -->
+<g id="node23" class="node">
+<title>Node23</title>
+<g id="a_node23"><a xlink:href="../../d3/dff/_patern_linear_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="441.1,-212.5 441.1,-253.5 563.1,-253.5 563.1,-212.5 441.1,-212.5"/>
+<text text-anchor="start" x="449.1" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
+<text text-anchor="start" x="449.1" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Paterns/Shoot</text>
+<text text-anchor="middle" x="502.1" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PaternLinear.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node21 -->
-<g id="edge23" class="edge">
-<title>Node1&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M509.25,-283.1C499.93,-273.71 489.06,-262.76 479.95,-253.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="506.8,-285.6 516.33,-290.23 511.77,-280.67 506.8,-285.6"/>
+<!-- Node1&#45;&gt;Node23 -->
+<g id="edge28" class="edge">
+<title>Node1&#45;&gt;Node23</title>
+<path fill="none" stroke="midnightblue" d="M605.09,-285.86C585.31,-275.9 560.97,-263.64 540.92,-253.55"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="603.6,-289.03 614.11,-290.4 606.75,-282.78 603.6,-289.03"/>
 </g>
-<!-- Node22 -->
-<g id="node22" class="node">
-<title>Node22</title>
-<g id="a_node22"><a xlink:href="../../df/db3/_patern_v_spread_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="539.5,-212.5 539.5,-253.5 661.5,-253.5 661.5,-212.5 539.5,-212.5"/>
-<text text-anchor="start" x="547.5" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
-<text text-anchor="start" x="547.5" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Paterns/Shoot</text>
-<text text-anchor="middle" x="600.5" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PaternVSpread.h</text>
+<!-- Node24 -->
+<g id="node24" class="node">
+<title>Node24</title>
+<g id="a_node24"><a xlink:href="../../d2/dff/_patern_rotate_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="581.1,-212.5 581.1,-253.5 703.1,-253.5 703.1,-212.5 581.1,-212.5"/>
+<text text-anchor="start" x="589.1" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
+<text text-anchor="start" x="589.1" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Paterns/Shoot</text>
+<text text-anchor="middle" x="642.1" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PaternRotate.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node22 -->
-<g id="edge26" class="edge">
-<title>Node1&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M551.75,-283.1C561.07,-273.71 571.94,-262.76 581.05,-253.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="549.23,-280.67 544.67,-290.23 554.2,-285.6 549.23,-280.67"/>
+<!-- Node1&#45;&gt;Node24 -->
+<g id="edge31" class="edge">
+<title>Node1&#45;&gt;Node24</title>
+<path fill="none" stroke="midnightblue" d="M642.1,-279.98C642.1,-271.35 642.1,-261.76 642.1,-253.59"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="638.6,-280.23 642.1,-290.23 645.6,-280.23 638.6,-280.23"/>
+</g>
+<!-- Node25 -->
+<g id="node25" class="node">
+<title>Node25</title>
+<g id="a_node25"><a xlink:href="../../df/db3/_patern_v_spread_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="721.1,-212.5 721.1,-253.5 843.1,-253.5 843.1,-212.5 721.1,-212.5"/>
+<text text-anchor="start" x="729.1" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
+<text text-anchor="start" x="729.1" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Paterns/Shoot</text>
+<text text-anchor="middle" x="782.1" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PaternVSpread.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node25 -->
+<g id="edge34" class="edge">
+<title>Node1&#45;&gt;Node25</title>
+<path fill="none" stroke="midnightblue" d="M679.12,-285.86C698.9,-275.9 723.24,-263.64 743.29,-253.55"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="677.46,-282.78 670.1,-290.4 680.6,-289.03 677.46,-282.78"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="../../d1/d39/_player_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="558.5,-140 558.5,-170 686.5,-170 686.5,-140 558.5,-140"/>
-<text text-anchor="start" x="566.5" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
-<text text-anchor="middle" x="622.5" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Movable/Player.h</text>
+<polygon fill="white" stroke="black" points="718.1,-140 718.1,-170 846.1,-170 846.1,-140 718.1,-140"/>
+<text text-anchor="start" x="726.1" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
+<text text-anchor="middle" x="782.1" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Movable/Player.h</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M362.32,-217.29C414.35,-206.53 485.93,-191.21 548.5,-176 556.13,-174.15 564.17,-172.08 572.03,-170.01"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="361.6,-213.87 352.51,-219.31 363.01,-220.72 361.6,-213.87"/>
+<path fill="none" stroke="midnightblue" d="M416.91,-215.42C422.03,-214.17 427.14,-213.01 432.1,-212 553.34,-187.38 586.79,-200.19 708.1,-176 716.46,-174.33 725.26,-172.25 733.76,-170.06"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="415.95,-212.05 407.12,-217.91 417.68,-218.84 415.95,-212.05"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="../../d2/d82/_player_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="277,-67.5 277,-97.5 416,-97.5 416,-67.5 277,-67.5"/>
-<text text-anchor="start" x="285" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
-<text text-anchor="middle" x="346.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Movable/Player.cpp</text>
+<polygon fill="white" stroke="black" points="267.6,-67.5 267.6,-97.5 406.6,-97.5 406.6,-67.5 267.6,-67.5"/>
+<text text-anchor="start" x="275.6" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
+<text text-anchor="middle" x="337.1" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Movable/Player.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node5 -->
 <g id="edge5" class="edge">
 <title>Node2&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M231.61,-213.8C214,-205.25 196.64,-193.06 186.5,-176 176.96,-159.96 175.46,-149.06 186.5,-134 207.25,-105.69 243.92,-92.84 276.92,-87.17"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="230.24,-217.02 240.8,-217.95 233.12,-210.64 230.24,-217.02"/>
+<path fill="none" stroke="midnightblue" d="M286.97,-231.05C194.79,-228.13 44.09,-217.01 9.1,-176 -3.01,-161.8 -3.05,-148.17 9.1,-134 41.69,-96.01 181.14,-86.33 267.38,-84.02"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="286.99,-234.55 297.08,-231.35 287.19,-227.56 286.99,-234.55"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="../../d6/dae/_shoot_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-140 0,-170 139,-170 139,-140 0,-140"/>
-<text text-anchor="start" x="8" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
-<text text-anchor="middle" x="69.5" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">/Movable/Shoot.cpp</text>
+<polygon fill="white" stroke="black" points="18.6,-140 18.6,-170 157.6,-170 157.6,-140 18.6,-140"/>
+<text text-anchor="start" x="26.6" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
+<text text-anchor="middle" x="88.1" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">/Movable/Shoot.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node6 -->
 <g id="edge6" class="edge">
 <title>Node2&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M239.29,-214.65C200.21,-201.16 146.68,-182.66 110.24,-170.07"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="238.3,-218.01 248.89,-217.97 240.58,-211.4 238.3,-218.01"/>
+<path fill="none" stroke="midnightblue" d="M300.16,-215.25C251.68,-201.71 184.2,-182.85 138.48,-170.07"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="299.32,-218.65 309.9,-217.97 301.21,-211.91 299.32,-218.65"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="../../dc/dac/_patern_linear_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="195.5,-140 195.5,-170 353.5,-170 353.5,-140 195.5,-140"/>
-<text text-anchor="start" x="203.5" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
-<text text-anchor="middle" x="274.5" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">/Paterns/Shoot/PaternLinear.cpp</text>
+<polygon fill="white" stroke="black" points="176.1,-140 176.1,-170 334.1,-170 334.1,-140 176.1,-140"/>
+<text text-anchor="start" x="184.1" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
+<text text-anchor="middle" x="255.1" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">/Paterns/Shoot/PaternLinear.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node7 -->
 <g id="edge7" class="edge">
 <title>Node2&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M284.68,-207.59C282.25,-195.26 279.38,-180.72 277.31,-170.23"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="281.31,-208.57 286.68,-217.7 288.18,-207.22 281.31,-208.57"/>
+<path fill="none" stroke="midnightblue" d="M331.93,-211.61C313.87,-198.54 290.87,-181.89 274.76,-170.23"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="330.2,-214.68 340.35,-217.7 334.3,-209.01 330.2,-214.68"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../db/db4/_patern_v_spread_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="371,-140 371,-170 540,-170 540,-140 371,-140"/>
-<text text-anchor="start" x="379" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
-<text text-anchor="middle" x="455.5" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">/Paterns/Shoot/PaternVSpread.cpp</text>
+<g id="a_node8"><a xlink:href="../../d8/d91/_patern_rotate_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="352.1,-140 352.1,-170 512.1,-170 512.1,-140 352.1,-140"/>
+<text text-anchor="start" x="360.1" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
+<text text-anchor="middle" x="432.1" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">/Paterns/Shoot/PaternRotate.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node8 -->
 <g id="edge8" class="edge">
 <title>Node2&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M329.47,-213.7C358.78,-200.28 397.98,-182.34 424.83,-170.04"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="327.97,-210.54 320.33,-217.88 330.88,-216.9 327.97,-210.54"/>
+<path fill="none" stroke="midnightblue" d="M380.78,-210.17C392.95,-197.33 407.98,-181.47 418.62,-170.23"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="377.98,-208.04 373.65,-217.7 383.06,-212.85 377.98,-208.04"/>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node">
+<title>Node9</title>
+<g id="a_node9"><a xlink:href="../../db/db4/_patern_v_spread_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="530.6,-140 530.6,-170 699.6,-170 699.6,-140 530.6,-140"/>
+<text text-anchor="start" x="538.6" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
+<text text-anchor="middle" x="615.1" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">/Paterns/Shoot/PaternVSpread.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node9 -->
+<g id="edge9" class="edge">
+<title>Node2&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M416.87,-215.08C462.28,-201.55 525.19,-182.8 567.88,-170.07"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="415.75,-211.76 407.17,-217.97 417.75,-218.47 415.75,-211.76"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="../../d2/d2e/_game_manager_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="552,-0.5 552,-30.5 691,-30.5 691,-0.5 552,-0.5"/>
-<text text-anchor="start" x="560" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
-<text text-anchor="middle" x="621.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/GameManager.cpp</text>
+<polygon fill="white" stroke="black" points="708.6,-0.5 708.6,-30.5 847.6,-30.5 847.6,-0.5 708.6,-0.5"/>
+<text text-anchor="start" x="716.6" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
+<text text-anchor="middle" x="778.1" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/GameManager.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M622.32,-129.79C622.12,-101.11 621.77,-54.28 621.6,-30.83"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="618.82,-129.83 622.4,-139.8 625.82,-129.78 618.82,-129.83"/>
+<path fill="none" stroke="midnightblue" d="M764.6,-131.55C758.07,-121.8 751.44,-109.91 748.1,-98 744.39,-84.73 744.45,-80.29 748.1,-67 751.78,-53.63 760.01,-40.21 766.93,-30.57"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="761.83,-133.69 770.47,-139.83 767.54,-129.65 761.83,-133.69"/>
 </g>
 <!-- Node3&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node3&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M561.17,-137.33C556.89,-136.19 552.63,-135.07 548.5,-134 499.87,-121.35 444.5,-107.55 404.04,-97.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="560.62,-140.8 571.18,-139.99 562.42,-134.04 560.62,-140.8"/>
-</g>
-<!-- Node10 -->
-<g id="node10" class="node">
-<title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d1/d98/_sequence_move_patern_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="878,-134.5 878,-175.5 1001,-175.5 1001,-134.5 878,-134.5"/>
-<text text-anchor="start" x="886" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
-<text text-anchor="start" x="886" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Paterns/Enemy</text>
-<text text-anchor="middle" x="939.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SequenceMovePatern.h</text>
-</a>
-</g>
-</g>
-<!-- Node9&#45;&gt;Node10 -->
-<g id="edge10" class="edge">
-<title>Node9&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M820.71,-213.5C844.41,-202.03 874.83,-187.3 898.95,-175.63"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="819.14,-210.38 811.66,-217.88 822.19,-216.68 819.14,-210.38"/>
-</g>
-<!-- Node20 -->
-<g id="node20" class="node">
-<title>Node20</title>
-<g id="a_node20"><a xlink:href="../../d6/da4/_a_offsetable_patern_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="705.5,-140 705.5,-170 859.5,-170 859.5,-140 705.5,-140"/>
-<text text-anchor="start" x="713.5" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
-<text text-anchor="middle" x="782.5" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">/Paterns/AOffsetablePatern.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node9&#45;&gt;Node20 -->
-<g id="edge22" class="edge">
-<title>Node9&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M782.5,-207.59C782.5,-195.26 782.5,-180.72 782.5,-170.23"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="779,-207.7 782.5,-217.7 786,-207.71 779,-207.7"/>
+<path fill="none" stroke="midnightblue" d="M723.7,-137.47C718.44,-136.21 713.19,-135.03 708.1,-134 603.93,-112.92 481.49,-98.17 406.61,-90.26"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="723.2,-140.95 733.75,-139.98 724.9,-134.16 723.2,-140.95"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="../../de/d40/_parser_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1059.5,-67.5 1059.5,-97.5 1181.5,-97.5 1181.5,-67.5 1059.5,-67.5"/>
-<text text-anchor="start" x="1067.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
-<text text-anchor="middle" x="1120.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Namespaces/Parser.h</text>
+<g id="a_node11"><a xlink:href="../../d1/d98/_sequence_move_patern_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="992.6,-134.5 992.6,-175.5 1115.6,-175.5 1115.6,-134.5 992.6,-134.5"/>
+<text text-anchor="start" x="1000.6" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
+<text text-anchor="start" x="1000.6" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Paterns/Enemy</text>
+<text text-anchor="middle" x="1054.1" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SequenceMovePatern.h</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node11 -->
 <g id="edge11" class="edge">
 <title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M999.28,-130.72C1027.43,-119.75 1060.08,-107.03 1084.4,-97.56"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="997.97,-127.47 989.92,-134.36 1000.51,-133.99 997.97,-127.47"/>
+<path fill="none" stroke="midnightblue" d="M1054.1,-207.66C1054.1,-197.33 1054.1,-185.44 1054.1,-175.68"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1050.6,-207.7 1054.1,-217.7 1057.6,-207.71 1050.6,-207.7"/>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node">
-<title>Node15</title>
-<g id="a_node15"><a xlink:href="../../d3/d22/_patern_computer_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1211.5,-67.5 1211.5,-97.5 1365.5,-97.5 1365.5,-67.5 1211.5,-67.5"/>
-<text text-anchor="start" x="1219.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
-<text text-anchor="middle" x="1288.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PaternEditor/PaternComputer.h</text>
+<!-- Node22 -->
+<g id="node22" class="node">
+<title>Node22</title>
+<g id="a_node22"><a xlink:href="../../d6/da4/_a_offsetable_patern_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1134.1,-140 1134.1,-170 1288.1,-170 1288.1,-140 1134.1,-140"/>
+<text text-anchor="start" x="1142.1" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
+<text text-anchor="middle" x="1211.1" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">/Paterns/AOffsetablePatern.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node15 -->
-<g id="edge15" class="edge">
-<title>Node10&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M1011.01,-139.55C1071.91,-127.25 1158.87,-109.69 1219.14,-97.51"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1010.2,-136.15 1001.09,-141.56 1011.59,-143.01 1010.2,-136.15"/>
-</g>
-<!-- Node17 -->
-<g id="node17" class="node">
-<title>Node17</title>
-<g id="a_node17"><a xlink:href="../../d4/d1e/_enemy_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="689.5,-67.5 689.5,-97.5 819.5,-97.5 819.5,-67.5 689.5,-67.5"/>
-<text text-anchor="start" x="697.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
-<text text-anchor="middle" x="754.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Movable/Enemy.h</text>
-</a>
-</g>
-</g>
-<!-- Node10&#45;&gt;Node17 -->
-<g id="edge18" class="edge">
-<title>Node10&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M878.4,-130.72C849.63,-119.75 816.25,-107.03 791.39,-97.56"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="877.38,-134.07 887.97,-134.36 879.87,-127.53 877.38,-134.07"/>
-</g>
-<!-- Node19 -->
-<g id="node19" class="node">
-<title>Node19</title>
-<g id="a_node19"><a xlink:href="../../df/d32/_sequence_move_patern_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="838,-67.5 838,-97.5 1041,-97.5 1041,-67.5 838,-67.5"/>
-<text text-anchor="start" x="846" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
-<text text-anchor="middle" x="939.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Paterns/Enemy/SequenceMovePatern.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node10&#45;&gt;Node19 -->
-<g id="edge21" class="edge">
-<title>Node10&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M939.5,-124.08C939.5,-115.01 939.5,-105.45 939.5,-97.89"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="936,-124.36 939.5,-134.36 943,-124.36 936,-124.36"/>
+<!-- Node10&#45;&gt;Node22 -->
+<g id="edge27" class="edge">
+<title>Node10&#45;&gt;Node22</title>
+<path fill="none" stroke="midnightblue" d="M1092.27,-213.52C1119.95,-200.13 1156.81,-182.28 1182.1,-170.04"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1090.74,-210.38 1083.27,-217.88 1093.79,-216.68 1090.74,-210.38"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="../../de/df6/_parser_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="866.5,-0.5 866.5,-30.5 1032.5,-30.5 1032.5,-0.5 866.5,-0.5"/>
-<text text-anchor="start" x="874.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Namespaces</text>
-<text text-anchor="middle" x="949.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Parser.cpp</text>
+<g id="a_node12"><a xlink:href="../../de/d40/_parser_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1045.1,-67.5 1045.1,-97.5 1167.1,-97.5 1167.1,-67.5 1045.1,-67.5"/>
+<text text-anchor="start" x="1053.1" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
+<text text-anchor="middle" x="1106.1" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Namespaces/Parser.h</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node12 -->
 <g id="edge12" class="edge">
 <title>Node11&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M1073.98,-63.82C1046.5,-53.37 1012.17,-40.32 986.53,-30.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1072.8,-67.11 1083.4,-67.4 1075.29,-60.57 1072.8,-67.11"/>
-</g>
-<!-- Node13 -->
-<g id="node13" class="node">
-<title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d5/d58/_patern_editor_main_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1208,-0.5 1208,-30.5 1369,-30.5 1369,-0.5 1208,-0.5"/>
-<text text-anchor="start" x="1216" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/PaternEditor</text>
-<text text-anchor="middle" x="1288.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Main.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node11&#45;&gt;Node13 -->
-<g id="edge13" class="edge">
-<title>Node11&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M1166.55,-63.68C1193.5,-53.26 1227.04,-40.28 1252.12,-30.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1165.02,-60.52 1156.95,-67.4 1167.54,-67.05 1165.02,-60.52"/>
-</g>
-<!-- Node14 -->
-<g id="node14" class="node">
-<title>Node14</title>
-<g id="a_node14"><a xlink:href="../../df/dd2/_level_manager_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1051,-0.5 1051,-30.5 1190,-30.5 1190,-0.5 1051,-0.5"/>
-<text text-anchor="start" x="1059" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
-<text text-anchor="middle" x="1120.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/LevelManager.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node11&#45;&gt;Node14 -->
-<g id="edge14" class="edge">
-<title>Node11&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M1120.5,-57.11C1120.5,-48.15 1120.5,-38.32 1120.5,-30.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1117,-57.4 1120.5,-67.4 1124,-57.4 1117,-57.4"/>
-</g>
-<!-- Node15&#45;&gt;Node13 -->
-<g id="edge17" class="edge">
-<title>Node15&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M1288.5,-57.11C1288.5,-48.15 1288.5,-38.32 1288.5,-30.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1285,-57.4 1288.5,-67.4 1292,-57.4 1285,-57.4"/>
+<path fill="none" stroke="midnightblue" d="M1074.65,-126.14C1081.78,-116.47 1089.49,-106.02 1095.49,-97.89"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1071.71,-124.24 1068.59,-134.36 1077.34,-128.39 1071.71,-124.24"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="../../d3/d32/_patern_computer_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1387,-0.5 1387,-30.5 1548,-30.5 1548,-0.5 1387,-0.5"/>
-<text text-anchor="start" x="1395" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/PaternEditor</text>
-<text text-anchor="middle" x="1467.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PaternComputer.cpp</text>
+<g id="a_node16"><a xlink:href="../../d3/d22/_patern_computer_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1198.1,-67.5 1198.1,-97.5 1352.1,-97.5 1352.1,-67.5 1198.1,-67.5"/>
+<text text-anchor="start" x="1206.1" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
+<text text-anchor="middle" x="1275.1" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PaternEditor/PaternComputer.h</text>
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node16 -->
+<!-- Node11&#45;&gt;Node16 -->
 <g id="edge16" class="edge">
-<title>Node15&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M1336.82,-63.96C1365.65,-53.48 1401.78,-40.37 1428.74,-30.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1335.55,-60.69 1327.34,-67.4 1337.93,-67.27 1335.55,-60.69"/>
-</g>
-<!-- Node17&#45;&gt;Node4 -->
-<g id="edge19" class="edge">
-<title>Node17&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M716.63,-62.99C695.55,-52.69 669.72,-40.07 650.3,-30.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="715.12,-66.15 725.64,-67.4 718.19,-59.86 715.12,-66.15"/>
+<title>Node11&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M1125.01,-131.38C1159.8,-120.28 1200.63,-107.26 1230.91,-97.6"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1123.83,-128.08 1115.37,-134.46 1125.96,-134.75 1123.83,-128.08"/>
 </g>
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="../../de/d34/_enemy_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="709,-0.5 709,-30.5 848,-30.5 848,-0.5 709,-0.5"/>
-<text text-anchor="start" x="717" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
-<text text-anchor="middle" x="778.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Movable/Enemy.cpp</text>
+<g id="a_node18"><a xlink:href="../../d2/dc9/_level_manager_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="905.1,-67.5 905.1,-97.5 1027.1,-97.5 1027.1,-67.5 905.1,-67.5"/>
+<text text-anchor="start" x="913.1" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
+<text text-anchor="middle" x="966.1" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/LevelManager.h</text>
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node18 -->
+<!-- Node11&#45;&gt;Node18 -->
+<g id="edge19" class="edge">
+<title>Node11&#45;&gt;Node18</title>
+<path fill="none" stroke="midnightblue" d="M1021.45,-127.84C1008.7,-117.62 994.58,-106.31 983.79,-97.67"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1019.6,-130.84 1029.59,-134.36 1023.97,-125.38 1019.6,-130.84"/>
+</g>
+<!-- Node19 -->
+<g id="node19" class="node">
+<title>Node19</title>
+<g id="a_node19"><a xlink:href="../../d4/d1e/_enemy_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="757.1,-67.5 757.1,-97.5 887.1,-97.5 887.1,-67.5 757.1,-67.5"/>
+<text text-anchor="start" x="765.1" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/include</text>
+<text text-anchor="middle" x="822.1" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Shmup/Movable/Enemy.h</text>
+</a>
+</g>
+</g>
+<!-- Node11&#45;&gt;Node19 -->
+<g id="edge22" class="edge">
+<title>Node11&#45;&gt;Node19</title>
+<path fill="none" stroke="midnightblue" d="M982.76,-132.32C945.58,-121.02 901.18,-107.53 868.49,-97.6"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="981.95,-135.73 992.54,-135.29 983.99,-129.04 981.95,-135.73"/>
+</g>
+<!-- Node21 -->
+<g id="node21" class="node">
+<title>Node21</title>
+<g id="a_node21"><a xlink:href="../../df/d32/_sequence_move_patern_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1370.6,-67.5 1370.6,-97.5 1573.6,-97.5 1573.6,-67.5 1370.6,-67.5"/>
+<text text-anchor="start" x="1378.6" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
+<text text-anchor="middle" x="1472.1" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Paterns/Enemy/SequenceMovePatern.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node11&#45;&gt;Node21 -->
+<g id="edge26" class="edge">
+<title>Node11&#45;&gt;Node21</title>
+<path fill="none" stroke="midnightblue" d="M1125.79,-134.03C1183.49,-122.52 1290.15,-107.57 1370.49,-96.8"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1125.03,-130.62 1115.94,-136.07 1126.44,-137.47 1125.03,-130.62"/>
+</g>
+<!-- Node13 -->
+<g id="node13" class="node">
+<title>Node13</title>
+<g id="a_node13"><a xlink:href="../../de/df6/_parser_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1023.1,-0.5 1023.1,-30.5 1189.1,-30.5 1189.1,-0.5 1023.1,-0.5"/>
+<text text-anchor="start" x="1031.1" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Namespaces</text>
+<text text-anchor="middle" x="1106.1" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Parser.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node12&#45;&gt;Node13 -->
+<g id="edge13" class="edge">
+<title>Node12&#45;&gt;Node13</title>
+<path fill="none" stroke="midnightblue" d="M1106.1,-57.11C1106.1,-48.15 1106.1,-38.32 1106.1,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1102.6,-57.4 1106.1,-67.4 1109.6,-57.4 1102.6,-57.4"/>
+</g>
+<!-- Node14 -->
+<g id="node14" class="node">
+<title>Node14</title>
+<g id="a_node14"><a xlink:href="../../d5/d58/_patern_editor_main_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1207.6,-0.5 1207.6,-30.5 1368.6,-30.5 1368.6,-0.5 1207.6,-0.5"/>
+<text text-anchor="start" x="1215.6" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/PaternEditor</text>
+<text text-anchor="middle" x="1288.1" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Main.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node12&#45;&gt;Node14 -->
+<g id="edge14" class="edge">
+<title>Node12&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M1155.23,-63.96C1184.55,-53.48 1221.28,-40.37 1248.69,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1153.83,-60.74 1145.59,-67.4 1156.19,-67.33 1153.83,-60.74"/>
+</g>
+<!-- Node15 -->
+<g id="node15" class="node">
+<title>Node15</title>
+<g id="a_node15"><a xlink:href="../../df/dd2/_level_manager_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="865.6,-0.5 865.6,-30.5 1004.6,-30.5 1004.6,-0.5 865.6,-0.5"/>
+<text text-anchor="start" x="873.6" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
+<text text-anchor="middle" x="935.1" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/LevelManager.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node12&#45;&gt;Node15 -->
+<g id="edge15" class="edge">
+<title>Node12&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M1059.59,-63.82C1032.1,-53.37 997.78,-40.32 972.14,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1058.41,-67.11 1069,-67.4 1060.89,-60.57 1058.41,-67.11"/>
+</g>
+<!-- Node16&#45;&gt;Node14 -->
+<g id="edge18" class="edge">
+<title>Node16&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M1279.92,-57.4C1281.73,-48.37 1283.72,-38.41 1285.29,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1276.45,-56.9 1277.92,-67.4 1283.32,-58.28 1276.45,-56.9"/>
+</g>
+<!-- Node17 -->
+<g id="node17" class="node">
+<title>Node17</title>
+<g id="a_node17"><a xlink:href="../../d3/d32/_patern_computer_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1386.6,-0.5 1386.6,-30.5 1547.6,-30.5 1547.6,-0.5 1386.6,-0.5"/>
+<text text-anchor="start" x="1394.6" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/PaternEditor</text>
+<text text-anchor="middle" x="1467.1" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PaternComputer.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node16&#45;&gt;Node17 -->
+<g id="edge17" class="edge">
+<title>Node16&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M1326.52,-64.09C1357.52,-53.6 1396.48,-40.41 1425.52,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1325.11,-60.87 1316.76,-67.4 1327.36,-67.5 1325.11,-60.87"/>
+</g>
+<!-- Node18&#45;&gt;Node4 -->
 <g id="edge20" class="edge">
-<title>Node17&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M763.18,-57.99C766.57,-48.8 770.35,-38.58 773.3,-30.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="759.89,-56.8 759.71,-67.4 766.45,-59.23 759.89,-56.8"/>
+<title>Node18&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M915.75,-64.09C885.4,-53.6 847.25,-40.41 818.82,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="914.72,-67.44 925.31,-67.4 917,-60.82 914.72,-67.44"/>
 </g>
-<!-- Node21&#45;&gt;Node3 -->
+<!-- Node18&#45;&gt;Node15 -->
+<g id="edge21" class="edge">
+<title>Node18&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M955.03,-58.28C950.61,-49.02 945.67,-38.66 941.82,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="951.91,-59.88 959.38,-67.4 958.23,-56.86 951.91,-59.88"/>
+</g>
+<!-- Node19&#45;&gt;Node4 -->
+<g id="edge23" class="edge">
+<title>Node19&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M806.78,-58.87C800.41,-49.46 793.22,-38.83 787.63,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="804.05,-61.08 812.56,-67.4 809.85,-57.15 804.05,-61.08"/>
+</g>
+<!-- Node19&#45;&gt;Node15 -->
 <g id="edge24" class="edge">
-<title>Node21&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M511.4,-208.12C538.04,-195.63 569.73,-180.76 592.43,-170.11"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="509.79,-205.01 502.22,-212.43 512.76,-211.35 509.79,-205.01"/>
+<title>Node19&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M855.49,-62.3C873.17,-52.12 894.5,-39.85 910.63,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="853.55,-59.38 846.62,-67.4 857.04,-65.44 853.55,-59.38"/>
 </g>
-<!-- Node21&#45;&gt;Node7 -->
+<!-- Node20 -->
+<g id="node20" class="node">
+<title>Node20</title>
+<g id="a_node20"><a xlink:href="../../de/d34/_enemy_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="551.6,-0.5 551.6,-30.5 690.6,-30.5 690.6,-0.5 551.6,-0.5"/>
+<text text-anchor="start" x="559.6" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">RayLib_SHMUP/src/Shmup</text>
+<text text-anchor="middle" x="621.1" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Movable/Enemy.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node19&#45;&gt;Node20 -->
 <g id="edge25" class="edge">
-<title>Node21&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M403.25,-208.61C372.43,-196.02 335.43,-180.9 309.02,-170.11"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="402.02,-211.89 412.6,-212.43 404.67,-205.41 402.02,-211.89"/>
+<title>Node19&#45;&gt;Node20</title>
+<path fill="none" stroke="midnightblue" d="M768.69,-64.23C736.18,-53.71 695.17,-40.45 664.63,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="767.9,-67.65 778.49,-67.4 770.05,-60.99 767.9,-67.65"/>
 </g>
-<!-- Node22&#45;&gt;Node3 -->
-<g id="edge27" class="edge">
-<title>Node22&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M609,-202.62C612.22,-191.5 615.74,-179.34 618.38,-170.23"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="605.58,-201.85 606.17,-212.43 612.31,-203.8 605.58,-201.85"/>
+<!-- Node23&#45;&gt;Node3 -->
+<g id="edge29" class="edge">
+<title>Node23&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M572.93,-211.79C633.99,-195.06 650.65,-191.37 708.1,-176 715.3,-174.07 722.89,-172.03 730.36,-170.02"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="571.88,-208.45 563.17,-214.48 573.74,-215.2 571.88,-208.45"/>
 </g>
-<!-- Node22&#45;&gt;Node8 -->
-<g id="edge28" class="edge">
-<title>Node22&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M554.03,-207.64C530.47,-195.3 502.69,-180.73 482.64,-170.23"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="552.68,-210.89 563.16,-212.43 555.93,-204.69 552.68,-210.89"/>
+<!-- Node23&#45;&gt;Node7 -->
+<g id="edge30" class="edge">
+<title>Node23&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M431.42,-210.25C389.41,-197.33 337.36,-181.31 300.73,-170.04"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="430.46,-213.62 441.05,-213.21 432.52,-206.93 430.46,-213.62"/>
+</g>
+<!-- Node24&#45;&gt;Node3 -->
+<g id="edge32" class="edge">
+<title>Node24&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M686.97,-207.64C709.72,-195.3 736.54,-180.73 755.9,-170.23"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="685.28,-204.58 678.16,-212.43 688.62,-210.73 685.28,-204.58"/>
+</g>
+<!-- Node24&#45;&gt;Node8 -->
+<g id="edge33" class="edge">
+<title>Node24&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M578.37,-208.93C543.39,-196.28 501.16,-180.99 471.08,-170.11"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="577.43,-212.32 588.02,-212.43 579.81,-205.73 577.43,-212.32"/>
+</g>
+<!-- Node25&#45;&gt;Node3 -->
+<g id="edge35" class="edge">
+<title>Node25&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M782.1,-202.28C782.1,-191.25 782.1,-179.25 782.1,-170.23"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="778.6,-202.43 782.1,-212.43 785.6,-202.43 778.6,-202.43"/>
+</g>
+<!-- Node25&#45;&gt;Node9 -->
+<g id="edge36" class="edge">
+<title>Node25&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M729.99,-208.28C702.46,-195.76 669.61,-180.81 646.1,-170.11"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="728.54,-211.47 739.1,-212.43 731.44,-205.1 728.54,-211.47"/>
 </g>
 </g>
 </svg>
