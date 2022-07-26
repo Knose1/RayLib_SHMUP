@@ -218,5 +218,6 @@
     <None Include="assets\Shmup\paterns\simpleCurve.csv" />
     <None Include="assets\Shmup\paterns\simpleLoop.csv" />
     <None Include="assets\Shmup\Levels\Level1.csv" />
+    <None Include="assets\Shmup\paterns\simpleLine.csv" />
   </ItemGroup>
 </Project>
