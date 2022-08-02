@@ -215,9 +215,25 @@
     <None Include="include\Namespaces\Files.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </None>
-    <None Include="assets\Shmup\paterns\simpleCurve.csv" />
-    <None Include="assets\Shmup\paterns\simpleLoop.csv" />
-    <None Include="assets\Shmup\Levels\Level1.csv" />
-    <None Include="assets\Shmup\paterns\simpleLine.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\kenney_pixelshmup\Tilemap\tiles_packed.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="assets\kenney_pixelshmup\Tilemap\ships.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="assets\kenney_pixelshmup\Tilemap\ships_packed.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="assets\kenney_pixelshmup\Tilemap\tiles.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\Shmup\Levels\Level1.csv" />
+    <Text Include="assets\Shmup\paterns\simpleCurve.csv" />
+    <Text Include="assets\Shmup\paterns\simpleLoop.csv" />
+    <Text Include="assets\Shmup\paterns\simpleLine.csv" />
   </ItemGroup>
 </Project>
