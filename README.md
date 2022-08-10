@@ -1,3 +1,5 @@
+[![Doc Deploy](https://github.com/Knose1/RayLib_SHMUP/actions/workflows/deploy-doc.yml/badge.svg?branch=documentation)](https://github.com/Knose1/RayLib_SHMUP/actions/workflows/deploy-doc.yml)
+
 # RayLib_SHMUP
 A shoot em up game made using Raylib.
 
